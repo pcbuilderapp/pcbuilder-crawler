@@ -3,9 +3,8 @@ import "package:pcbuilder.crawler/model/component.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import 'dart:convert';
 import 'dart:io';
+import 'dart:math';
 import 'dart:async';
-
-List _moederborden = [];
 
 //euro prijs naar double
 double price(String price) {
@@ -58,7 +57,8 @@ class DetailParser implements PageWorker {
 }
 
 class ComponentParser implements PageWorker {
-  parse(Document document,arguments) { //async {
+  parse(Document document,arguments) async {
+    List components = [];
     var rows = document.querySelectorAll("div.listRow");
     for (Element listRow in rows) {
       Component component = new Component();
@@ -68,29 +68,28 @@ class ComponentParser implements PageWorker {
       component.type = "MOTHERBOARD";
       component.price = price(listRow.querySelector("span.price").text);
       component.shopName = "Alternate";
+      sleep(new Duration(milliseconds: Random())); // blocking
+      await Crawler.crawl(component.url, new DetailParser(), arguments: component);
 
-      Crawler.crawl(component.url,new DetailParser(),arguments: component);
-      //futures.add(Crawler.crawl(component.url,new DetailParser(),arguments: component));
-      _moederborden.add(component);
+      components.add(component);
     }
 
-    //await Future.wait(futures);
-
+    return components;
     // meerdere pagina's?
   }
 }
 
 main(List<String> args) async {
-  ComponentParser worker = new ComponentParser();
 
   try {
-    await Crawler.crawl(
+    List components = await Crawler.crawl(
       "https://www.alternate.nl/Hardware-Componenten-Moederborden-Intel/html/listings/11626?lk=9435&size=500&showFilter=true#listingResult",
-        worker,referer: "https://www.alternate.nl/Moederborden/Intel",/*cookies:cookies*/);
-    String json = new JsonEncoder.withIndent("  ").convert(_moederborden);
-    print("We hebben ${_moederborden.length} moederborden gevonden.");
-    File uit = new File("moederborden.json");
-    uit.writeAsStringSync(json);
+      new ComponentParser(), referrer: "https://www.alternate.nl/Moederborden/Intel",/*cookies:cookies*/);
+
+    String json = new JsonEncoder.withIndent("  ").convert(components);
+    print("We hebben ${components.length} moederborden gevonden.");
+    File out = new File("moederborden.json");
+    out.writeAsStringSync(json);
   } catch (e) {
     print(e);
   }
