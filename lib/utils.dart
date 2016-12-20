@@ -39,11 +39,11 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   headers["Accept-Encoding"] = "gzip, deflate, sdch, br";
   headers["Accept-Language"] = "nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4,de-DE;q=0.2";
   if (cookies != null) {
-  String cookiesstr = "";
-  for (String key in cookies.keys) {
-  cookiesstr += "$key=\"${cookies[key]}\";";
-  }
-  headers["Cookie"] = cookiesstr;
+    String cookiesstr = "";
+    for (String key in cookies.keys) {
+      cookiesstr += "$key=\"${cookies[key]}\";";
+    }
+    headers["Cookie"] = cookiesstr;
   }
   headers["DNT"] = "1";
   return headers;
@@ -55,7 +55,7 @@ postRequest(String url, String json) {
   var request = new http.Request('POST', Uri.parse(url));
 
   request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
-  request.headers[HttpHeaders.AUTHORIZATION] = 'Basic 021215421fbe4b0d27f:e74b71bbce';
+  //request.headers[HttpHeaders.AUTHORIZATION] = 'Basic 021215421fbe4b0d27f:e74b71bbce';
   request.body = json;
 
   var future = client.send(request).then((response) => response.stream.bytesToString().then((value) => print(value.toString()))).catchError((error) => print(error.toString()));
