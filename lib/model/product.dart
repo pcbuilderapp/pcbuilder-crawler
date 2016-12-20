@@ -1,6 +1,6 @@
 import "connector.dart";
 
-class Component {
+class Product {
   String name;
   String brand;
   String ean;
