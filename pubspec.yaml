@@ -1,0 +1,8 @@
+name: pcbuilder.crawler
+version: 0.0.1
+description: crawler
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  html: any
+  http: any
