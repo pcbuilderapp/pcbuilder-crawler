@@ -3,7 +3,7 @@ import 'dart:math';
 import 'dart:async';
 import 'dart:io';
 
-//sleep a random amount without invoking a lock
+//sleep a random amount of time without invoking a lock
 Future sleepRnd() {
   Completer c = new Completer();
   new Timer(new Duration(milliseconds: (new Random().nextDouble() * 800 + 200).round()),(){
@@ -12,7 +12,7 @@ Future sleepRnd() {
   return c.future;
 }
 
-//euro price to double
+//convert price from String to double
 double price(String price) {
   List<int> temp = [];
   for (int codeUnit in price.codeUnits) {
@@ -49,14 +49,19 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
-postRequest(String url, String json) {
+// post data on a REST service URL and print the response
+void postRequest(String url, String json) {
 
-  var client = new http.Client();
   var request = new http.Request('POST', Uri.parse(url));
-
   request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
-  //request.headers[HttpHeaders.AUTHORIZATION] = 'Basic 021215421fbe4b0d27f:e74b71bbce';
   request.body = json;
 
-  var future = client.send(request).then((response) => response.stream.bytesToString().then((value) => print(value.toString()))).catchError((error) => print(error.toString()));
+  new http.Client().send(request).then((response)
+      => response.stream.bytesToString().then((value)
+      => print(value.toString()))).catchError((error)
+      => print(error.toString()));
+}
+
+String getBackendServerURL() {
+  return "http://localhost:8090";
 }

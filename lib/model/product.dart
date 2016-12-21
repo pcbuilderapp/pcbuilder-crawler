@@ -7,7 +7,7 @@ class Product {
   String mpn;
   double price;
   String url;
-  String shopName;
+  String shop;
   String type;
   List<Connector> connectors = [];
 
@@ -18,7 +18,7 @@ class Product {
     "mpn": mpn,
     "price": price,
     "url" : url,
-    "shopName" : shopName,
+    "shop" : shop,
     "type" : type,
     "connectors" : connectors
   };
