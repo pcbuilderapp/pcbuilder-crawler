@@ -1,6 +1,7 @@
 import 'package:pcbuilder.crawler/crawler.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMotherboard.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMemory.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseCase.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
@@ -46,7 +47,15 @@ class Crawlternate {
       File alternateIntelMotherboards = new File("alternate_intel_motherboards.json");
       alternateIntelMotherboards.writeAsStringSync(json);
 
-      // DISK //
+      // Case //
+      List pcCase = new List();
+      List pcCaseTmp = new List();
+      pcCaseTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Behuizingen-Alle-behuizingen/html/listings/2436?lk=9309&size=500#listingResult", new AlternateCaseParser(), referrer: "https://www.alternate.nl/Behuizingen/Alle-behuizingen", /*cookies:cookies*/);
+      pcCase.addAll(pcCaseTmp);
+      json = new JsonEncoder.withIndent("  ").convert(pcCase);
+      print("We found a total of ${pcCase.length} Cases on alternate.nl");
+      File alternatePcCases = new File("alternate_pc_case.json");
+      alternatePcCases.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
