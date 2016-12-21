@@ -4,7 +4,7 @@ import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
 import 'dart:convert';
 
-class MotherboardParser implements PageWorker {
+class AlternateMotherboardParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
@@ -18,7 +18,7 @@ class MotherboardParser implements PageWorker {
       motherboard.type = "MOTHERBOARD";
       motherboard.price = price(listRow.querySelector("span.price").text);
       motherboard.shop = "Alternate";
-      await Crawler.crawl(motherboard.url, new MotherboardDetailParser(), arguments: motherboard);
+      await Crawler.crawl(motherboard.url, new AlternateMotherboardDetailParser(), arguments: motherboard);
 
       motherboards.add(motherboard);
     }
@@ -26,15 +26,15 @@ class MotherboardParser implements PageWorker {
   }
 }
 
-class MotherboardDetailParser implements PageWorker {
+class AlternateMotherboardDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product component = arguments as Product;
+    Product product = arguments as Product;
 
-    var element = document.querySelector("script[data-flix-mpn]");
-    component.ean = element.attributes["data-flix-ean"];
-    component.mpn = element.attributes["data-flix-mpn"];
+    var dataFlix = document.querySelector("script[data-flix-mpn]");
+    product.ean = dataFlix.attributes["data-flix-ean"];
+    product.mpn = dataFlix.attributes["data-flix-mpn"];
 
     var techDataTableElements = document.querySelectorAll("div.techData table tr");
     for (int i = 0; i < techDataTableElements.length; i++) {
@@ -45,7 +45,7 @@ class MotherboardDetailParser implements PageWorker {
         techDataOptional = techDataTableElements[i].querySelector("td.c2").text.trim();
       }
       if (techDataLabel == "Socket") {
-        component.connectors.add(new Connector(techData, "CPU"));
+        product.connectors.add(new Connector(techData, "CPU"));
       } else if (techDataLabel == "Inbouwsloten") {
         String gpuConnectorData = "";
         for (String element in techData.split(" ")) {
@@ -53,20 +53,20 @@ class MotherboardDetailParser implements PageWorker {
             gpuConnectorData += " " + element;
           }
         }
-        component.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
+        product.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
       } else if (techDataLabel == "FormFactor") {
-        component.connectors.add(new Connector(techData, "CASING"));
+        product.connectors.add(new Connector(techData, "CASING"));
       } else if (techDataOptional == "Ondersteunde standaarden") {
-        techData.split(",").forEach((element) => component.connectors.add(new Connector(element.trim(), "MEM")));
+        techData.split(",").forEach((element) => product.connectors.add(new Connector(element.trim(), "MEM")));
       } else if (techDataOptional == "SATA") {
-        component.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "DISK"));
       } else if (techDataOptional == "M.2") {
-        component.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "DISK"));
       }
     }
-    String componentJSON = new JsonEncoder.withIndent("  ").convert(component);
-    postRequest(getBackendServerURL()+"/product/add", componentJSON);
-    print(componentJSON);
+    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+    postRequest(getBackendServerURL()+"/product/add", productJSON);
+    print(productJSON);
     await sleepRnd();
   }
 }

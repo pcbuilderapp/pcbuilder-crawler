@@ -1,0 +1,3290 @@
+[
+  {
+    "name": "ASRock QC5000M-ITX/PH moederbord",
+    "brand": "ASRock",
+    "ean": "4717677326192",
+    "mpn": "90-MXGYS0-A0UAYZ",
+    "price": 72.9,
+    "url": "https://www.alternate.nl/ASRock/QC5000M-ITX-PH-moederbord/html/product/1219051?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 880GM-LE FX, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4711140878973",
+    "mpn": "90-MXGL10-A0UAYZ",
+    "price": 64.9,
+    "url": "https://www.alternate.nl/ASRock/880GM-LE-FX-socket-AM3+-moederbord/html/product/999982?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 960GM-VGS3 FX, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677320510",
+    "mpn": "90-MXGMY0-A0UAYZ",
+    "price": 48.99,
+    "url": "https://www.alternate.nl/ASRock/960GM-VGS3-FX-socket-AM3+-moederbord/html/product/1083001?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 970 Extreme3 R2.0, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677320206",
+    "mpn": "90-MXGNW0-A0UAYZ",
+    "price": 84.9,
+    "url": "https://www.alternate.nl/ASRock/970-Extreme3-R2-0-socket-AM3+-moederbord/html/product/1073849?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 970 Extreme4, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4711140877655",
+    "mpn": "90-MXGIP0-A0UAYZ",
+    "price": 97.9,
+    "url": "https://www.alternate.nl/ASRock/970-Extreme4-socket-AM3+-moederbord/html/product/890218?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 970 Pro3 R2.0, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677320190",
+    "mpn": "90-MXGNV0-A0UAYZ",
+    "price": 72.9,
+    "url": "https://www.alternate.nl/ASRock/970-Pro3-R2-0-socket-AM3+-moederbord/html/product/1075727?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 970A-G/3.1 970, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329315",
+    "mpn": "90-MXB0Z0-A0UAYZ",
+    "price": 92.9,
+    "url": "https://www.alternate.nl/ASRock/970A-G-3-1-970-socket-AM3+-moederbord/html/product/1249418?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 970M Pro3, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325775",
+    "mpn": "90-MXGXE0-A0UAYZ",
+    "price": 73.9,
+    "url": "https://www.alternate.nl/ASRock/970M-Pro3-socket-AM3+-moederbord/html/product/1194890?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 985GM-GS3 FX, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4711140878652",
+    "mpn": "90-MXGKL0-A0UAYZ",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/ASRock/985GM-GS3-FX-socket-AM3+-moederbord/html/product/999983?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 990FX Extreme3, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4711140878331",
+    "mpn": "90-MXGK50-A0UAYZ",
+    "price": 117.9,
+    "url": "https://www.alternate.nl/ASRock/990FX-Extreme3-socket-AM3+-moederbord/html/product/926822?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 990FX Extreme6, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325096",
+    "mpn": "90-MXGWY0-A0UAYZ",
+    "price": 177.9,
+    "url": "https://www.alternate.nl/ASRock/990FX-Extreme6-socket-AM3+-moederbord/html/product/1169038?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2450",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock 990FX Extreme9, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677320695",
+    "mpn": "90-MXGPB0-A0UAYZ",
+    "price": 229.9,
+    "url": "https://www.alternate.nl/ASRock/990FX-Extreme9-socket-AM3+-moederbord/html/product/1057902?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2450",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock Fatal1ty 990FX Killer/3.1, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325997",
+    "mpn": "90-MXGY00-A0UAYZ",
+    "price": 182.9,
+    "url": "https://www.alternate.nl/ASRock/Fatal1ty-990FX-Killer-3-1-socket-AM3+-moederbord/html/product/1204316?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2100",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2450",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N68-GS4 FX, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322125",
+    "mpn": "90-MXGSG0-A0UAYZ",
+    "price": 48.49,
+    "url": "https://www.alternate.nl/ASRock/N68-GS4-FX-socket-AM3+-moederbord/html/product/1194871?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N68-GS4/USB3 FX R2.0, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329063",
+    "mpn": "90-MXB0V0-A0UAYZ",
+    "price": 59.9,
+    "url": "https://www.alternate.nl/ASRock/N68-GS4-USB3-FX-R2-0-socket-AM3+-moederbord/html/product/1291629?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N68-GS4/USB3 FX R2.0, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "",
+    "mpn": "N68-GS4/USB3 FX R2.0",
+    "price": 53.9,
+    "url": "https://www.alternate.nl/ASRock/N68-GS4-USB3-FX-R2-0-socket-AM3+-moederbord/html/product/1287392?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N68C-GS4 FX, socket AM3+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322446",
+    "mpn": "90-MXGSN0-A0UAYZ",
+    "price": 62.9,
+    "url": "https://www.alternate.nl/ASRock/N68C-GS4-FX-socket-AM3+-moederbord/html/product/1194872?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR2-533",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR2-667",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR2-800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR2-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock A68M-ITX, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329698",
+    "mpn": "90-MXB1A0-A0UAYZ",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/ASRock/A68M-ITX-socket-FM2+-moederbord/html/product/1261257?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock A88M-G/3.1, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329377",
+    "mpn": "90-MXB100-A0UAYZ",
+    "price": 79.9,
+    "url": "https://www.alternate.nl/ASRock/A88M-G-3-1-socket-FM2+-moederbord/html/product/1249426?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock A88M-ITX/AC, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329681",
+    "mpn": "90-MXB190-A0UAYZ",
+    "price": 98.9,
+    "url": "https://www.alternate.nl/ASRock/A88M-ITX-AC-socket-FM2+-moederbord/html/product/1261256?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock Fatal1ty FM2A88X+ Killer, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322712",
+    "mpn": "90-MXGT60-A0UAYZ",
+    "price": 109.9,
+    "url": "https://www.alternate.nl/ASRock/Fatal1ty-FM2A88X+-Killer-socket-FM2+-moederbord/html/product/1120672?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A58+ BTC, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323184",
+    "mpn": "90-MXGTJ0-A0UAYZ",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A58+-BTC-socket-FM2+-moederbord/html/product/1137541?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A68M-DG3+, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325065",
+    "mpn": "90-MXGWQ0-A0UAYZ",
+    "price": 54.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A68M-DG3+-socket-FM2+-moederbord/html/product/1182585?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A68M-HD+, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325225",
+    "mpn": "90-MXGXC0-A0UAYZ",
+    "price": 53.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A68M-HD+-socket-FM2+-moederbord/html/product/1182586?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A88M Extreme4+ R2.0, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323719",
+    "mpn": "90-MXGUV0-A0UAYZ",
+    "price": 69.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A88M-Extreme4+-R2-0-socket-FM2+-moederbord/html/product/1263807?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A88M Pro3+, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677324860",
+    "mpn": "90-MXGWE0-A0UAYZ",
+    "price": 72.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A88M-Pro3+-socket-FM2+-moederbord/html/product/1169041?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A88X Pro+, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321906",
+    "mpn": "90-MXGRP0-A0UAYZ",
+    "price": 72.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A88X-Pro+-socket-FM2+-moederbord/html/product/1114474?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A88X Pro3+, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677324631",
+    "mpn": "90-MXGWJ0-A0UAYZ",
+    "price": 77.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A88X-Pro3+-socket-FM2+-moederbord/html/product/1161163?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock FM2A88X+ BTC, socket FM2+ moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323177",
+    "mpn": "90-MXGTT0-A0UAYZ",
+    "price": 81.9,
+    "url": "https://www.alternate.nl/ASRock/FM2A88X+-BTC-socket-FM2+-moederbord/html/product/1137540?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "FM2+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS 970 PRO GAMING/AURA, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4712900303896",
+    "mpn": "90MB0PU0-M0EAY0",
+    "price": 124.9,
+    "url": "https://www.alternate.nl/ASUS/970-PRO-GAMING-AURA-socket-AM3+-moederbord/html/product/1246971?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS ABERTOOTH 990FX R3.0         990FX, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4712900475326",
+    "mpn": "90MB0RA0-M0EAY0",
+    "price": 217.9,
+    "url": "https://www.alternate.nl/ASUS/ABERTOOTH-990FX-R3-0-990FX-socket-AM3+-moederbord/html/product/1291382?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS Crosshair V Formula-Z, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543188620",
+    "mpn": "90-MIBJ70-G0EAY0VZ",
+    "price": 264.0,
+    "url": "https://www.alternate.nl/ASUS/Crosshair-V-Formula-Z-socket-AM3+-moederbord/html/product/1024288?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2000",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A78L-M LE/USB3, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4712900074369",
+    "mpn": "90MB0MY0-M0EAY0",
+    "price": 71.9,
+    "url": "https://www.alternate.nl/ASUS/M5A78L-M-LE-USB3-socket-AM3+-moederbord/html/product/1204015?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A78L-M LX3, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543185469",
+    "mpn": "90-MIBI40-G0EAY0GZ",
+    "price": 51.9,
+    "url": "https://www.alternate.nl/ASUS/M5A78L-M-LX3-socket-AM3+-moederbord/html/product/991279?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A78L-M PLUS/USB3, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4712900413083",
+    "mpn": "90MB0RB0-M0EAY0",
+    "price": 81.9,
+    "url": "https://www.alternate.nl/ASUS/M5A78L-M-PLUS-USB3-socket-AM3+-moederbord/html/product/1296944?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2000",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A97 LE R2.0, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543188491",
+    "mpn": "90-MIBJP0-G0EAY0MZ",
+    "price": 96.9,
+    "url": "https://www.alternate.nl/ASUS/M5A97-LE-R2-0-socket-AM3+-moederbord/html/product/1024296?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A97 PLUS, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4716659985426",
+    "mpn": "90MB0LG0-M0EAY0",
+    "price": 86.9,
+    "url": "https://www.alternate.nl/ASUS/M5A97-PLUS-socket-AM3+-moederbord/html/product/1179497?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A97 R2.0, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543188514",
+    "mpn": "90-MIBJK0-G0EAY0MZ",
+    "price": 104.9,
+    "url": "https://www.alternate.nl/ASUS/M5A97-R2-0-socket-AM3+-moederbord/html/product/1024294?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A99FX PRO R2.0, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543187432",
+    "mpn": "90-MIBIT0-G0EAY0VZ",
+    "price": 169.9,
+    "url": "https://www.alternate.nl/ASUS/M5A99FX-PRO-R2-0-socket-AM3+-moederbord/html/product/1013199?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASUS M5A99X EVO R2.0, socket AM3+ moederbord",
+    "brand": "ASUS",
+    "ean": "4719543187777",
+    "mpn": "90-MIBJI0-G0EAY0VZ",
+    "price": 152.9,
+    "url": "https://www.alternate.nl/ASUS/M5A99X-EVO-R2-0-socket-AM3+-moederbord/html/product/1024290?lk=9419",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit GA-B85M-HD3 R4 / i5-4460 / 8 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "GA-B85M-HD3 R4/BUNDLE",
+    "price": 319.0,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-GA-B85M-HD3-R4-i5-4460-8-GB/html/product/1239490?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit GA-H110M-S2H / i3-6100 / 8 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "GA-H110M-S2H/BUNDLE",
+    "price": 219.9,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-GA-H110M-S2H-i3-6100-8-GB/html/product/1249026?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit MAXIMUS VIII RANGER / i7 6700K / 8 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "90MB0IE0-M0EAY0/BUNDLE",
+    "price": 629.0,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-MAXIMUS-VIII-RANGER-i7-6700K-8-GB/html/product/1226172?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2666",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3200",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3000",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3400",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit MSI B150M BAZOOKA / i5 6400 / 8 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "B150M BAZOOKA/BUNDLE",
+    "price": 319.0,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-MSI-B150M-BAZOOKA-i5-6400-8-GB/html/product/1240785?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit MSI Z170A GAMING M5 / i5-6600K / 8 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "Z170A GAMING M5/BUNDLE",
+    "price": 499.0,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-MSI-Z170A-GAMING-M5-i5-6600K-8-GB/html/product/1229748?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3200",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3000",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ALTERNATE Upgrade Kit MSI X99A RAIDER / i7 6800K / 32 GB",
+    "brand": "ALTERNATE",
+    "ean": "",
+    "mpn": "X99A RAIDER/BUNDLE",
+    "price": 869.0,
+    "url": "https://www.alternate.nl/ALTERNATE/Upgrade-Kit-MSI-X99A-RAIDER-i7-6800K-32-GB/html/product/1317833?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2666",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3000",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2200",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-2750",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR4-3110",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock C2550D4I moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322484",
+    "mpn": "C2550D4I",
+    "price": 389.0,
+    "url": "https://www.alternate.nl/ASRock/C2550D4I-moederbord/html/product/1118629?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x8",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock C2750D4I moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322224",
+    "mpn": "C2750D4I",
+    "price": 519.0,
+    "url": "https://www.alternate.nl/ASRock/C2750D4I-moederbord/html/product/1112688?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x8",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N3150B-ITX moederbord",
+    "brand": "ASRock",
+    "ean": "4717677326253",
+    "mpn": "90-MXGXV0-A0UAYZ",
+    "price": 89.9,
+    "url": "https://www.alternate.nl/ASRock/N3150B-ITX-moederbord/html/product/1208483?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x1",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock N3700M moederbord",
+    "brand": "ASRock",
+    "ean": "4717677326314",
+    "mpn": "90-MXGXX0-A0UAYZ",
+    "price": 109.9,
+    "url": "https://www.alternate.nl/ASRock/N3700M-moederbord/html/product/1215386?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock Q1900M moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323207",
+    "mpn": "90-MXGTH0-A0UAYZ",
+    "price": 71.9,
+    "url": "https://www.alternate.nl/ASRock/Q1900M-moederbord/html/product/1137549?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "Geïntegreerd",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B85 Pro4, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321128",
+    "mpn": "90-MXGQB0-A0UAYZ",
+    "price": 84.9,
+    "url": "https://www.alternate.nl/ASRock/B85-Pro4-socket-1150-moederbord/html/product/1081113?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B85M Pro3, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323832",
+    "mpn": "90-MXGV60-A0UAYZ",
+    "price": 62.9,
+    "url": "https://www.alternate.nl/ASRock/B85M-Pro3-socket-1150-moederbord/html/product/1169068?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B85M Pro4, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321074",
+    "mpn": "90-MXGQ20-A0UAYZ",
+    "price": 69.9,
+    "url": "https://www.alternate.nl/ASRock/B85M-Pro4-socket-1150-moederbord/html/product/1081139?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B85M-DGS, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323795",
+    "mpn": "90-MXGUZ0-A0UAYZ",
+    "price": 59.9,
+    "url": "https://www.alternate.nl/ASRock/B85M-DGS-socket-1150-moederbord/html/product/1169118?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B85M-HDS R2.0, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325461",
+    "mpn": "90-MXGX90-A0UAYZ",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/ASRock/B85M-HDS-R2-0-socket-1150-moederbord/html/product/1230571?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock C226 WS, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321999",
+    "mpn": "C226WS",
+    "price": 249.9,
+    "url": "https://www.alternate.nl/ASRock/C226-WS-socket-1150-moederbord/html/product/1118614?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock C226M WS, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677324099",
+    "mpn": "C226M WS",
+    "price": 199.9,
+    "url": "https://www.alternate.nl/ASRock/C226M-WS-socket-1150-moederbord/html/product/1185804?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock E3C224-4L, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321388",
+    "mpn": "E2C224-4L",
+    "price": 229.9,
+    "url": "https://www.alternate.nl/ASRock/E3C224-4L-socket-1150-moederbord/html/product/1118620?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock E3C224-V+, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321692",
+    "mpn": "E3C224-V+",
+    "price": 184.9,
+    "url": "https://www.alternate.nl/ASRock/E3C224-V+-socket-1150-moederbord/html/product/1118618?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock E3C224D4I-14S, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323030",
+    "mpn": "E3C224D4I-14S",
+    "price": 374.0,
+    "url": "https://www.alternate.nl/ASRock/E3C224D4I-14S-socket-1150-moederbord/html/product/1118631?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock E3C226D2I, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321739",
+    "mpn": "E3C226D2I",
+    "price": 254.0,
+    "url": "https://www.alternate.nl/ASRock/E3C226D2I-socket-1150-moederbord/html/product/1118627?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock Fatal1ty Z97X Killer/3.1, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325973",
+    "mpn": "90-MXGXD0-A0UAYZ",
+    "price": 192.9,
+    "url": "https://www.alternate.nl/ASRock/Fatal1ty-Z97X-Killer-3-1-socket-1150-moederbord/html/product/1199367?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2933",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-3200",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81 Pro BTC, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322453",
+    "mpn": "90-MXGSP0-A0UAYZ",
+    "price": 79.9,
+    "url": "https://www.alternate.nl/ASRock/H81-Pro-BTC-socket-1150-moederbord/html/product/1116967?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81M-DGS R2.0, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677322248",
+    "mpn": "90-MXGSR0-A0UAYZ",
+    "price": 53.9,
+    "url": "https://www.alternate.nl/ASRock/H81M-DGS-R2-0-socket-1150-moederbord/html/product/1182578?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81M-GL, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321616",
+    "mpn": "90-MXGQQ0-A0UAYZ",
+    "price": 56.9,
+    "url": "https://www.alternate.nl/ASRock/H81M-GL-socket-1150-moederbord/html/product/1096965?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81M-HDS R2.0, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677325454",
+    "mpn": "90-MXG80A0UAYZ",
+    "price": 49.99,
+    "url": "https://www.alternate.nl/ASRock/H81M-HDS-R2-0-socket-1150-moederbord/html/product/1214207?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81M-ITX, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677321593",
+    "mpn": "90-MXGPN0-A0UAYZ",
+    "price": 67.9,
+    "url": "https://www.alternate.nl/ASRock/H81M-ITX-socket-1150-moederbord/html/product/1096963?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81M-VG4 R3.0, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329926",
+    "mpn": "90-MXB1J0-A0UAYZ",
+    "price": 44.99,
+    "url": "https://www.alternate.nl/ASRock/H81M-VG4-R3-0-socket-1150-moederbord/html/product/1305868?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H81TM-ITX R2.0, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323900",
+    "mpn": "90-MXGVM0-AoUAYZ",
+    "price": 79.9,
+    "url": "https://www.alternate.nl/ASRock/H81TM-ITX-R2-0-socket-1150-moederbord/html/product/1169139?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x4",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H97 Pro4, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323580",
+    "mpn": "90-MXGUH0-A0UAYZ",
+    "price": 104.9,
+    "url": "https://www.alternate.nl/ASRock/H97-Pro4-socket-1150-moederbord/html/product/1139184?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock H97M-ITX/ac, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323603",
+    "mpn": "90-MXGTF0-A0UAYZ",
+    "price": 117.9,
+    "url": "https://www.alternate.nl/ASRock/H97M-ITX-ac-socket-1150-moederbord/html/product/1141505?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock Z97 Anniversary, socket 1150 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677323917",
+    "mpn": "90-MXGVH0-A0UAYZ",
+    "price": 91.9,
+    "url": "https://www.alternate.nl/ASRock/Z97-Anniversary-socket-1150-moederbord/html/product/1150823?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1066",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2400",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2800",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-2933",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-3100",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150 Gaming K4, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677326970",
+    "mpn": "90-MXGZ50-A0UAYZ",
+    "price": 127.9,
+    "url": "https://www.alternate.nl/ASRock/B150-Gaming-K4-socket-1151-moederbord/html/product/1223415?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M PRO4, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677327120",
+    "mpn": "90-MXGZM0-A0UAYZ",
+    "price": 94.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-PRO4-socket-1151-moederbord/html/product/1223420?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M Pro4S, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677327137",
+    "mpn": "90-MXGZX0-A0UAYZ",
+    "price": 79.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-Pro4S-socket-1151-moederbord/html/product/1223421?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M Pro4S/D3, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677327434",
+    "mpn": "90-MXB080-A0UAYZ",
+    "price": 76.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-Pro4S-D3-socket-1151-moederbord/html/product/1225462?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR3-1333",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1600",
+        "type": "MEM"
+      },
+      {
+        "name": "DDR3-1866",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M PRO4V                    , socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677330489",
+    "mpn": "90-MXB2W0-A0UAYZ",
+    "price": 88.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-PRO4V-socket-1151-moederbord/html/product/1276456?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      },
+      {
+        "name": "M.2",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M-HDS, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677329278",
+    "mpn": "90-MXB160-A0UAYZ",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-HDS-socket-1151-moederbord/html/product/1282559?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  },
+  {
+    "name": "ASRock B150M-HDV, socket 1151 moederbord",
+    "brand": "ASRock",
+    "ean": "4717677327151",
+    "mpn": "90-MXGYD0-A0UAYZ",
+    "price": 81.9,
+    "url": "https://www.alternate.nl/ASRock/B150M-HDV-socket-1151-moederbord/html/product/1223422?lk=9435",
+    "shop": "Alternate",
+    "type": "MOTHERBOARD",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      },
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      },
+      {
+        "name": "DDR4-2133",
+        "type": "MEM"
+      },
+      {
+        "name": "SATA",
+        "type": "DISK"
+      }
+    ]
+  }
+]
