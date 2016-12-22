@@ -36,9 +36,7 @@ class AlternateCaseDetailParser implements PageWorker {
     product.ean = dataFlix.attributes["data-flix-ean"];
     product.mpn = dataFlix.attributes["data-flix-mpn"];
 
-    String caseType = "";
     String caseForm = "";
-    String caseSlots = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
     for (int i = 0; i < techDataTableElements.length; i++) {
 
@@ -49,27 +47,12 @@ class AlternateCaseDetailParser implements PageWorker {
       String techData = productShort[1];
 
 
-      if (techDataLabel == "Type voeding") {
-        caseType = techData;
-      } else if (techDataLabel == "Formfactor") {
+      if (techDataLabel == "Formfactor") {
         caseForm = techData;
-      } else if (techDataLabel == "Inbouwsloten") {
-        caseSlots = techData;
       }
 
     }
-    product.connectors.add(new Connector(caseType, "CASETYPE"));
-    product.connectors.add(new Connector(caseForm, "CASEFORM"));
-    List<String> caseSlotsList = caseSlots.split(", ");
-    for (int i = 0; i < caseSlotsList.length; i++) {
-      if (caseSlotsList[i].contains('5,25 inch')) {
-        product.connectors.add(new Connector(caseSlotsList[i], "CASESLOTS525"));
-      } else if (caseSlotsList[i].contains('3,5 inch')) {
-        product.connectors.add(new Connector(caseSlotsList[i], "CASESLOTS35"));
-      } else if (caseSlotsList[i].contains('2,5 inch')) {
-        product.connectors.add(new Connector(caseSlotsList[i], "CASESLOTS25"));
-      }
-    }
+    product.connectors.add(new Connector(caseForm, "CASING"));
 
     String productJSON = new JsonEncoder.withIndent("  ").convert(product);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
