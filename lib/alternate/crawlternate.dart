@@ -2,6 +2,7 @@ import 'package:pcbuilder.crawler/crawler.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMotherboard.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMemory.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseCase.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseProcessor.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
@@ -56,6 +57,16 @@ class Crawlternate {
       print("We found a total of ${pcCase.length} Cases on alternate.nl");
       File alternatePcCases = new File("alternate_pc_case.json");
       alternatePcCases.writeAsStringSync(json);
+
+      // CPU //
+      List cpu = new List();
+      List cpuTmp = new List();
+      cpuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Processoren-Desktop-Alle-processoren/html/listings/11572?lk=9487&sepid=10846&size=500&showFilter=true#listingResult", new AlternateProcessorParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      cpu.addAll(cpuTmp);
+      json = new JsonEncoder.withIndent("  ").convert(cpu);
+      print("We found a total of ${cpu.length} Cases on alternate.nl");
+      File alternateCpu = new File("alternate_cpu.json");
+      alternateCpu.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
