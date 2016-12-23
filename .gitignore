@@ -28,3 +28,4 @@ pubspec.lock
 
 #IntelliJ directory
 .idea/
+.idea/*

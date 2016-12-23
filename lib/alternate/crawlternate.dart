@@ -18,19 +18,7 @@ class Crawlternate {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Alternate", "https://www.alternate.nl", "https://www.alternate.nl/pix/header/logo/slogan/alternate.png")));
 
-      // GPU //
-      List videocards = new List();
-      List videocardsTmp = new List();
-      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/NVIDIA-GeForce?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
-      videocards.addAll(videocardsTmp);
-      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/AMD-Radeon?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
-      videocards.addAll(videocardsTmp);
-      json = new JsonEncoder.withIndent("  ").convert(videocards);
-      print("We found a total of ${videocards.length} Video Cards on alternate.nl");
-      File alternateVideocards = new File("alternate_videocards.json");
-      alternateVideocards.writeAsStringSync(json);
-
-      // MEM //
+      // MEMORY //
       List memoryUnits = new List();
       List memoryUnitsTmp = new List();
       memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR4?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR4", /*cookies:cookies*/);
@@ -59,6 +47,18 @@ class Crawlternate {
       print("We found a total of ${motherboards.length} Motherboards on alternate.nl");
       File alternateIntelMotherboards = new File("alternate_motherboards.json");
       alternateIntelMotherboards.writeAsStringSync(json);
+
+      // GPU //
+      List videocards = new List();
+      List videocardsTmp = new List();
+      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/NVIDIA-GeForce?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      videocards.addAll(videocardsTmp);
+      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/AMD-Radeon?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      videocards.addAll(videocardsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(videocards);
+      print("We found a total of ${videocards.length} Video Cards on alternate.nl");
+      File alternateVideocards = new File("alternate_videocards.json");
+      alternateVideocards.writeAsStringSync(json);
 
       // CASING //
       List pcCases = new List();

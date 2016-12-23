@@ -1,0 +1,1298 @@
+[
+  {
+    "name": "AMD Sempron 2650, 1,45 GHz socket AM1 processor",
+    "brand": "AMD",
+    "ean": "0730143304726",
+    "mpn": "SD2650JAHMBOX",
+    "price": 29.99,
+    "url": "https://www.alternate.nl/AMD/Sempron-2650-1-45-GHz-socket-AM1-processor/html/product/1128617?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM1",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Sempron 3850, 1,3 GHz socket AM1 processor",
+    "brand": "AMD",
+    "ean": "0730143304740",
+    "mpn": "SD3850JAHMBOX",
+    "price": 44.99,
+    "url": "https://www.alternate.nl/AMD/Sempron-3850-1-3-GHz-socket-AM1-processor/html/product/1128621?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM1",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-4300, 3,8 GHz (4,0 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143302647",
+    "mpn": "FD4300WMHKBOX",
+    "price": 79.0,
+    "url": "https://www.alternate.nl/AMD/FX-4300-3-8-GHz-(4-0-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1038197?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-4320, 4,0 GHz (4,2 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143307550",
+    "mpn": "FD4320WMHKBOX",
+    "price": 89.0,
+    "url": "https://www.alternate.nl/AMD/FX-4320-4-0-GHz-(4-2-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1251935?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-6300, 3,5 GHz (4,1 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143302593",
+    "mpn": "FD6300WMHKBOX",
+    "price": 99.0,
+    "url": "https://www.alternate.nl/AMD/FX-6300-3-5-GHz-(4-1-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1038200?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8300           3300 AM3+   BOX socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143302555",
+    "mpn": "FD8300WMHKBOX",
+    "price": 129.0,
+    "url": "https://www.alternate.nl/AMD/FX-8300-3300-AM3+-BOX-socket-AM3+-processor/html/product/1251938?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8320, 3,5 GHz (4,0 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143302531",
+    "mpn": "FD8320FRHKBOX",
+    "price": 149.0,
+    "url": "https://www.alternate.nl/AMD/FX-8320-3-5-GHz-(4-0-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1038225?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8320E, 3,2 GHz socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143305297",
+    "mpn": "FD832EWMHKBOX",
+    "price": 139.0,
+    "url": "https://www.alternate.nl/AMD/FX-8320E-3-2-GHz-socket-AM3+-processor/html/product/1153699?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8350, 4,0 GHz (4,2 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143302517",
+    "mpn": "FD8350FRHKBOX",
+    "price": 179.0,
+    "url": "https://www.alternate.nl/AMD/FX-8350-4-0-GHz-(4-2-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1038227?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8350, 4,0 GHz (4,2 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143307659",
+    "mpn": "FD8350FRHKHBX",
+    "price": 209.0,
+    "url": "https://www.alternate.nl/AMD/FX-8350-4-0-GHz-(4-2-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1273918?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8370 4,0 GHz (4,3 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143307390",
+    "mpn": "FD8370FRHKHBX",
+    "price": 209.0,
+    "url": "https://www.alternate.nl/AMD/FX-8370-4-0-GHz-(4-3-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1232725?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8370E, 3,3 GHz (4,3 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143305259",
+    "mpn": "FD837EWMHKBOX",
+    "price": 179.0,
+    "url": "https://www.alternate.nl/AMD/FX-8370E-3-3-GHz-(4-3-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1153705?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-9370, 4,4 GHz (4,7 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143303644",
+    "mpn": "FD9370FHHKWOF",
+    "price": 219.0,
+    "url": "https://www.alternate.nl/AMD/FX-9370-4-4-GHz-(4-7-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1086664?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-9590, 4,7 GHz (5,0 GHz Turbo Boost) socket AM3+ processor",
+    "brand": "AMD",
+    "ean": "0730143303637",
+    "mpn": "FD9590FHHKWOF",
+    "price": 229.0,
+    "url": "https://www.alternate.nl/AMD/FX-9590-4-7-GHz-(5-0-GHz-Turbo-Boost)-socket-AM3+-processor/html/product/1086666?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A4-4000, 3,0 GHz socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143303415",
+    "mpn": "AD4000OKHLBOX",
+    "price": 39.0,
+    "url": "https://www.alternate.nl/AMD/A4-4000-3-0-GHz-socket-FM2-processor/html/product/1080863?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A4-4020, 3,2 GHz socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143304610",
+    "mpn": "AD4020OKHLBOX",
+    "price": 39.0,
+    "url": "https://www.alternate.nl/AMD/A4-4020-3-2-GHz-socket-FM2-processor/html/product/1125374?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A4-5300, 3,5 GHz socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143301961",
+    "mpn": "AD5300OKHJBOX",
+    "price": 39.0,
+    "url": "https://www.alternate.nl/AMD/A4-5300-3-5-GHz-socket-FM2-processor/html/product/1030472?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A4-6300 3,7GHz (3,9 GHz Turbo Boost) socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143303965",
+    "mpn": "AD6300OKHLBOX",
+    "price": 39.0,
+    "url": "https://www.alternate.nl/AMD/A4-6300-3-7GHz-(3-9-GHz-Turbo-Boost)-socket-FM2-processor/html/product/1111750?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-5400K, 3,6 GHz (3,8 GHz Turbo Boost) socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143302029",
+    "mpn": "AD540KOKHJBOX",
+    "price": 39.0,
+    "url": "https://www.alternate.nl/AMD/A6-5400K-3-6-GHz-(3-8-GHz-Turbo-Boost)-socket-FM2-processor/html/product/1030474?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-6400K, 3,9 GHz (4,1 GHz Turbo Boost) socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143303583",
+    "mpn": "AD640KOKHLBOX",
+    "price": 65.0,
+    "url": "https://www.alternate.nl/AMD/A6-6400K-3-9-GHz-(4-1-GHz-Turbo-Boost)-socket-FM2-processor/html/product/1082070?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-6420K, 4,0 GHz (4,2 GHz Turbo Boost) socket FM2 processor",
+    "brand": "AMD",
+    "ean": "0730143304566",
+    "mpn": "AD642KOKHLBOX",
+    "price": 59.0,
+    "url": "https://www.alternate.nl/AMD/A6-6420K-4-0-GHz-(4-2-GHz-Turbo-Boost)-socket-FM2-processor/html/product/1116257?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7700K, 3,4 GHz (3,8 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304498",
+    "mpn": "AD770KXBJABOX",
+    "price": 99.0,
+    "url": "https://www.alternate.nl/AMD/A10-7700K-3-4-GHz-(3-8-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1117103?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7800 3,5 GHz (3,9 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304528",
+    "mpn": "AD7800YBJABOX",
+    "price": 109.0,
+    "url": "https://www.alternate.nl/AMD/A10-7800-3-5-GHz-(3-9-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1144184?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7850K, 3,7 GHz (4,0 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304467",
+    "mpn": "AD785KXBJABOX",
+    "price": 119.9,
+    "url": "https://www.alternate.nl/AMD/A10-7850K-3-7-GHz-(4-0-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1117104?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7860K 3,6 GHz (4,0 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307864",
+    "mpn": "AD786KYBJCSBX",
+    "price": 129.0,
+    "url": "https://www.alternate.nl/AMD/A10-7860K-3-6-GHz-(4-0-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253385?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7870K 3,9 GHz (4,1 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143305488",
+    "mpn": "AD787KXDJCSBX",
+    "price": 149.0,
+    "url": "https://www.alternate.nl/AMD/A10-7870K-3-9-GHz-(4-1-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253387?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A10-7890K 4,1 GHz (4,3 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307925",
+    "mpn": "AD789KXDJCHBX",
+    "price": 169.0,
+    "url": "https://www.alternate.nl/AMD/A10-7890K-4-1-GHz-(4-3-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253390?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A4-7300, 3,8 GHz (4,0 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304962",
+    "mpn": "AD7300OKHLBOX",
+    "price": 49.0,
+    "url": "https://www.alternate.nl/AMD/A4-7300-3-8-GHz-(4-0-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1144189?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-7400K 3,5 GHz (3,9 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304948",
+    "mpn": "AD740KYBJABOX",
+    "price": 65.0,
+    "url": "https://www.alternate.nl/AMD/A6-7400K-3-5-GHz-(3-9-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1116260?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-7470K          3700 FM2+   BOX socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307949",
+    "mpn": "AD747KYBJCBOX",
+    "price": 75.0,
+    "url": "https://www.alternate.nl/AMD/A6-7470K-3700-FM2+-BOX-socket-FM2+-processor/html/product/1253376?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A8-7600, 3,1 GHz (3,8 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143304979",
+    "mpn": "AD7600YBJABOX",
+    "price": 85.0,
+    "url": "https://www.alternate.nl/AMD/A8-7600-3-1-GHz-(3-8-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1148028?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A8-7650K 3,3 GHz (3,8 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307703",
+    "mpn": "AD765KXBJASBX",
+    "price": 109.0,
+    "url": "https://www.alternate.nl/AMD/A8-7650K-3-3-GHz-(3-8-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253379?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A8-7670K 3,6 GHz (3,9 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307710",
+    "mpn": "AD767KXBJCSBX",
+    "price": 109.9,
+    "url": "https://www.alternate.nl/AMD/A8-7670K-3-6-GHz-(3-9-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253382?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Athlon X4 845 3,5 GHz (3,8 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307901",
+    "mpn": "AD845XACKASBX",
+    "price": 69.0,
+    "url": "https://www.alternate.nl/AMD/Athlon-X4-845-3-5-GHz-(3-8-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253354?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Athlon X4 860K 3,7 GHz (4,0 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307727",
+    "mpn": "AD860KXBJASBX",
+    "price": 89.0,
+    "url": "https://www.alternate.nl/AMD/Athlon-X4-860K-3-7-GHz-(4-0-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253356?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Athlon X4 860K, 3,8 GHz (4,0 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143305174",
+    "mpn": "AD860KXBJABOX",
+    "price": 79.0,
+    "url": "https://www.alternate.nl/AMD/Athlon-X4-860K-3-8-GHz-(4-0-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1136932?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Athlon X4 870K 3,9 GHz (4,1 GHz Turbo Boost) socket FM2+ processor",
+    "brand": "AMD",
+    "ean": "0730143307802",
+    "mpn": "AD870KXBJCSBX",
+    "price": 99.0,
+    "url": "https://www.alternate.nl/AMD/Athlon-X4-870K-3-9-GHz-(4-1-GHz-Turbo-Boost)-socket-FM2+-processor/html/product/1253359?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Celeron G1840, 2,8 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037062534",
+    "mpn": "BX80646G1840",
+    "price": 49.0,
+    "url": "https://www.alternate.nl/Intel(R)/Celeron-G1840-2-8-GHz-socket-1150-processor/html/product/1128223?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Celeron G1850, 2,9 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037062473",
+    "mpn": "BX80646G1850",
+    "price": 59.0,
+    "url": "https://www.alternate.nl/Intel(R)/Celeron-G1850-2-9-GHz-socket-1150-processor/html/product/1128225?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-4170, 3,7 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037073479",
+    "mpn": "BX80646I34170",
+    "price": 139.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-4170-3-7-GHz-socket-1150-processor/html/product/1188386?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-4370, 3,8 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037066983",
+    "mpn": "BX80646I34370",
+    "price": 159.9,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-4370-3-8-GHz-socket-1150-processor/html/product/1147311?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4460, 3,2 GHz (3,4 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037062763",
+    "mpn": "BX80646I54460",
+    "price": 209.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4460-3-2-GHz-(3-4-GHz-Turbo-Boost)-socket-1150-processor/html/product/1129767?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4570, 3,2 GHz (3,6 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037050739",
+    "mpn": "BX80646I54570",
+    "price": 229.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4570-3-2-GHz-(3-6-GHz-Turbo-Boost)-socket-1150-processor/html/product/1063386?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4570S, 2,9 GHz (3,6 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037050319",
+    "mpn": "BX80646I54570S",
+    "price": 219.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4570S-2-9-GHz-(3-6-GHz-Turbo-Boost)-socket-1150-processor/html/product/1063385?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4590, 3,3 GHz (3,7 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037061131",
+    "mpn": "BX80646I54590",
+    "price": 229.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4590-3-3-GHz-(3-7-GHz-Turbo-Boost)-socket-1150-processor/html/product/1128196?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4590S, 3,0 GHz (3,7 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037061254",
+    "mpn": "BX80646I54590S",
+    "price": 229.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4590S-3-0-GHz-(3-7-GHz-Turbo-Boost)-socket-1150-processor/html/product/1128192?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4670, 3,4 GHz (3,8 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037050678",
+    "mpn": "BX80646I54670",
+    "price": 239.9,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4670-3-4-GHz-(3-8-GHz-Turbo-Boost)-socket-1150-processor/html/product/1063387?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4690, 3,5 GHz (3,9 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037061193",
+    "mpn": "BX80646I54690",
+    "price": 244.9,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4690-3-5-GHz-(3-9-GHz-Turbo-Boost)-socket-1150-processor/html/product/1128198?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-4690K, 3,5 GHz (3,9 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037066013",
+    "mpn": "BX80646I54690K",
+    "price": 269.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-4690K-3-5-GHz-(3-9-GHz-Turbo-Boost)-socket-1150-processor/html/product/1143718?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-5675C, 3,1 GHz (3,6 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037075237",
+    "mpn": "BX80658I55675C",
+    "price": 299.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-5675C-3-1-GHz-(3-6-GHz-Turbo-Boost)-socket-1150-processor/html/product/1203978?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-4770S, 3,1 GHz (3,9 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037050135",
+    "mpn": "BX80646I74770S",
+    "price": 329.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-4770S-3-1-GHz-(3-9-GHz-Turbo-Boost)-socket-1150-processor/html/product/1063380?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-4790, 3,6 GHz (4,0 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037061551",
+    "mpn": "BX80646I74790",
+    "price": 329.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-4790-3-6-GHz-(4-0-GHz-Turbo-Boost)-socket-1150-processor/html/product/1128181?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-4790K, 4,0 GHz (4,4 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037065948",
+    "mpn": "BX80646I74790K",
+    "price": 379.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-4790K-4-0-GHz-(4-4-GHz-Turbo-Boost)-socket-1150-processor/html/product/1143720?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-4790S, 3,2 GHz (4,0 GHz Turbo Boost) socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037062169",
+    "mpn": "BX80646I74790S",
+    "price": 349.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-4790S-3-2-GHz-(4-0-GHz-Turbo-Boost)-socket-1150-processor/html/product/1128177?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G3258, 3,2 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037065122",
+    "mpn": "BX80646G3258",
+    "price": 79.9,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G3258-3-2-GHz-socket-1150-processor/html/product/1143721?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G3260 socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037073233",
+    "mpn": "BX80646G3260",
+    "price": 64.9,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G3260-socket-1150-processor/html/product/1188388?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G3460, 3,5 GHz socket 1150 processor",
+    "brand": "Intel®",
+    "ean": "5032037066808",
+    "mpn": "BX80646G3460",
+    "price": 74.9,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G3460-3-5-GHz-socket-1150-processor/html/product/1147316?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Celeron G3900, 2,8 GHz socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079358",
+    "mpn": "BX80662G3900",
+    "price": 54.9,
+    "url": "https://www.alternate.nl/Intel(R)/Celeron-G3900-2-8-GHz-socket-1151-processor/html/product/1228139?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Celeron G3920, 2,9 GHz socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079297",
+    "mpn": "BX80662G3920",
+    "price": 64.9,
+    "url": "https://www.alternate.nl/Intel(R)/Celeron-G3920-2-9-GHz-socket-1151-processor/html/product/1228140?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-6100 3,7 GHz socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "",
+    "mpn": "BX80662I36100",
+    "price": 129.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-6100-3-7-GHz-socket-1151-processor/html/product/1244971?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-6100 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079051",
+    "mpn": "BX80662I36100",
+    "price": 129.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-6100-socket-1151-processor/html/product/1228131?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-6300 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037078870",
+    "mpn": "BX80662I36300",
+    "price": 159.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-6300-socket-1151-processor/html/product/1228133?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i3-6320 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037080095",
+    "mpn": "BX80662I36320",
+    "price": 179.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i3-6320-socket-1151-processor/html/product/1228135?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-6400, 2,7 GHz (3,3 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037076616",
+    "mpn": "BX80662I56400",
+    "price": 209.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-6400-2-7-GHz-(3-3-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210164?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-6500, 3,2 GHz (3,6 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037076500",
+    "mpn": "BX80662I56500",
+    "price": 239.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-6500-3-2-GHz-(3-6-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210169?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-6600, 3,3 GHz (3,9 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037076081",
+    "mpn": "BX80662I56600",
+    "price": 249.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-6600-3-3-GHz-(3-9-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210175?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i5-6600K, 3,5 GHz (3,9 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037076142",
+    "mpn": "BX80662I56600K",
+    "price": 249.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i5-6600K-3-5-GHz-(3-9-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210182?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6700, 3,4 GHz (4,0 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037077187",
+    "mpn": "BX80662I76700",
+    "price": 339.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6700-3-4-GHz-(4-0-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210187?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6700K, 4,0 GHz (4,2 GHz Turbo Boost) socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037076685",
+    "mpn": "BX80662I76700K",
+    "price": 359.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6700K-4-0-GHz-(4-2-GHz-Turbo-Boost)-socket-1151-processor/html/product/1210189?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core™ i3-6100T socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079112",
+    "mpn": "BX80662I36100T",
+    "price": 139.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core(TM)-i3-6100T-socket-1151-processor/html/product/1228141?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core™ i3-6300T socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "0675901364799",
+    "mpn": "BX80662I36300T",
+    "price": 159.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core(TM)-i3-6300T-socket-1151-processor/html/product/1228142?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G4400 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079655",
+    "mpn": "BX80662G4400",
+    "price": 65.0,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G4400-socket-1151-processor/html/product/1228136?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G4500 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079471",
+    "mpn": "BX80662G4500",
+    "price": 74.9,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G4500-socket-1151-processor/html/product/1228137?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Pentium G4520 socket 1151 processor",
+    "brand": "Intel®",
+    "ean": "5032037079716",
+    "mpn": "BX80662G4520",
+    "price": 109.0,
+    "url": "https://www.alternate.nl/Intel(R)/Pentium-G4520-socket-1151-processor/html/product/1228138?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-5820K 3,3 GHz (3,6 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037065702",
+    "mpn": "BX80648I75820K",
+    "price": 429.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-5820K-3-3-GHz-(3-6-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1147052?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-5930K 3,5 GHz (3,7 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037065641",
+    "mpn": "BX80648I75930K",
+    "price": 679.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-5930K-3-5-GHz-(3-7-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1147053?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-5960X 3,0 GHz (3,5 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037065498",
+    "mpn": "BX80648I75960X",
+    "price": 1199.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-5960X-3-0-GHz-(3-5-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1147054?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6800K 3,4 GHz (3,8 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037087131",
+    "mpn": "BX80671I76800K",
+    "price": 449.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6800K-3-4-GHz-(3-8-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1269371?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6850K 3,6 GHz (3,8 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037087193",
+    "mpn": "BX80671I76850K",
+    "price": 599.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6850K-3-6-GHz-(3-8-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1269373?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6900K 3,2 GHz (3,7 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037087490",
+    "mpn": "BX80671I76900K",
+    "price": 999.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6900K-3-2-GHz-(3-7-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1269375?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel® Core i7-6950X 3,0 GHz (3,5 GHz Turbo Boost) socket 2011-3 processor",
+    "brand": "Intel®",
+    "ean": "5032037087551",
+    "mpn": "BX80671I76950X",
+    "price": 1649.0,
+    "url": "https://www.alternate.nl/Intel(R)/Core-i7-6950X-3-0-GHz-(3-5-GHz-Turbo-Boost)-socket-2011-3-processor/html/product/1269374?lk=9487",
+    "shop": "Alternate",
+    "type": "CPU",
+    "connectors": [
+      {
+        "name": " 2011-3",
+        "type": "CPU"
+      }
+    ]
+  }
+]

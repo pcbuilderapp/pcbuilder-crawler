@@ -50,7 +50,7 @@ class AlternateVideoCardDetailParser implements PageWorker {
           }
         }
         if (gpuConnectorData.trim() != "") {
-          gpu.connectors.add(new Connector(gpuConnectorData, "GPU"));
+          gpu.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
         }
       }
     }

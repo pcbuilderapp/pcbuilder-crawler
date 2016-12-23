@@ -57,11 +57,11 @@ class AlternateMotherboardDetailParser implements PageWorker {
       } else if (techDataLabel == "FormFactor") {
         product.connectors.add(new Connector(techData, "CASING"));
       } else if (techDataOptional == "Ondersteunde standaarden") {
-        techData.split(",").forEach((element) => product.connectors.add(new Connector(element.trim(), "MEM")));
+        techData.split(",").forEach((element) => product.connectors.add(new Connector(element.trim(), "MEMORY")));
       } else if (techDataOptional == "SATA") {
-        product.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "STORAGE"));
       } else if (techDataOptional == "M.2") {
-        product.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "STORAGE"));
       }
     }
     String productJSON = new JsonEncoder.withIndent("  ").convert(product);
