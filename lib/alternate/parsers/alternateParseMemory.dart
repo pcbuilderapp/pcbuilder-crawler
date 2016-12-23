@@ -42,18 +42,27 @@ class AlternateMemoryDetailParser implements PageWorker {
     for (int i = 0; i < techDataTableElements.length; i++) {
       String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
-      if (techDataLabel == "Type") {
-        memType = techData;
+      if (techDataLabel == "Standaard") {
+        memType = techData.split(" ")[0];
       } else if (techDataLabel == "Bouwvorm") {
+<<<<<<< HEAD
         if (techData.trim() != "SO-DIMM") {
           product.connectors.add(new Connector(memType, "MEM"));
         }
       }
     }
+=======
+        memForm = techData.trim();
+      }
+    }
+    if (memForm != "SO-DIMM") {
+      product.connectors.add(new Connector(memType, "MEM"));
+>>>>>>> 9e2c013d825b020ca0d81581e0f0d5861b6971f6
 
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
-    await sleepRnd();
+      String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+      postRequest(getBackendServerURL() + "/product/add", productJSON);
+      print(productJSON);
+      await sleepRnd();
+    }
   }
 }

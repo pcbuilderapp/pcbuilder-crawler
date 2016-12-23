@@ -1,6 +1,9 @@
 import 'package:pcbuilder.crawler/crawler.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMotherboard.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMemory.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseCase.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseProcessor.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseVideoCard.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
@@ -15,38 +18,67 @@ class Crawlternate {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Alternate", "https://www.alternate.nl", "https://www.alternate.nl/pix/header/logo/slogan/alternate.png")));
 
+      // GPU //
+      List videocards = new List();
+      List videocardsTmp = new List();
+      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/NVIDIA-GeForce?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      videocards.addAll(videocardsTmp);
+      videocardsTmp = await Crawler.crawl("https://www.alternate.nl/Grafische-kaarten/AMD-Radeon?size=500", new AlternateVideoCardParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      videocards.addAll(videocardsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(videocards);
+      print("We found a total of ${videocards.length} Video Cards on alternate.nl");
+      File alternateVideocards = new File("alternate_videocards.json");
+      alternateVideocards.writeAsStringSync(json);
+
       // MEM //
       List memoryUnits = new List();
       List memoryUnitsTmp = new List();
-      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR4", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR4", /*cookies:cookies*/);
+      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR4?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR4", /*cookies:cookies*/);
       memoryUnits.addAll(memoryUnitsTmp);
-      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR3", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR3", /*cookies:cookies*/);
+      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR3?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR3", /*cookies:cookies*/);
       memoryUnits.addAll(memoryUnitsTmp);
-      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR2", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR2", /*cookies:cookies*/);
+      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR2?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR2", /*cookies:cookies*/);
       memoryUnits.addAll(memoryUnitsTmp);
-      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR", /*cookies:cookies*/);
+      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/DDR?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/DDR", /*cookies:cookies*/);
       memoryUnits.addAll(memoryUnitsTmp);
-      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/SDRAM", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/SDRAM", /*cookies:cookies*/);
+      memoryUnitsTmp = await Crawler.crawl("https://www.alternate.nl/Geheugen/SDRAM?size=500", new AlternateMemoryParser(), referrer: "https://www.alternate.nl/Geheugen/SDRAM", /*cookies:cookies*/);
       memoryUnits.addAll(memoryUnitsTmp);
-
       json = new JsonEncoder.withIndent("  ").convert(memoryUnits);
-      print("We found a total of ${memoryUnits.length} memory units on alternate.nl");
+      print("We found a total of ${memoryUnits.length} Memory Units on alternate.nl");
       File alternateMemoryUnits = new File("alternate_memory_units.json");
       alternateMemoryUnits.writeAsStringSync(json);
 
       // MOTHERBOARDS //
       List motherboards = new List();
       List motherboardsTmp = new List();
-      motherboardsTmp = await Crawler.crawl("https://www.alternate.nl/Moederborden/AMD", new AlternateMotherboardParser(), referrer: "https://www.alternate.nl/Moederborden/AMD", /*cookies:cookies*/);
+      motherboardsTmp = await Crawler.crawl("https://www.alternate.nl/Moederborden/AMD?size=500", new AlternateMotherboardParser(), referrer: "https://www.alternate.nl/Moederborden/AMD", /*cookies:cookies*/);
       motherboards.addAll(motherboardsTmp);
-      motherboardsTmp = await Crawler.crawl("https://www.alternate.nl/Moederborden/Intel", new AlternateMotherboardParser(), referrer: "https://www.alternate.nl/Moederborden/Intel", /*cookies:cookies*/);
+      motherboardsTmp = await Crawler.crawl("https://www.alternate.nl/Moederborden/Intel?size=500", new AlternateMotherboardParser(), referrer: "https://www.alternate.nl/Moederborden/Intel", /*cookies:cookies*/);
       motherboards.addAll(motherboardsTmp);
       json = new JsonEncoder.withIndent("  ").convert(motherboards);
-      print("We found a total of ${motherboards.length} motherboards on alternate.nl");
-      File alternateIntelMotherboards = new File("alternate_intel_motherboards.json");
+      print("We found a total of ${motherboards.length} Motherboards on alternate.nl");
+      File alternateIntelMotherboards = new File("alternate_motherboards.json");
       alternateIntelMotherboards.writeAsStringSync(json);
 
-      // DISK //
+      // CASING //
+      List pcCases = new List();
+      List pcCasesTmp = new List();
+      pcCasesTmp = await Crawler.crawl("https://www.alternate.nl/Behuizingen/Alle-behuizingen?size=500", new AlternateCaseParser(), referrer: "https://www.alternate.nl/Behuizingen/Alle-behuizingen", /*cookies:cookies*/);
+      pcCases.addAll(pcCasesTmp);
+      json = new JsonEncoder.withIndent("  ").convert(pcCases);
+      print("We found a total of ${pcCases.length} Cases on alternate.nl");
+      File alternatePcCases = new File("alternate_pc_cases.json");
+      alternatePcCases.writeAsStringSync(json);
+
+      // CPU //
+      List processors = new List();
+      List processorsTmp = new List();
+      processorsTmp = await Crawler.crawl("https://www.alternate.nl/Processoren/Desktop/Alle-processoren?size=500", new AlternateProcessorParser(), referrer: "https://www.alternate.nl/Processoren/Desktop/Alle-processoren", /*cookies:cookies*/);
+      processors.addAll(processorsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(processors);
+      print("We found a total of ${processors.length} Processors on alternate.nl");
+      File alternateCpu = new File("alternate_processors.json");
+      alternateCpu.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
