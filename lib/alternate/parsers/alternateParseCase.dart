@@ -40,12 +40,10 @@ class AlternateCaseDetailParser implements PageWorker {
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
     for (int i = 0; i < techDataTableElements.length; i++) {
 
-
       List<String> productShort = techDataTableElements[i].text.split(":");
 
       String techDataLabel = productShort[0];
       String techData = productShort[1];
-
 
       if (techDataLabel == "Formfactor") {
         caseForm = techData;
