@@ -4,6 +4,7 @@ import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMemory.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseCase.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseProcessor.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseVideoCard.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParseDisks.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
@@ -17,6 +18,22 @@ class Crawlternate {
 
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Alternate", "https://www.alternate.nl", "https://www.alternate.nl/pix/header/logo/slogan/alternate.png")));
+
+      // DISK //
+      List disks = new List();
+      List disksTmp = new List();
+      disksTmp = await Crawler.crawl("https://www.alternate.nl/Hardware/html/listings/1472811138409?size=500", new AlternateDiskParser(), referrer: "https://www.alternate.nl", /*cookies:cookies*/);
+      disks.addAll(disksTmp);
+      disksTmp = await Crawler.crawl("https://www.alternate.nl/Harde-schijven-intern/SATA-2-5-inch?size=500", new AlternateDiskParser(), referrer: "https://www.alternate.nl", /*cookies:cookies*/);
+      disks.addAll(disksTmp);
+      disksTmp = await Crawler.crawl("https://www.alternate.nl/Harde-schijven-intern/SATA-3-5-inch?size=500", new AlternateDiskParser(), referrer: "https://www.alternate.nl", /*cookies:cookies*/);
+      disks.addAll(disksTmp);
+      disksTmp = await Crawler.crawl("https://www.alternate.nl/Harde-schijven-intern/Hybride?size=500", new AlternateDiskParser(), referrer: "https://www.alternate.nl", /*cookies:cookies*/);
+      disks.addAll(disksTmp);
+      json = new JsonEncoder.withIndent("  ").convert(disks);
+      print("We found a total of ${disks.length} Disks on alternate.nl");
+      File alternateDisk = new File("alternate_disks.json");
+      alternateDisk.writeAsStringSync(json);
 
       // MEMORY //
       List memoryUnits = new List();
