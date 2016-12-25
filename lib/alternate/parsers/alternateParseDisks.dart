@@ -42,7 +42,7 @@ class AlternateDiskDetailParser implements PageWorker {
       String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
       if (techDataLabel == "Interface") {
-        disk.connectors.add(new Connector(techData.split(" ")[1], "STORAGE"));
+        disk.connectors.add(new Connector(techData.split(" ")[1].split(",")[0].split("/")[0], "STORAGE"));
       }
     }
 
