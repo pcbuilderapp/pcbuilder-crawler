@@ -10,15 +10,9 @@ abstract class PageWorker {
 }
 
 class Crawler {
-  static Future crawl(String url, PageWorker worker, {Map postData, String referrer, Map<String,String> cookies, arguments}) async {
-    String content;
-    Map headers = getHTTPHeaders(url, referrer: referrer, cookies: cookies);
-
-    if (postData == null) {
-      content = await Http.read(url,headers: headers);
-    } else {
-      content = (await Http.post(url,body: postData,headers: headers)).body;
-    }
+  static Future crawl(String url, PageWorker worker, {arguments}) async {
+    Map headers = getHTTPHeaders(url);
+    String content = await Http.read(url, headers: headers);
     Document document = HtmlParser.parse(content);
     return worker.parse(document, arguments);
   }
