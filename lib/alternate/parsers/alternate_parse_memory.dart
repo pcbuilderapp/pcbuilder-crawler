@@ -15,12 +15,13 @@ class AlternateMemoryParser implements PageWorker {
       memory.name = listRow.querySelector("span.name").text.trim();
       memory.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
       memory.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      memory.type = "MEM";
+      memory.type = "MEMORY";
       memory.price = price(listRow.querySelector("span.price").text);
       memory.shop = "Alternate";
       await Crawler.crawl(memory.url, new AlternateMemoryDetailParser(), arguments: memory);
-
-      memoryUnits.add(memory);
+      if (memory.connectors.length > 0 ) {
+        memoryUnits.add(memory);
+      }
     }
     return memoryUnits;
   }
@@ -42,17 +43,18 @@ class AlternateMemoryDetailParser implements PageWorker {
     for (int i = 0; i < techDataTableElements.length; i++) {
       String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
-      if (techDataLabel == "Type") {
-        memType = techData;
+      if (techDataLabel == "Standaard") {
+        memType = techData.split(" ")[0];
       } else if (techDataLabel == "Bouwvorm") {
-        memForm = techData;
+        memForm = techData.trim();
       }
     }
-    product.connectors.add(new Connector(memType + " " + memForm, "MEM"));
-
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
-    await sleepRnd();
+    if (memForm != "SO-DIMM") {
+      product.connectors.add(new Connector(memType, "MEMORY"));
+      String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+      postRequest(getBackendServerURL() + "/product/add", productJSON);
+      print(productJSON);
+      await sleepRnd();
+    }
   }
 }

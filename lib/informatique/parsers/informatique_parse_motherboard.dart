@@ -4,7 +4,7 @@ import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
 import 'dart:convert';
 
-class AlternateMotherboardParser implements PageWorker {
+class InformatiqueMotherboardParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
@@ -18,7 +18,7 @@ class AlternateMotherboardParser implements PageWorker {
       motherboard.type = "MOTHERBOARD";
       motherboard.price = price(listRow.querySelector("span.price").text);
       motherboard.shop = "Alternate";
-      await Crawler.crawl(motherboard.url, new AlternateMotherboardDetailParser(), arguments: motherboard);
+      await Crawler.crawl(motherboard.url, new InformatiqueMotherboardDetailParser(), arguments: motherboard);
 
       motherboards.add(motherboard);
     }
@@ -26,7 +26,7 @@ class AlternateMotherboardParser implements PageWorker {
   }
 }
 
-class AlternateMotherboardDetailParser implements PageWorker {
+class InformatiqueMotherboardDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
@@ -57,11 +57,11 @@ class AlternateMotherboardDetailParser implements PageWorker {
       } else if (techDataLabel == "FormFactor") {
         product.connectors.add(new Connector(techData, "CASING"));
       } else if (techDataOptional == "Ondersteunde standaarden") {
-        techData.split(",").forEach((element) => product.connectors.add(new Connector(element.trim(), "MEM")));
+        techData.split(",").forEach((element) => product.connectors.add(new Connector(element.trim(), "MEMORY")));
       } else if (techDataOptional == "SATA") {
-        product.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "STORAGE"));
       } else if (techDataOptional == "M.2") {
-        product.connectors.add(new Connector(techDataOptional, "DISK"));
+        product.connectors.add(new Connector(techDataOptional, "STORAGE"));
       }
     }
     String productJSON = new JsonEncoder.withIndent("  ").convert(product);
