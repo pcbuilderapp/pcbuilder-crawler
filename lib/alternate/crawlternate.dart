@@ -101,7 +101,7 @@ class Crawlternate {
       // PSU //
       List psu = new List();
       List psuTmp = new List();
-      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen?size=500", new AlternatePowerSupplyUnitParser(), referrer: "https://www.alternate.nl/Voedingen", /*cookies:cookies*/);
+      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen?size=500", new AlternatePowerSupplyUnitParser());
       psu.addAll(psuTmp);
       json = new JsonEncoder.withIndent("  ").convert(psu);
       print("We found a total of ${psu.length} Cases on alternate.nl");
