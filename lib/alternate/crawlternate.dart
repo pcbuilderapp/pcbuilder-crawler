@@ -3,11 +3,13 @@ import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMotherboard.da
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseMemory.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseCase.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternateParseProcessor.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternateParsePowerSupplyUnit.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
+
 
 class Crawlternate {
 
@@ -67,6 +69,16 @@ class Crawlternate {
       print("We found a total of ${cpu.length} Cases on alternate.nl");
       File alternateCpu = new File("alternate_cpu.json");
       alternateCpu.writeAsStringSync(json);
+
+      // PSU //
+      List psu = new List();
+      List psuTmp = new List();
+      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen/html/listings/11604?tk=7&lk=9533&sepid=8215&size=500&showFilter=true#listingResult", new AlternatePowerSupplyUnitParser(), referrer: "https://www.alternate.nl/Voedingen", /*cookies:cookies*/);
+      psu.addAll(psuTmp);
+      json = new JsonEncoder.withIndent("  ").convert(psu);
+      print("We found a total of ${psu.length} Cases on alternate.nl");
+      File alternatePsu = new File("alternate_psu.json");
+      alternatePsu.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
