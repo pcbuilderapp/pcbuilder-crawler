@@ -8,7 +8,7 @@ class AlternateProcessorParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    List caseUnits = [];
+    List processors = [];
     var rows = document.querySelectorAll("div.listRow");
     for (Element listRow in rows) {
       Product processor = new Product();
@@ -20,9 +20,9 @@ class AlternateProcessorParser implements PageWorker {
       processor.shop = "Alternate";
       await Crawler.crawl(processor.url, new AlternateCaseDetailParser(), arguments: processor);
 
-      caseUnits.add(processor);
+      processors.add(processor);
     }
-    return caseUnits;
+    return processors;
   }
 }
 
@@ -30,11 +30,11 @@ class AlternateCaseDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product product = arguments as Product;
+    Product processor = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    product.ean = dataFlix.attributes["data-flix-ean"];
-    product.mpn = dataFlix.attributes["data-flix-mpn"];
+    processor.ean = dataFlix.attributes["data-flix-ean"];
+    processor.mpn = dataFlix.attributes["data-flix-mpn"];
 
     String cpuSocket = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
@@ -50,8 +50,8 @@ class AlternateCaseDetailParser implements PageWorker {
       }
 
     }
-    product.connectors.add(new Connector(cpuSocket, "CPU"));
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+    processor.connectors.add(new Connector(cpuSocket, "CPU"));
+    String productJSON = new JsonEncoder.withIndent("  ").convert(processor);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
     await sleepRnd();

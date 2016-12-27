@@ -4,20 +4,22 @@ import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
 import 'dart:convert';
 
-class AlternatePowerSupplyUnitParser implements PageWorker {
+class InformatiquePowerSupplyUnitParser implements PageWorker {
 
   parse(Document document, arguments) async {
+
     List psus = [];
     var rows = document.querySelectorAll("div.listRow");
     for (Element listRow in rows) {
       Product psu = new Product();
       psu.name = listRow.querySelector("span.name").text.trim();
       psu.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      psu.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
+      psu.url = "https://www.alternate.nl" +
+          listRow.querySelector(".productLink").attributes["href"];
       psu.type = "PSU";
       psu.price = price(listRow.querySelector("span.price").text);
       psu.shop = "Alternate";
-      await Crawler.crawl(psu.url, new AlternatePsuDetailParser(), arguments: psu);
+      await Crawler.crawl(psu.url, new InformatiquePsuDetailParser(), arguments: psu);
 
       psus.add(psu);
     }
@@ -25,7 +27,7 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
   }
 }
 
-class AlternatePsuDetailParser implements PageWorker {
+class InformatiquePsuDetailParser implements PageWorker {
   parse(Document document, arguments) async {
     Product psu = arguments as Product;
 

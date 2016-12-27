@@ -11808,22 +11808,6 @@
     ]
   },
   {
-    "name": "Kingston ValueRAM 8 GB ECC DDR3L-1600, Werkgeheugen",
-    "brand": "Kingston ValueRAM",
-    "ean": "0740617239461",
-    "mpn": "KVR16LE11/8HB",
-    "price": 59.9,
-    "url": "https://www.alternate.nl/Kingston-ValueRAM/8-GB-ECC-DDR3L-1600-Werkgeheugen/html/product/1173108?lk=9326",
-    "shop": "Alternate",
-    "type": "MEMORY",
-    "connectors": [
-      {
-        "name": "DDR3-1600",
-        "type": "MEMORY"
-      }
-    ]
-  },
-  {
     "name": "Kingston ValueRAM 8 GB ECC Registered DDR3-1600, Werkgeheugen",
     "brand": "Kingston ValueRAM",
     "ean": "0740617220957",
@@ -12006,22 +11990,6 @@
     "mpn": "996995F",
     "price": 66.9,
     "url": "https://www.alternate.nl/Mushkin/8-GB-DDR3-1600-Kit-Werkgeheugen/html/product/1198781?lk=9326",
-    "shop": "Alternate",
-    "type": "MEMORY",
-    "connectors": [
-      {
-        "name": "DDR3-1600",
-        "type": "MEMORY"
-      }
-    ]
-  },
-  {
-    "name": "Mushkin 8 GB DDR3-1600, Werkgeheugen",
-    "brand": "Mushkin",
-    "ean": "0846651016799",
-    "mpn": "992028",
-    "price": 57.9,
-    "url": "https://www.alternate.nl/Mushkin/8-GB-DDR3-1600-Werkgeheugen/html/product/1139190?lk=9326",
     "shop": "Alternate",
     "type": "MEMORY",
     "connectors": [

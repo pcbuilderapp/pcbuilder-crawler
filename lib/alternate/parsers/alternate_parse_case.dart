@@ -30,11 +30,11 @@ class AlternateCaseDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product product = arguments as Product;
+    Product pcCase = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    product.ean = dataFlix.attributes["data-flix-ean"];
-    product.mpn = dataFlix.attributes["data-flix-mpn"];
+    pcCase.ean = dataFlix.attributes["data-flix-ean"];
+    pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
 
     String caseForm = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
@@ -49,12 +49,12 @@ class AlternateCaseDetailParser implements PageWorker {
         caseForm = techData.trim();
         List<String> caseFormList = caseForm.split(",");
         for (int i = 0; i < caseFormList.length; i++){
-          product.connectors.add(new Connector(caseFormList[i].trim(), "CASING"));
+          pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASING"));
         }
         break;
       }
     }
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+    String productJSON = new JsonEncoder.withIndent("  ").convert(pcCase);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
     await sleepRnd();

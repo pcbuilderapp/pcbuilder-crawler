@@ -31,11 +31,11 @@ class AlternateMemoryDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product product = arguments as Product;
+    Product memory = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    product.ean = dataFlix.attributes["data-flix-ean"];
-    product.mpn = dataFlix.attributes["data-flix-mpn"];
+    memory.ean = dataFlix.attributes["data-flix-ean"];
+    memory.mpn = dataFlix.attributes["data-flix-mpn"];
 
     String memType = "";
     String memForm = "";
@@ -50,8 +50,8 @@ class AlternateMemoryDetailParser implements PageWorker {
       }
     }
     if (memForm != "SO-DIMM") {
-      product.connectors.add(new Connector(memType, "MEMORY"));
-      String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+      memory.connectors.add(new Connector(memType, "MEMORY"));
+      String productJSON = new JsonEncoder.withIndent("  ").convert(memory);
       postRequest(getBackendServerURL() + "/product/add", productJSON);
       print(productJSON);
       await sleepRnd();

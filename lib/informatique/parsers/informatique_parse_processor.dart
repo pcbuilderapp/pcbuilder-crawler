@@ -8,7 +8,7 @@ class InformatiqueProcessorParser implements PageWorker{
 
   parse(Document document, arguments) async {
 
-    List caseUnits = [];
+    List processors = [];
     String brand = arguments as String;
     var rows = document.querySelectorAll("div.title");
     for (Element listRow in rows) {
@@ -20,9 +20,9 @@ class InformatiqueProcessorParser implements PageWorker{
       processor.shop = "Informatique";
       await Crawler.crawl(processor.url, new InformatiqueCaseDetailParser(), arguments: processor);
 
-      caseUnits.add(processor);
+      processors.add(processor);
     }
-    return caseUnits;
+    return processors;
   }
 }
 

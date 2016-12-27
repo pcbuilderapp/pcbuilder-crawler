@@ -1,32 +1,16 @@
 [
   {
-    "name": "ASUS 1GB D3 X 710-SL                    R, Grafische kaart",
+    "name": "ASUS 710-1-SL, Grafische kaart",
     "brand": "ASUS",
     "ean": "4712900323245",
     "mpn": "90YV0941-M0NA00",
     "price": 42.49,
-    "url": "https://www.alternate.nl/ASUS/1GB-D3-X-710-SL-R-Grafische-kaart/html/product/1251709?lk=9373",
+    "url": "https://www.alternate.nl/ASUS/710-1-SL-Grafische-kaart/html/product/1251709?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
     "connectors": [
       {
         "name": "PCIe x8",
-        "type": "GPU"
-      }
-    ]
-  },
-  {
-    "name": "ASUS 4GB D5  GTX 1050TI EX OC, Grafische kaart",
-    "brand": "ASUS",
-    "ean": "4712900597387",
-    "mpn": "90YV0A54-M0NA00",
-    "price": 199.9,
-    "url": "https://www.alternate.nl/ASUS/4GB-D5-GTX-1050TI-EX-OC-Grafische-kaart/html/product/1316117?lk=9373",
-    "shop": "Alternate",
-    "type": "GPU",
-    "connectors": [
-      {
-        "name": "PCIe x16",
         "type": "GPU"
       }
     ]
@@ -64,12 +48,12 @@
     ]
   },
   {
-    "name": "ASUS GeForce GTX 1050 Expedition 2G, Grafische kaart",
+    "name": "ASUS GeForce GTX 1050 Expedition, Grafische kaart",
     "brand": "ASUS",
     "ean": "4712900578201",
     "mpn": "90YV0A82-M0NA00",
     "price": 157.9,
-    "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Expedition-2G-Grafische-kaart/html/product/1306199?lk=9373",
+    "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Expedition-Grafische-kaart/html/product/1306199?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
     "connectors": [
@@ -80,12 +64,28 @@
     ]
   },
   {
-    "name": "ASUS GeForce GTX 1050 Ti Expedition 4G, Grafische kaart",
+    "name": "ASUS GeForce GTX 1050 Ti Expedition OC, Grafische kaart",
+    "brand": "ASUS",
+    "ean": "4712900597387",
+    "mpn": "90YV0A54-M0NA00",
+    "price": 199.9,
+    "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Expedition-OC-Grafische-kaart/html/product/1316117?lk=9373",
+    "shop": "Alternate",
+    "type": "GPU",
+    "connectors": [
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      }
+    ]
+  },
+  {
+    "name": "ASUS GeForce GTX 1050 Ti Expedition, Grafische kaart",
     "brand": "ASUS",
     "ean": "4712900558883",
     "mpn": "90YV0A52-M0NA00",
     "price": 199.0,
-    "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Expedition-4G-Grafische-kaart/html/product/1302424?lk=9373",
+    "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Expedition-Grafische-kaart/html/product/1302424?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
     "connectors": [
@@ -260,7 +260,7 @@
     "brand": "ASUS",
     "ean": "4712900578126",
     "mpn": "90YV0A30-M0NA00",
-    "price": 207.9,
+    "price": 209.9,
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1050-Ti-Strix-OC-GAMING-Grafische-kaart/html/product/1307532?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -516,7 +516,7 @@
     "brand": "EVGA",
     "ean": "4250812414076",
     "mpn": "08G-P4-6173-KR",
-    "price": 484.0,
+    "price": 519.0,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1070-SC-Gaming-ACX-3-0-(08G-P4-6173-KR)-Grafische-kaart/html/product/1281370?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -548,7 +548,7 @@
     "brand": "EVGA",
     "ean": "4250812414021",
     "mpn": "08G-P4-6180-KR",
-    "price": 789.0,
+    "price": 819.0,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-Founders-Edition-Grafische-kaart/html/product/1276032?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -756,7 +756,7 @@
     "brand": "GIGABYTE",
     "ean": "4719331328283",
     "mpn": "GV-N1060G1 GAMING-6G",
-    "price": 314.9,
+    "price": 319.9,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-G1-Gaming-6G-Grafische-kaart/html/product/1288946?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -1476,7 +1476,7 @@
     "brand": "MSI",
     "ean": "4719072479794",
     "mpn": "GTX 1060 ARMOR 6G OCV1",
-    "price": 329.0,
+    "price": 314.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-ARMOR-6G-OCV1-Grafische-kaart/html/product/1295978?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -1748,7 +1748,7 @@
     "brand": "MSI",
     "ean": "4719072467067",
     "mpn": "V336-002R",
-    "price": 899.0,
+    "price": 889.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-GAMING-Z-8G-Grafische-kaart/html/product/1286285?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
@@ -1892,7 +1892,7 @@
     "brand": "ASUS",
     "ean": "4716659597704",
     "mpn": "90YV04T0-M0NA00",
-    "price": 69.9,
+    "price": 74.9,
     "url": "https://www.alternate.nl/ASUS/R7240-2GD3-L-Grafische-kaart/html/product/1103812?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
@@ -1908,7 +1908,7 @@
     "brand": "ASUS",
     "ean": "4716659732945",
     "mpn": "90YV04T2-M0NA00",
-    "price": 89.9,
+    "price": 94.9,
     "url": "https://www.alternate.nl/ASUS/R7240-OC-4GD3-L-Grafische-kaart/html/product/1137385?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
@@ -1924,7 +1924,7 @@
     "brand": "ASUS",
     "ean": "4712900359183",
     "mpn": "90YV0921-M0NA00",
-    "price": 84.9,
+    "price": 107.9,
     "url": "https://www.alternate.nl/ASUS/R7250-2GD5-Grafische-kaart/html/product/1302537?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
@@ -1968,12 +1968,12 @@
     ]
   },
   {
-    "name": "ASUS Radeon RX 470 Strix Gaming 4 GB, Grafische kaart",
+    "name": "ASUS ROG STRIX-RX470-4G-GAMING, Grafische kaart",
     "brand": "ASUS",
     "ean": "4712900473070",
     "mpn": "90YV09J0-M0NA00",
-    "price": 242.9,
-    "url": "https://www.alternate.nl/ASUS/Radeon-RX-470-Strix-Gaming-4-GB-Grafische-kaart/html/product/1301235?lk=9364",
+    "price": 232.9,
+    "url": "https://www.alternate.nl/ASUS/ROG-STRIX-RX470-4G-GAMING-Grafische-kaart/html/product/1301235?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
     "connectors": [
@@ -2404,7 +2404,7 @@
     "brand": "XFX",
     "ean": "0778656065475",
     "mpn": "R5-230A-ZLH2",
-    "price": 34.99,
+    "price": 49.99,
     "url": "https://www.alternate.nl/XFX/R5-230-Core-Edition-(R5-230A-ZLH2)-Grafische-kaart/html/product/1135885?lk=9364",
     "shop": "Alternate",
     "type": "GPU",

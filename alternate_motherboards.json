@@ -644,46 +644,6 @@
     ]
   },
   {
-    "name": "ASRock N68-GS4/USB3 FX R2.0, socket AM3+ moederbord",
-    "brand": "ASRock",
-    "ean": "",
-    "mpn": "N68-GS4/USB3 FX R2.0",
-    "price": 53.9,
-    "url": "https://www.alternate.nl/ASRock/N68-GS4-USB3-FX-R2-0-socket-AM3+-moederbord/html/product/1287392?lk=9419",
-    "shop": "Alternate",
-    "type": "MOTHERBOARD",
-    "connectors": [
-      {
-        "name": "AM3+",
-        "type": "CPU"
-      },
-      {
-        "name": "PCIe x16",
-        "type": "GPU"
-      },
-      {
-        "name": "DDR3-1066",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR3-1333",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR3-1600",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR3-1800",
-        "type": "MEMORY"
-      },
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
     "name": "ASRock N68C-GS4 FX, socket AM3+ moederbord",
     "brand": "ASRock",
     "ean": "4717677322446",
@@ -5783,54 +5743,6 @@
       },
       {
         "name": "DDR4-2133",
-        "type": "MEMORY"
-      },
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      },
-      {
-        "name": "M.2",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "ASRock Z170 Extreme4, socket 1151 moederbord",
-    "brand": "ASRock",
-    "ean": "4717677326963",
-    "mpn": "90-MXGYJ0-A0UAYZ",
-    "price": 149.9,
-    "url": "https://www.alternate.nl/ASRock/Z170-Extreme4-socket-1151-moederbord/html/product/1217468?lk=9435",
-    "shop": "Alternate",
-    "type": "MOTHERBOARD",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      },
-      {
-        "name": "PCIe x16",
-        "type": "GPU"
-      },
-      {
-        "name": "DDR4-2133",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR4-3200",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR4-2800",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR4-2400",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR4-2933",
         "type": "MEMORY"
       },
       {
@@ -11008,38 +10920,6 @@
     ]
   },
   {
-    "name": "GIGABYTE GA-B85M-D2V (rev. 2.0), socket 1150 moederbord",
-    "brand": "GIGABYTE",
-    "ean": "4719331837211",
-    "mpn": "GA-B85M-D2V",
-    "price": 54.9,
-    "url": "https://www.alternate.nl/GIGABYTE/GA-B85M-D2V-(rev-2-0)-socket-1150-moederbord/html/product/1126963?lk=9435",
-    "shop": "Alternate",
-    "type": "MOTHERBOARD",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      },
-      {
-        "name": "PCIe x16",
-        "type": "GPU"
-      },
-      {
-        "name": "DDR3-1333",
-        "type": "MEMORY"
-      },
-      {
-        "name": "DDR3-1600",
-        "type": "MEMORY"
-      },
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
     "name": "GIGABYTE GA-B85M-DS3H-A, socket 1150 moederbord",
     "brand": "GIGABYTE",
     "ean": "4719331803193",
@@ -11355,38 +11235,6 @@
       },
       {
         "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "GIGABYTE G1.Sniper B7, socket 1151 moederbord",
-    "brand": "GIGABYTE",
-    "ean": "4719331835408",
-    "mpn": "G1.Sniper B7",
-    "price": 109.9,
-    "url": "https://www.alternate.nl/GIGABYTE/G1-Sniper-B7-socket-1151-moederbord/html/product/1227207?lk=9435",
-    "shop": "Alternate",
-    "type": "MOTHERBOARD",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      },
-      {
-        "name": "PCIe x16",
-        "type": "GPU"
-      },
-      {
-        "name": "DDR4-2133",
-        "type": "MEMORY"
-      },
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      },
-      {
-        "name": "M.2",
         "type": "STORAGE"
       }
     ]
@@ -14104,7 +13952,7 @@
     "brand": "MSI",
     "ean": "4719072442187",
     "mpn": "7994-003R",
-    "price": 53.9,
+    "price": 54.9,
     "url": "https://www.alternate.nl/MSI/H110M-ECO-socket-1151-moederbord/html/product/1241709?lk=9435",
     "shop": "Alternate",
     "type": "MOTHERBOARD",
@@ -14712,7 +14560,7 @@
     "brand": "MSI",
     "ean": "4719072447311",
     "mpn": "7A12-003R",
-    "price": 147.9,
+    "price": 149.9,
     "url": "https://www.alternate.nl/MSI/Z170A-GAMING-PRO-Carbon-socket-1151-moederbord/html/product/1248593?lk=9435",
     "shop": "Alternate",
     "type": "MOTHERBOARD",

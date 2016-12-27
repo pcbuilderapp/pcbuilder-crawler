@@ -30,11 +30,11 @@ class InformatiqueCaseDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product product = arguments as Product;
+    Product pcCase = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    product.ean = dataFlix.attributes["data-flix-ean"];
-    product.mpn = dataFlix.attributes["data-flix-mpn"];
+    pcCase.ean = dataFlix.attributes["data-flix-ean"];
+    pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
 
     String caseForm = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
@@ -50,9 +50,9 @@ class InformatiqueCaseDetailParser implements PageWorker {
       }
 
     }
-    product.connectors.add(new Connector(caseForm, "CASING"));
+    pcCase.connectors.add(new Connector(caseForm, "CASING"));
 
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+    String productJSON = new JsonEncoder.withIndent("  ").convert(pcCase);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
     await sleepRnd();

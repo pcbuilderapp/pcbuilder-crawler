@@ -20,6 +20,16 @@ class Crawlternate {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Alternate", "https://www.alternate.nl", "https://www.alternate.nl/pix/header/logo/slogan/alternate.png")));
 
+      // PSU //
+      List psu = new List();
+      List psuTmp = new List();
+      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen/html/listings/11604?size=500", new AlternatePowerSupplyUnitParser());
+      psu.addAll(psuTmp);
+      json = new JsonEncoder.withIndent("  ").convert(psu);
+      print("We found a total of ${psu.length} Cases on alternate.nl");
+      File alternatePsu = new File("alternate_psu.json");
+      alternatePsu.writeAsStringSync(json);
+
       // DISK //
       List disks = new List();
       List disksTmp = new List();
@@ -97,16 +107,6 @@ class Crawlternate {
       print("We found a total of ${processors.length} Processors on alternate.nl");
       File alternateCpu = new File("alternate_processors.json");
       alternateCpu.writeAsStringSync(json);
-
-      // PSU //
-      List psu = new List();
-      List psuTmp = new List();
-      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen?size=500", new AlternatePowerSupplyUnitParser());
-      psu.addAll(psuTmp);
-      json = new JsonEncoder.withIndent("  ").convert(psu);
-      print("We found a total of ${psu.length} Cases on alternate.nl");
-      File alternatePsu = new File("alternate_psu.json");
-      alternatePsu.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
