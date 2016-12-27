@@ -18,7 +18,7 @@ class AlternateProcessorParser implements PageWorker {
       processor.type = "CPU";
       processor.price = price(listRow.querySelector("span.price").text);
       processor.shop = "Alternate";
-      await Crawler.crawl(processor.url, new AlternateCaseDetailParser(), arguments: processor);
+      await Crawler.crawl(processor.url, new AlternateProcessorDetailParser(), arguments: processor);
 
       processors.add(processor);
     }
@@ -26,7 +26,7 @@ class AlternateProcessorParser implements PageWorker {
   }
 }
 
-class AlternateCaseDetailParser implements PageWorker {
+class AlternateProcessorDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 

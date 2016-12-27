@@ -19,6 +19,21 @@ class Informacrawl {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Informatique", "www.informatique.nl", "")));
 
+      // CPU //
+      List processors = new List();
+      List processorsTmp = new List();
+      //intel
+      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=611&pl=500", new InformatiqueProcessorParser(), arguments: "Intel");
+      processors.addAll(processorsTmp);
+      //amd
+      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=218&pl=500", new InformatiqueProcessorParser(), arguments: "AMD");
+      processors.addAll(processorsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(processors);
+      print("We found a total of ${processors.length} Processors on informatique.nl");
+      File informatiqueCpu = new File("informatique_processors.json");
+      informatiqueCpu.writeAsStringSync(json);
+
+/*
       // DISK //
       List disks = new List();
       List disksTmp = new List();
@@ -68,20 +83,7 @@ class Informacrawl {
       print("We found a total of ${pcCases.length} Cases on informatique.nl");
       File informatiquePcCases = new File("informatique_pc_cases.json");
       informatiquePcCases.writeAsStringSync(json);
-
-      // CPU //
-      List processors = new List();
-      List processorsTmp = new List();
-      //intell
-      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=611&view=6&&sort=pop&pl=500", new InformatiqueProcessorParser(), arguments: "Intel");
-      processors.addAll(processorsTmp);
-      //amd
-      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=218&view=6&&sort=pop&pl=500", new InformatiqueProcessorParser(), arguments: "AMD");
-      processors.addAll(processorsTmp);
-      json = new JsonEncoder.withIndent("  ").convert(processors);
-      print("We found a total of ${processors.length} Processors on informatique.nl");
-      File informatiqueCpu = new File("informatique_processors.json");
-      informatiqueCpu.writeAsStringSync(json);
+*/
 
     } catch (e) {
       print(e);
