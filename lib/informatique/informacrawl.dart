@@ -72,7 +72,11 @@ class Informacrawl {
       // CPU //
       List processors = new List();
       List processorsTmp = new List();
-      processorsTmp = await Crawler.crawl("", new InformatiqueProcessorParser());
+      //intell
+      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=611&view=6&&sort=pop&pl=500", new InformatiqueProcessorParser(), arguments: "Intel");
+      processors.addAll(processorsTmp);
+      //amd
+      processorsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=218&view=6&&sort=pop&pl=500", new InformatiqueProcessorParser(), arguments: "AMD");
       processors.addAll(processorsTmp);
       json = new JsonEncoder.withIndent("  ").convert(processors);
       print("We found a total of ${processors.length} Processors on informatique.nl");

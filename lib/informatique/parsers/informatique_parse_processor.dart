@@ -4,20 +4,20 @@ import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
 import 'dart:convert';
 
-class InformatiqueProcessorParser implements PageWorker {
+class InformatiqueProcessorParser implements PageWorker{
 
   parse(Document document, arguments) async {
 
     List caseUnits = [];
-    var rows = document.querySelectorAll("div.listRow");
+    String brand = arguments as String;
+    var rows = document.querySelectorAll("div.title");
     for (Element listRow in rows) {
       Product processor = new Product();
-      processor.name = listRow.querySelector("span.name").text.trim();
-      processor.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      processor.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
+      processor.name = listRow.querySelector("a").text.trim();
+      processor.brand = brand;
+      processor.url = listRow.querySelector("a").attributes["href"];
       processor.type = "CPU";
-      processor.price = price(listRow.querySelector("span.price").text);
-      processor.shop = "Alternate";
+      processor.shop = "Informatique";
       await Crawler.crawl(processor.url, new InformatiqueCaseDetailParser(), arguments: processor);
 
       caseUnits.add(processor);
@@ -30,11 +30,13 @@ class InformatiqueCaseDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    Product product = arguments as Product;
+    Product processor = arguments as Product;
+
+    processor.price = price("");
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    product.ean = dataFlix.attributes["data-flix-ean"];
-    product.mpn = dataFlix.attributes["data-flix-mpn"];
+    processor.ean = dataFlix.attributes["data-flix-ean"];
+    processor.mpn = dataFlix.attributes["data-flix-mpn"];
 
     String cpuSocket = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
@@ -50,8 +52,8 @@ class InformatiqueCaseDetailParser implements PageWorker {
       }
 
     }
-    product.connectors.add(new Connector(cpuSocket, "CPU"));
-    String productJSON = new JsonEncoder.withIndent("  ").convert(product);
+    processor.connectors.add(new Connector(cpuSocket, "CPU"));
+    String productJSON = new JsonEncoder.withIndent("  ").convert(processor);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
     await sleepRnd();
