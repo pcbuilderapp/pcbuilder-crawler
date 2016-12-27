@@ -46,12 +46,14 @@ class AlternateCaseDetailParser implements PageWorker {
       String techData = productShort[1];
 
       if (techDataLabel == "Formfactor") {
-        caseForm = techData;
+        caseForm = techData.trim();
+        List<String> caseFormList = caseForm.split(",");
+        for (int i = 0; i < caseFormList.length; i++){
+          product.connectors.add(new Connector(caseFormList[i].trim(), "CASING"));
+        }
+        break;
       }
-
     }
-    product.connectors.add(new Connector(caseForm, "CASING"));
-
     String productJSON = new JsonEncoder.withIndent("  ").convert(product);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);

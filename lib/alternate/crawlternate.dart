@@ -5,6 +5,7 @@ import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_case.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_processor.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_videocard.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_disk.dart';
+import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_power_supply_unit.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
@@ -96,6 +97,16 @@ class Crawlternate {
       print("We found a total of ${processors.length} Processors on alternate.nl");
       File alternateCpu = new File("alternate_processors.json");
       alternateCpu.writeAsStringSync(json);
+
+      // PSU //
+      List psu = new List();
+      List psuTmp = new List();
+      psuTmp = await Crawler.crawl("https://www.alternate.nl/Hardware-Componenten-Voedingen-Alle-voedingen?size=500", new AlternatePowerSupplyUnitParser());
+      psu.addAll(psuTmp);
+      json = new JsonEncoder.withIndent("  ").convert(psu);
+      print("We found a total of ${psu.length} Cases on alternate.nl");
+      File alternatePsu = new File("alternate_psu.json");
+      alternatePsu.writeAsStringSync(json);
 
     } catch (e) {
       print(e);
