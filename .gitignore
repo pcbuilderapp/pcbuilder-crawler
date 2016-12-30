@@ -29,3 +29,4 @@ pubspec.lock
 #IntelliJ directory
 .idea/
 .idea/*
+workspace.xml
