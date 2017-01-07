@@ -10,6 +10,7 @@ class Product {
   String shop;
   String type;
   List<Connector> connectors = [];
+  List<String> pictureUrls = [];
 
   Map toJson() => {
     "name": name,
@@ -20,6 +21,7 @@ class Product {
     "url" : url,
     "shop" : shop,
     "type" : type,
-    "connectors" : connectors
+    "connectors" : connectors,
+    "pictureUrls" : pictureUrls
   };
 }

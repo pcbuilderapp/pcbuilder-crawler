@@ -551,22 +551,6 @@
     ]
   },
   {
-    "name": "Aerocool Mechatron Black Window Edition, Behuizing",
-    "brand": "Aerocool",
-    "ean": "4710700957028",
-    "mpn": "EN57028",
-    "price": 94.9,
-    "url": "https://www.alternate.nl/Aerocool/Mechatron-Black-Window-Edition-Behuizing/html/product/1014656?lk=9309",
-    "shop": "Alternate",
-    "type": "CASING",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "CASING"
-      }
-    ]
-  },
-  {
     "name": "Aerocool P7-C1B                   bk ATX, Behuizing",
     "brand": "Aerocool",
     "ean": "4713105958294",
@@ -674,26 +658,6 @@
     "connectors": [
       {
         "name": "ATX",
-        "type": "CASING"
-      }
-    ]
-  },
-  {
-    "name": "Aerocool Strike-X AIR, Bench / show-case",
-    "brand": "Aerocool",
-    "ean": "4710700956830",
-    "mpn": "EN56830",
-    "price": 104.9,
-    "url": "https://www.alternate.nl/Aerocool/Strike-X-AIR-Bench-show-case/html/product/883252?lk=9309",
-    "shop": "Alternate",
-    "type": "CASING",
-    "connectors": [
-      {
-        "name": "E-ATX",
-        "type": "CASING"
-      },
-      {
-        "name": "XL-ATX",
         "type": "CASING"
       }
     ]
@@ -869,22 +833,6 @@
     "mpn": "EN57073",
     "price": 59.9,
     "url": "https://www.alternate.nl/Aerocool/XPredator-X1-Evil-Black-Edition-Behuizing/html/product/1014646?lk=9309",
-    "shop": "Alternate",
-    "type": "CASING",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "CASING"
-      }
-    ]
-  },
-  {
-    "name": "Aerocool XPredator X3 White Edition, Behuizing",
-    "brand": "Aerocool",
-    "ean": "4710700957110",
-    "mpn": "EN57110",
-    "price": 114.9,
-    "url": "https://www.alternate.nl/Aerocool/XPredator-X3-White-Edition-Behuizing/html/product/1014648?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
     "connectors": [
@@ -1391,7 +1339,7 @@
     "brand": "be quiet!",
     "ean": "4260052184929",
     "mpn": "BG011",
-    "price": 169.0,
+    "price": 199.0,
     "url": "https://www.alternate.nl/be-quiet!/DARK-BASE-900-Big-tower-behuizing/html/product/1262984?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -1483,7 +1431,7 @@
     "brand": "be quiet!",
     "ean": "4260052184981",
     "mpn": "BGW12",
-    "price": 229.9,
+    "price": 229.0,
     "url": "https://www.alternate.nl/be-quiet!/DARK-BASE-PRO-900-Big-tower-behuizing/html/product/1262989?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -2259,7 +2207,7 @@
     "brand": "Chieftec",
     "ean": "4710713231702",
     "mpn": "BT-02B-U3-350BS",
-    "price": 69.9,
+    "price": 74.9,
     "url": "https://www.alternate.nl/Chieftec/BT-02B-U3-350BS-Behuizing/html/product/1208473?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -2355,7 +2303,7 @@
     "brand": "Chieftec",
     "ean": "4710713230446",
     "mpn": "CQ-01B-U3-OP",
-    "price": 39.99,
+    "price": 44.99,
     "url": "https://www.alternate.nl/Chieftec/CQ-01B-U3-OP-Behuizing/html/product/1125319?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -2991,22 +2939,6 @@
     ]
   },
   {
-    "name": "Cooler Master Case Maker 5t, Behuizing",
-    "brand": "Cooler Master",
-    "ean": "4719512053744",
-    "mpn": "MCZ-C5M2T-RW5N",
-    "price": 249.0,
-    "url": "https://www.alternate.nl/Cooler-Master/Case-Maker-5t-Behuizing/html/product/1305962?lk=9309",
-    "shop": "Alternate",
-    "type": "CASING",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "CASING"
-      }
-    ]
-  },
-  {
     "name": "Cooler Master CM 690 III Window, Behuizing",
     "brand": "Cooler Master",
     "ean": "4719512047392",
@@ -3419,6 +3351,22 @@
     ]
   },
   {
+    "name": "Cooler Master MasterCase Maker 5t, Behuizing",
+    "brand": "Cooler Master",
+    "ean": "4719512053744",
+    "mpn": "MCZ-C5M2T-RW5N",
+    "price": 249.0,
+    "url": "https://www.alternate.nl/Cooler-Master/MasterCase-Maker-5t-Behuizing/html/product/1305962?lk=9309",
+    "shop": "Alternate",
+    "type": "CASING",
+    "connectors": [
+      {
+        "name": "ATX",
+        "type": "CASING"
+      }
+    ]
+  },
+  {
     "name": "Cooler Master MasterCase Pro 5, Behuizing",
     "brand": "Cooler Master",
     "ean": "4719512048344",
@@ -3759,7 +3707,7 @@
     "brand": "Cooltek",
     "ean": "4250140364951",
     "mpn": "600046495",
-    "price": 74.9,
+    "price": 79.9,
     "url": "https://www.alternate.nl/Cooltek/G3-HTPC-behuizing/html/product/1106974?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4043,22 +3991,6 @@
     ]
   },
   {
-    "name": "Cooltek Skall Blue, Behuizing",
-    "brand": "Cooltek",
-    "ean": "4250140345929",
-    "mpn": "600045920",
-    "price": 79.9,
-    "url": "https://www.alternate.nl/Cooltek/Skall-Blue-Behuizing/html/product/1240747?lk=9309",
-    "shop": "Alternate",
-    "type": "CASING",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "CASING"
-      }
-    ]
-  },
-  {
     "name": "Cooltek Skall Green, Behuizing",
     "brand": "Cooltek",
     "ean": "4250140345936",
@@ -4287,7 +4219,7 @@
     "brand": "Corsair",
     "ean": "0843591016582",
     "mpn": "CC-9011014-WW",
-    "price": 89.9,
+    "price": 84.9,
     "url": "https://www.alternate.nl/Corsair/Carbide-300R-Behuizing/html/product/969210?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4391,7 +4323,7 @@
     "brand": "Corsair",
     "ean": "0843591046503",
     "mpn": "CC-9011048-WW",
-    "price": 159.9,
+    "price": 164.9,
     "url": "https://www.alternate.nl/Corsair/Carbide-AIR-540-Behuizing/html/product/1114697?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4559,7 +4491,7 @@
     "brand": "Corsair",
     "ean": "0843591055710",
     "mpn": "CC-9011075-WW",
-    "price": 54.9,
+    "price": 59.9,
     "url": "https://www.alternate.nl/Corsair/Carbide-Series-100R-Behuizing/html/product/1179936?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4623,7 +4555,7 @@
     "brand": "Corsair",
     "ean": "0843591047258",
     "mpn": "CC-9011051-WW",
-    "price": 62.9,
+    "price": 64.9,
     "url": "https://www.alternate.nl/Corsair/Carbide-Series-SPEC-02-Red-LED-Behuizing/html/product/1124556?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4719,7 +4651,7 @@
     "brand": "Corsair",
     "ean": "0843591091671",
     "mpn": "CC-9011099-WW",
-    "price": 134.9,
+    "price": 124.9,
     "url": "https://www.alternate.nl/Corsair/Crystal-460X-Behuizing/html/product/1299231?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4859,7 +4791,7 @@
     "brand": "Corsair",
     "ean": "0843591049870",
     "mpn": "CC-9011063-WW",
-    "price": 184.9,
+    "price": 199.9,
     "url": "https://www.alternate.nl/Corsair/Graphite-780T-Big-tower-behuizing/html/product/1149321?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4879,7 +4811,7 @@
     "brand": "Corsair",
     "ean": "0843591046398",
     "mpn": "CC-9011047-WW",
-    "price": 99.9,
+    "price": 109.9,
     "url": "https://www.alternate.nl/Corsair/Obsidian-250D-Behuizing/html/product/1117551?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4895,7 +4827,7 @@
     "brand": "Corsair",
     "ean": "0843591039697",
     "mpn": "CC-9011029-WW",
-    "price": 117.9,
+    "price": 119.9,
     "url": "https://www.alternate.nl/Corsair/Obsidian-350D-window-Behuizing/html/product/1069149?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -4983,7 +4915,7 @@
     "brand": "Corsair",
     "ean": "0843591033244",
     "mpn": "CC-9011022-WW",
-    "price": 369.0,
+    "price": 379.0,
     "url": "https://www.alternate.nl/Corsair/Obsidian-900D-Big-tower-behuizing/html/product/1055487?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -5495,7 +5427,7 @@
     "brand": "Fractal Design",
     "ean": "7350041082583",
     "mpn": "FD-CA-DEF-R5-BK",
-    "price": 107.9,
+    "price": 114.9,
     "url": "https://www.alternate.nl/Fractal-Design/Define-R5-Black-Behuizing/html/product/1158467?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -5575,7 +5507,7 @@
     "brand": "Fractal Design",
     "ean": "7350041082620",
     "mpn": "FD-CA-DEF-R5-WT",
-    "price": 114.9,
+    "price": 119.9,
     "url": "https://www.alternate.nl/Fractal-Design/Define-R5-White-Behuizing/html/product/1158469?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -5623,7 +5555,7 @@
     "brand": "Fractal Design",
     "ean": "7350041083443",
     "mpn": "FD-CA-DEF-S-BK",
-    "price": 79.9,
+    "price": 84.9,
     "url": "https://www.alternate.nl/Fractal-Design/Define-S-Black-Behuizing/html/product/1197534?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
@@ -8188,6 +8120,70 @@
     "mpn": "600066500",
     "price": 249.9,
     "url": "https://www.alternate.nl/Nanoxia/Project-S-HTPC-behuizing/html/product/1281026?lk=9309",
+    "shop": "Alternate",
+    "type": "CASING",
+    "connectors": [
+      {
+        "name": "ATX",
+        "type": "CASING"
+      }
+    ]
+  },
+  {
+    "name": "Nanoxia Project S, HTPC behuizing",
+    "brand": "Nanoxia",
+    "ean": "4260285294211",
+    "mpn": "600066510",
+    "price": 249.0,
+    "url": "https://www.alternate.nl/Nanoxia/Project-S-HTPC-behuizing/html/product/1297646?lk=9309",
+    "shop": "Alternate",
+    "type": "CASING",
+    "connectors": [
+      {
+        "name": "ATX",
+        "type": "CASING"
+      }
+    ]
+  },
+  {
+    "name": "NZXT H440 Green, Behuizing",
+    "brand": "NZXT",
+    "ean": "5060301693139",
+    "mpn": "CA-H442W-M9",
+    "price": 139.9,
+    "url": "https://www.alternate.nl/NZXT/H440-Green-Behuizing/html/product/1266611?lk=9309",
+    "shop": "Alternate",
+    "type": "CASING",
+    "connectors": [
+      {
+        "name": "ATX",
+        "type": "CASING"
+      }
+    ]
+  },
+  {
+    "name": "NZXT H440 Hyper Beast Limited Edition, Behuizing",
+    "brand": "NZXT",
+    "ean": "5060301693276",
+    "mpn": "CA-H442HB-M1",
+    "price": 199.9,
+    "url": "https://www.alternate.nl/NZXT/H440-Hyper-Beast-Limited-Edition-Behuizing/html/product/1307786?lk=9309",
+    "shop": "Alternate",
+    "type": "CASING",
+    "connectors": [
+      {
+        "name": "ATX",
+        "type": "CASING"
+      }
+    ]
+  },
+  {
+    "name": "NZXT H440 New Edition, Behuizing",
+    "brand": "NZXT",
+    "ean": "5060301692873",
+    "mpn": "CA-H442C-M8",
+    "price": 119.0,
+    "url": "https://www.alternate.nl/NZXT/H440-New-Edition-Behuizing/html/product/1228050?lk=9309",
     "shop": "Alternate",
     "type": "CASING",
     "connectors": [
