@@ -34,7 +34,10 @@ class InformatiqueProcessorDetailParser implements PageWorker {
 
     processor.price = price(document.querySelector("p.verkoopprijs").text);
 
-    processor.pictureUrls.add(document.querySelector("div#product-image a[data-thumbnail]").attributes["data-thumbnail"]);
+    var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      processor.pictureUrls.add(prodImgA.attributes["data-thumbnail"]);
+    }
 
     var tables = document.querySelectorAll("table#details");
     for (var table in tables) {
