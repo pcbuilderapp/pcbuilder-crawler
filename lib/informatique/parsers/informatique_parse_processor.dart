@@ -36,7 +36,7 @@ class InformatiqueProcessorDetailParser implements PageWorker {
 
     var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
     if (prodImgA != null) {
-      processor.pictureUrls.add(prodImgA.attributes["data-thumbnail"]);
+      processor.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
     var tables = document.querySelectorAll("table#details");

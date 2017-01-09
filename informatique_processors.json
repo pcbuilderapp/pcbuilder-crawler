@@ -8,14 +8,12 @@
     "url": "http://www.informatique.nl/500569/intel-core-i5-6400-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056901.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056901.jpg"
     ]
   },
   {
@@ -27,14 +25,12 @@
     "url": "http://www.informatique.nl/500571/intel-core-i3-6100-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057101.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057101.jpg"
     ]
   },
   {
@@ -46,14 +42,12 @@
     "url": "http://www.informatique.nl/500575/intel-core-i7-6700-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057501.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057501.jpg"
     ]
   },
   {
@@ -65,14 +59,12 @@
     "url": "http://www.informatique.nl/500570/intel-core-i5-6500-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057001.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057001.jpg"
     ]
   },
   {
@@ -84,14 +76,12 @@
     "url": "http://www.informatique.nl/553006/intel-core-i7-6700k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/55300601.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/55300601.jpg"
     ]
   },
   {
@@ -103,33 +93,12 @@
     "url": "http://www.informatique.nl/539941/intel-core-i5-4460-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53994101.jpg",
     "connectors": [
       {
         "name": "1150",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53994101.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-6600 Processor",
-    "brand": "Intel",
-    "ean": "5032037076081",
-    "mpn": "BX80662I56600",
-    "price": 255.0,
-    "url": "http://www.informatique.nl/500574/intel-core-i5-6600-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057401.jpg"
     ]
   },
   {
@@ -141,14 +110,29 @@
     "url": "http://www.informatique.nl/553005/intel-core-i5-6600k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/55300501.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/55300501.jpg"
+    ]
+  },
+  {
+    "name": "Intel Core i5-6600 Processor",
+    "brand": "Intel",
+    "ean": "5032037076081",
+    "mpn": "BX80662I56600",
+    "price": 255.0,
+    "url": "http://www.informatique.nl/500574/intel-core-i5-6600-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057401.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -160,14 +144,12 @@
     "url": "http://www.informatique.nl/500568/intel-core-i3-6320-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056801.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056801.jpg"
     ]
   },
   {
@@ -179,14 +161,12 @@
     "url": "http://www.informatique.nl/567125/intel-core-i7-6800k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56712501.jpg",
     "connectors": [
       {
         "name": "2011-3",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56712501.jpg"
     ]
   },
   {
@@ -198,109 +178,12 @@
     "url": "http://www.informatique.nl/500563/intel-pentium-g4400-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056301.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Celeron G3900 Processor",
-    "brand": "Intel",
-    "ean": "5032037079358",
-    "mpn": "BX80662G3900",
-    "price": 41.0,
-    "url": "http://www.informatique.nl/564355/intel-celeron-g3900-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56435501.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4790 Processor",
-    "brand": "Intel",
-    "ean": "5032037061551",
-    "mpn": "BX80646I74790",
-    "price": 333.0,
-    "url": "http://www.informatique.nl/539944/intel-core-i7-4790-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53994401.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4690K Processor",
-    "brand": "Intel",
-    "ean": "5032037066013",
-    "mpn": "BX80646I54690K",
-    "price": 264.0,
-    "url": "http://www.informatique.nl/541344/intel-core-i5-4690k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54134401.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-6850K Processor",
-    "brand": "Intel",
-    "ean": "5032037087193",
-    "mpn": "BX80671I76850K",
-    "price": 699.0,
-    "url": "http://www.informatique.nl/567126/intel-core-i7-6850k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "2011-3",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56712601.jpg"
-    ]
-  },
-  {
-    "name": "Intel Celeron G1840 Processor",
-    "brand": "Intel",
-    "ean": "5032037062534",
-    "mpn": "BX80646G1840",
-    "price": 39.0,
-    "url": "http://www.informatique.nl/539933/intel-celeron-g1840-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993301.jpg"
     ]
   },
   {
@@ -312,14 +195,80 @@
     "url": "http://www.informatique.nl/571237/intel-core-i5-7600k.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57123701.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123701.jpg"
+    ]
+  },
+  {
+    "name": "Intel Celeron G3900 Processor",
+    "brand": "Intel",
+    "ean": "5032037079358",
+    "mpn": "BX80662G3900",
+    "price": 41.0,
+    "url": "http://www.informatique.nl/564355/intel-celeron-g3900-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56435501.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-6850K Processor",
+    "brand": "Intel",
+    "ean": "5032037087193",
+    "mpn": "BX80671I76850K",
+    "price": 699.0,
+    "url": "http://www.informatique.nl/567126/intel-core-i7-6850k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56712601.jpg",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4790 Processor",
+    "brand": "Intel",
+    "ean": "5032037061551",
+    "mpn": "BX80646I74790",
+    "price": 333.0,
+    "url": "http://www.informatique.nl/539944/intel-core-i7-4790-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53994401.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4690K Processor",
+    "brand": "Intel",
+    "ean": "5032037066013",
+    "mpn": "BX80646I54690K",
+    "price": 264.0,
+    "url": "http://www.informatique.nl/541344/intel-core-i5-4690k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54134401.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -331,33 +280,29 @@
     "url": "http://www.informatique.nl/543185/intel-core-i7-5820k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54318501.jpg",
     "connectors": [
       {
         "name": "2011-3",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54318501.jpg"
     ]
   },
   {
-    "name": "Intel Pentium G3240 Processor",
+    "name": "Intel Celeron G1840 Processor",
     "brand": "Intel",
-    "ean": "5032037061971",
-    "mpn": "BX80646G3240",
-    "price": 65.0,
-    "url": "http://www.informatique.nl/539935/intel-pentium-g3240-processor.html",
+    "ean": "5032037062534",
+    "mpn": "BX80646G1840",
+    "price": 39.0,
+    "url": "http://www.informatique.nl/539933/intel-celeron-g1840-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993301.jpg",
     "connectors": [
       {
         "name": "1150",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993501.jpg"
     ]
   },
   {
@@ -369,788 +314,29 @@
     "url": "http://www.informatique.nl/539942/intel-core-i5-4590-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53994201.jpg",
     "connectors": [
       {
         "name": "1150",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53994201.jpg"
     ]
   },
   {
-    "name": "Intel Core i3-4150 Processor",
+    "name": "Intel Pentium G3240 Processor",
     "brand": "Intel",
-    "ean": "5032037061377",
-    "mpn": "BX80646I34150",
-    "price": 143.0,
-    "url": "http://www.informatique.nl/539938/intel-core-i3-4150-processor.html",
+    "ean": "5032037061971",
+    "mpn": "BX80646G3240",
+    "price": 65.0,
+    "url": "http://www.informatique.nl/539935/intel-pentium-g3240-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993501.jpg",
     "connectors": [
       {
         "name": "1150",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-4170 Processor",
-    "brand": "Intel",
-    "ean": "5032037073479",
-    "mpn": "BX80646I34170",
-    "price": 135.0,
-    "url": "http://www.informatique.nl/549938/intel-core-i3-4170-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54993801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Pentium G4500 Processor",
-    "brand": "Intel",
-    "ean": "5032037079471",
-    "mpn": "BX80662G4500",
-    "price": 75.0,
-    "url": "http://www.informatique.nl/500564/intel-pentium-g4500-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056401.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-6300 Processor",
-    "brand": "Intel",
-    "ean": "5032037078870",
-    "mpn": "BX80662I36300",
-    "price": 159.0,
-    "url": "http://www.informatique.nl/500567/intel-core-i3-6300-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056701.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-6900K Processor",
-    "brand": "Intel",
-    "ean": "5032037087490",
-    "mpn": "BX80671I76900K",
-    "price": 1268.0,
-    "url": "http://www.informatique.nl/567151/intel-core-i7-6900k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "2011-3",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56715101.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4430 Processor",
-    "brand": "Intel",
-    "ean": "5032037050791",
-    "mpn": "BX80646I54430",
-    "price": 213.0,
-    "url": "http://www.informatique.nl/468806/intel-core-i5-4430-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46880601.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4570 Processor",
-    "brand": "Intel",
-    "ean": "5032037050739",
-    "mpn": "BX80646I54570",
-    "price": 218.0,
-    "url": "http://www.informatique.nl/468807/intel-core-i5-4570-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46880701.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4670 Processor",
-    "brand": "Intel",
-    "ean": "5032037050678",
-    "mpn": "BX80646I54670",
-    "price": 242.0,
-    "url": "http://www.informatique.nl/468808/intel-core-i5-4670-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46880801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4670K Processor",
-    "brand": "Intel",
-    "ean": "5032037051156",
-    "mpn": "BX80646I54670K",
-    "price": 264.0,
-    "url": "http://www.informatique.nl/468809/intel-core-i5-4670k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46880901.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4770 Processor",
-    "brand": "Intel",
-    "ean": "5032037050555",
-    "mpn": "BX80646I74770",
-    "price": 353.0,
-    "url": "http://www.informatique.nl/468810/intel-core-i7-4770-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46881001.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4770K Processor",
-    "brand": "Intel",
-    "ean": "5032037050371",
-    "mpn": "BX80646I74770K",
-    "price": 377.0,
-    "url": "http://www.informatique.nl/468811/intel-core-i7-4770k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46881101.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4570S Processor",
-    "brand": "Intel",
-    "ean": "5032037050319",
-    "mpn": "BX80646I54570S",
-    "price": 223.0,
-    "url": "http://www.informatique.nl/468812/intel-core-i5-4570s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46881201.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4770S Processor",
-    "brand": "Intel",
-    "ean": "5032037050135",
-    "mpn": "BX80646I74770S",
-    "price": 341.0,
-    "url": "http://www.informatique.nl/468813/intel-core-i7-4770s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46881301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4440 Processor",
-    "brand": "Intel",
-    "ean": "5032037054980",
-    "mpn": "BX80646I54440",
-    "price": 212.0,
-    "url": "http://www.informatique.nl/468821/intel-core-i5-4440-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46882101.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4771 Processor",
-    "brand": "Intel",
-    "ean": "5032037054867",
-    "mpn": "BX80646I74771",
-    "price": 363.0,
-    "url": "http://www.informatique.nl/468822/intel-core-i7-4771-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/46882201.jpg"
-    ]
-  },
-  {
-    "name": "Intel Pentium G4520 Processor",
-    "brand": "Intel",
-    "ean": "0675901365024",
-    "mpn": "BX80662G4520",
-    "price": 101.0,
-    "url": "http://www.informatique.nl/500565/intel-pentium-g4520-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50056501.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-6100T Processor",
-    "brand": "Intel",
-    "ean": "5032037079112",
-    "mpn": "BX80662I36100T",
-    "price": 133.0,
-    "url": "http://www.informatique.nl/500572/intel-core-i3-6100t-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057201.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-6300T Processor",
-    "brand": "Intel",
-    "ean": "0675901364799",
-    "mpn": "BX80662I36300T",
-    "price": 154.0,
-    "url": "http://www.informatique.nl/500573/intel-core-i3-6300t-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50057301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Celeron G1820 Processor",
-    "brand": "Intel",
-    "ean": "0675901264013",
-    "mpn": "BX80646G1820",
-    "price": 52.0,
-    "url": "http://www.informatique.nl/539908/intel-celeron-g1820-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53990801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4440S Processor",
-    "brand": "Intel",
-    "ean": "5032037055109",
-    "mpn": "BX80646I54440S",
-    "price": 229.0,
-    "url": "http://www.informatique.nl/539919/intel-core-i5-4440s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53991901.jpg"
-    ]
-  },
-  {
-    "name": "Intel Celeron G1850 Processor",
-    "brand": "Intel",
-    "ean": "5032037279840",
-    "mpn": "BX80646G1850",
-    "price": 63.0,
-    "url": "http://www.informatique.nl/539934/intel-celeron-g1850-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993401.jpg"
-    ]
-  },
-  {
-    "name": "Intel Pentium G3440 Processor",
-    "brand": "Intel",
-    "ean": "5032037061919",
-    "mpn": "BX80646G3440",
-    "price": 104.0,
-    "url": "http://www.informatique.nl/539936/intel-pentium-g3440-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993601.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-4350 Processor",
-    "brand": "Intel",
-    "ean": "5032037062336",
-    "mpn": "BX80646I34350",
-    "price": 178.0,
-    "url": "http://www.informatique.nl/539939/intel-core-i3-4350-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53993901.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-4360 Processor",
-    "brand": "Intel",
-    "ean": "5032037062398",
-    "mpn": "BX80646I34360",
-    "price": 177.0,
-    "url": "http://www.informatique.nl/539940/intel-core-i3-4360-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53994001.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4690 Processor",
-    "brand": "Intel",
-    "ean": "5032037061193",
-    "mpn": "BX80646I54690",
-    "price": 254.0,
-    "url": "http://www.informatique.nl/539943/intel-core-i5-4690-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53994301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Pentium G3258 Processor",
-    "brand": "Intel",
-    "ean": "5032037065122",
-    "mpn": "BX80646G3258",
-    "price": 82.0,
-    "url": "http://www.informatique.nl/541343/intel-pentium-g3258-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54134301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4790K Processor",
-    "brand": "Intel",
-    "ean": "5032037065948",
-    "mpn": "BX80646I74790K",
-    "price": 382.0,
-    "url": "http://www.informatique.nl/541345/intel-core-i7-4790k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54134501.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4590S Processor",
-    "brand": "Intel",
-    "ean": "5032037061254",
-    "mpn": "BX80646I54590S",
-    "price": 239.0,
-    "url": "http://www.informatique.nl/541633/intel-core-i5-4590s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54163301.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-4690S Processor",
-    "brand": "Intel",
-    "ean": "5032037061315",
-    "mpn": "BX80646I54690S",
-    "price": 272.0,
-    "url": "http://www.informatique.nl/541634/intel-core-i5-4690s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54163401.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-4790S Processor",
-    "brand": "Intel",
-    "ean": "5032037062152",
-    "mpn": "BX80646I74790S",
-    "price": 348.0,
-    "url": "http://www.informatique.nl/541635/intel-core-i7-4790s-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54163501.jpg"
-    ]
-  },
-  {
-    "name": "Intel Pentium G3460 Processor",
-    "brand": "Intel",
-    "ean": "5032037066808",
-    "mpn": "BX80646G3460",
-    "price": 101.0,
-    "url": "http://www.informatique.nl/542910/intel-pentium-g3460-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54291001.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-5930K Processor",
-    "brand": "Intel",
-    "ean": "5032037065641",
-    "mpn": "BX80648I75930K",
-    "price": 639.0,
-    "url": "http://www.informatique.nl/543187/intel-core-i7-5930k-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "2011-3",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54318701.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-5960X Processor",
-    "brand": "Intel",
-    "ean": "5032037065481",
-    "mpn": "BX80648I75960X",
-    "price": 1131.0,
-    "url": "http://www.informatique.nl/543188/intel-core-i7-5960x-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "2011-3",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54318801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-4160 Processor",
-    "brand": "Intel",
-    "ean": "5032037066921",
-    "mpn": "BX80646I34160",
-    "price": 129.0,
-    "url": "http://www.informatique.nl/543557/intel-core-i3-4160-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54355701.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i3-4370 Processor",
-    "brand": "Intel",
-    "ean": "0675901298964",
-    "mpn": "BX80646I34370",
-    "price": 176.0,
-    "url": "http://www.informatique.nl/543558/intel-core-i3-4370-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54355801.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-5775C Processor",
-    "brand": "Intel",
-    "ean": "0675901347785",
-    "mpn": "BX80658I75775C",
-    "price": 456.0,
-    "url": "http://www.informatique.nl/549970/intel-core-i7-5775c-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54997001.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-5675C Processor",
-    "brand": "Intel",
-    "ean": "0675901353441",
-    "mpn": "BX80658I55675C",
-    "price": 256.0,
-    "url": "http://www.informatique.nl/549971/intel-core-i5-5675c-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1150",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54997101.jpg"
-    ]
-  },
-  {
-    "name": "Intel Celeron G3920 Processor",
-    "brand": "Intel",
-    "ean": "5032037079297",
-    "mpn": "BX80662G3920",
-    "price": 64.0,
-    "url": "http://www.informatique.nl/564356/intel-celeron-g3920-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56435601.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i7-6950X Processor",
-    "brand": "Intel",
-    "ean": "5032037087551",
-    "mpn": "BX80671I76950X",
-    "price": 1961.0,
-    "url": "http://www.informatique.nl/567152/intel-core-i7-6950x-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "2011-3",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56715201.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-7400",
-    "brand": "Intel",
-    "ean": "5032037092982",
-    "mpn": "BX80677I57400",
-    "price": 215.0,
-    "url": "http://www.informatique.nl/571232/intel-core-i5-7400.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123201.jpg"
-    ]
-  },
-  {
-    "name": "Intel Core i5-7500",
-    "brand": "Intel",
-    "ean": "5032037092920",
-    "mpn": "BX80677I57500",
-    "price": 229.0,
-    "url": "http://www.informatique.nl/571235/intel-core-i5-7500.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "1151",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123501.jpg"
     ]
   },
   {
@@ -1162,9 +348,682 @@
     "url": "http://www.informatique.nl/571236/intel-core-i5-7600.html",
     "shop": "Informatique",
     "type": "CPU",
-    "connectors": [],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123601.jpg"
+    "pictureUrl": "https://img.informatique.nl/100/57123601.jpg",
+    "connectors": []
+  },
+  {
+    "name": "Intel Core i3-4150 Processor",
+    "brand": "Intel",
+    "ean": "5032037061377",
+    "mpn": "BX80646I34150",
+    "price": 143.0,
+    "url": "http://www.informatique.nl/539938/intel-core-i3-4150-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993801.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-4170 Processor",
+    "brand": "Intel",
+    "ean": "5032037073479",
+    "mpn": "BX80646I34170",
+    "price": 135.0,
+    "url": "http://www.informatique.nl/549938/intel-core-i3-4170-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54993801.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-6300 Processor",
+    "brand": "Intel",
+    "ean": "5032037078870",
+    "mpn": "BX80662I36300",
+    "price": 159.0,
+    "url": "http://www.informatique.nl/500567/intel-core-i3-6300-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056701.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-6900K Processor",
+    "brand": "Intel",
+    "ean": "5032037087490",
+    "mpn": "BX80671I76900K",
+    "price": 1268.0,
+    "url": "http://www.informatique.nl/567151/intel-core-i7-6900k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56715101.jpg",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Pentium G4500 Processor",
+    "brand": "Intel",
+    "ean": "5032037079471",
+    "mpn": "BX80662G4500",
+    "price": 75.0,
+    "url": "http://www.informatique.nl/500564/intel-pentium-g4500-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056401.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4590S Processor",
+    "brand": "Intel",
+    "ean": "5032037061254",
+    "mpn": "BX80646I54590S",
+    "price": 239.0,
+    "url": "http://www.informatique.nl/541633/intel-core-i5-4590s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54163301.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4430 Processor",
+    "brand": "Intel",
+    "ean": "5032037050791",
+    "mpn": "BX80646I54430",
+    "price": 213.0,
+    "url": "http://www.informatique.nl/468806/intel-core-i5-4430-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46880601.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4570 Processor",
+    "brand": "Intel",
+    "ean": "5032037050739",
+    "mpn": "BX80646I54570",
+    "price": 218.0,
+    "url": "http://www.informatique.nl/468807/intel-core-i5-4570-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46880701.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4670 Processor",
+    "brand": "Intel",
+    "ean": "5032037050678",
+    "mpn": "BX80646I54670",
+    "price": 242.0,
+    "url": "http://www.informatique.nl/468808/intel-core-i5-4670-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46880801.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4670K Processor",
+    "brand": "Intel",
+    "ean": "5032037051156",
+    "mpn": "BX80646I54670K",
+    "price": 264.0,
+    "url": "http://www.informatique.nl/468809/intel-core-i5-4670k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46880901.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4770 Processor",
+    "brand": "Intel",
+    "ean": "5032037050555",
+    "mpn": "BX80646I74770",
+    "price": 353.0,
+    "url": "http://www.informatique.nl/468810/intel-core-i7-4770-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46881001.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4570S Processor",
+    "brand": "Intel",
+    "ean": "5032037050319",
+    "mpn": "BX80646I54570S",
+    "price": 223.0,
+    "url": "http://www.informatique.nl/468812/intel-core-i5-4570s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46881201.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4770S Processor",
+    "brand": "Intel",
+    "ean": "5032037050135",
+    "mpn": "BX80646I74770S",
+    "price": 341.0,
+    "url": "http://www.informatique.nl/468813/intel-core-i7-4770s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46881301.jpg",
+    "connectors": []
+  },
+  {
+    "name": "Intel Core i5-4440 Processor",
+    "brand": "Intel",
+    "ean": "5032037054980",
+    "mpn": "BX80646I54440",
+    "price": 212.0,
+    "url": "http://www.informatique.nl/468821/intel-core-i5-4440-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46882101.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4771 Processor",
+    "brand": "Intel",
+    "ean": "5032037054867",
+    "mpn": "BX80646I74771",
+    "price": 363.0,
+    "url": "http://www.informatique.nl/468822/intel-core-i7-4771-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/46882201.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Pentium G4520 Processor",
+    "brand": "Intel",
+    "ean": "0675901365024",
+    "mpn": "BX80662G4520",
+    "price": 101.0,
+    "url": "http://www.informatique.nl/500565/intel-pentium-g4520-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50056501.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-6100T Processor",
+    "brand": "Intel",
+    "ean": "5032037079112",
+    "mpn": "BX80662I36100T",
+    "price": 133.0,
+    "url": "http://www.informatique.nl/500572/intel-core-i3-6100t-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057201.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-6300T Processor",
+    "brand": "Intel",
+    "ean": "0675901364799",
+    "mpn": "BX80662I36300T",
+    "price": 154.0,
+    "url": "http://www.informatique.nl/500573/intel-core-i3-6300t-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50057301.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Celeron G1820 Processor",
+    "brand": "Intel",
+    "ean": "0675901264013",
+    "mpn": "BX80646G1820",
+    "price": 52.0,
+    "url": "http://www.informatique.nl/539908/intel-celeron-g1820-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53990801.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4440S Processor",
+    "brand": "Intel",
+    "ean": "5032037055109",
+    "mpn": "BX80646I54440S",
+    "price": 229.0,
+    "url": "http://www.informatique.nl/539919/intel-core-i5-4440s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53991901.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Celeron G1850 Processor",
+    "brand": "Intel",
+    "ean": "5032037279840",
+    "mpn": "BX80646G1850",
+    "price": 63.0,
+    "url": "http://www.informatique.nl/539934/intel-celeron-g1850-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993401.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Pentium G3440 Processor",
+    "brand": "Intel",
+    "ean": "5032037061919",
+    "mpn": "BX80646G3440",
+    "price": 104.0,
+    "url": "http://www.informatique.nl/539936/intel-pentium-g3440-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993601.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-4350 Processor",
+    "brand": "Intel",
+    "ean": "5032037062336",
+    "mpn": "BX80646I34350",
+    "price": 178.0,
+    "url": "http://www.informatique.nl/539939/intel-core-i3-4350-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993901.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-4360 Processor",
+    "brand": "Intel",
+    "ean": "5032037062398",
+    "mpn": "BX80646I34360",
+    "price": 177.0,
+    "url": "http://www.informatique.nl/539940/intel-core-i3-4360-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53994001.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4690 Processor",
+    "brand": "Intel",
+    "ean": "5032037061193",
+    "mpn": "BX80646I54690",
+    "price": 254.0,
+    "url": "http://www.informatique.nl/539943/intel-core-i5-4690-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53994301.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Pentium G3258 Processor",
+    "brand": "Intel",
+    "ean": "5032037065122",
+    "mpn": "BX80646G3258",
+    "price": 82.0,
+    "url": "http://www.informatique.nl/541343/intel-pentium-g3258-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54134301.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4790K Processor",
+    "brand": "Intel",
+    "ean": "5032037065948",
+    "mpn": "BX80646I74790K",
+    "price": 382.0,
+    "url": "http://www.informatique.nl/541345/intel-core-i7-4790k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54134501.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-4690S Processor",
+    "brand": "Intel",
+    "ean": "5032037061315",
+    "mpn": "BX80646I54690S",
+    "price": 272.0,
+    "url": "http://www.informatique.nl/541634/intel-core-i5-4690s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54163401.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-4790S Processor",
+    "brand": "Intel",
+    "ean": "5032037062152",
+    "mpn": "BX80646I74790S",
+    "price": 348.0,
+    "url": "http://www.informatique.nl/541635/intel-core-i7-4790s-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54163501.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Pentium G3460 Processor",
+    "brand": "Intel",
+    "ean": "5032037066808",
+    "mpn": "BX80646G3460",
+    "price": 101.0,
+    "url": "http://www.informatique.nl/542910/intel-pentium-g3460-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54291001.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-5930K Processor",
+    "brand": "Intel",
+    "ean": "5032037065641",
+    "mpn": "BX80648I75930K",
+    "price": 639.0,
+    "url": "http://www.informatique.nl/543187/intel-core-i7-5930k-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54318701.jpg",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-5960X Processor",
+    "brand": "Intel",
+    "ean": "5032037065481",
+    "mpn": "BX80648I75960X",
+    "price": 1131.0,
+    "url": "http://www.informatique.nl/543188/intel-core-i7-5960x-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54318801.jpg",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-4160 Processor",
+    "brand": "Intel",
+    "ean": "5032037066921",
+    "mpn": "BX80646I34160",
+    "price": 129.0,
+    "url": "http://www.informatique.nl/543557/intel-core-i3-4160-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54355701.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-4370 Processor",
+    "brand": "Intel",
+    "ean": "0675901298964",
+    "mpn": "BX80646I34370",
+    "price": 176.0,
+    "url": "http://www.informatique.nl/543558/intel-core-i3-4370-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54355801.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-5775C Processor",
+    "brand": "Intel",
+    "ean": "0675901347785",
+    "mpn": "BX80658I75775C",
+    "price": 456.0,
+    "url": "http://www.informatique.nl/549970/intel-core-i7-5775c-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54997001.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-5675C Processor",
+    "brand": "Intel",
+    "ean": "0675901353441",
+    "mpn": "BX80658I55675C",
+    "price": 256.0,
+    "url": "http://www.informatique.nl/549971/intel-core-i5-5675c-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54997101.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Celeron G3920 Processor",
+    "brand": "Intel",
+    "ean": "5032037079297",
+    "mpn": "BX80662G3920",
+    "price": 64.0,
+    "url": "http://www.informatique.nl/564356/intel-celeron-g3920-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56435601.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i7-6950X Processor",
+    "brand": "Intel",
+    "ean": "5032037087551",
+    "mpn": "BX80671I76950X",
+    "price": 1961.0,
+    "url": "http://www.informatique.nl/567152/intel-core-i7-6950x-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56715201.jpg",
+    "connectors": [
+      {
+        "name": "2011-3",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-7400",
+    "brand": "Intel",
+    "ean": "5032037092982",
+    "mpn": "BX80677I57400",
+    "price": 215.0,
+    "url": "http://www.informatique.nl/571232/intel-core-i5-7400.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57123201.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i5-7500",
+    "brand": "Intel",
+    "ean": "5032037092920",
+    "mpn": "BX80677I57500",
+    "price": 229.0,
+    "url": "http://www.informatique.nl/571235/intel-core-i5-7500.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57123501.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -1176,14 +1035,12 @@
     "url": "http://www.informatique.nl/571238/intel-core-i7-7700.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57123801.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123801.jpg"
     ]
   },
   {
@@ -1195,14 +1052,12 @@
     "url": "http://www.informatique.nl/571239/intel-core-i7-7700k.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57123901.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57123901.jpg"
     ]
   },
   {
@@ -1214,14 +1069,63 @@
     "url": "http://www.informatique.nl/571700/intel-pentium-g4600.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57170001.jpg",
     "connectors": [
       {
         "name": "1151",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/57170001.jpg"
+    ]
+  },
+  {
+    "name": "Intel Core i3-7300, 4Ghz, 4MB, S1151",
+    "brand": "Intel",
+    "ean": "5032037096232",
+    "mpn": "BX80677I37300",
+    "price": 172.0,
+    "url": "http://www.informatique.nl/571701/intel-core-i3-7300-4ghz-4mb-s1151.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57170101.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Core i3-7100, 3.9Ghz, 3MB, S1151",
+    "brand": "Intel",
+    "ean": "5032037096171",
+    "mpn": "BX80677I37100",
+    "price": 138.0,
+    "url": "http://www.informatique.nl/571702/intel-core-i3-7100-3-9ghz-3mb-s1151.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57170201.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "Intel Celeron G3930",
+    "brand": "Intel",
+    "ean": "0735858329989",
+    "mpn": "BX80677G3930",
+    "price": 52.0,
+    "url": "http://www.informatique.nl/571704/intel-celeron-g3930.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/57170401.jpg",
+    "connectors": [
+      {
+        "name": "1151",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -1233,8 +1137,8 @@
     "url": "http://www.informatique.nl/731320/intel-core-i3-6098p-processor.html",
     "shop": "Informatique",
     "type": "CPU",
-    "connectors": [],
-    "pictureUrls": []
+    "pictureUrl": null,
+    "connectors": []
   },
   {
     "name": "Intel Core I5-6402P Processor",
@@ -1245,8 +1149,8 @@
     "url": "http://www.informatique.nl/731321/intel-core-i5-6402p-processor.html",
     "shop": "Informatique",
     "type": "CPU",
-    "connectors": [],
-    "pictureUrls": []
+    "pictureUrl": null,
+    "connectors": []
   },
   {
     "name": "AMD FX-6300 Processor",
@@ -1257,14 +1161,12 @@
     "url": "http://www.informatique.nl/529927/amd-fx-6300-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/52992701.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/52992701.jpg"
     ]
   },
   {
@@ -1276,14 +1178,12 @@
     "url": "http://www.informatique.nl/564993/amd-athlon-x4-880k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56499301.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56499301.jpg"
     ]
   },
   {
@@ -1295,14 +1195,12 @@
     "url": "http://www.informatique.nl/500157/amd-a10-7700k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50015701.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50015701.jpg"
     ]
   },
   {
@@ -1314,14 +1212,12 @@
     "url": "http://www.informatique.nl/529929/amd-fx-8350-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/52992901.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/52992901.jpg"
     ]
   },
   {
@@ -1333,14 +1229,12 @@
     "url": "http://www.informatique.nl/500143/amd-fx-9590-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50014301.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50014301.jpg"
     ]
   },
   {
@@ -1352,33 +1246,12 @@
     "url": "http://www.informatique.nl/543474/amd-athlon-x4-860k-black-edition.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54347401.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54347401.jpg"
-    ]
-  },
-  {
-    "name": "AMD A4-6300 Processor",
-    "brand": "AMD",
-    "ean": "0730143303965",
-    "mpn": "AD6300OKHLBOX",
-    "price": 38.0,
-    "url": "http://www.informatique.nl/544320/amd-a4-6300-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "FM2",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54432001.jpg"
     ]
   },
   {
@@ -1390,14 +1263,29 @@
     "url": "http://www.informatique.nl/529926/amd-fx-4300-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/52992601.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/52992601.jpg"
+    ]
+  },
+  {
+    "name": "AMD A4-6300 Processor",
+    "brand": "AMD",
+    "ean": "0730143303965",
+    "mpn": "AD6300OKHLBOX",
+    "price": 38.0,
+    "url": "http://www.informatique.nl/544320/amd-a4-6300-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54432001.jpg",
+    "connectors": [
+      {
+        "name": "FM2",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -1409,71 +1297,12 @@
     "url": "http://www.informatique.nl/500158/amd-a10-7850k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50015801.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50015801.jpg"
-    ]
-  },
-  {
-    "name": "AMD FX-6350 Processor",
-    "brand": "AMD",
-    "ean": "0730143302579",
-    "mpn": "FD6350FRHKBOX",
-    "price": 126.0,
-    "url": "http://www.informatique.nl/535014/amd-fx-6350-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "AM3+",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53501401.jpg"
-    ]
-  },
-  {
-    "name": "AMD FX-8320 Processor",
-    "brand": "AMD",
-    "ean": "0730143302531",
-    "mpn": "FD8320FRHKBOX",
-    "price": 145.0,
-    "url": "http://www.informatique.nl/529928/amd-fx-8320-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "AM3+",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/52992801.jpg"
-    ]
-  },
-  {
-    "name": "AMD A6-6400K Black Edition Processor",
-    "brand": "AMD",
-    "ean": "0730143303583",
-    "mpn": "AD640KOKHLBOX",
-    "price": 51.0,
-    "url": "http://www.informatique.nl/534814/amd-a6-6400k-black-edition-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "connectors": [
-      {
-        "name": "FM2",
-        "type": "CPU"
-      }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53481401.jpg"
     ]
   },
   {
@@ -1485,14 +1314,63 @@
     "url": "http://www.informatique.nl/546730/amd-a8-7600-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54673001.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54673001.jpg"
+    ]
+  },
+  {
+    "name": "AMD FX-6350 Processor",
+    "brand": "AMD",
+    "ean": "0730143302579",
+    "mpn": "FD6350FRHKBOX",
+    "price": 126.0,
+    "url": "http://www.informatique.nl/535014/amd-fx-6350-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53501401.jpg",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD FX-8320 Processor",
+    "brand": "AMD",
+    "ean": "0730143302531",
+    "mpn": "FD8320FRHKBOX",
+    "price": 145.0,
+    "url": "http://www.informatique.nl/529928/amd-fx-8320-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/52992801.jpg",
+    "connectors": [
+      {
+        "name": "AM3+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD A6-6400K Black Edition Processor",
+    "brand": "AMD",
+    "ean": "0730143303583",
+    "mpn": "AD640KOKHLBOX",
+    "price": 51.0,
+    "url": "http://www.informatique.nl/534814/amd-a6-6400k-black-edition-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53481401.jpg",
+    "connectors": [
+      {
+        "name": "FM2",
+        "type": "CPU"
+      }
     ]
   },
   {
@@ -1504,14 +1382,12 @@
     "url": "http://www.informatique.nl/539512/amd-sempron-2650-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53951201.jpg",
     "connectors": [
       {
         "name": "AM1",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53951201.jpg"
     ]
   },
   {
@@ -1523,14 +1399,12 @@
     "url": "http://www.informatique.nl/547007/amd-a10-7800-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54700701.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54700701.jpg"
     ]
   },
   {
@@ -1542,14 +1416,12 @@
     "url": "http://www.informatique.nl/543443/amd-fx-8370e-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54344301.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54344301.jpg"
     ]
   },
   {
@@ -1561,14 +1433,12 @@
     "url": "http://www.informatique.nl/564824/amd-a10-7860k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56482401.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56482401.jpg"
     ]
   },
   {
@@ -1580,14 +1450,12 @@
     "url": "http://www.informatique.nl/567843/amd-a6-7400k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56784301.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56784301.jpg"
     ]
   },
   {
@@ -1599,14 +1467,12 @@
     "url": "http://www.informatique.nl/116314/amd-a4-5300-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/11631401.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/11631401.jpg"
     ]
   },
   {
@@ -1618,14 +1484,12 @@
     "url": "http://www.informatique.nl/116315/amd-a6-5400k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/11631501.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/11631501.jpg"
     ]
   },
   {
@@ -1637,14 +1501,12 @@
     "url": "http://www.informatique.nl/500144/amd-fx-9370-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/50014401.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/50014401.jpg"
     ]
   },
   {
@@ -1656,14 +1518,12 @@
     "url": "http://www.informatique.nl/534813/amd-a4-4000-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53481301.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53481301.jpg"
     ]
   },
   {
@@ -1675,14 +1535,12 @@
     "url": "http://www.informatique.nl/538859/amd-a4-4020-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53885901.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53885901.jpg"
     ]
   },
   {
@@ -1694,14 +1552,12 @@
     "url": "http://www.informatique.nl/538860/amd-a6-6420-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53886001.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53886001.jpg"
     ]
   },
   {
@@ -1713,14 +1569,12 @@
     "url": "http://www.informatique.nl/539513/amd-sempron-3850-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53951301.jpg",
     "connectors": [
       {
         "name": "AM1",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/53951301.jpg"
     ]
   },
   {
@@ -1732,14 +1586,12 @@
     "url": "http://www.informatique.nl/540395/amd-a4-6320-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54039501.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54039501.jpg"
     ]
   },
   {
@@ -1751,14 +1603,12 @@
     "url": "http://www.informatique.nl/546729/amd-a4-7300-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54672901.jpg",
     "connectors": [
       {
         "name": "FM2",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54672901.jpg"
     ]
   },
   {
@@ -1770,14 +1620,12 @@
     "url": "http://www.informatique.nl/546967/amd-fx-8320e-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54696701.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54696701.jpg"
     ]
   },
   {
@@ -1789,14 +1637,12 @@
     "url": "http://www.informatique.nl/546968/amd-fx-8370-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54696801.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54696801.jpg"
     ]
   },
   {
@@ -1808,14 +1654,12 @@
     "url": "http://www.informatique.nl/549716/amd-a8-7650k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54971601.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54971601.jpg"
     ]
   },
   {
@@ -1827,14 +1671,12 @@
     "url": "http://www.informatique.nl/549977/amd-a10-7870k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/54997701.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/54997701.jpg"
     ]
   },
   {
@@ -1846,14 +1688,12 @@
     "url": "http://www.informatique.nl/564825/amd-a6-7470k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56482501.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56482501.jpg"
     ]
   },
   {
@@ -1865,14 +1705,12 @@
     "url": "http://www.informatique.nl/565496/amd-a10-7890k-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56549601.jpg",
     "connectors": [
       {
         "name": "FM2+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56549601.jpg"
     ]
   },
   {
@@ -1884,14 +1722,12 @@
     "url": "http://www.informatique.nl/567783/amd-fx-8370-processor.html",
     "shop": "Informatique",
     "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/56778301.jpg",
     "connectors": [
       {
         "name": "AM3+",
         "type": "CPU"
       }
-    ],
-    "pictureUrls": [
-      "https://img.informatique.nl/100/56778301.jpg"
     ]
   }
 ]

@@ -15,7 +15,7 @@ class InformatiqueCaseParser implements PageWorker {
       pcCase.name = listRow.querySelector("span.name").text.trim();
       pcCase.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
       pcCase.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      pcCase.type = "CASING";
+      pcCase.type = "CASE";
       pcCase.price = price(listRow.querySelector("span.price").text);
       pcCase.shop = "Alternate";
       await Crawler.crawl(pcCase.url, new InformatiqueCaseDetailParser(), arguments: pcCase);
@@ -50,7 +50,7 @@ class InformatiqueCaseDetailParser implements PageWorker {
       }
 
     }
-    pcCase.connectors.add(new Connector(caseForm, "CASING"));
+    pcCase.connectors.add(new Connector(caseForm, "CASE"));
 
     String productJSON = new JsonEncoder.withIndent("  ").convert(pcCase);
     postRequest(getBackendServerURL()+"/product/add", productJSON);

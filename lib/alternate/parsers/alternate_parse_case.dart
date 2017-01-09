@@ -15,7 +15,7 @@ class AlternateCaseParser implements PageWorker {
       pcCase.name = listRow.querySelector("span.name").text.trim();
       pcCase.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
       pcCase.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      pcCase.type = "CASING";
+      pcCase.type = "CASE";
       pcCase.price = price(listRow.querySelector("span.price").text);
       pcCase.shop = "Alternate";
       await Crawler.crawl(pcCase.url, new AlternateCaseDetailParser(), arguments: pcCase);
@@ -49,7 +49,7 @@ class AlternateCaseDetailParser implements PageWorker {
         caseForm = techData.trim();
         List<String> caseFormList = caseForm.split(",");
         for (int i = 0; i < caseFormList.length; i++){
-          pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASING"));
+          pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASE"));
         }
         break;
       }

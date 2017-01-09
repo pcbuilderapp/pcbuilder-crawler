@@ -55,7 +55,7 @@ class AlternateMotherboardDetailParser implements PageWorker {
         }
         motherboard.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
       } else if (techDataLabel == "FormFactor") {
-        motherboard.connectors.add(new Connector(techData, "CASING"));
+        motherboard.connectors.add(new Connector(techData, "CASE"));
       } else if (techDataOptional == "Ondersteunde standaarden") {
         techData.split(",").forEach((element) => motherboard.connectors.add(new Connector(element.trim(), "MEMORY")));
       } else if (techDataOptional == "SATA") {
