@@ -9,19 +9,31 @@ class InformatiqueDiskParser implements PageWorker {
   parse(Document document, arguments) async {
 
     List disks = [];
-    var rows = document.querySelectorAll("div.listRow");
+    var rows = document.querySelectorAll("ul.novendorlogo");
     for (Element listRow in rows) {
-      Product disk = new Product();
-      disk.name = listRow.querySelector("span.name").text.trim();
-      disk.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      disk.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      disk.type = "STORAGE";
-      disk.price = price(listRow.querySelector("span.price").text);
-      disk.shop = "Alternate";
-      await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);
-      if (disk.connectors.length > 0 ) {
-        disks.add(disk);
+      var productRows = listRow.querySelectorAll("li");
+      for (Element productRow in productRows){
+        Product disk = new Product();
+        var querySelector = productRow.querySelector(".product_overlay");
+        if (querySelector == null ){
+          continue;
+        }
+        disk.url = querySelector.attributes["href"];
+        var tmpName = productRow.querySelector("#title").text;
+        if (tmpName != null){
+          var indexOf = tmpName.indexOf(" ");
+          disk.brand = tmpName.substring(0, indexOf);
+          disk.name = tmpName.substring(indexOf ,tmpName.length);
+        }
+        disk.type = "DISK";
+        disk.price = price(productRow.querySelector("#price").text);
+        disk.shop = "Informatique";
+        await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);
+        if (disk.connectors.length > 0 ) {
+          disks.add(disk);
+        }
       }
+
     }
     return disks;
   }
@@ -33,21 +45,34 @@ class InformatiqueDiskDetailParser implements PageWorker {
 
     Product disk = arguments as Product;
 
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    disk.ean = dataFlix.attributes["data-flix-ean"];
-    disk.mpn = dataFlix.attributes["data-flix-mpn"];
+    disk.price = price(document.querySelector("p.verkoopprijs").text);
 
-    var techDataTableElements = document.querySelectorAll("div.techData table tr");
-    for (int i = 0; i < techDataTableElements.length; i++) {
-      String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
-      String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
-      if (techDataLabel == "Interface") {
-        disk.connectors.add(new Connector(techData.split(" ")[1].split(",")[0].split("/")[0], "STORAGE"));
-      }
+    var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      disk.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
+    var tables = document.querySelectorAll("table#details");
+    for (var table in tables) {
+      var rows = table.querySelectorAll("tr");
+      for (var row in rows) {
+        var label = row.querySelector("strong");
+        if (label == null) {
+          continue;
+        } else if (label.text == "EAN code") {
+          disk.ean = row.querySelector("td:last-child").text;
+        } else if (label.text == "Fabrikantcode") {
+          disk.mpn = row.querySelector("tr:last-child span").text;
+        }
+      }
+    }
+    var querySelector = document.querySelector("#description").querySelector("span");
+    var innerHtml = querySelector.innerHtml;
+    var lastIndexOf = innerHtml.lastIndexOf(" ");
+    var diskConnector = innerHtml.substring(lastIndexOf, innerHtml.length);
+    disk.connectors.add(new Connector(diskConnector, "DISK"));
     String productJSON = new JsonEncoder.withIndent("  ").convert(disk);
-    postRequest(getBackendServerURL() + "/product/add", productJSON);
+    postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
     await sleepRnd();
   }
