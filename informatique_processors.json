@@ -238,6 +238,23 @@
     ]
   },
   {
+    "name": "Intel Celeron G1840 Processor",
+    "brand": "Intel",
+    "ean": "5032037062534",
+    "mpn": "BX80646G1840",
+    "price": 39.0,
+    "url": "http://www.informatique.nl/539933/intel-celeron-g1840-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53993301.jpg",
+    "connectors": [
+      {
+        "name": "1150",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
     "name": "Intel Core i7-4790 Processor",
     "brand": "Intel",
     "ean": "5032037061551",
@@ -284,23 +301,6 @@
     "connectors": [
       {
         "name": "2011-3",
-        "type": "CPU"
-      }
-    ]
-  },
-  {
-    "name": "Intel Celeron G1840 Processor",
-    "brand": "Intel",
-    "ean": "5032037062534",
-    "mpn": "BX80646G1840",
-    "price": 39.0,
-    "url": "http://www.informatique.nl/539933/intel-celeron-g1840-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "pictureUrl": "https://img.informatique.nl/100/53993301.jpg",
-    "connectors": [
-      {
-        "name": "1150",
         "type": "CPU"
       }
     ]
@@ -1374,23 +1374,6 @@
     ]
   },
   {
-    "name": "AMD Sempron 2650 Processor",
-    "brand": "AMD",
-    "ean": "0730143304726",
-    "mpn": "SD2650JAHMBOX",
-    "price": 29.0,
-    "url": "http://www.informatique.nl/539512/amd-sempron-2650-processor.html",
-    "shop": "Informatique",
-    "type": "CPU",
-    "pictureUrl": "https://img.informatique.nl/100/53951201.jpg",
-    "connectors": [
-      {
-        "name": "AM1",
-        "type": "CPU"
-      }
-    ]
-  },
-  {
     "name": "AMD A10-7800 Processor",
     "brand": "AMD",
     "ean": "0730143304528",
@@ -1403,6 +1386,23 @@
     "connectors": [
       {
         "name": "FM2+",
+        "type": "CPU"
+      }
+    ]
+  },
+  {
+    "name": "AMD Sempron 2650 Processor",
+    "brand": "AMD",
+    "ean": "0730143304726",
+    "mpn": "SD2650JAHMBOX",
+    "price": 29.0,
+    "url": "http://www.informatique.nl/539512/amd-sempron-2650-processor.html",
+    "shop": "Informatique",
+    "type": "CPU",
+    "pictureUrl": "https://img.informatique.nl/100/53951201.jpg",
+    "connectors": [
+      {
+        "name": "AM1",
         "type": "CPU"
       }
     ]
