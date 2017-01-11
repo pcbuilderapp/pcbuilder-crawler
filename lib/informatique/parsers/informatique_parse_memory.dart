@@ -9,19 +9,44 @@ class InformatiqueMemoryParser implements PageWorker {
   parse(Document document, arguments) async {
 
     List memoryUnits = [];
-    var rows = document.querySelectorAll("div.listRow");
+    var rows = document.querySelectorAll("ul.novendorlogo");
     for (Element listRow in rows) {
-      Product memory = new Product();
-      memory.name = listRow.querySelector("span.name").text.trim();
-      memory.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      memory.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      memory.type = "MEMORY";
-      memory.price = price(listRow.querySelector("span.price").text);
-      memory.shop = "Alternate";
-      await Crawler.crawl(memory.url, new InformatiqueMemoryDetailParser(), arguments: memory);
-      if (memory.connectors.length > 0 ) {
-        memoryUnits.add(memory);
+      var productRows = listRow.querySelectorAll("li");
+      for (Element productRow in productRows){
+        Product memory = new Product();
+        var querySelector = productRow.querySelector(".product_overlay");
+        if (querySelector == null ){
+          continue;
+        }
+        memory.url = querySelector.attributes["href"];
+        var tmpName = productRow.querySelector("#title").text;
+        if (tmpName != null){
+          var indexOf = tmpName.indexOf(" ");
+          memory.brand = tmpName.substring(0, indexOf);
+          memory.name = tmpName.substring(indexOf ,tmpName.length);
+          if (memory.name.contains("(tip)")){
+            memory.name = memory.name.replaceAll("(tip)", "");
+          }
+        }
+        memory.type = "MEM";
+        Element priceSelector = productRow.querySelector("#price");
+        if (priceSelector != null){
+          memory.price = price(priceSelector.text);
+        }
+        memory.shop = "Informatique";
+        Element memoryConnector = document.querySelector("#hdr");
+        if (memoryConnector != null){
+          String memoryString = memoryConnector.text;
+          memoryString = memoryString.replaceAll(" modules", "");
+          memory.connectors.add(new Connector(memoryString, "MEM"));
+        }
+
+        await Crawler.crawl(memory.url, new InformatiqueMemoryDetailParser(), arguments: memory);
+        if (memory.connectors.length > 0 ) {
+          memoryUnits.add(memory);
+        }
       }
+
     }
     return memoryUnits;
   }
@@ -33,28 +58,33 @@ class InformatiqueMemoryDetailParser implements PageWorker {
 
     Product memory = arguments as Product;
 
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    memory.ean = dataFlix.attributes["data-flix-ean"];
-    memory.mpn = dataFlix.attributes["data-flix-mpn"];
+    memory.price = price(document.querySelector("p.verkoopprijs").text);
 
-    String memType = "";
-    String memForm = "";
-    var techDataTableElements = document.querySelectorAll("div.techData table tr");
-    for (int i = 0; i < techDataTableElements.length; i++) {
-      String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
-      String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
-      if (techDataLabel == "Standaard") {
-        memType = techData.split(" ")[0];
-      } else if (techDataLabel == "Bouwvorm") {
-        memForm = techData.trim();
+    var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      memory.pictureUrl = prodImgA.attributes["data-thumbnail"];
+    }
+
+    var tables = document.querySelectorAll("table#details");
+    for (var table in tables) {
+      var rows = table.querySelectorAll("tr");
+      for (var row in rows) {
+        var label = row.querySelector("strong");
+        if (label == null) {
+          continue;
+        } else if (label.text == "EAN code") {
+          memory.ean = row.querySelector("td:last-child").text;
+        } else if (label.text == "Fabrikantcode") {
+          memory.mpn = row.querySelector("tr:last-child span").text;
+        }
       }
     }
-    if (memForm != "SO-DIMM") {
-      memory.connectors.add(new Connector(memType, "MEMORY"));
-      String productJSON = new JsonEncoder.withIndent("  ").convert(memory);
-      postRequest(getBackendServerURL() + "/product/add", productJSON);
-      print(productJSON);
-      await sleepRnd();
-    }
+
+    String productJSON = new JsonEncoder.withIndent("  ").convert(memory);
+    postRequest(getBackendServerURL()+"/product/add", productJSON);
+    print(productJSON);
+    await sleepRnd();
+
+
   }
 }

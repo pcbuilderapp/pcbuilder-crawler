@@ -33,7 +33,6 @@ class Informacrawl {
       File informatiqueCpu = new File("informatique_processors.json");
       informatiqueCpu.writeAsStringSync(json);
 
-
       // DISK //
       List disks = new List();
       List disksTmp = new List();
@@ -50,15 +49,21 @@ class Informacrawl {
       File informatiqueDisk = new File("informatique_disks.json");
       informatiqueDisk.writeAsStringSync(json);
 
-//      // MEMORY //
-//      List memoryUnits = new List();
-//      List memoryUnitsTmp = new List();
-//      memoryUnitsTmp = await Crawler.crawl("", new InformatiqueMemoryParser());
-//      memoryUnits.addAll(memoryUnitsTmp);
-//      json = new JsonEncoder.withIndent("  ").convert(memoryUnits);
-//      print("We found a total of ${memoryUnits.length} Memory Units on informatique.nl");
-//      File informatiqueMemoryUnits = new File("informatique_memory_units.json");
-//      informatiqueMemoryUnits.writeAsStringSync(json);
+      // MEMORY //
+      List memoryUnits = new List();
+      List memoryUnitsTmp = new List();
+      memoryUnitsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=725&view=6&&sort=pop&pl=339", new InformatiqueMemoryParser());
+      memoryUnits.addAll(memoryUnitsTmp);
+      memoryUnitsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=522&view=6&&sort=pop&pl=277", new InformatiqueMemoryParser());
+      memoryUnits.addAll(memoryUnitsTmp);
+      memoryUnitsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=194&view=6&&sort=pop&pl=21", new InformatiqueMemoryParser());
+      memoryUnits.addAll(memoryUnitsTmp);
+      memoryUnitsTmp = await Crawler.crawl("http://www.informatique.nl/opslag_en_geheugen/geheugenmodules/ddr_modules/c019-h037-g077/", new InformatiqueMemoryParser());
+      memoryUnits.addAll(memoryUnitsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(memoryUnits);
+      print("We found a total of ${memoryUnits.length} Memory Units on informatique.nl");
+      File informatiqueMemoryUnits = new File("informatique_memory_units.json");
+      informatiqueMemoryUnits.writeAsStringSync(json);
 //
 //      // MOTHERBOARDS //
 //      List motherboards = new List();
