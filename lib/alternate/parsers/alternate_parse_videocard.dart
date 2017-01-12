@@ -42,6 +42,8 @@ class AlternateVideoCardDetailParser implements PageWorker {
       String gpuConnectorData = "";
       String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
+      var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+      gpu.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
       if (techDataLabel == "Aansluiting") {
         for (String element in techData.split(" ")) {

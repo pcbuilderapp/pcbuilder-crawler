@@ -35,6 +35,8 @@ class AlternateProcessorDetailParser implements PageWorker {
     var dataFlix = document.querySelector("script[data-flix-mpn]");
     processor.ean = dataFlix.attributes["data-flix-ean"];
     processor.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+    processor.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String cpuSocket = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");

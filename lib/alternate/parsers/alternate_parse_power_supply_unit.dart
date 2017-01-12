@@ -32,6 +32,8 @@ class AlternatePsuDetailParser implements PageWorker {
     var dataFlix = document.querySelector("script[data-flix-mpn]");
     psu.ean = dataFlix.attributes["data-flix-ean"];
     psu.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+    psu.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String psuForm = "";
     var techDataTableElements =

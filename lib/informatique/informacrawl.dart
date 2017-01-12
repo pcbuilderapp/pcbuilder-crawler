@@ -19,7 +19,7 @@ class Informacrawl {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Informatique", "www.informatique.nl", "")));
 
-      // CPU //
+/*      // CPU //
       List processors = new List();
       List processorsTmp = new List();
       //intel
@@ -31,7 +31,7 @@ class Informacrawl {
       json = new JsonEncoder.withIndent("  ").convert(processors);
       print("We found a total of ${processors.length} Processors on informatique.nl");
       File informatiqueCpu = new File("informatique_processors.json");
-      informatiqueCpu.writeAsStringSync(json);
+      informatiqueCpu.writeAsStringSync(json);*/
 
       // DISK //
       List disks = new List();
