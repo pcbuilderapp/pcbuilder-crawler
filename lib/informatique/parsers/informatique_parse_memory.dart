@@ -38,7 +38,7 @@ class InformatiqueMemoryParser implements PageWorker {
         if (memoryConnector != null){
           String memoryString = memoryConnector.text;
           memoryString = memoryString.replaceAll(" modules", "");
-          memory.connectors.add(new Connector(memoryString, "MEM"));
+          memory.connectors.add(new Connector(memoryString, "MEMORY"));
         }
 
         await Crawler.crawl(memory.url, new InformatiqueMemoryDetailParser(), arguments: memory);

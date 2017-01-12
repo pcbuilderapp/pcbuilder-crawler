@@ -64,36 +64,36 @@ class Informacrawl {
       print("We found a total of ${memoryUnits.length} Memory Units on informatique.nl");
       File informatiqueMemoryUnits = new File("informatique_memory_units.json");
       informatiqueMemoryUnits.writeAsStringSync(json);
-//
-//      // MOTHERBOARDS //
-//      List motherboards = new List();
-//      List motherboardsTmp = new List();
-//      motherboardsTmp = await Crawler.crawl("", new InformatiqueMotherboardParser());
-//      motherboards.addAll(motherboardsTmp);
-//      json = new JsonEncoder.withIndent("  ").convert(motherboards);
-//      print("We found a total of ${motherboards.length} Motherboards on informatique.nl");
-//      File informatiqueIntelMotherboards = new File("informatique_motherboards.json");
-//      informatiqueIntelMotherboards.writeAsStringSync(json);
-//
-//      // GPU //
-//      List videocards = new List();
-//      List videocardsTmp = new List();
-//      videocardsTmp = await Crawler.crawl("", new InformatiqueVideoCardParser());
-//      videocards.addAll(videocardsTmp);
-//      json = new JsonEncoder.withIndent("  ").convert(videocards);
-//      print("We found a total of ${videocards.length} Video Cards on informatique.nl");
-//      File informatiqueVideocards = new File("informatique_videocards.json");
-//      informatiqueVideocards.writeAsStringSync(json);
-//
-//      // CASING //
-//      List pcCases = new List();
-//      List pcCasesTmp = new List();
-//      pcCasesTmp = await Crawler.crawl("", new InformatiqueCaseParser());
-//      pcCases.addAll(pcCasesTmp);
-//      json = new JsonEncoder.withIndent("  ").convert(pcCases);
-//      print("We found a total of ${pcCases.length} Cases on informatique.nl");
-//      File informatiquePcCases = new File("informatique_pc_cases.json");
-//      informatiquePcCases.writeAsStringSync(json);
+
+      // MOTHERBOARDS //
+      List motherboards = new List();
+      List motherboardsTmp = new List();
+      motherboardsTmp = await Crawler.crawl("", new InformatiqueMotherboardParser());
+      motherboards.addAll(motherboardsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(motherboards);
+      print("We found a total of ${motherboards.length} Motherboards on informatique.nl");
+      File informatiqueIntelMotherboards = new File("informatique_motherboards.json");
+      informatiqueIntelMotherboards.writeAsStringSync(json);
+
+      // GPU //
+      List videocards = new List();
+      List videocardsTmp = new List();
+      videocardsTmp = await Crawler.crawl("", new InformatiqueVideoCardParser());
+      videocards.addAll(videocardsTmp);
+      json = new JsonEncoder.withIndent("  ").convert(videocards);
+      print("We found a total of ${videocards.length} Video Cards on informatique.nl");
+      File informatiqueVideocards = new File("informatique_videocards.json");
+      informatiqueVideocards.writeAsStringSync(json);
+
+      // CASING //
+      List pcCases = new List();
+      List pcCasesTmp = new List();
+      pcCasesTmp = await Crawler.crawl("", new InformatiqueCaseParser());
+      pcCases.addAll(pcCasesTmp);
+      json = new JsonEncoder.withIndent("  ").convert(pcCases);
+      print("We found a total of ${pcCases.length} Cases on informatique.nl");
+      File informatiquePcCases = new File("informatique_pc_cases.json");
+      informatiquePcCases.writeAsStringSync(json);
 
 
     } catch (e) {

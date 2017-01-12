@@ -70,7 +70,7 @@ class InformatiqueDiskDetailParser implements PageWorker {
     var innerHtml = querySelector.innerHtml;
     var lastIndexOf = innerHtml.lastIndexOf(" ");
     var diskConnector = innerHtml.substring(lastIndexOf, innerHtml.length);
-    disk.connectors.add(new Connector(diskConnector, "DISK"));
+    disk.connectors.add(new Connector(diskConnector, "STORAGE"));
     String productJSON = new JsonEncoder.withIndent("  ").convert(disk);
     postRequest(getBackendServerURL()+"/product/add", productJSON);
     print(productJSON);
