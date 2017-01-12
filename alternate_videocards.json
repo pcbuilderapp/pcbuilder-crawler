@@ -4,10 +4,11 @@
     "brand": "ASUS",
     "ean": "4712900323245",
     "mpn": "90YV0941-M0NA00",
-    "price": 41.99,
+    "price": 41.49,
     "url": "https://www.alternate.nl/ASUS/710-1-SL-Grafische-kaart/html/product/1251709?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_710_1_SL__Grafische_kaart@@jcxvys.jpg",
     "connectors": [
       {
         "name": "PCIe x8",
@@ -24,6 +25,7 @@
     "url": "https://www.alternate.nl/ASUS/EN210-SILENT-DI-1GD3-V2(LP)-Grafische-kaart/html/product/1010839?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_EN210_SILENT_DI_1GD3_V2_LP___Grafische_kaart@@jcxvji.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -40,6 +42,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Expedition-Grafische-kaart/html/product/1306199?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1050_Expedition__Grafische_kaart@@jdxv0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -56,6 +59,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Expedition-OC-Grafische-kaart/html/product/1316117?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1050_Ti_Expedition_OC__Grafische_kaart@@jexv0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -72,6 +76,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Expedition-Grafische-kaart/html/product/1302424?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1050_Ti_Expedition__Grafische_kaart@@jexv0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -88,6 +93,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1050-Ti-Phoenix-4G-Grafische-kaart/html/product/1307444?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1050_Ti_Phoenix_4G__Grafische_kaart@@jexv0c02_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -104,6 +110,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1060-DUAL-3G-Grafische-kaart/html/product/1292415?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1060_DUAL_3G__Grafische_kaart@@jdxv0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -116,10 +123,11 @@
     "brand": "ASUS",
     "ean": "4712900494907",
     "mpn": "90YV09X5-M0NA00",
-    "price": 247.9,
+    "price": 244.9,
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1060-DUAL-3G-Grafische-kaart/html/product/1301494?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1060_DUAL_3G__Grafische_kaart@@jdxv0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -132,10 +140,11 @@
     "brand": "ASUS",
     "ean": "4712900487664",
     "mpn": "90YV09X4-M0NA00",
-    "price": 314.0,
+    "price": 309.0,
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1060-DUAL-6G-Grafische-kaart/html/product/1289531?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1060_DUAL_6G__Grafische_kaart@@jfxv0c18_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -152,6 +161,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1060-DUAL-O6G-Grafische-kaart/html/product/1288701?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1060_DUAL_O6G__Grafische_kaart@@jfxv0c17.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -168,6 +178,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1060-Turbo-6G-Grafische-kaart/html/product/1288696?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1060_Turbo_6G__Grafische_kaart@@jfxv0c13.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -184,6 +195,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1070-DUAL-8G-Grafische-kaart/html/product/1288699?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1070_DUAL_8G__Grafische_kaart@@jfxv0c16.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -200,6 +212,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1070-DUAL-O8G-Grafische-kaart/html/product/1288689?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1070_DUAL_O8G__Grafische_kaart@@jfxv0c15_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -216,6 +229,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1070-Founders-Edition-Grafische-kaart/html/product/1276151?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1070_Founders_Edition__Grafische_kaart@@jfxv0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -232,6 +246,7 @@
     "url": "https://www.alternate.nl/ASUS/GeForce-GTX-1070-Turbo-Grafische-kaart/html/product/1288251?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GeForce_GTX_1070_Turbo__Grafische_kaart@@jfxv0c12.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -248,6 +263,7 @@
     "url": "https://www.alternate.nl/ASUS/GT730-4GD3-Grafische-kaart/html/product/1154739?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_GT730_4GD3__Grafische_kaart@@jexvy6.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -264,6 +280,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1050-Ti-Strix-OC-GAMING-Grafische-kaart/html/product/1307532?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1050_Ti_Strix_OC_GAMING__Grafische_kaart@@jexv0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -280,6 +297,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1060-Strix-Gaming-6G-Grafische-kaart/html/product/1286382?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1060_Strix_Gaming_6G__Grafische_kaart@@jfxv0c10.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -292,10 +310,11 @@
     "brand": "ASUS",
     "ean": "4712900469349",
     "mpn": "90YV09Q0-M0NA00",
-    "price": 364.0,
+    "price": 359.0,
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1060-Strix-OC-Gaming-6G-Grafische-kaart/html/product/1286378?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1060_Strix_OC_Gaming_6G__Grafische_kaart@@jfxv0c09.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -312,6 +331,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1070-Strix-Gaming-8G-Grafische-kaart/html/product/1285259?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1070_Strix_Gaming_8G__Grafische_kaart@@jfxv0c08.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -328,6 +348,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1070-Strix-OC-Gaming-8G-Grafische-kaart/html/product/1279331?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1070_Strix_OC_Gaming_8G__Grafische_kaart@@jfxv0c06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -344,6 +365,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1080-Strix-Gaming-8G-Grafische-kaart/html/product/1282267?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1080_Strix_Gaming_8G__Grafische_kaart@@jfxv0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -360,6 +382,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1080-Strix-Gaming-A8G-Grafische-kaart/html/product/1287252?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1080_Strix_Gaming_A8G__Grafische_kaart@@jfxv0c11.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -376,6 +399,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-GeForce-GTX-1080-Strix-OC-Gaming-8G-Grafische-kaart/html/product/1277611?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_GeForce_GTX_1080_Strix_OC_Gaming_8G__Grafische_kaart@@jfxv0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -388,10 +412,11 @@
     "brand": "EVGA",
     "ean": "4250812416629",
     "mpn": "04G-P4-6251-KR",
-    "price": 184.9,
+    "price": 177.9,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1050-Ti-Gaming-Grafische-kaart/html/product/1307645?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1050_Ti_Gaming__Grafische_kaart@@jexz0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -408,6 +433,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1050-Ti-SC-Gaming-Grafische-kaart/html/product/1307646?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1050_Ti_SC_Gaming__Grafische_kaart@@jexz0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -420,10 +446,11 @@
     "brand": "EVGA",
     "ean": "4250812415363",
     "mpn": "03G-P4-6160-KR",
-    "price": 247.9,
+    "price": 237.9,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-3GB-GAMING-Grafische-kaart/html/product/1294890?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1060_3GB_GAMING__Grafische_kaart@@jdxz0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -436,10 +463,11 @@
     "brand": "EVGA",
     "ean": "4250812415356",
     "mpn": "03G-P4-6162-KR",
-    "price": 242.9,
+    "price": 239.9,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-3GB-SC-GAMING-Grafische-kaart/html/product/1296078?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1060_3GB_SC_GAMING__Grafische_kaart@@jdxz0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -456,6 +484,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-FTW+-Gaming-ACX-3-0-Grafische-kaart/html/product/1299462?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1060_FTW__Gaming_ACX_3_0__Grafische_kaart@@jfxz0c10.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -468,10 +497,11 @@
     "brand": "EVGA",
     "ean": "4250812415387",
     "mpn": "06G-P4-6161-KR",
-    "price": 299.0,
+    "price": 294.0,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-GAMING-Grafische-kaart/html/product/1287782?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1060_GAMING__Grafische_kaart@@jfxz0c07_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -488,6 +518,24 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-SC-GAMING-Grafische-kaart/html/product/1287785?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1060_SC_GAMING__Grafische_kaart@@jfxz0c08_30.jpg",
+    "connectors": [
+      {
+        "name": "PCIe x16",
+        "type": "GPU"
+      }
+    ]
+  },
+  {
+    "name": "EVGA GeForce GTX 1060 SSC Gaming ACX 3.0 6GB D5, Grafische kaart",
+    "brand": "EVGA",
+    "ean": "4250812416490",
+    "mpn": "06G-P4-6267-KR",
+    "price": 344.0,
+    "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1060-SSC-Gaming-ACX-3-0-6GB-D5-Grafische-kaart/html/product/1305573?lk=9373",
+    "shop": "Alternate",
+    "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/jfxz0c12.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -504,6 +552,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1070-FTW-Gaming-ACX-3-0-Grafische-kaart/html/product/1287685?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1070_FTW_Gaming_ACX_3_0__Grafische_kaart@@jfxz0c06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -512,14 +561,15 @@
     ]
   },
   {
-    "name": "EVGA GeForce GTX 1070 SC Gaming ACX 3.0 (08G-P4-6173-KR), Grafische kaart",
+    "name": "EVGA GeForce GTX 1070 SC Gaming ACX 3.0, Grafische kaart",
     "brand": "EVGA",
     "ean": "4250812414076",
     "mpn": "08G-P4-6173-KR",
     "price": 499.0,
-    "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1070-SC-Gaming-ACX-3-0-(08G-P4-6173-KR)-Grafische-kaart/html/product/1281370?lk=9373",
+    "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1070-SC-Gaming-ACX-3-0-Grafische-kaart/html/product/1281370?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1070_SC_Gaming_ACX_3_0__Grafische_kaart@@jfxz0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -536,6 +586,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-CLASSIFIED-GAMING-ACX-3-0-Grafische-kaart/html/product/1291577?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1080_CLASSIFIED_GAMING_ACX_3_0__Grafische_kaart@@jfxz0c09.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -552,6 +603,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-Founders-Edition-Grafische-kaart/html/product/1276032?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1080_Founders_Edition__Grafische_kaart@@jfxz0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -568,6 +620,7 @@
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-FTW-GAMING-ACX-3-0-Grafische-kaart/html/product/1277620?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1080_FTW_GAMING_ACX_3_0__Grafische_kaart@@jfxz0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -580,10 +633,11 @@
     "brand": "EVGA",
     "ean": "4250812413932",
     "mpn": "08G-P4-6288-KR",
-    "price": 929.0,
+    "price": 889.0,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-FTW-HYBRID-GAMING-Grafische-kaart/html/product/1303731?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1080_FTW_HYBRID_GAMING__Grafische_kaart@@jfxz0c11.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -596,10 +650,11 @@
     "brand": "EVGA",
     "ean": "4250812413994",
     "mpn": "08G-P4-6183-KR",
-    "price": 769.0,
+    "price": 749.0,
     "url": "https://www.alternate.nl/EVGA/GeForce-GTX-1080-SC-GAMING-ACX-3-0-Grafische-kaart/html/product/1277622?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/EVGA_GeForce_GTX_1080_SC_GAMING_ACX_3_0__Grafische_kaart@@jfxz0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -616,6 +671,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-D5-2G-Grafische-kaart/html/product/1306853?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_D5_2G__Grafische_kaart@@jdxy0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -632,6 +688,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-G1-Gaming-2G-Grafische-kaart/html/product/1310161?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_G1_Gaming_2G__Grafische_kaart@@jdxy0c16_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -644,10 +701,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331339265",
     "mpn": "GV-N1050OC-2GD",
-    "price": 144.9,
+    "price": 142.9,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-OC-2G-Grafische-kaart/html/product/1310146?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_OC_2G__Grafische_kaart@@jdxy0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -664,6 +722,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-Ti-D5-4G-Grafische-kaart/html/product/1306851?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_Ti_D5_4G__Grafische_kaart@@jexy0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -680,6 +739,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-Ti-G1-Gaming-4G-Grafische-kaart/html/product/1306845?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_Ti_G1_Gaming_4G__Grafische_kaart@@jexy0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -696,6 +756,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-Ti-OC-4G-Grafische-kaart/html/product/1306848?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_Ti_OC_4G__Grafische_kaart@@jexy0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -708,10 +769,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331339272",
     "mpn": "GV-N105TWF2OC-4GD",
-    "price": 187.9,
+    "price": 184.9,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-Ti-Windforce-OC-4G-Grafische-kaart/html/product/1306847?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_Ti_Windforce_OC_4G__Grafische_kaart@@jexy0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -728,6 +790,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1050-Windforce-OC-2G-Grafische-kaart/html/product/1306852?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1050_Windforce_OC_2G__Grafische_kaart@@jdxy0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -740,10 +803,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331331283",
     "mpn": "GV-N1060G1 GAMING-3G",
-    "price": 274.0,
+    "price": 269.0,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-G1-Gaming-3G-Grafische-kaart/html/product/1295076?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_G1_Gaming_3G__Grafische_kaart@@jdxy0c10.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -754,12 +818,13 @@
   {
     "name": "GIGABYTE GeForce GTX 1060 G1 Gaming 6G, Grafische kaart",
     "brand": "GIGABYTE",
-    "ean": "4719331328283",
+    "ean": "4719331342227",
     "mpn": "GV-N1060G1 GAMING-6G",
     "price": 319.9,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-G1-Gaming-6G-Grafische-kaart/html/product/1288946?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_G1_Gaming_6G__Grafische_kaart@@jfxy0c10_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -776,6 +841,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-Mini-ITX-OC-6G-Grafische-kaart/html/product/1296526?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_Mini_ITX_OC_6G__Grafische_kaart@@jfxy0c14_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -792,6 +858,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-WINDFORCE-OC-3G-Grafische-kaart/html/product/1296527?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_WINDFORCE_OC_3G__Grafische_kaart@@jdxy0c11_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -808,6 +875,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-WINDFORCE-OC-6G-Grafische-kaart/html/product/1292907?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_WINDFORCE_OC_6G__Grafische_kaart@@jfxy0c12.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -820,10 +888,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331331313",
     "mpn": "GV-N1060XTREME-6GD",
-    "price": 354.0,
+    "price": 349.0,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1060-Xtreme-Gaming-6G-Grafische-kaart/html/product/1297609?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1060_Xtreme_Gaming_6G__Grafische_kaart@@jfxy0c17.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -840,6 +909,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1070-G1-Gaming-Grafische-kaart/html/product/1280872?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1070_G1_Gaming__Grafische_kaart@@jfxy0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -856,6 +926,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1070-Mini-ITX-OC-Grafische-kaart/html/product/1296521?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1070_Mini_ITX_OC__Grafische_kaart@@jfxy0c13_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -872,6 +943,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1070-WINDFORCE-OC-Grafische-kaart/html/product/1285526?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1070_WINDFORCE_OC__Grafische_kaart@@jfxy0c04_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -888,6 +960,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1070-Xtreme-Gaming-Grafische-kaart/html/product/1286672?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1070_Xtreme_Gaming__Grafische_kaart@@jfxy0c08.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -904,6 +977,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1080-G1-Gaming-Grafische-kaart/html/product/1278045?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1080_G1_Gaming__Grafische_kaart@@jfxy0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -920,6 +994,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1080-WINDFORCE-OC-8G-Grafische-kaart/html/product/1291485?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1080_WINDFORCE_OC_8G__Grafische_kaart@@jfxy0c09.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -931,11 +1006,12 @@
     "name": "GIGABYTE GeForce GTX 1080 Xtreme Gaming Premium Pack 8G, Grafische kaart",
     "brand": "GIGABYTE",
     "ean": "4719331324223",
-    "mpn": "GV-N1080XTREME-8GD-P",
+    "mpn": "GV-N1080XTREME-8GD-PP",
     "price": 799.0,
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1080-Xtreme-Gaming-Premium-Pack-8G-Grafische-kaart/html/product/1286668?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1080_Xtreme_Gaming_Premium_Pack_8G__Grafische_kaart@@jfxy0c06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -952,6 +1028,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/GeForce-GTX-1080-Xtreme-Gaming-Water-cooling-Grafische-kaart/html/product/1291038?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GeForce_GTX_1080_Xtreme_Gaming_Water_cooling__Grafische_kaart@@jfxy0c11_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -964,10 +1041,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331301132",
     "mpn": "GV-N710D3-2GL",
-    "price": 45.49,
+    "price": 44.99,
     "url": "https://www.alternate.nl/GIGABYTE/GV-N710D3-2GL-Grafische-kaart/html/product/1250609?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_GV_N710D3_2GL__Grafische_kaart@@jdxyyo.jpg",
     "connectors": [
       {
         "name": "PCIe x8",
@@ -980,10 +1058,11 @@
     "brand": "Inno3D",
     "ean": "0835168022423",
     "mpn": "N1050-1SDV-E5CM",
-    "price": 137.9,
+    "price": 134.9,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1050-Compact-Grafische-kaart/html/product/1307201?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1050_Compact__Grafische_kaart@@jdxi0c04_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1000,6 +1079,7 @@
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1050-Ti-Compact-Grafische-kaart/html/product/1307196?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1050_Ti_Compact__Grafische_kaart@@jexi0c01_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1012,10 +1092,11 @@
     "brand": "Inno3D",
     "ean": "0835168022416",
     "mpn": "N105T-1DDV-M5CM",
-    "price": 169.9,
+    "price": 174.9,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1050-Ti-Twin-X2-Grafische-kaart/html/product/1307192?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1050_Ti_Twin_X2__Grafische_kaart@@jexi0c00_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1028,26 +1109,11 @@
     "brand": "Inno3D",
     "ean": "0835168022430",
     "mpn": "N1050-1DDV-E5CM",
-    "price": 139.9,
+    "price": 137.9,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1050-Twin-X2-Grafische-kaart/html/product/1307199?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
-    "connectors": [
-      {
-        "name": "PCIe x16",
-        "type": "GPU"
-      }
-    ]
-  },
-  {
-    "name": "Inno3D GeForce GTX 1060 3GB Compact, Grafische kaart",
-    "brand": "Inno3D",
-    "ean": "0835168022324",
-    "mpn": "N1060-2DDN-L5GN",
-    "price": 229.9,
-    "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1060-3GB-Compact-Grafische-kaart/html/product/1297119?lk=9373",
-    "shop": "Alternate",
-    "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1050_Twin_X2__Grafische_kaart@@jdxi0c03_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1064,6 +1130,7 @@
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1060-6GB-Gaming-OC-Grafische-kaart/html/product/1297100?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1060_6GB_Gaming_OC__Grafische_kaart@@jfxi0c07_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1076,10 +1143,11 @@
     "brand": "Inno3D",
     "ean": "0835168022201",
     "mpn": "N1060-2DDN-N5GN",
-    "price": 294.0,
+    "price": 289.0,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1060-Compact-Grafische-kaart/html/product/1297120?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1060_Compact__Grafische_kaart@@jfxi0c09_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1092,10 +1160,11 @@
     "brand": "Inno3D",
     "ean": "0835168022317",
     "mpn": "N106F-2SDN-L5GS",
-    "price": 244.9,
+    "price": 242.9,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1060-X2-3GB-Grafische-kaart/html/product/1297111?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1060_X2_3GB__Grafische_kaart@@jdxi0c01_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1112,6 +1181,7 @@
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1060-X2-Grafische-kaart/html/product/1297101?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1060_X2__Grafische_kaart@@jfxi0c08_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1122,12 +1192,13 @@
   {
     "name": "Inno3D GeForce GTX 1070 TWIN X2, Grafische kaart",
     "brand": "Inno3D",
-    "ean": "",
+    "ean": "0835168022447",
     "mpn": "N1070-1SDV-P5DN",
-    "price": 469.0,
+    "price": 459.0,
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1070-TWIN-X2-Grafische-kaart/html/product/1318650?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1070_TWIN_X2__Grafische_kaart@@jfxi0c12_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1144,6 +1215,7 @@
     "url": "https://www.alternate.nl/Inno3D/GeForce-GTX-1080-X2-Grafische-kaart/html/product/1297081?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_GeForce_GTX_1080_X2__Grafische_kaart@@jfxi0c02_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1160,6 +1232,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1060-3GB-X3-Grafische-kaart/html/product/1297109?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1060_3GB_X3__Grafische_kaart@@jdxi0c00_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1176,6 +1249,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1060-6GB-X3-Grafische-kaart/html/product/1297097?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1060_6GB_X3__Grafische_kaart@@jfxi0c06_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1192,6 +1266,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1070-Black-Grafische-kaart/html/product/1302612?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1070_Black__Grafische_kaart@@jfxi0c11_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1208,6 +1283,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1070-X3-Grafische-kaart/html/product/1297088?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1070_X3__Grafische_kaart@@jfxi0c04_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1224,6 +1300,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1070-X4-Grafische-kaart/html/product/1297085?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1070_X4__Grafische_kaart@@jfxi0c03_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1236,10 +1313,11 @@
     "brand": "Inno3D",
     "ean": "0835168021884",
     "mpn": "C108B-3SDN-P6DNX",
-    "price": 869.0,
+    "price": 849.0,
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1080-Black-Grafische-kaart/html/product/1302611?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1080_Black__Grafische_kaart@@jfxi0c10_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1256,6 +1334,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1080-X3-Grafische-kaart/html/product/1297062?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1080_X3__Grafische_kaart@@jfxi0c01_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1272,6 +1351,7 @@
     "url": "https://www.alternate.nl/Inno3D/iChill-GeForce-GTX-1080-X4-Grafische-kaart/html/product/1297054?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Inno3D_iChill_GeForce_GTX_1080_X4__Grafische_kaart@@jfxi0c00_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1284,10 +1364,11 @@
     "brand": "MSI",
     "ean": "4719072488017",
     "mpn": "V809-2287R",
-    "price": 144.9,
+    "price": 142.9,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-2G-OC-Grafische-kaart/html/product/1308438?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_2G_OC__Grafische_kaart@@jdxn0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1304,6 +1385,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-2GT-OC-Grafische-kaart/html/product/1312214?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_2GT_OC__Grafische_kaart@@jdxn0c06_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1320,6 +1402,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-GAMING-X-2G-Grafische-kaart/html/product/1307686?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_GAMING_X_2G__Grafische_kaart@@jdxn0c04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1336,6 +1419,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-TI-4G-OC-Grafische-kaart/html/product/1305256?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_TI_4G_OC__Grafische_kaart@@jexn0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1348,10 +1432,11 @@
     "brand": "MSI",
     "ean": "4719072493912",
     "mpn": "V809-2404R",
-    "price": 174.9,
+    "price": 172.9,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-Ti-4GT-LP-Grafische-kaart/html/product/1315858?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_Ti_4GT_LP__Grafische_kaart@@jexn0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1368,6 +1453,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-Ti-4GT-OC-Grafische-kaart/html/product/1310557?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_Ti_4GT_OC__Grafische_kaart@@jexn0c02_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1384,6 +1470,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-Ti-Gaming-4G-Grafische-kaart/html/product/1312691?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_Ti_Gaming_4G__Grafische_kaart@@jexn0c04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1400,6 +1487,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1050-TI-GAMING-X-4G-Grafische-kaart/html/product/1303989?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1050_TI_GAMING_X_4G__Grafische_kaart@@jexn0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1412,10 +1500,11 @@
     "brand": "MSI",
     "ean": "4719072479077",
     "mpn": "GTX 1060 3GT OC",
-    "price": 247.9,
+    "price": 244.9,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-3GT-OC-Grafische-kaart/html/product/1295975?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_3GT_OC__Grafische_kaart@@jdxn0c03_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1428,10 +1517,11 @@
     "brand": "MSI",
     "ean": "4719072479091",
     "mpn": "GTX 1060 6G OC",
-    "price": 309.0,
+    "price": 299.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-6G-OC-Grafische-kaart/html/product/1318888?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_6G_OC__Grafische_kaart@@jfxn0c27_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1448,6 +1538,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-6GT-OCV1-Grafische-kaart/html/product/1302533?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_6GT_OCV1__Grafische_kaart@@jfxn0c25.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1460,10 +1551,11 @@
     "brand": "MSI",
     "ean": "4719072479800",
     "mpn": "V328-024R",
-    "price": 247.9,
+    "price": 244.9,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-ARMOR-3G-OCV1-Grafische-kaart/html/product/1294044?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_ARMOR_3G_OCV1__Grafische_kaart@@jdxn0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1480,6 +1572,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-ARMOR-6G-OCV1-Grafische-kaart/html/product/1295978?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_ARMOR_6G_OCV1__Grafische_kaart@@jfxn0c23_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1492,10 +1585,11 @@
     "brand": "MSI",
     "ean": "4719072474379",
     "mpn": "V328-012R",
-    "price": 399.0,
+    "price": 394.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-GAMING-6G-Grafische-kaart/html/product/1288679?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_GAMING_6G__Grafische_kaart@@jfxn0c16.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1512,6 +1606,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-GAMING-X-3G-Grafische-kaart/html/product/1293442?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_GAMING_X_3G__Grafische_kaart@@jdxn0c00_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1528,6 +1623,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1060-GAMING-X-6G-Grafische-kaart/html/product/1287054?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1060_GAMING_X_6G__Grafische_kaart@@jfxn0c13.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1544,6 +1640,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-AERO-8G-OC-Grafische-kaart/html/product/1280377?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_AERO_8G_OC__Grafische_kaart@@jfxn0c08.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1556,10 +1653,11 @@
     "brand": "MSI",
     "ean": "4719072467432",
     "mpn": "V330-003R",
-    "price": 489.0,
+    "price": 479.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-ARMOR-8G-OC-Grafische-kaart/html/product/1280376?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_ARMOR_8G_OC__Grafische_kaart@@jfxn0c07.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1572,10 +1670,11 @@
     "brand": "MSI",
     "ean": "4719072467821",
     "mpn": "V330-015R",
-    "price": 519.0,
+    "price": 499.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-GAMING-8G-Grafische-kaart/html/product/1288681?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_GAMING_8G__Grafische_kaart@@jfxn0c17.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1592,6 +1691,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-Gaming-X-8G-Grafische-kaart/html/product/1280375?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_Gaming_X_8G__Grafische_kaart@@jfxn0c06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1608,6 +1708,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-Gaming-Z-8G-Grafische-kaart/html/product/1293796?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_Gaming_Z_8G__Grafische_kaart@@jfxn0c22_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1624,6 +1725,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-Quick-Silver-8G-OC-Grafische-kaart/html/product/1307088?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_Quick_Silver_8G_OC__Grafische_kaart@@jfxn0c26_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1640,6 +1742,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-SEA-HAWK-EK-X-Grafische-kaart/html/product/1284162?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_SEA_HAWK_EK_X__Grafische_kaart@@jfxn0c10.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1656,6 +1759,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1070-SEA-HAWK-X-Grafische-kaart/html/product/1284163?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1070_SEA_HAWK_X__Grafische_kaart@@jfxn0c11.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1672,6 +1776,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-AERO-8G-OC-Grafische-kaart/html/product/1278093?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_AERO_8G_OC__Grafische_kaart@@jfxn0c03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1688,6 +1793,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-ARMOR-8G-OC-Grafische-kaart/html/product/1278094?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_ARMOR_8G_OC__Grafische_kaart@@jfxn0c02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1704,6 +1810,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-Founders-Edition-Grafische-kaart/html/product/1275774?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_Founders_Edition__Grafische_kaart@@jfxn0c00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1716,10 +1823,11 @@
     "brand": "MSI",
     "ean": "4719072467142",
     "mpn": "GTX 1080 GAMING 8G",
-    "price": 719.0,
+    "price": 699.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-Gaming-8G-Grafische-kaart/html/product/1289986?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_Gaming_8G__Grafische_kaart@@jfxn0c21_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1732,10 +1840,11 @@
     "brand": "MSI",
     "ean": "4719072467050",
     "mpn": "V336-001R",
-    "price": 759.0,
+    "price": 779.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-Gaming-X-8G-Grafische-kaart/html/product/1278087?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_Gaming_X_8G__Grafische_kaart@@jfxn0c01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1748,10 +1857,11 @@
     "brand": "MSI",
     "ean": "4719072467067",
     "mpn": "V336-002R",
-    "price": 869.0,
+    "price": 849.0,
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-GAMING-Z-8G-Grafische-kaart/html/product/1286285?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_GAMING_Z_8G__Grafische_kaart@@jfxn0c12_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1768,6 +1878,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-SEA-HAWK-EK-X-Grafische-kaart/html/product/1280383?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_SEA_HAWK_EK_X__Grafische_kaart@@jfxn0c09.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1784,6 +1895,7 @@
     "url": "https://www.alternate.nl/MSI/GeForce-GTX-1080-SEA-HAWK-X-Grafische-kaart/html/product/1279454?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GeForce_GTX_1080_SEA_HAWK_X__Grafische_kaart@@jfxn0c05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1796,10 +1908,11 @@
     "brand": "MSI",
     "ean": "4719072448226",
     "mpn": "V809-1899R",
-    "price": 38.49,
+    "price": 37.99,
     "url": "https://www.alternate.nl/MSI/GT-710-1GD3H-LP-Grafische-kaart/html/product/1250611?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GT_710_1GD3H_LP__Grafische_kaart@@jcxnyj.jpg",
     "connectors": [
       {
         "name": "PCIe x8",
@@ -1816,6 +1929,7 @@
     "url": "https://www.alternate.nl/MSI/GT-710-2GD3H-LP-Grafische-kaart/html/product/1250613?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_GT_710_2GD3H_LP__Grafische_kaart@@jdxnya08.jpg",
     "connectors": [
       {
         "name": "PCIe x8",
@@ -1828,10 +1942,11 @@
     "brand": "MSI",
     "ean": "4719072407230",
     "mpn": "V809-1684R",
-    "price": 84.9,
+    "price": 83.9,
     "url": "https://www.alternate.nl/MSI/N730-4GD3V2-Grafische-kaart/html/product/1228609?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_N730_4GD3V2__Grafische_kaart@@jexny7.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1848,6 +1963,7 @@
     "url": "https://www.alternate.nl/PNY/GeForce-GTX-1070-Founders-Edition-Grafische-kaart/html/product/1286057?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/PNY_GeForce_GTX_1070_Founders_Edition__Grafische_kaart@@jfxr0c01_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1864,6 +1980,7 @@
     "url": "https://www.alternate.nl/PNY/GeForce-GTX-1080-Founders-Edition-Grafische-kaart/html/product/1279760?lk=9373",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/PNY_GeForce_GTX_1080_Founders_Edition__Grafische_kaart@@jfxr0c00_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1880,6 +1997,7 @@
     "url": "https://www.alternate.nl/ASUS/DUAL-RX460-O2G-Grafische-kaart/html/product/1288704?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_DUAL_RX460_O2G__Grafische_kaart@@jdxv0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1896,6 +2014,7 @@
     "url": "https://www.alternate.nl/ASUS/R7240-2GD3-L-Grafische-kaart/html/product/1103812?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_R7240_2GD3_L__Grafische_kaart@@jdxv01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1912,6 +2031,7 @@
     "url": "https://www.alternate.nl/ASUS/R7240-OC-4GD3-L-Grafische-kaart/html/product/1137385?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_R7240_OC_4GD3_L__Grafische_kaart@@jexv11.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1928,6 +2048,7 @@
     "url": "https://www.alternate.nl/ASUS/R7250-2GD5-Grafische-kaart/html/product/1302537?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_R7250_2GD5__Grafische_kaart@@jdxv25_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1940,10 +2061,11 @@
     "brand": "ASUS",
     "ean": "4712900476507",
     "mpn": "90YV09L1-M0NA00",
-    "price": 169.9,
+    "price": 167.9,
     "url": "https://www.alternate.nl/ASUS/Radeon-RX-460-Strix-Gaming-4-GB-Grafische-kaart/html/product/1306679?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_Radeon_RX_460_Strix_Gaming_4_GB__Grafische_kaart@@jexv0d07.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1956,10 +2078,11 @@
     "brand": "ASUS",
     "ean": "4712900481068",
     "mpn": "90YV09L3-M0NA00",
-    "price": 182.9,
+    "price": 179.9,
     "url": "https://www.alternate.nl/ASUS/Radeon-RX-460-Strix-OC-Gaming-4-GB-Grafische-kaart/html/product/1306678?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_Radeon_RX_460_Strix_OC_Gaming_4_GB__Grafische_kaart@@jexv0d06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1972,10 +2095,11 @@
     "brand": "ASUS",
     "ean": "4712900473070",
     "mpn": "90YV09J0-M0NA00",
-    "price": 234.9,
+    "price": 232.9,
     "url": "https://www.alternate.nl/ASUS/ROG-STRIX-RX470-4G-GAMING-Grafische-kaart/html/product/1301235?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_STRIX_RX470_4G_GAMING__Grafische_kaart@@jexv0d03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -1992,6 +2116,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-STRIX-RX480-8G-GAMING-Grafische-kaart/html/product/1301242?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_STRIX_RX480_8G_GAMING__Grafische_kaart@@jfxv0d03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2008,6 +2133,7 @@
     "url": "https://www.alternate.nl/ASUS/ROG-STRIX-RX480-O8G-GAMING-Grafische-kaart/html/product/1301241?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_ROG_STRIX_RX480_O8G_GAMING__Grafische_kaart@@jfxv0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2020,10 +2146,11 @@
     "brand": "ASUS",
     "ean": "4712900491289",
     "mpn": "90YV09J2-M0NA00",
-    "price": 239.9,
+    "price": 237.9,
     "url": "https://www.alternate.nl/ASUS/RX-470-Strix-OC-Gaming-Grafische-kaart/html/product/1289660?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/ASUS_RX_470_Strix_OC_Gaming__Grafische_kaart@@jexv0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2040,6 +2167,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/Radeon-RX-470-G1-Gaming-4G-Grafische-kaart/html/product/1292505?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_Radeon_RX_470_G1_Gaming_4G__Grafische_kaart@@jexy0d00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2052,10 +2180,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331330262",
     "mpn": "GV-RX480G1 Gaming 4G",
-    "price": 284.0,
+    "price": 279.0,
     "url": "https://www.alternate.nl/GIGABYTE/Radeon-RX-480-G1-Gaming-4G-Grafische-kaart/html/product/1296619?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_Radeon_RX_480_G1_Gaming_4G__Grafische_kaart@@jexy0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2072,6 +2201,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/Radeon-RX-480-G1-Gaming-8G-Grafische-kaart/html/product/1296627?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_Radeon_RX_480_G1_Gaming_8G__Grafische_kaart@@jfxy0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2088,6 +2218,7 @@
     "url": "https://www.alternate.nl/GIGABYTE/Radeon-RX460-WINDFORCE-OC-2G-Grafische-kaart/html/product/1293280?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_Radeon_RX460_WINDFORCE_OC_2G__Grafische_kaart@@jdxy0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2100,10 +2231,11 @@
     "brand": "GIGABYTE",
     "ean": "4719331330279",
     "mpn": "GV-RX460WF2OC-4GD",
-    "price": 152.9,
+    "price": 149.9,
     "url": "https://www.alternate.nl/GIGABYTE/Radeon-RX460-WINDFORCE-OC-4G-Grafische-kaart/html/product/1293269?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/GIGABYTE_Radeon_RX460_WINDFORCE_OC_4G__Grafische_kaart@@jexy0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2120,6 +2252,7 @@
     "url": "https://www.alternate.nl/MSI/Radeon-RX-460-2G-OC-Grafische-kaart/html/product/1312508?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_460_2G_OC__Grafische_kaart@@jdxn0d00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2132,10 +2265,11 @@
     "brand": "MSI",
     "ean": "4719072475918",
     "mpn": "V809-2210R",
-    "price": 147.9,
+    "price": 144.9,
     "url": "https://www.alternate.nl/MSI/Radeon-RX-460-4G-OC-Grafische-kaart/html/product/1304649?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_460_4G_OC__Grafische_kaart@@jexn0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2152,6 +2286,7 @@
     "url": "https://www.alternate.nl/MSI/Radeon-RX-470-Gaming-X-4G-Grafische-kaart/html/product/1291655?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_470_Gaming_X_4G__Grafische_kaart@@jexn0d00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2164,10 +2299,11 @@
     "brand": "MSI",
     "ean": "4719072471712",
     "mpn": "V341-001R",
-    "price": 264.0,
+    "price": 259.0,
     "url": "https://www.alternate.nl/MSI/Radeon-RX-470-GAMING-X-8G-Grafische-kaart/html/product/1291657?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_470_GAMING_X_8G__Grafische_kaart@@jfxn0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2184,6 +2320,7 @@
     "url": "https://www.alternate.nl/MSI/Radeon-RX-480-GAMING-8G-Grafische-kaart/html/product/1300748?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_480_GAMING_8G__Grafische_kaart@@jfxn0d03_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2200,6 +2337,7 @@
     "url": "https://www.alternate.nl/MSI/Radeon-RX-480-GAMING-X-4G-Grafische-kaart/html/product/1295908?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_480_GAMING_X_4G__Grafische_kaart@@jexn0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2212,10 +2350,11 @@
     "brand": "MSI",
     "ean": "4719072471736",
     "mpn": "V341-003R",
-    "price": 319.0,
+    "price": 314.9,
     "url": "https://www.alternate.nl/MSI/Radeon-RX-480-GAMING-X-8G-Grafische-kaart/html/product/1291656?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/MSI_Radeon_RX_480_GAMING_X_8G__Grafische_kaart@@jfxn0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2232,6 +2371,7 @@
     "url": "https://www.alternate.nl/Sapphire/HD6450-(11190-09-20G)-Grafische-kaart/html/product/892682?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_HD6450__11190_09_20G___Grafische_kaart@@jdxsvb.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2248,6 +2388,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO-Radeon-R9-380-2G-D5-with-Back-Plate-Grafische-kaart/html/product/1236735?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO_Radeon_R9_380_2G_D5_with_Back_Plate__Grafische_kaart@@jdxs0b06.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2264,6 +2405,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO-Radeon-RX-460-4G-D5-Grafische-kaart/html/product/1289607?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO_Radeon_RX_460_4G_D5__Grafische_kaart@@jexs0d03.jpg",
     "connectors": [
       {
         "name": "PCIe x8",
@@ -2280,6 +2422,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO+-Radeon-RX-470-4-GB-Grafische-kaart/html/product/1289604?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO__Radeon_RX_470_4_GB__Grafische_kaart@@jexs0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2296,6 +2439,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO+-Radeon-RX-470-8-GB-Grafische-kaart/html/product/1289599?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO__Radeon_RX_470_8_GB__Grafische_kaart@@jfxs0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2312,6 +2456,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO+-Radeon-RX-470-8G-D5-OC-Grafische-kaart/html/product/1305857?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO__Radeon_RX_470_8G_D5_OC__Grafische_kaart@@jfxs0d0a.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2328,6 +2473,7 @@
     "url": "https://www.alternate.nl/Sapphire/NITRO+-Radeon-RX-480-4G-GDDR5-Grafische-kaart/html/product/1289602?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO__Radeon_RX_480_4G_GDDR5__Grafische_kaart@@jexs0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2340,10 +2486,11 @@
     "brand": "Sapphire",
     "ean": "4895106279926",
     "mpn": "11260-01-20G",
-    "price": 299.0,
+    "price": 309.0,
     "url": "https://www.alternate.nl/Sapphire/NITRO+-Radeon-RX-480-8-GB-Grafische-kaart/html/product/1289594?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_NITRO__Radeon_RX_480_8_GB__Grafische_kaart@@jfxs0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2360,6 +2507,7 @@
     "url": "https://www.alternate.nl/Sapphire/RADEON-PRO-DUO-(21253-00-40G)-Grafische-kaart/html/product/1270005?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_RADEON_PRO_DUO__21253_00_40G___Grafische_kaart@@jfxs0b05_30.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2376,6 +2524,7 @@
     "url": "https://www.alternate.nl/Sapphire/Radeon-RX-460-(11257-00-20G)-Grafische-kaart/html/product/1289610?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_Radeon_RX_460__11257_00_20G___Grafische_kaart@@jdxs0d00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2392,6 +2541,7 @@
     "url": "https://www.alternate.nl/Sapphire/Radeon-RX-470-4G-D5-Grafische-kaart/html/product/1292789?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/Sapphire_Radeon_RX_470_4G_D5__Grafische_kaart@@jexs0d04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2408,6 +2558,7 @@
     "url": "https://www.alternate.nl/XFX/R5-230-Core-Edition-(R5-230A-ZLH2)-Grafische-kaart/html/product/1135885?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_R5_230_Core_Edition__R5_230A_ZLH2___Grafische_kaart@@jcxx09.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2424,6 +2575,7 @@
     "url": "https://www.alternate.nl/XFX/Radeon-HD-5450-(HD-545X-ZCH2)-Grafische-kaart/html/product/957112?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_HD_5450__HD_545X_ZCH2___Grafische_kaart@@jcxxva04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2440,6 +2592,7 @@
     "url": "https://www.alternate.nl/XFX/Radeon-RX-460-(RX-460P4DFG5)-Grafische-kaart/html/product/1291512?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_RX_460__RX_460P4DFG5___Grafische_kaart@@jexx0d03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2456,6 +2609,7 @@
     "url": "https://www.alternate.nl/XFX/Radeon-RX-460-Heatsink-2GB-GDDR5-TRUE-OC-Grafische-kaart/html/product/1312304?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_RX_460_Heatsink_2GB_GDDR5_TRUE_OC__Grafische_kaart@@jdxx0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2468,10 +2622,11 @@
     "brand": "XFX",
     "ean": "0778656072183",
     "mpn": "RX-470P4LDB6",
-    "price": 232.9,
+    "price": 229.9,
     "url": "https://www.alternate.nl/XFX/Radeon-RX-470-(RX-470P4LDB6)-Grafische-kaart/html/product/1291480?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_RX_470__RX_470P4LDB6___Grafische_kaart@@jexx0d01.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2488,6 +2643,7 @@
     "url": "https://www.alternate.nl/XFX/Radeon-RX-470-(RX-470P4LFB6)-Grafische-kaart/html/product/1291509?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_RX_470__RX_470P4LFB6___Grafische_kaart@@jexx0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2504,6 +2660,7 @@
     "url": "https://www.alternate.nl/XFX/Radeon-RX-480-GTR-true-OC-Triple-X-Edition-(RX-480P8DFA6)-Grafische-kaart/html/product/1292106?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_Radeon_RX_480_GTR_true_OC_Triple_X_Edition__RX_480P8DFA6___Grafische_kaart@@jfxx0d03.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2516,10 +2673,11 @@
     "brand": "XFX",
     "ean": "0778656072626",
     "mpn": "RX-460P2SFG5",
-    "price": 124.9,
+    "price": 122.9,
     "url": "https://www.alternate.nl/XFX/RX-460-Single-Fan-2GB-GDDR5-TRUE-OC-(RX-460P2SFG5)-Grafische-kaart/html/product/1293518?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_RX_460_Single_Fan_2GB_GDDR5_TRUE_OC__RX_460P2SFG5___Grafische_kaart@@jdxx0d00.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2536,6 +2694,7 @@
     "url": "https://www.alternate.nl/XFX/RX-460-Single-Fan-4GB-GDDR5-TRUE-OC-(RX-460P4SFG5)-Grafische-kaart/html/product/1293516?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_RX_460_Single_Fan_4GB_GDDR5_TRUE_OC__RX_460P4SFG5___Grafische_kaart@@jexx0d04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2548,10 +2707,11 @@
     "brand": "XFX",
     "ean": "0778656072121",
     "mpn": "RX-480P8DBA6",
-    "price": 319.0,
+    "price": 314.0,
     "url": "https://www.alternate.nl/XFX/RX-480-GTR-8GB-GDDR5-TRUE-OC-(RX-480P8DBA6)-Grafische-kaart/html/product/1291476?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_RX_480_GTR_8GB_GDDR5_TRUE_OC__RX_480P8DBA6___Grafische_kaart@@jfxx0d02.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2568,6 +2728,7 @@
     "url": "https://www.alternate.nl/XFX/RX-480-RS-4GB-D5-1266M-HS-BP-(RX-480P4LFB6)-Grafische-kaart/html/product/1295816?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_RX_480_RS_4GB_D5_1266M_HS_BP__RX_480P4LFB6___Grafische_kaart@@jexx0d05.jpg",
     "connectors": [
       {
         "name": "PCIe x16",
@@ -2580,10 +2741,11 @@
     "brand": "XFX",
     "ean": "0778656072558",
     "mpn": "RX-480P8LFB6",
-    "price": 299.0,
+    "price": 294.0,
     "url": "https://www.alternate.nl/XFX/RX-480-RS-8GB-GDDR5-TRUE-OC-(RX-480P8LFB6)-Grafische-kaart/html/product/1295810?lk=9364",
     "shop": "Alternate",
     "type": "GPU",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/j/XFX_RX_480_RS_8GB_GDDR5_TRUE_OC__RX_480P8LFB6___Grafische_kaart@@jfxx0d04.jpg",
     "connectors": [
       {
         "name": "PCIe x16",

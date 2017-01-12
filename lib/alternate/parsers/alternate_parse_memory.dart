@@ -36,6 +36,8 @@ class AlternateMemoryDetailParser implements PageWorker {
     var dataFlix = document.querySelector("script[data-flix-mpn]");
     memory.ean = dataFlix.attributes["data-flix-ean"];
     memory.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+    memory.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String memType = "";
     String memForm = "";

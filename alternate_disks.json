@@ -4,10 +4,11 @@
     "brand": "ADATA",
     "ean": "4712366966796",
     "mpn": "ASC660-240GU3-CTI",
-    "price": 89.9,
+    "price": 88.9,
     "url": "https://www.alternate.nl/ADATA/Portable-SC660-240-GB-externe-SSD/html/product/1320430?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Portable_SC660__240_GB_externe_SSD@@imimv2.jpg",
     "connectors": [
       {
         "name": "Micro-USB",
@@ -20,10 +21,11 @@
     "brand": "ADATA",
     "ean": "4712366966802",
     "mpn": "ASC660-480GU3-CTI",
-    "price": 167.9,
+    "price": 164.9,
     "url": "https://www.alternate.nl/ADATA/Portable-SC660-480-GB-externe-SSD/html/product/1320433?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Portable_SC660__480_GB_externe_SSD@@imjmv2.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -40,6 +42,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP310-128-GB-SSD/html/product/1092867?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP310__128_GB_SSD@@imhmv0.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -56,6 +59,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP310-32-GB-SSD/html/product/1092865?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP310__32_GB_SSD@@imfmv0.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -72,6 +76,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP310-64-GB-SSD/html/product/1092866?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP310__64_GB_SSD@@imgmv0.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -84,10 +89,11 @@
     "brand": "ADATA",
     "ean": "4712366960244",
     "mpn": "ASP900NS38-256GM-C",
-    "price": 109.9,
+    "price": 107.9,
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP900-M-2-2280-256-GB-SSD/html/product/1146834?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP900_M_2_2280__256_GB_SSD@@imimvz.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -104,6 +110,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP900-128-GB-SSD/html/product/988420?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP900__128_GB_SSD@@imhmvn.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -116,10 +123,11 @@
     "brand": "ADATA",
     "ean": "4713435794760",
     "mpn": "ASP900S3-256GM-C",
-    "price": 107.9,
+    "price": 104.9,
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP900-256-GB-SSD/html/product/988421?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP900__256_GB_SSD@@imimvn.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -132,10 +140,11 @@
     "brand": "ADATA",
     "ean": "4713435799543",
     "mpn": "ASP920SS3-1TM-C",
-    "price": 434.0,
+    "price": 429.0,
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP920-1-TB-SSD/html/product/1133108?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP920__1_TB_SSD@@imkmvu.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -148,10 +157,11 @@
     "brand": "ADATA",
     "ean": "4712366962842",
     "mpn": "ASP920SS3-128GM-C",
-    "price": 64.9,
+    "price": 63.9,
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP920-128-GB-SSD/html/product/1133104?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP920__128_GB_SSD@@imhmvu.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -168,6 +178,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP920-256-GB-SSD/html/product/1133110?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP920__256_GB_SSD@@imimvu.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -184,6 +195,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-Pro-SP920-512-GB-SSD/html/product/1133107?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_Pro_SP920__512_GB_SSD@@imjmvu.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -200,6 +212,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-SP550-240-GB-SSD/html/product/1289973?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_SP550__240_GB_SSD@@imimv4.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -216,6 +229,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-SP550-480-GB-SSD/html/product/1289974?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_SP550__480_GB_SSD@@imjmv4.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -228,10 +242,11 @@
     "brand": "ADATA",
     "ean": "4712366963610",
     "mpn": "ASP550SS3-480GM-C",
-    "price": 164.9,
+    "price": 162.9,
     "url": "https://www.alternate.nl/ADATA/Premier-SP550-480-GB-SSD/html/product/1219269?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_SP550__480_GB_SSD@@imjmv1_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -244,10 +259,11 @@
     "brand": "ADATA",
     "ean": "4712366963436",
     "mpn": "ASP600NS34-128GM-C",
-    "price": 64.9,
+    "price": 63.9,
     "url": "https://www.alternate.nl/ADATA/Premier-SP600-128-GB-SSD/html/product/1268204?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_SP600__128_GB_SSD@@imhmv3.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -264,6 +280,7 @@
     "url": "https://www.alternate.nl/ADATA/Premier-SP600-256-GB-SSD/html/product/1268207?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Premier_SP600__256_GB_SSD@@imimv3.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -280,6 +297,7 @@
     "url": "https://www.alternate.nl/ADATA/SU800NS38-128-GB-SSD/html/product/1311741?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SU800NS38__128_GB_SSD@@imhmvk.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -292,10 +310,11 @@
     "brand": "ADATA",
     "ean": "4712366969568",
     "mpn": "ASU800NS38-256GT-C",
-    "price": 84.9,
+    "price": 83.9,
     "url": "https://www.alternate.nl/ADATA/SU800NS38-256-GB-SSD/html/product/1311748?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SU800NS38__256_GB_SSD@@imimvk.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -308,10 +327,11 @@
     "brand": "ADATA",
     "ean": "4712366962729",
     "mpn": "ASV620-240GU3-CTI",
-    "price": 91.9,
+    "price": 89.9,
     "url": "https://www.alternate.nl/ADATA/SV620-240-GB-externe-SSD/html/product/1291180?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SV620__240_GB_externe_SSD@@imimve00_30.jpg",
     "connectors": [
       {
         "name": "Mini-USB",
@@ -328,6 +348,7 @@
     "url": "https://www.alternate.nl/ADATA/SV620-480-GB-externe-SSD/html/product/1291186?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SV620__480_GB_externe_SSD@@imjmve00_30.jpg",
     "connectors": [
       {
         "name": "Mini-USB",
@@ -344,6 +365,7 @@
     "url": "https://www.alternate.nl/ADATA/SX8000-128-GB-SSD/html/product/1311767?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SX8000__128_GB_SSD@@imhmvx00.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -356,10 +378,11 @@
     "brand": "ADATA",
     "ean": "4712366967298",
     "mpn": "ASX8000NP-256GM-C",
-    "price": 129.9,
+    "price": 127.9,
     "url": "https://www.alternate.nl/ADATA/SX8000-256-GB-SSD/html/product/1311774?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SX8000__256_GB_SSD@@imimvx00.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -376,6 +399,7 @@
     "url": "https://www.alternate.nl/ADATA/SX8000-512-GB-SSD/html/product/1311772?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_SX8000__512_GB_SSD@@imjmvx00.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -392,6 +416,7 @@
     "url": "https://www.alternate.nl/ADATA/Ultimate-SU800-128-GB-SSD/html/product/1295967?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Ultimate_SU800__128_GB_SSD@@imhmv6.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -404,10 +429,11 @@
     "brand": "ADATA",
     "ean": "4712366967250",
     "mpn": "ASU800SS-256GT-C",
-    "price": 83.9,
+    "price": 82.9,
     "url": "https://www.alternate.nl/ADATA/Ultimate-SU800-256-GB-SSD/html/product/1295969?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Ultimate_SU800__256_GB_SSD@@imimv6.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -420,10 +446,11 @@
     "brand": "ADATA",
     "ean": "4712366967267",
     "mpn": "ASU800SS-512GT-C",
-    "price": 164.9,
+    "price": 162.9,
     "url": "https://www.alternate.nl/ADATA/Ultimate-SU800-512-GB-SSD/html/product/1295970?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_Ultimate_SU800__512_GB_SSD@@imjmv6.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -440,6 +467,7 @@
     "url": "https://www.alternate.nl/ADATA/XPG-SX930-120-GB-SSD/html/product/1216541?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_XPG_SX930__120_GB_SSD@@imhmvr.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -452,10 +480,11 @@
     "brand": "ADATA",
     "ean": "4712366963290",
     "mpn": "ASX930SS3-240GM-C",
-    "price": 114.9,
+    "price": 112.9,
     "url": "https://www.alternate.nl/ADATA/XPG-SX930-240-GB-SSD/html/product/1216544?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_XPG_SX930__240_GB_SSD@@imimvr.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -472,6 +501,7 @@
     "url": "https://www.alternate.nl/ADATA/XPG-SX930-480-GB-SSD/html/product/1216545?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/ADATA_XPG_SX930__480_GB_SSD@@imjmvr.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -488,6 +518,7 @@
     "url": "https://www.alternate.nl/AMD/Radeon-R7-120-GB-SSD/html/product/1160436?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/AMD_Radeon_R7__120_GB_SSD@@imhmnb53.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -500,10 +531,11 @@
     "brand": "Corsair",
     "ean": "0843591071932",
     "mpn": "CSSD-F240GBLEB",
-    "price": 92.9,
+    "price": 109.9,
     "url": "https://www.alternate.nl/Corsair/Force-LE-240-GB-SSD/html/product/1243565?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Force_LE__240_GB_SSD@@imim53.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -516,10 +548,11 @@
     "brand": "Corsair",
     "ean": "0843591071949",
     "mpn": "CSSD-F480GBLEB",
-    "price": 169.9,
+    "price": 167.9,
     "url": "https://www.alternate.nl/Corsair/Force-LE-480-GB-SSD/html/product/1243566?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Force_LE__480_GB_SSD@@imjm53.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -532,10 +565,11 @@
     "brand": "Corsair",
     "ean": "0843591058469",
     "mpn": "CSSD-F120GBLSB",
-    "price": 71.9,
+    "price": 69.9,
     "url": "https://www.alternate.nl/Corsair/Force-LS-120-GB-SSD/html/product/1196201?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Force_LS__120_GB_SSD@@imhm5u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -548,10 +582,11 @@
     "brand": "Corsair",
     "ean": "0843591058476",
     "mpn": "CSSD-F240GBLSB",
-    "price": 119.9,
+    "price": 117.9,
     "url": "https://www.alternate.nl/Corsair/Force-LS-240-GB-SSD/html/product/1196202?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Force_LS__240_GB_SSD@@imim5u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -564,10 +599,11 @@
     "brand": "Corsair",
     "ean": "0843591058452",
     "mpn": "CSSD-F60GBLSB",
-    "price": 41.99,
+    "price": 42.99,
     "url": "https://www.alternate.nl/Corsair/Force-LS-60-GB-SSD/html/product/1196189?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Force_LS__60_GB_SSD@@imgm5u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -580,10 +616,11 @@
     "brand": "Corsair",
     "ean": "0843591091435",
     "mpn": "CSSD-N1920GBXTi",
-    "price": 969.0,
+    "price": 949.0,
     "url": "https://www.alternate.nl/Corsair/Neutron-XTi-1-9-TB-SSD/html/product/1291894?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Neutron_XTi__1_9_TB_SSD@@imlm5w_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -600,6 +637,7 @@
     "url": "https://www.alternate.nl/Corsair/Neutron-XTi-240-GB-SSD/html/product/1286303?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Neutron_XTi__240_GB_SSD@@imim5w.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -612,10 +650,11 @@
     "brand": "Corsair",
     "ean": "0843591091329",
     "mpn": "CSSD-N480GBXTi",
-    "price": 197.9,
+    "price": 227.9,
     "url": "https://www.alternate.nl/Corsair/Neutron-XTi-480-GB-SSD/html/product/1286307?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Neutron_XTi__480_GB_SSD@@imjm5w.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -628,10 +667,11 @@
     "brand": "Corsair",
     "ean": "0843591091336",
     "mpn": "CSSD-N960GBXTi",
-    "price": 469.0,
+    "price": 464.0,
     "url": "https://www.alternate.nl/Corsair/Neutron-XTi-960-GB-SSD/html/product/1286308?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Corsair_Neutron_XTi__960_GB_SSD@@imkm5w.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -648,6 +688,7 @@
     "url": "https://www.alternate.nl/Crucial/MX200-250-GB-SSD/html/product/1179489?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX200__250_GB_SSD@@imimcr.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -660,10 +701,11 @@
     "brand": "Crucial",
     "ean": "0649528778314",
     "mpn": "CT1050MX300SSD4",
-    "price": 299.0,
+    "price": 294.0,
     "url": "https://www.alternate.nl/Crucial/MX300-1-TB-SSD/html/product/1297394?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__1_TB_SSD@@imlmcs2_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -676,10 +718,11 @@
     "brand": "Crucial",
     "ean": "0649528778277",
     "mpn": "CT1050MX300SSD1",
-    "price": 299.0,
+    "price": 294.0,
     "url": "https://www.alternate.nl/Crucial/MX300-1050-GB-SSD/html/product/1289012?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__1050_GB_SSD@@imlmcs1_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -696,6 +739,7 @@
     "url": "https://www.alternate.nl/Crucial/MX300-2-TB-SSD/html/product/1297395?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__2_TB_SSD@@immmcs_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -708,10 +752,11 @@
     "brand": "Crucial",
     "ean": "0649528777195",
     "mpn": "CT275MX300SSD1",
-    "price": 98.9,
+    "price": 99.9,
     "url": "https://www.alternate.nl/Crucial/MX300-275-GB-SSD/html/product/1289009?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__275_GB_SSD@@imjmcs_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -724,10 +769,11 @@
     "brand": "Crucial",
     "ean": "0649528778291",
     "mpn": "CT275MX300SSD4",
-    "price": 98.9,
+    "price": 99.9,
     "url": "https://www.alternate.nl/Crucial/MX300-275-GB-SSD/html/product/1289013?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__275_GB_SSD@@imjmcs2_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -744,6 +790,7 @@
     "url": "https://www.alternate.nl/Crucial/MX300-525-GB-SSD/html/product/1289011?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__525_GB_SSD@@imkmcs0_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -760,6 +807,7 @@
     "url": "https://www.alternate.nl/Crucial/MX300-525-GB-SSD/html/product/1289014?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Crucial_MX300__525_GB_SSD@@imkmcs2_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -776,6 +824,24 @@
     "url": "https://www.alternate.nl/GeIL/Zenith-S3-240-GB-SSD/html/product/1129160?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/GeIL_Zenith_S3__240_GB_SSD@@imim82.jpg",
+    "connectors": [
+      {
+        "name": "SATA",
+        "type": "STORAGE"
+      }
+    ]
+  },
+  {
+    "name": "Intel® 535 Series, 120 GB SSD",
+    "brand": "Intel®",
+    "ean": "5032037073745",
+    "mpn": "SSDSC2BW120H601",
+    "price": 66.9,
+    "url": "https://www.alternate.nl/Intel(R)/535-Series-120-GB-SSD/html/product/1192154?",
+    "shop": "Alternate",
+    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/pix/product/missingProdpic/noPic230x230.png",
     "connectors": [
       {
         "name": "SATA",
@@ -792,6 +858,7 @@
     "url": "https://www.alternate.nl/Intel(R)/540-Serie-1-0-TB-SSD/html/product/1255129?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Serie__1_0_TB_SSD@@imlmwb61.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -808,6 +875,7 @@
     "url": "https://www.alternate.nl/Intel(R)/540-Serie-240-GB-SSD/html/product/1255115?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Serie__240_GB_SSD@@imimwb83.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -820,10 +888,11 @@
     "brand": "Intel®",
     "ean": "5032037084505",
     "mpn": "SSDSCKKW480H6X1",
-    "price": 209.9,
+    "price": 207.9,
     "url": "https://www.alternate.nl/Intel(R)/540-Serie-480-GB-SSD/html/product/1255124?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Serie__480_GB_SSD@@imjmwb63.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -836,10 +905,11 @@
     "brand": "Intel®",
     "ean": "5032037084772",
     "mpn": "SSDSCKKW120H6X1",
-    "price": 78.9,
+    "price": 77.9,
     "url": "https://www.alternate.nl/Intel(R)/540-Serie-120-GB-SSD/html/product/1255099?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Serie_120_GB_SSD@@imhmwb61.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -856,6 +926,7 @@
     "url": "https://www.alternate.nl/Intel(R)/540-Series-1-TB-SSD/html/product/1255126?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Series__1_TB_SSD@@imlmwb60.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -872,6 +943,7 @@
     "url": "https://www.alternate.nl/Intel(R)/540-Series-120-GB-SSD/html/product/1255096?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Series__120_GB_SSD@@imhmwb60.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -884,10 +956,11 @@
     "brand": "Intel®",
     "ean": "5032037084581",
     "mpn": "SSDSC2KW240H6X1",
-    "price": 97.9,
+    "price": 96.9,
     "url": "https://www.alternate.nl/Intel(R)/540-Series-240-GB-SSD/html/product/1255110?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Series__240_GB_SSD@@imimwb82.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -900,10 +973,11 @@
     "brand": "Intel®",
     "ean": "5032037084628",
     "mpn": "SSDSC2KW480H6X1",
-    "price": 172.9,
+    "price": 169.9,
     "url": "https://www.alternate.nl/Intel(R)/540-Series-480-GB-SSD/html/product/1255118?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__540_Series__480_GB_SSD@@imjmwb62.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -916,10 +990,11 @@
     "brand": "Intel®",
     "ean": "5032037087810",
     "mpn": "SSDPEKKW010T7X1",
-    "price": 359.0,
+    "price": 354.0,
     "url": "https://www.alternate.nl/Intel(R)/600p-Series-1-TB-SSD/html/product/1294010?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__600p_Series__1_TB_SSD@@imlmwb80_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -936,6 +1011,7 @@
     "url": "https://www.alternate.nl/Intel(R)/600p-Series-128-GB-SSD/html/product/1293969?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__600p_Series__128_GB_SSD@@imhmwb70_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -952,6 +1028,7 @@
     "url": "https://www.alternate.nl/Intel(R)/600p-Series-256-GB-SSD/html/product/1294007?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__600p_Series__256_GB_SSD@@imimwba0_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -964,10 +1041,11 @@
     "brand": "Intel®",
     "ean": "5032037087797",
     "mpn": "SSDPEKKW512G7X1",
-    "price": 177.9,
+    "price": 174.9,
     "url": "https://www.alternate.nl/Intel(R)/600p-Series-512-GB-SSD/html/product/1294005?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__600p_Series__512_GB_SSD@@imjmwb80_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -984,6 +1062,7 @@
     "url": "https://www.alternate.nl/Intel(R)/750-Serie-1-2-TB-SSD/html/product/1232817?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__750_Serie__1_2_TB_SSD@@imlmwx26.jpg",
     "connectors": [
       {
         "name": "U.2",
@@ -996,10 +1075,11 @@
     "brand": "Intel®",
     "ean": "5032037077590",
     "mpn": "SSDPE2MW400G4X1",
-    "price": 444.0,
+    "price": 439.0,
     "url": "https://www.alternate.nl/Intel(R)/750-Serie-400-GB-SSD/html/product/1232799?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__750_Serie__400_GB_SSD@@imjmwx08.jpg",
     "connectors": [
       {
         "name": "U.2",
@@ -1016,6 +1096,7 @@
     "url": "https://www.alternate.nl/Intel(R)/750-Series-1-2-TB-SSD/html/product/1232822?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__750_Series__1_2_TB_SSD@@imlmwx27_30.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -1032,9 +1113,27 @@
     "url": "https://www.alternate.nl/Intel(R)/750-Series-400-GB-SSD/html/product/1232800?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__750_Series__400_GB_SSD@@imjmwx09_30.jpg",
     "connectors": [
       {
         "name": "PCIe",
+        "type": "STORAGE"
+      }
+    ]
+  },
+  {
+    "name": "Intel® 750 Series, 800 GB SSD",
+    "brand": "Intel®",
+    "ean": "5032037077828",
+    "mpn": "SSDPE2MW800G4X1",
+    "price": 869.0,
+    "url": "https://www.alternate.nl/Intel(R)/750-Series-800-GB-SSD/html/product/1219609?",
+    "shop": "Alternate",
+    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__750_Series__800_GB_SSD@@imkmwx10_30.jpg",
+    "connectors": [
+      {
+        "name": "SATA",
         "type": "STORAGE"
       }
     ]
@@ -1044,10 +1143,11 @@
     "brand": "Intel®",
     "ean": "5032037073905",
     "mpn": "SSDPEDMD800G401",
-    "price": 1729.0,
+    "price": 1699.0,
     "url": "https://www.alternate.nl/Intel(R)/DC-P3700-800-GB-SSD/html/product/1165817?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_P3700__800_GB_SSD@@imkmwx00.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -1064,6 +1164,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3510-120-GB-SSD/html/product/1216619?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3510__120_GB_SSD@@imhmwb21.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1080,6 +1181,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-1-2-TB-SSD/html/product/1299730?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__1_2_TB_SSD@@imlmwb04_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1096,6 +1198,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-1-6-TB-SSD/html/product/1299732?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__1_6_TB_SSD@@imlmwb05_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1112,6 +1215,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-150-GB-SSD/html/product/1299702?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__150_GB_SSD@@imimwb26_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1128,6 +1232,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-240-GB-SSD/html/product/1299711?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__240_GB_SSD@@imimwb27_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1144,6 +1249,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-480-GB-SSD/html/product/1299714?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__480_GB_SSD@@imjmwb13_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1160,6 +1266,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-800-GB-SSD/html/product/1299721?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__800_GB_SSD@@imkmwb00_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1176,6 +1283,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3520-960-GB-SSD/html/product/1299727?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3520__960_GB_SSD@@imkmwb01_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1192,6 +1300,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3710-1-2-TB-SSD/html/product/1185966?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3710__1_2_TB_SSD@@imlmwb30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1204,10 +1313,11 @@
     "brand": "Intel®",
     "ean": "5032037074186",
     "mpn": "SSDSC2BA400G401",
-    "price": 629.0,
+    "price": 619.0,
     "url": "https://www.alternate.nl/Intel(R)/DC-S3710-400GB-SSD/html/product/1185963?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3710__400GB_SSD@@imjmwb30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1224,22 +1334,7 @@
     "url": "https://www.alternate.nl/Intel(R)/DC-S3710-800-GB-SSD/html/product/1185964?",
     "shop": "Alternate",
     "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "Kingston SSDNow KC380, 120 GB SSD",
-    "brand": "Kingston",
-    "ean": "0740617217674",
-    "mpn": "SKC380S3/120G",
-    "price": 114.9,
-    "url": "https://www.alternate.nl/Kingston/SSDNow-KC380-120-GB-SSD/html/product/1085790?",
-    "shop": "Alternate",
-    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__DC_S3710__800_GB_SSD@@imkmwb30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1252,10 +1347,11 @@
     "brand": "Kingston",
     "ean": "0740617251500",
     "mpn": "SKC400S37/1T",
-    "price": 379.0,
+    "price": 374.0,
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-1-TB-SSD/html/product/1246675?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__1_TB_SSD@@imkm2b0p.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1272,6 +1368,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-1-TB-SSD/html/product/1246683?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__1_TB_SSD@@imkm2b0q.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1288,6 +1385,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-128-GB-SSD/html/product/1246671?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__128_GB_SSD@@imhm2b0p.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1304,6 +1402,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-128-GB-SSD/html/product/1246679?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__128_GB_SSD@@imhm2b0q.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1316,10 +1415,11 @@
     "brand": "Kingston",
     "ean": "0740617251463",
     "mpn": "SKC400S37/256G",
-    "price": 122.9,
+    "price": 119.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-256-GB-SSD/html/product/1246674?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__256_GB_SSD@@imim2b0p.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1332,10 +1432,11 @@
     "brand": "Kingston",
     "ean": "0740617251531",
     "mpn": "SKC400S3B7A/256G",
-    "price": 134.9,
+    "price": 132.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-256-GB-SSD/html/product/1246681?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__256_GB_SSD@@imim2b0q.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1352,6 +1453,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-512-GB-SSD/html/product/1246672?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__512_GB_SSD@@imjm2b0p.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1364,10 +1466,11 @@
     "brand": "Kingston",
     "ean": "0740617251548",
     "mpn": "SKC400S3B7A/512G",
-    "price": 209.9,
+    "price": 207.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-KC400-512-GB-SSD/html/product/1246682?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_KC400__512_GB_SSD@@imjm2b0q.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1384,6 +1487,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-M-2-SATA-G2-120-GB-SSD/html/product/1252783?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_M_2_SATA_G2__120_GB_SSD@@imhm2t.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1400,6 +1504,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-M-2-SATA-G2-240-GB-SSD/html/product/1252786?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_M_2_SATA_G2__240_GB_SSD@@imim2t.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1412,10 +1517,11 @@
     "brand": "Kingston",
     "ean": "0740617248975",
     "mpn": "SM2280S3G2/480G",
-    "price": 179.9,
+    "price": 177.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-M-2-SATA-G2-480-GB-SSD/html/product/1252784?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_M_2_SATA_G2__480_GB_SSD@@imjm2t.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1428,10 +1534,11 @@
     "brand": "Kingston",
     "ean": "0740617217049",
     "mpn": "SMS200S3/120G",
-    "price": 57.9,
+    "price": 58.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-mS200-120-GB-SSD/html/product/1078709?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_mS200__120_GB_SSD@@imhm2b00.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -1448,6 +1555,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-mS200-240-GB-SSD/html/product/1138516?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_mS200__240_GB_SSD@@imim2b00.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -1464,6 +1572,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-mS200-30-GB-SSD/html/product/1086867?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_mS200__30_GB_SSD@@imfm2b00.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -1476,10 +1585,11 @@
     "brand": "Kingston",
     "ean": "0740617227857",
     "mpn": "SMS200S3/480G",
-    "price": 237.9,
+    "price": 247.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-mS200-480-GB-SSD/html/product/1138517?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_mS200__480_GB_SSD@@imjm2b00.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -1492,10 +1602,11 @@
     "brand": "Kingston",
     "ean": "0740617217032",
     "mpn": "SMS200S3/60G",
-    "price": 41.49,
+    "price": 43.49,
     "url": "https://www.alternate.nl/Kingston/SSDNow-mS200-60-GB-SSD/html/product/1080818?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_mS200__60_GB_SSD@@imgm2b00.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -1508,10 +1619,11 @@
     "brand": "Kingston",
     "ean": "0740617252866",
     "mpn": "SUV400S37/120G",
-    "price": 49.99,
+    "price": 54.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-120-GB-SSD/html/product/1275679?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__120_GB_SSD@@imhm2b0u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1524,10 +1636,11 @@
     "brand": "Kingston",
     "ean": "0740617252880",
     "mpn": "SUV400S3B7A/120G",
-    "price": 67.9,
+    "price": 68.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-120-GB-SSD/html/product/1275685?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__120_GB_SSD@@imhm2b0v.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1540,10 +1653,11 @@
     "brand": "Kingston",
     "ean": "0740617252897",
     "mpn": "SUV400S37/240G",
-    "price": 89.9,
+    "price": 86.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-240-GB-SSD/html/product/1275686?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__240_GB_SSD@@imim2b0u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1556,10 +1670,11 @@
     "brand": "Kingston",
     "ean": "0740617252910",
     "mpn": "SUV400S3B7A/240G",
-    "price": 97.9,
+    "price": 99.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-240-GB-SSD/html/product/1275689?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__240_GB_SSD@@imim2b0v.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1572,10 +1687,11 @@
     "brand": "Kingston",
     "ean": "0740617252927",
     "mpn": "SUV400S37/480G",
-    "price": 139.9,
+    "price": 137.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-480-GB-SSD/html/product/1275691?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__480_GB_SSD@@imjm2b0u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1588,10 +1704,11 @@
     "brand": "Kingston",
     "ean": "0740617252941",
     "mpn": "SUV400S3B7A/480G",
-    "price": 162.9,
+    "price": 167.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-480-GB-SSD/html/product/1275692?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__480_GB_SSD@@imjm2b0v.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1604,10 +1721,11 @@
     "brand": "Kingston",
     "ean": "0740617252958",
     "mpn": "SUV400S37/960G",
-    "price": 289.0,
+    "price": 299.0,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-960-GB-SSD/html/product/1275696?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__960_GB_SSD@@imkm2b0u.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1620,10 +1738,11 @@
     "brand": "Kingston",
     "ean": "0740617252972",
     "mpn": "SUV400S3B7A/960G",
-    "price": 309.0,
+    "price": 319.0,
     "url": "https://www.alternate.nl/Kingston/SSDNow-UV400-960-GB-SSD/html/product/1275697?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_UV400__960_GB_SSD@@imkm2b0v.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1636,10 +1755,11 @@
     "brand": "Kingston",
     "ean": "0740617212662",
     "mpn": "SV300S37A/120G",
-    "price": 61.9,
+    "price": 59.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-120-GB-SSD/html/product/1044463?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__120_GB_SSD@@imhm2b0f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1652,10 +1772,11 @@
     "brand": "Kingston",
     "ean": "0740617212686",
     "mpn": "SV300S3B7A/120G",
-    "price": 73.9,
+    "price": 72.9,
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-120-GB-SSD/html/product/1044464?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__120_GB_SSD@@imhm2b0g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1672,6 +1793,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-240-GB-SSD/html/product/1044467?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__240_GB_SSD@@imim2b0f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1688,6 +1810,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-240-GB-SSD/html/product/1044468?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__240_GB_SSD@@imim2b0g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1704,6 +1827,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-480-GB-SSD/html/product/1105130?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__480_GB_SSD@@imjm2b0f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1720,6 +1844,7 @@
     "url": "https://www.alternate.nl/Kingston/SSDNow-V300-480-GB-SSD/html/product/1105133?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_SSDNow_V300__480_GB_SSD@@imjm2b0g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1732,10 +1857,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617232455",
     "mpn": "SHFS37A/120G",
-    "price": 59.9,
+    "price": 61.9,
     "url": "https://www.alternate.nl/Kingston-HyperX/FURY-120-GB-SSD/html/product/1146009?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_FURY__120_GB_SSD@@imhm2bf0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1752,6 +1878,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/FURY-240-GB-SSD/html/product/1146010?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_FURY__240_GB_SSD@@imim2bf0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1768,6 +1895,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/FURY-480-GB-SSD/html/product/1263287?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_FURY__480_GB_SSD@@imjm2bf0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1780,10 +1908,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617237429",
     "mpn": "SHPM2280P2/240G",
-    "price": 172.9,
+    "price": 177.9,
     "url": "https://www.alternate.nl/Kingston-HyperX/Predator-PCIe-240-GB-SSD/html/product/1196660?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Predator_PCIe__240_GB_SSD@@imim2x00.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1800,6 +1929,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/Predator-PCIe-240-GB-SSD/html/product/1196662?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Predator_PCIe__240_GB_SSD@@imim2x01.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1812,10 +1942,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617237443",
     "mpn": "SHPM2280P2/480G",
-    "price": 339.0,
+    "price": 364.0,
     "url": "https://www.alternate.nl/Kingston-HyperX/Predator-PCIe-480-GB-SSD/html/product/1196661?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Predator_PCIe__480_GB_SSD@@imjm2x00.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1828,10 +1959,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617237481",
     "mpn": "SHPM2280P2H/480G",
-    "price": 389.0,
+    "price": 384.0,
     "url": "https://www.alternate.nl/Kingston-HyperX/Predator-PCIe-480-GB-SSD/html/product/1196664?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Predator_PCIe__480_GB_SSD@@imjm2x01.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1848,6 +1980,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-120-GB-SSD/html/product/1199908?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__120_GB_SSD@@imhm2b10.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1864,6 +1997,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-240-GB-SSD/html/product/1199920?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__240_GB_SSD@@imim2b11.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1880,6 +2014,7 @@
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-480-GB-SSD/html/product/1199909?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__480_GB_SSD@@imjm2b10.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1892,10 +2027,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617239911",
     "mpn": "SHSS3B7A/480G",
-    "price": 209.9,
+    "price": 212.9,
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-480-GB-SSD/html/product/1199921?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__480_GB_SSD@@imjm2b11.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1908,10 +2044,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617239874",
     "mpn": "SHSS37A/960G",
-    "price": 369.0,
+    "price": 374.0,
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-960-GB-SSD/html/product/1199910?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__960_GB_SSD@@imkm2b10.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1924,10 +2061,11 @@
     "brand": "Kingston HyperX",
     "ean": "0740617239928",
     "mpn": "SHSS3B7A/960G",
-    "price": 389.0,
+    "price": 399.0,
     "url": "https://www.alternate.nl/Kingston-HyperX/Savage-960-GB-SSD/html/product/1199922?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Kingston_HyperX_Savage__960_GB_SSD@@imkm2b11.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1944,22 +2082,7 @@
     "url": "https://www.alternate.nl/LiteOn/MU-3-120-GB-SSD/html/product/1305720?",
     "shop": "Alternate",
     "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "LiteOn MU 3, 240 GB SSD",
-    "brand": "LiteOn",
-    "ean": "",
-    "mpn": "PH4-CE240",
-    "price": 74.9,
-    "url": "https://www.alternate.nl/LiteOn/MU-3-240-GB-SSD/html/product/1305723?",
-    "shop": "Alternate",
-    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/LiteOn_MU_3__120_GB_SSD@@imhmxb12_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -1976,6 +2099,7 @@
     "url": "https://www.alternate.nl/Mushkin/Atlas-Vital-120-GB-SSD/html/product/1217411?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Atlas_Vital__120_GB_SSD@@imhmuc06.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -1992,6 +2116,7 @@
     "url": "https://www.alternate.nl/Mushkin/Atlas-Vital-240-GB-SSD/html/product/1217412?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Atlas_Vital__240_GB_SSD@@imimuc06.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2008,6 +2133,7 @@
     "url": "https://www.alternate.nl/Mushkin/Atlas-Vital-250-GB-SSD/html/product/1217413?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Atlas_Vital__250_GB_SSD@@imimuc66.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2024,6 +2150,7 @@
     "url": "https://www.alternate.nl/Mushkin/Atlas-Vital-480-GB-SSD/html/product/1217414?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Atlas_Vital__480_GB_SSD@@imjmuc06.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2040,6 +2167,7 @@
     "url": "https://www.alternate.nl/Mushkin/Chronos-G2-480-GB-SSD/html/product/1160597?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Chronos_G2__480_GB_SSD@@imjmuc03.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2052,10 +2180,11 @@
     "brand": "Mushkin",
     "ean": "0846651023070",
     "mpn": "MKNSSDRE1TB",
-    "price": 309.0,
+    "price": 294.0,
     "url": "https://www.alternate.nl/Mushkin/Reactor-1-TB-SSD/html/product/1169527?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Reactor__1_TB_SSD@@imkmuc04.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2072,6 +2201,7 @@
     "url": "https://www.alternate.nl/Mushkin/Scorpion-Deluxe-1-92-TB-SSD/html/product/1096147?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Scorpion_Deluxe__1_92_TB_SSD@@imlmux02.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -2088,6 +2218,7 @@
     "url": "https://www.alternate.nl/Mushkin/Scorpion-Deluxe-480-GB-SSD/html/product/1096145?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_Scorpion_Deluxe__480_GB_SSD@@imjmux02.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -2100,10 +2231,11 @@
     "brand": "Mushkin",
     "ean": "0846651026460",
     "mpn": "MKNSSDTR240GB-LT",
-    "price": 81.9,
+    "price": 79.9,
     "url": "https://www.alternate.nl/Mushkin/TRIACTOR-240-GB-SSD/html/product/1291082?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_TRIACTOR__240_GB_SSD@@imimuc11.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2120,6 +2252,7 @@
     "url": "https://www.alternate.nl/Mushkin/TRIACTOR-480-GB-SSD/html/product/1251762?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Mushkin_TRIACTOR__480_GB_SSD@@imjmuc08.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2136,6 +2269,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400-1024-GB-SSD/html/product/1280693?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400__1024_GB_SSD@@imkmnx20.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2152,6 +2286,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400-128-GB-SSD/html/product/1280696?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400__128_GB_SSD@@imhmnx20.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2168,6 +2303,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400-256-GB-SSD/html/product/1280690?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400__256_GB_SSD@@imimnx20.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2184,6 +2320,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400-512-GB-SSD/html/product/1280692?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400__512_GB_SSD@@imjmnx20.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2196,10 +2333,11 @@
     "brand": "OCZ",
     "ean": "0842024037545",
     "mpn": "RVD400-M22280-1T-A",
-    "price": 719.0,
+    "price": 699.0,
     "url": "https://www.alternate.nl/OCZ/RD400A-1-TB-SSD/html/product/1282509?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400A__1_TB_SSD@@imkmnx21.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2216,6 +2354,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400A-128-GB-SSD/html/product/1282510?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400A__128_GB_SSD@@imhmnx21.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2232,6 +2371,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400A-256-GB-SSD/html/product/1282508?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400A__256_GB_SSD@@imimnx21.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2248,6 +2388,7 @@
     "url": "https://www.alternate.nl/OCZ/RD400A-512-GB-SSD/html/product/1282513?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_RD400A__512_GB_SSD@@imjmnx21.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2264,6 +2405,7 @@
     "url": "https://www.alternate.nl/OCZ/TL100-120-GB-SSD/html/product/1301689?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_TL100__120_GB_SSD@@imhmnb61.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2280,6 +2422,7 @@
     "url": "https://www.alternate.nl/OCZ/TL100-240-GB-SSD/html/product/1301694?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_TL100__240_GB_SSD@@imimnb61.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2296,6 +2439,7 @@
     "url": "https://www.alternate.nl/OCZ/Trion-150-480-GB-SSD/html/product/1251031?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_Trion_150__480_GB_SSD@@imjmnb59.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2312,6 +2456,7 @@
     "url": "https://www.alternate.nl/OCZ/Trion-150-960-GB-SSD/html/product/1251032?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_Trion_150__960_GB_SSD@@imkmnb59.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2328,6 +2473,7 @@
     "url": "https://www.alternate.nl/OCZ/Vector-180-240-GB-SSD/html/product/1188244?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_Vector_180__240_GB_SSD@@imimnb55.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2344,6 +2490,7 @@
     "url": "https://www.alternate.nl/OCZ/Vector-180-960-GB-SSD/html/product/1188246?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/OCZ_Vector_180__960_GB_SSD@@imkmnb55.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2360,6 +2507,7 @@
     "url": "https://www.alternate.nl/Plextor/M8Pe(G)-1-TB-SSD/html/product/1300996?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_M8Pe_G___1_TB_SSD@@imkmxx05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2376,6 +2524,7 @@
     "url": "https://www.alternate.nl/Plextor/M8Pe(G)-512-GB-SSD/html/product/1293851?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_M8Pe_G___512_GB_SSD@@imjmxx05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2392,6 +2541,7 @@
     "url": "https://www.alternate.nl/Plextor/M8PeG-256-GB-M-2-2280-SSD/html/product/1293849?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_M8PeG__256_GB_M_2_2280_SSD@@imimxx05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2408,6 +2558,7 @@
     "url": "https://www.alternate.nl/Plextor/M8PeY-256-GB-SSD/html/product/1293845?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_M8PeY__256_GB__SSD@@imimxx04_30.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -2424,6 +2575,7 @@
     "url": "https://www.alternate.nl/Plextor/M8PeY-512-GB-SSD/html/product/1293852?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_M8PeY__512_GB__SSD@@imjmxx04_30.jpg",
     "connectors": [
       {
         "name": "PCIe",
@@ -2440,6 +2592,7 @@
     "url": "https://www.alternate.nl/Plextor/PX-128M7V-128-GB-SSD/html/product/1270950?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_PX_128M7V__128_GB_SSD@@imhmxr_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2456,6 +2609,7 @@
     "url": "https://www.alternate.nl/Plextor/PX-256M7V-256-GB-SSD/html/product/1270948?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_PX_256M7V__256_GB_SSD@@imimxr_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2472,6 +2626,7 @@
     "url": "https://www.alternate.nl/Plextor/PX-256M7V-512-GB-SSD/html/product/1270952?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Plextor_PX_256M7V__512_GB_SSD@@imjmxr_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2482,12 +2637,30 @@
   {
     "name": "Samsung 850 EVO, 1 TB SSD",
     "brand": "Samsung",
+    "ean": "8806088160900",
+    "mpn": "MZ-N5E1T0BW",
+    "price": 369.0,
+    "url": "https://www.alternate.nl/Samsung/850-EVO-1-TB-SSD/html/product/1184650?",
+    "shop": "Alternate",
+    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__1_TB_SSD@@imkm4q.jpg",
+    "connectors": [
+      {
+        "name": "M.2",
+        "type": "STORAGE"
+      }
+    ]
+  },
+  {
+    "name": "Samsung 850 EVO, 1 TB SSD",
+    "brand": "Samsung",
     "ean": "8806086585699",
     "mpn": "MZ-M5E1T0BW",
-    "price": 329.0,
+    "price": 359.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-1-TB-SSD/html/product/1184642?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__1_TB_SSD@@imkm4p_30.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -2500,10 +2673,11 @@
     "brand": "Samsung",
     "ean": "8806086523042",
     "mpn": "MZ-75E1T0B/EU",
-    "price": 334.0,
+    "price": 359.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-1-TB-SSD/html/product/1163760?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__1_TB_SSD@@imkm4i.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2516,10 +2690,11 @@
     "brand": "Samsung",
     "ean": "8806086995344",
     "mpn": "MZ-75E2T0B/EU",
-    "price": 699.0,
+    "price": 719.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-2-TB-SSD/html/product/1214319?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__2_TB_SSD@@imlm4i_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2536,6 +2711,7 @@
     "url": "https://www.alternate.nl/Samsung/850-EVO-250-GB-SSD/html/product/1184648?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__250_GB_SSD@@imim4q_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2552,6 +2728,7 @@
     "url": "https://www.alternate.nl/Samsung/850-EVO-250-GB-SSD/html/product/1184640?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__250_GB_SSD@@imim4p_30.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -2564,10 +2741,11 @@
     "brand": "Samsung",
     "ean": "8806086522977",
     "mpn": "MZ-75E250B/EU",
-    "price": 104.9,
+    "price": 109.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-250-GB-SSD/html/product/1163757?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__250_GB_SSD@@imim4i.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2580,10 +2758,11 @@
     "brand": "Samsung",
     "ean": "8806088090979",
     "mpn": "MZ-75E4T0B/EU",
-    "price": 1429.0,
+    "price": 1599.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-4-TB-SSD/html/product/1266335?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__4_TB_SSD@@immm4i_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2596,10 +2775,11 @@
     "brand": "Samsung",
     "ean": "8806086587341",
     "mpn": "MZ-N5E500BW",
-    "price": 174.9,
+    "price": 189.9,
     "url": "https://www.alternate.nl/Samsung/850-EVO-500-GB-SSD/html/product/1184649?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__500_GB_SSD@@imjm4q_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2612,10 +2792,11 @@
     "brand": "Samsung",
     "ean": "8806086585682",
     "mpn": "MZ-M5E500BW",
-    "price": 174.9,
+    "price": 189.9,
     "url": "https://www.alternate.nl/Samsung/850-EVO-500-GB-SSD/html/product/1184641?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__500_GB_SSD@@imjm4p_30.jpg",
     "connectors": [
       {
         "name": "mSATA",
@@ -2628,10 +2809,11 @@
     "brand": "Samsung",
     "ean": "8806086523035",
     "mpn": "MZ-75E500B/EU",
-    "price": 182.9,
+    "price": 189.0,
     "url": "https://www.alternate.nl/Samsung/850-EVO-500-GB-SSD/html/product/1163758?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_EVO__500_GB_SSD@@imjm4i.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2648,6 +2830,7 @@
     "url": "https://www.alternate.nl/Samsung/850-Pro-1-TB-SSD/html/product/1148248?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_Pro__1_TB_SSD@@imkm4k.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2660,10 +2843,11 @@
     "brand": "Samsung",
     "ean": "8806086860987",
     "mpn": "MZ-7KE2T0BW",
-    "price": 969.0,
+    "price": 999.0,
     "url": "https://www.alternate.nl/Samsung/850-Pro-2-TB-SSD/html/product/1214322?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_Pro__2_TB_SSD@@imlm4k_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2676,10 +2860,11 @@
     "brand": "Samsung",
     "ean": "8806086264631",
     "mpn": "MZ-7KE256BW",
-    "price": 137.9,
+    "price": 144.9,
     "url": "https://www.alternate.nl/Samsung/850-Pro-256-GB-SSD/html/product/1148246?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_Pro__256_GB_SSD@@imim4k.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2692,29 +2877,14 @@
     "brand": "Samsung",
     "ean": "8806086264648",
     "mpn": "MZ-7KE512BW",
-    "price": 249.9,
+    "price": 259.0,
     "url": "https://www.alternate.nl/Samsung/850-Pro-512-GB-SSD/html/product/1148247?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_850_Pro__512_GB_SSD@@imjm4k.jpg",
     "connectors": [
       {
         "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "Samsung 950 Pro, 256 GB SSD",
-    "brand": "Samsung",
-    "ean": "8806086777513",
-    "mpn": "MZ-V5P256BW",
-    "price": 207.9,
-    "url": "https://www.alternate.nl/Samsung/950-Pro-256-GB-SSD/html/product/1229082?",
-    "shop": "Alternate",
-    "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "M.2",
         "type": "STORAGE"
       }
     ]
@@ -2724,10 +2894,11 @@
     "brand": "Samsung",
     "ean": "8806088540115",
     "mpn": "MZ-V6E1T0BW",
-    "price": 464.0,
+    "price": 499.0,
     "url": "https://www.alternate.nl/Samsung/960-EVO-1-TB-SSD/html/product/1305246?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_EVO__1_TB_SSD@@imkm4x05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2740,10 +2911,11 @@
     "brand": "Samsung",
     "ean": "8806088540139",
     "mpn": "MZ-V6E250BW",
-    "price": 127.9,
+    "price": 139.0,
     "url": "https://www.alternate.nl/Samsung/960-EVO-250-GB-SSD/html/product/1305238?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_EVO__250_GB_SSD@@imim4x05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2756,10 +2928,11 @@
     "brand": "Samsung",
     "ean": "8806088540122",
     "mpn": "MZ-V6E500BW",
-    "price": 247.9,
+    "price": 269.0,
     "url": "https://www.alternate.nl/Samsung/960-EVO-500-GB-SSD/html/product/1305245?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_EVO__500_GB_SSD@@imjm4x05_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2772,10 +2945,11 @@
     "brand": "Samsung",
     "ean": "8806088540153",
     "mpn": "MZ-V6P1T0BW",
-    "price": 619.0,
+    "price": 649.0,
     "url": "https://www.alternate.nl/Samsung/960-PRO-1-TB-SSD/html/product/1305249?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_PRO__1_TB_SSD@@imkm4x06_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2788,10 +2962,11 @@
     "brand": "Samsung",
     "ean": "8806088540160",
     "mpn": "MZ-V6P2T0BW",
-    "price": 1249.0,
+    "price": 1349.0,
     "url": "https://www.alternate.nl/Samsung/960-PRO-2-TB-SSD/html/product/1305252?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_PRO__2_TB_SSD@@imlm4x06_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2804,10 +2979,11 @@
     "brand": "Samsung",
     "ean": "8806088540146",
     "mpn": "MZ-V6P512BW",
-    "price": 314.0,
+    "price": 349.0,
     "url": "https://www.alternate.nl/Samsung/960-PRO-512-GB-SSD/html/product/1305248?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Samsung_960_PRO__512_GB_SSD@@imjm4x06_30.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -2824,6 +3000,7 @@
     "url": "https://www.alternate.nl/SanDisk/Extreme-500-Portable-SSD-120-GB-externe-SSD/html/product/1240759?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Extreme_500_Portable_SSD__120_GB_externe_SSD@@imhm6e00_30.jpg",
     "connectors": [
       {
         "name": "USB-B",
@@ -2840,6 +3017,7 @@
     "url": "https://www.alternate.nl/SanDisk/Extreme-500-Portable-SSD-240-GB-externe-SSD/html/product/1240765?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Extreme_500_Portable_SSD__240_GB_externe_SSD@@imim6e00_30.jpg",
     "connectors": [
       {
         "name": "USB-B",
@@ -2856,6 +3034,7 @@
     "url": "https://www.alternate.nl/SanDisk/Extreme-500-Portable-SSD-480-GB-externe-SSD/html/product/1240766?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Extreme_500_Portable_SSD__480_GB_externe_SSD@@imjm6e00_30.jpg",
     "connectors": [
       {
         "name": "USB-B",
@@ -2872,6 +3051,7 @@
     "url": "https://www.alternate.nl/SanDisk/Extreme-PRO-480-GB-SSD/html/product/1149505?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Extreme_PRO__480_GB_SSD@@imjm6f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2888,6 +3068,7 @@
     "url": "https://www.alternate.nl/SanDisk/Extreme-PRO-960-GB-SSD/html/product/1149506?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Extreme_PRO__960_GB_SSD@@imkm6f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2900,26 +3081,11 @@
     "brand": "SanDisk",
     "ean": "0619659146689",
     "mpn": "SDSSDA-120G-G26",
-    "price": 52.9,
+    "price": 56.9,
     "url": "https://www.alternate.nl/SanDisk/SSD-Plus-120GB-SSD/html/product/1281933?",
     "shop": "Alternate",
     "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "SanDisk SSD Plus, 240 GB SSD",
-    "brand": "SanDisk",
-    "ean": "0619659146726",
-    "mpn": "SDSSDA-240G-G26",
-    "price": 79.9,
-    "url": "https://www.alternate.nl/SanDisk/SSD-Plus-240-GB-SSD/html/product/1281937?",
-    "shop": "Alternate",
-    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_SSD_Plus__120GB_SSD@@imhm6m.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2936,6 +3102,7 @@
     "url": "https://www.alternate.nl/SanDisk/SSD-Plus-480GB-SSD/html/product/1281939?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_SSD_Plus__480GB_SSD@@imjm6m.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2948,10 +3115,11 @@
     "brand": "SanDisk",
     "ean": "0619659151324",
     "mpn": "SDSSDA-960G-G26",
-    "price": 234.9,
+    "price": 249.9,
     "url": "https://www.alternate.nl/SanDisk/SSD-Plus-960GB-SSD/html/product/1302847?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_SSD_Plus__960GB_SSD@@imkm6m.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2968,6 +3136,7 @@
     "url": "https://www.alternate.nl/SanDisk/Ultra-II-240-GB-SSD/html/product/1155893?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Ultra_II__240_GB_SSD@@imim6g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2984,6 +3153,7 @@
     "url": "https://www.alternate.nl/SanDisk/Ultra-II-480-GB-SSD/html/product/1155896?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Ultra_II__480_GB_SSD@@imjm6g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3000,6 +3170,7 @@
     "url": "https://www.alternate.nl/SanDisk/Ultra-II-960-GB-SSD/html/product/1155894?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/SanDisk_Ultra_II__960_GB_SSD@@imkm6g.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3016,6 +3187,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-1-TB-SSD/html/product/1305606?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__1_TB_SSD@@imkmi2.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -3032,6 +3204,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-1-TB-SSD/html/product/1305597?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__1_TB_SSD@@imkmi1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3048,6 +3221,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-250-GB-SSD/html/product/1305603?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__250_GB_SSD@@imimi2.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -3064,6 +3238,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-250-GB-SSD/html/product/1305593?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__250_GB_SSD@@imimi1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3080,6 +3255,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-500-GB-SSD/html/product/1305605?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__500_GB_SSD@@imjmi2.jpg",
     "connectors": [
       {
         "name": "M.2",
@@ -3096,6 +3272,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-500-GB-SSD/html/product/1305595?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Blue__500_GB_SSD@@imjmi1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3112,6 +3289,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Green-240-GB-SSD/html/product/1311909?",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Western_Digital_Green__240_GB_SSD@@imimi3_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3128,6 +3306,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-5K1000-1-TB-Harde-schijf/html/product/1042205?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_5K1000__1_TB_Harde_schijf@@aabil1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3144,6 +3323,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-5K1000-1-TB-Harde-schijf/html/product/992853?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_5K1000__1_TB_Harde_schijf@@aabil0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3160,6 +3340,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-5K1000-1-TB-Harde-schijf/html/product/1311022?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_5K1000__1_TB_Harde_schijf@@aabil4.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3176,6 +3357,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-7K1000-1-TB-Harde-schijf/html/product/1066142?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_7K1000__1_TB_Harde_schijf@@aabil2.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3192,22 +3374,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-7K1000-1-TB-Harde-schijf/html/product/1161313?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "HGST Travelstar Z5K500, 500 GB Harde schijf",
-    "brand": "HGST",
-    "ean": "4016138932331",
-    "mpn": "0J38065",
-    "price": 44.99,
-    "url": "https://www.alternate.nl/HGST/Travelstar-Z5K500-500-GB-Harde-schijf/html/product/1165447?lk=16780",
-    "shop": "Alternate",
-    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_7K1000__1_TB_Harde_schijf@@aabil3.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3224,6 +3391,7 @@
     "url": "https://www.alternate.nl/HGST/Travelstar-Z7K500-500-GB-Harde-schijf/html/product/1237745?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Travelstar_Z7K500__500_GB_Harde_schijf@@aabijl.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3240,6 +3408,7 @@
     "url": "https://www.alternate.nl/HGST/Z5K500-500-GB-Harde-schijf/html/product/1302578?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Z5K500__500_GB_Harde_schijf@@aabijg.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3256,6 +3425,7 @@
     "url": "https://www.alternate.nl/HGST/Z7K500-500GB-Harde-schijf/html/product/1287702?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Z7K500__500GB_Harde_schijf@@aabijn.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3272,6 +3442,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-1-TB-Harde-schijf/html/product/1307666?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__1_TB_Harde_schijf@@aabsl9.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3288,6 +3459,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-2-TB-Harde-schijf/html/product/1307667?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__2_TB_Harde_schijf@@aabsp3.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3304,6 +3476,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-500-GB-Harde-schijf/html/product/1305965?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__500_GB_Harde_schijf@@aabsjj.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3320,6 +3493,7 @@
     "url": "https://www.alternate.nl/Seagate/FireCuda-1-TB-Harde-schijf/html/product/1305767?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_FireCuda__1_TB_Harde_schijf@@aabsl8.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3336,6 +3510,7 @@
     "url": "https://www.alternate.nl/Seagate/FireCuda-2-TB-Harde-schijf/html/product/1305763?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_FireCuda__2_TB_Harde_schijf@@aabsp1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3352,6 +3527,7 @@
     "url": "https://www.alternate.nl/Seagate/FireCuda-500-GB-Harde-schijf/html/product/1305779?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_FireCuda__500_GB_Harde_schijf@@aabsji.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3368,6 +3544,7 @@
     "url": "https://www.alternate.nl/Seagate/Laptop-Thin-HDD-4-TB-Harde-schijf/html/product/1287814?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Laptop_Thin_HDD__4_TB_Harde_schijf@@aabss0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3384,6 +3561,7 @@
     "url": "https://www.alternate.nl/Seagate/Laptop-Thin-HDD-500-GB-Harde-schijf/html/product/1147172?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Laptop_Thin_HDD__500_GB_Harde_schijf@@aabsjg.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3400,6 +3578,7 @@
     "url": "https://www.alternate.nl/Seagate/Mobile-HDD-1-TB-Harde-schijf/html/product/1266202?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Mobile_HDD__1_TB_Harde_schijf@@aabsl6.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3416,6 +3595,7 @@
     "url": "https://www.alternate.nl/Seagate/Momentus-Thin-500-GB-Harde-schijf/html/product/1066025?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Momentus_Thin__500_GB_Harde_schijf@@aabsje.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3424,14 +3604,15 @@
     ]
   },
   {
-    "name": "Toshiba 500GB MQ01ABF050 Harde schijf",
+    "name": "Toshiba MQ01ABF, 500 GB Harde schijf",
     "brand": "Toshiba",
     "ean": "0696859079139",
     "mpn": "MQ01ABF050",
     "price": 48.99,
-    "url": "https://www.alternate.nl/Toshiba/500GB-MQ01ABF050-Harde-schijf/html/product/1079525?lk=16780",
+    "url": "https://www.alternate.nl/Toshiba/MQ01ABF-500-GB-Harde-schijf/html/product/1079525?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_MQ01ABF__500_GB_Harde_schijf@@aabtjb.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3448,6 +3629,7 @@
     "url": "https://www.alternate.nl/Western-Digital/AV-25-1-TB-Harde-schijf/html/product/1019660?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_AV_25__1_TB_Harde_schijf@@aabwl7.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3464,6 +3646,7 @@
     "url": "https://www.alternate.nl/Western-Digital/AV-25-500-GB-Harde-schijf/html/product/1053626?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_AV_25__500_GB_Harde_schijf@@aabwjb.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3480,6 +3663,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-1-TB-Harde-schijf/html/product/1290566?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__1_TB_Harde_schijf@@aabwlf.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3496,6 +3680,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-500-GB-Harde-schijf/html/product/1189603?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__500_GB_Harde_schijf@@aabwjd.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3512,6 +3697,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-750-GB-Harde-schijf/html/product/1097819?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__750_GB_Harde_schijf@@aabwkc.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3528,6 +3714,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-1-TB-Harde-schijf/html/product/1077911?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__1_TB_Harde_schijf@@aabwl8.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3544,6 +3731,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-2-TB-Harde-schijf/html/product/1254943?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__2_TB_Harde_schijf@@aabwp2_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3560,6 +3748,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-500-GB-Harde-schijf/html/product/1247796?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__500_GB_Harde_schijf@@aabwjf.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3576,6 +3765,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-750-GB-Harde-schijf/html/product/1077909?lk=16780",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__750_GB_Harde_schijf@@aabwkb.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3592,6 +3782,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K4000-2-TB-Harde-schijf/html/product/1018424?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K4000__2_TB_Harde_schijf@@afbi10.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3608,6 +3799,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K4000-3-TB-Harde-schijf/html/product/1093620?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K4000__3_TB_Harde_schijf@@agbi07.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3624,6 +3816,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K4000-4-TB-Harde-schijf/html/product/1108972?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K4000__4_TB_Harde_schijf@@ahbi05.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3640,6 +3833,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K4000-4-TB-Harde-schijf/html/product/989923?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K4000__4_TB_Harde_schijf@@ahbi03.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3656,6 +3850,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K6000-2-TB-Harde-schijf/html/product/1303777?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K6000__2_TB_Harde_schijf@@afbi14.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3672,6 +3867,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-7K6000-6-TB-Harde-schijf/html/product/1160179?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_7K6000__6_TB_Harde_schijf@@ajbi03.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3688,6 +3884,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-A7K2000-1-TB-Harde-schijf/html/product/149310?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_A7K2000__1_TB_Harde_schijf@@aebi18.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3704,6 +3901,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-He10-10-TB-Harde-schijf/html/product/1271542?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_He10__10_TB_Harde_schijf@@albi01.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3716,10 +3914,11 @@
     "brand": "HGST",
     "ean": "0672042149803",
     "mpn": "0F18335",
-    "price": 539.0,
+    "price": 529.0,
     "url": "https://www.alternate.nl/HGST/Ultrastar-He6-6-TB-Harde-schijf/html/product/1149429?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_He6__6_TB_Harde_schijf@@ajbi01.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3736,6 +3935,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-He8-6-TB-Harde-schijf/html/product/1160110?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_He8__6_TB_Harde_schijf@@ajbi02_1.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3752,6 +3952,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-He8-8-TB-Harde-schijf/html/product/1250172?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_He8__8_TB_Harde_schijf@@akbi04.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3768,6 +3969,7 @@
     "url": "https://www.alternate.nl/HGST/Ultrastar-He8-8-TB-Harde-schijf/html/product/1160112?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/HGST_Ultrastar_He8__8_TB_Harde_schijf@@akbi01.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3784,6 +3986,7 @@
     "url": "https://www.alternate.nl/Seagate/Archive-HDD-v2-6-TB-Harde-schijf/html/product/1206024?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Archive_HDD_v2__6_TB_Harde_schijf@@ajbs01_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3800,6 +4003,7 @@
     "url": "https://www.alternate.nl/Seagate/Archive-HDD-v2-8-TB-Harde-schijf/html/product/1180801?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Archive_HDD_v2__8_TB_Harde_schijf@@akbs0a.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3812,10 +4016,11 @@
     "brand": "Seagate",
     "ean": "7636490025914",
     "mpn": "ST1000DM003",
-    "price": 49.99,
+    "price": 52.9,
     "url": "https://www.alternate.nl/Seagate/Barracuda-7200-14-1-TB-Harde-schijf/html/product/963366?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Barracuda_7200_14__1_TB_Harde_schijf@@aebs32.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3832,6 +4037,7 @@
     "url": "https://www.alternate.nl/Seagate/Barracuda-7200-14-2-TB-Harde-schijf/html/product/965390?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Barracuda_7200_14__2_TB_Harde_schijf@@afbs25.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3848,6 +4054,7 @@
     "url": "https://www.alternate.nl/Seagate/Barracuda-7200-14-3-TB-Harde-schijf/html/product/965387?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Barracuda_7200_14__3_TB_Harde_schijf@@agbs07.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3864,6 +4071,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-Pro-10-TB-Harde-schijf/html/product/1289523?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda_Pro__10_TB_Harde_schijf@@albs02.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3880,6 +4088,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-Pro-6-TB-Harde-schijf/html/product/1299490?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda_Pro__6_TB_Harde_schijf@@ajbs0f.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3896,22 +4105,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-Pro-8-TB-Harde-schijf/html/product/1299491?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "Seagate BarraCuda, 1 TB Harde schijf",
-    "brand": "Seagate",
-    "ean": "",
-    "mpn": "ST1000DM010",
-    "price": 54.9,
-    "url": "https://www.alternate.nl/Seagate/BarraCuda-1-TB-Harde-schijf/html/product/1320590?lk=16781",
-    "shop": "Alternate",
-    "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda_Pro__8_TB_Harde_schijf@@akbs0d0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3928,6 +4122,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-1-TB-Harde-schijf/html/product/1289337?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__1_TB_Harde_schijf@@aebs42.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3944,6 +4139,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-2-TB-Harde-schijf/html/product/1289366?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__2_TB_Harde_schijf@@afbs37.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3960,6 +4156,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-3-TB-Harde-schijf/html/product/1289373?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__3_TB_Harde_schijf@@agbs0b.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3976,6 +4173,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-4-TB-Harde-schijf/html/product/1299485?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__4_TB_Harde_schijf@@ahbs010.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -3992,6 +4190,7 @@
     "url": "https://www.alternate.nl/Seagate/BarraCuda-500-GB-Harde-schijf/html/product/1314013?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_BarraCuda__500_GB_Harde_schijf@@a9bs96_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4008,6 +4207,7 @@
     "url": "https://www.alternate.nl/Seagate/Constellation-ES-3-1-TB-Harde-schijf/html/product/1042152?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Constellation_ES_3__1_TB_Harde_schijf@@aebs38.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4024,6 +4224,7 @@
     "url": "https://www.alternate.nl/Seagate/Desktop-HDD-4-TB-Harde-schijf/html/product/1069188?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Desktop_HDD__4_TB_Harde_schijf@@ahbs01.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4040,6 +4241,7 @@
     "url": "https://www.alternate.nl/Seagate/Desktop-HDD-500-GB-Harde-schijf/html/product/907816?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Desktop_HDD__500_GB_Harde_schijf@@a9bs95.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4056,6 +4258,7 @@
     "url": "https://www.alternate.nl/Seagate/Enterprise-Capacity-3-5-HDD-10-TB-Harde-schijf/html/product/1272622?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Enterprise_Capacity_3_5_HDD__10_TB_Harde_schijf@@albs00.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4072,6 +4275,7 @@
     "url": "https://www.alternate.nl/Seagate/SkyHawk-1-TB-Harde-schijf/html/product/1289340?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__1_TB_Harde_schijf@@aebs44.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4088,6 +4292,7 @@
     "url": "https://www.alternate.nl/Seagate/SkyHawk-10-TB-Harde-schijf/html/product/1289533?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__10_TB_Harde_schijf@@albs03.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4104,6 +4309,7 @@
     "url": "https://www.alternate.nl/Seagate/SkyHawk-2-TB-Harde-schijf/html/product/1299436?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__2_TB_Harde_schijf@@afbs260.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4120,6 +4326,7 @@
     "url": "https://www.alternate.nl/Seagate/SkyHawk-3-TB-Harde-schijf/html/product/1299476?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__3_TB_Harde_schijf@@agbs080.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4132,10 +4339,11 @@
     "brand": "Seagate",
     "ean": "0763649097953",
     "mpn": "ST4000VX007",
-    "price": 147.9,
+    "price": 149.9,
     "url": "https://www.alternate.nl/Seagate/SkyHawk-4-TB-Harde-schijf/html/product/1299487?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__4_TB_Harde_schijf@@ahbs080.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4152,6 +4360,7 @@
     "url": "https://www.alternate.nl/Seagate/SkyHawk-6-TB-Harde-schijf/html/product/1299489?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_SkyHawk__6_TB_Harde_schijf@@ajbs0c0.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4168,6 +4377,7 @@
     "url": "https://www.alternate.nl/Toshiba/DT01ACAxxx-1-TB-Harde-schijf/html/product/1012454?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_DT01ACAxxx__1_TB_Harde_schijf@@aebt02.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4184,6 +4394,7 @@
     "url": "https://www.alternate.nl/Toshiba/DT01ACAxxx-2-TB-Harde-schijf/html/product/1026605?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_DT01ACAxxx__2_TB_Harde_schijf@@afbt02.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4200,6 +4411,7 @@
     "url": "https://www.alternate.nl/Toshiba/DT01ACAxxx-3-TB-Harde-schijf/html/product/1026606?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_DT01ACAxxx__3_TB_Harde_schijf@@agbt02.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4216,6 +4428,7 @@
     "url": "https://www.alternate.nl/Toshiba/DT01ACAxxx-500-GB-Harde-schijf/html/product/1012452?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_DT01ACAxxx__500_GB_Harde_schijf@@a9bt01.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4228,10 +4441,11 @@
     "brand": "Toshiba",
     "ean": "5712505477892",
     "mpn": "MD04ACA400",
-    "price": 139.9,
+    "price": 144.9,
     "url": "https://www.alternate.nl/Toshiba/MD04ACA400-4-TB-Harde-schijf/html/product/1178729?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Toshiba_MD04ACA400__4_TB_Harde_schijf@@ahbt03_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4248,6 +4462,7 @@
     "url": "https://www.alternate.nl/Western-Digital/AV-GP-1-TB-Harde-schijf/html/product/982367?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_AV_GP__1_TB_Harde_schijf@@aebw41.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4264,6 +4479,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-1-TB-Harde-schijf/html/product/1104715?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__1_TB_Harde_schijf@@aebw64.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4280,6 +4496,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-2-TB-Harde-schijf/html/product/1104736?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__2_TB_Harde_schijf@@afbw25.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4296,6 +4513,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-4-TB-Harde-schijf/html/product/1293178?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__4_TB_Harde_schijf@@ahbw0e.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4312,6 +4530,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-500-GB-Harde-schijf/html/product/1021538?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__500_GB_Harde_schijf@@a9bwad.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4328,6 +4547,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Black-6-TB-Harde-schijf/html/product/1221726?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Black__6_TB_Harde_schijf@@ajbw05.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4340,10 +4560,11 @@
     "brand": "Western Digital",
     "ean": "0718037779911",
     "mpn": "WD10EZEX",
-    "price": 49.99,
+    "price": 51.9,
     "url": "https://www.alternate.nl/Western-Digital/Blue-1-TB-Harde-schijf/html/product/1013040?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__1_TB_Harde_schijf@@aebw62.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4360,6 +4581,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-1-TB-Harde-schijf/html/product/1231588?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__1_TB_Harde_schijf@@aebw67_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4376,6 +4598,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-2-TB-Harde-schijf/html/product/1231590?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__2_TB_Harde_schijf@@afbw9a_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4392,6 +4615,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-3-TB-Harde-schijf/html/product/1231595?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__3_TB_Harde_schijf@@agbw19_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4408,6 +4632,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-4-TB-Harde-schijf/html/product/1231594?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__4_TB_Harde_schijf@@ahbw0b_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4424,6 +4649,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-500-GB-Harde-schijf/html/product/1274746?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__500_GB_Harde_schijf@@a9bwah.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4440,6 +4666,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-500-GB-Harde-schijf/html/product/1231618?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__500_GB_Harde_schijf@@a9bw9a_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4456,6 +4683,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-6-TB-Harde-schijf/html/product/1231608?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue__6_TB_Harde_schijf@@ajbw07_30.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4472,6 +4700,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Purple-1-TB-Harde-schijf/html/product/1129182?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Purple__1_TB_Harde_schijf@@aebw65.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4484,10 +4713,11 @@
     "brand": "Western Digital",
     "ean": "0718037823331",
     "mpn": "WD20PURX",
-    "price": 86.9,
+    "price": 89.9,
     "url": "https://www.alternate.nl/Western-Digital/Purple-2-TB-Harde-schijf/html/product/1129186?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Purple__2_TB_Harde_schijf@@afbw26.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4504,6 +4734,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Purple-3-TB-Harde-schijf/html/product/1129200?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Purple__3_TB_Harde_schijf@@agbw14.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4520,6 +4751,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Purple-4-TB-Harde-schijf/html/product/1129202?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Purple__4_TB_Harde_schijf@@ahbw08.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4536,6 +4768,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Purple-6-TB-Harde-schijf/html/product/1169810?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Purple__6_TB_Harde_schijf@@ajbw02.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4552,6 +4785,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Re-1-TB-Harde-schijf/html/product/1255019?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Re__1_TB_Harde_schijf@@aebw68.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4568,6 +4802,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Re-2-TB-Harde-schijf/html/product/1269461?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Re__2_TB_Harde_schijf@@afbw9b.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4584,6 +4819,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Re-500-GB-Harde-schijf/html/product/1097836?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Re__500_GB_Harde_schijf@@a9bwag.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4600,6 +4836,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Se-3-TB-Harde-schijf/html/product/1088502?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Se__3_TB_Harde_schijf@@agbw09.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4616,6 +4853,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Se-6-TB-Harde-schijf/html/product/1218405?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Se__6_TB_Harde_schijf@@ajbw03.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4632,6 +4870,7 @@
     "url": "https://www.alternate.nl/Western-Digital/WD-Gold-4-TB-Harde-schijf/html/product/1270958?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_WD_Gold__4_TB_Harde_schijf@@ahbw0c.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4648,6 +4887,7 @@
     "url": "https://www.alternate.nl/Western-Digital/WD-Gold-6-TB-Harde-schijf/html/product/1270959?lk=16781",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_WD_Gold__6_TB_Harde_schijf@@ajbw0a.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4664,6 +4904,7 @@
     "url": "https://www.alternate.nl/Seagate/FireCuda-1-TB-Hybride-harde-schijf/html/product/1289347?lk=9601",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_FireCuda__1_TB_Hybride_harde_schijf@@aebs400.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4680,6 +4921,7 @@
     "url": "https://www.alternate.nl/Seagate/FireCuda-2-TB-Hybride-harde-schijf/html/product/1289372?lk=9601",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_FireCuda__2_TB_Hybride_harde_schijf@@afbs38.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -4696,6 +4938,7 @@
     "url": "https://www.alternate.nl/Western-Digital/Blue-SSHD-4-TB-Hybride-harde-schijf/html/product/1217742?lk=9601",
     "shop": "Alternate",
     "type": "STORAGE",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Western_Digital_Blue_SSHD__4_TB_Hybride_harde_schijf@@ahbw0a.jpg",
     "connectors": [
       {
         "name": "SATA",

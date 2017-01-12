@@ -35,6 +35,8 @@ class AlternateMotherboardDetailParser implements PageWorker {
     var dataFlix = document.querySelector("script[data-flix-mpn]");
     motherboard.ean = dataFlix.attributes["data-flix-ean"];
     motherboard.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+    motherboard.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     var techDataTableElements = document.querySelectorAll("div.techData table tr");
     for (int i = 0; i < techDataTableElements.length; i++) {

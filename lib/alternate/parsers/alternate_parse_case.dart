@@ -35,6 +35,8 @@ class AlternateCaseDetailParser implements PageWorker {
     var dataFlix = document.querySelector("script[data-flix-mpn]");
     pcCase.ean = dataFlix.attributes["data-flix-ean"];
     pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
+    pcCase.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String caseForm = "";
     var techDataTableElements = document.querySelectorAll("div.productShort ul li");
