@@ -25,7 +25,7 @@ class InformatiqueDiskParser implements PageWorker {
           disk.brand = tmpName.substring(0, indexOf);
           disk.name = tmpName.substring(indexOf ,tmpName.length);
         }
-        disk.type = "DISK";
+        disk.type = "STORAGE";
         disk.price = price(productRow.querySelector("#price").text);
         disk.shop = "Informatique";
         await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);

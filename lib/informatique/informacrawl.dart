@@ -19,7 +19,7 @@ class Informacrawl {
       String json;
       postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Informatique", "www.informatique.nl", "")));
 
-/*      // CPU //
+      // CPU //
       List processors = new List();
       List processorsTmp = new List();
       //intel
@@ -31,7 +31,7 @@ class Informacrawl {
       json = new JsonEncoder.withIndent("  ").convert(processors);
       print("We found a total of ${processors.length} Processors on informatique.nl");
       File informatiqueCpu = new File("informatique_processors.json");
-      informatiqueCpu.writeAsStringSync(json);*/
+      informatiqueCpu.writeAsStringSync(json);
 
       // DISK //
       List disks = new List();
@@ -65,7 +65,7 @@ class Informacrawl {
       File informatiqueMemoryUnits = new File("informatique_memory_units.json");
       informatiqueMemoryUnits.writeAsStringSync(json);
 
-      // MOTHERBOARDS //
+/*      // MOTHERBOARDS //
       List motherboards = new List();
       List motherboardsTmp = new List();
       motherboardsTmp = await Crawler.crawl("", new InformatiqueMotherboardParser());
@@ -93,7 +93,7 @@ class Informacrawl {
       json = new JsonEncoder.withIndent("  ").convert(pcCases);
       print("We found a total of ${pcCases.length} Cases on informatique.nl");
       File informatiquePcCases = new File("informatique_pc_cases.json");
-      informatiquePcCases.writeAsStringSync(json);
+      informatiquePcCases.writeAsStringSync(json);*/
 
 
     } catch (e) {
