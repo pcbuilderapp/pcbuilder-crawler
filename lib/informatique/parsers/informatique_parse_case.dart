@@ -8,53 +8,81 @@ class InformatiqueCaseParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    List caseUnits = [];
-    var rows = document.querySelectorAll("div.listRow");
+    List disks = [];
+    var rows = document.querySelectorAll("ul.novendorlogo");
     for (Element listRow in rows) {
-      Product pcCase = new Product();
-      pcCase.name = listRow.querySelector("span.name").text.trim();
-      pcCase.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      pcCase.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      pcCase.type = "CASE";
-      pcCase.price = price(listRow.querySelector("span.price").text);
-      pcCase.shop = "Alternate";
-      await Crawler.crawl(pcCase.url, new InformatiqueCaseDetailParser(), arguments: pcCase);
-
-      caseUnits.add(pcCase);
-    }
-    return caseUnits;
-  }
-}
-
-class InformatiqueCaseDetailParser implements PageWorker {
-
-  parse(Document document, arguments) async {
-
-    Product pcCase = arguments as Product;
-
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    pcCase.ean = dataFlix.attributes["data-flix-ean"];
-    pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
-
-    String caseForm = "";
-    var techDataTableElements = document.querySelectorAll("div.productShort ul li");
-    for (int i = 0; i < techDataTableElements.length; i++) {
-
-      List<String> productShort = techDataTableElements[i].text.split(":");
-
-      String techDataLabel = productShort[0];
-      String techData = productShort[1];
-
-      if (techDataLabel == "Formfactor") {
-        caseForm = techData;
+      var productRows = listRow.querySelectorAll("li");
+      for (Element productRow in productRows){
+        Product disk = new Product();
+        var querySelector = productRow.querySelector(".product_overlay");
+        if (querySelector == null ){
+          continue;
+        }
+        disk.url = querySelector.attributes["href"];
+        var tmpName = productRow.querySelector("#title").text;
+        if (tmpName != null){
+          var indexOf = tmpName.indexOf(" ");
+          disk.brand = tmpName.substring(0, indexOf);
+          disk.name = tmpName.substring(indexOf ,tmpName.length);
+        }
+        disk.type = "CASE";
+        disk.price = price(productRow.querySelector("#price").text);
+        disk.shop = "Informatique";
+        await Crawler.crawl(disk.url, new InformatiqueCaseDetailParser(), arguments: disk);
+        if (disk.connectors.length > 0 ) {
+          disks.add(disk);
+        }
       }
 
     }
-    pcCase.connectors.add(new Connector(caseForm, "CASE"));
-
-    String productJSON = new JsonEncoder.withIndent("  ").convert(pcCase);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
-    await sleepRnd();
+    return disks;
   }
+}
+
+
+class InformatiqueCaseDetailParser implements PageWorker {
+
+    parse(Document document, arguments) async {
+      Product caseUnit = arguments as Product;
+
+      caseUnit.price = price(document
+          .querySelector("p.verkoopprijs")
+          .text);
+
+      var prodImgA = document.querySelector(
+          "div#product-image a[data-thumbnail]");
+      if (prodImgA != null) {
+        caseUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
+      }
+      String caseConnector;
+      var tables = document.querySelectorAll("table#details");
+      for (var table in tables) {
+        var rows = table.querySelectorAll("tr");
+        for (var row in rows) {
+          var label = row.querySelector("strong");
+          if (label == null) {
+            continue;
+          } else if (label.text == "EAN code") {
+            caseUnit.ean = row
+                .querySelector("td:last-child")
+                .text;
+          } else if (label.text == "Fabrikantcode") {
+            caseUnit.mpn = row
+                .querySelector("tr:last-child span")
+                .text;
+          } else if (label.text == "Formfactor") {
+            caseConnector = row
+                .querySelector("td:last-child")
+                .text;
+          }
+        }
+      }
+
+
+      caseUnit.connectors.add(new Connector(caseConnector, "CASE"));
+      String productJSON = new JsonEncoder.withIndent("  ").convert(caseUnit);
+      postRequest(getBackendServerURL() + "/product/add", productJSON);
+      print(productJSON);
+      await sleepRnd();
+    }
 }

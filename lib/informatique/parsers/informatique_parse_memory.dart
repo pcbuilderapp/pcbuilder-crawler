@@ -28,7 +28,7 @@ class InformatiqueMemoryParser implements PageWorker {
             memory.name = memory.name.replaceAll("(tip)", "");
           }
         }
-        memory.type = "MEM";
+        memory.type = "MEMORY";
         Element priceSelector = productRow.querySelector("#price");
         if (priceSelector != null){
           memory.price = price(priceSelector.text);

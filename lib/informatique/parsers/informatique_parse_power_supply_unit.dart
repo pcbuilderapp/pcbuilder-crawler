@@ -9,56 +9,78 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
   parse(Document document, arguments) async {
 
     List psus = [];
-    var rows = document.querySelectorAll("div.listRow");
+    var rows = document.querySelectorAll("ul.novendorlogo");
     for (Element listRow in rows) {
-      Product psu = new Product();
-      psu.name = listRow.querySelector("span.name").text.trim();
-      psu.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      psu.url = "https://www.alternate.nl" +
-          listRow.querySelector(".productLink").attributes["href"];
-      psu.type = "PSU";
-      psu.price = price(listRow.querySelector("span.price").text);
-      psu.shop = "Alternate";
-      await Crawler.crawl(psu.url, new InformatiquePsuDetailParser(), arguments: psu);
+      var productRows = listRow.querySelectorAll("li");
+      for (Element productRow in productRows){
+        Product psu = new Product();
+        var querySelector = productRow.querySelector(".product_overlay");
+        if (querySelector == null ){
+          continue;
+        }
+        psu.url = querySelector.attributes["href"];
+        var tmpName = productRow.querySelector("#title").text;
+        if (tmpName != null){
+          var indexOf = tmpName.indexOf(" ");
+          psu.brand = tmpName.substring(0, indexOf);
+          psu.name = tmpName.substring(indexOf ,tmpName.length);
+        }
+        psu.type = "PSU";
+        psu.price = price(productRow.querySelector("#price").text);
+        psu.shop = "Informatique";
+        await Crawler.crawl(psu.url, new InformatiquePowerSupplyUnitDetailParser(), arguments: psu);
+        if (psu.connectors.length > 0 ) {
+          psus.add(psu);
+        }
+      }
 
-      psus.add(psu);
     }
     return psus;
   }
 }
 
-class InformatiquePsuDetailParser implements PageWorker {
+
+class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
+
   parse(Document document, arguments) async {
-    Product psu = arguments as Product;
+    Product psuUnit = arguments as Product;
 
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    psu.ean = dataFlix.attributes["data-flix-ean"];
-    psu.mpn = dataFlix.attributes["data-flix-mpn"];
+    psuUnit.price = price(document
+        .querySelector("p.verkoopprijs")
+        .text);
 
-    String psuForm = "";
-    var techDataTableElements =
-        document.querySelectorAll("div.techData table tr");
-    bool saveNext = false;
-    bool breakMethod = false;
-    for (int i = 0; i < techDataTableElements.length; i++) {
-      String techDataLabel =
-          techDataTableElements[i].querySelector("html td").text.trim();
-      if (saveNext) {
-        psuForm = techDataTableElements[i].querySelector("html td").text.trim();
-        breakMethod = true;
-      }
-
-      if (techDataLabel == "Bouwvorm") {
-        saveNext = true;
-      }
-
-      if (breakMethod) {
-        break;
+    var prodImgA = document.querySelector(
+        "div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      psuUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
+    }
+    String psuConnector;
+    var tables = document.querySelectorAll("table#details");
+    for (var table in tables) {
+      var rows = table.querySelectorAll("tr");
+      for (var row in rows) {
+        var label = row.querySelector("strong");
+        if (label == null) {
+          continue;
+        } else if (label.text == "EAN code") {
+          psuUnit.ean = row
+              .querySelector("td:last-child")
+              .text;
+        } else if (label.text == "Fabrikantcode") {
+          psuUnit.mpn = row
+              .querySelector("tr:last-child span")
+              .text;
+        } else if (label.text == "Standaard") {
+          psuConnector = row
+              .querySelector("td:last-child")
+              .text;
+        }
       }
     }
-    psu.connectors.add(new Connector(psuForm, "PSU"));
 
-    String productJSON = new JsonEncoder.withIndent("  ").convert(psu);
+
+    psuUnit.connectors.add(new Connector(psuConnector, "CASE"));
+    String productJSON = new JsonEncoder.withIndent("  ").convert(psuUnit);
     postRequest(getBackendServerURL() + "/product/add", productJSON);
     print(productJSON);
     await sleepRnd();
