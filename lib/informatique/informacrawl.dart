@@ -76,7 +76,7 @@ class Informacrawl {
       File informatiqueMemoryUnits = new File("informatique_memory_units.json");
       informatiqueMemoryUnits.writeAsStringSync(json);
 
-      // MOTHERBOARDS //
+/*      // MOTHERBOARDS //
       List motherboards = new List();
       List motherboardsTmp = new List();
       motherboardsTmp = await Crawler.crawl("http://www.informatique.nl/?m=usl&g=726&view=6&&sort=pop&pl=46", new InformatiqueMotherboardParser());
@@ -122,7 +122,7 @@ class Informacrawl {
       json = new JsonEncoder.withIndent("  ").convert(pcCases);
       print("We found a total of ${pcCases.length} Cases on informatique.nl");
       File informatiquePcCases = new File("informatique_pc_cases.json");
-      informatiquePcCases.writeAsStringSync(json);
+      informatiquePcCases.writeAsStringSync(json);*/
 
 
 
