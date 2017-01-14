@@ -157,7 +157,7 @@
     "brand": "Antec",
     "ean": "0761345273848",
     "mpn": "0-761345-27384-8",
-    "price": 51.9,
+    "price": 49.99,
     "url": "https://www.alternate.nl/Antec/EA-380-GREEN-380-Watt-voeding/html/product/144600?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -225,7 +225,7 @@
     "brand": "Antec",
     "ean": "0761345062480",
     "mpn": "0-761345-06248-0",
-    "price": 279.0,
+    "price": 264.0,
     "url": "https://www.alternate.nl/Antec/HCP-1000-Platinum-1000-Watt-voeding/html/product/980282?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -242,7 +242,7 @@
     "brand": "Antec",
     "ean": "0761345062046",
     "mpn": "0-761345-06204-6",
-    "price": 76.9,
+    "price": 79.9,
     "url": "https://www.alternate.nl/Antec/High-Current-Gamer-HCG-520-520-Watt-voeding/html/product/763734?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -310,7 +310,7 @@
     "brand": "Antec",
     "ean": "0761345062244",
     "mpn": "0-761345-06224-4",
-    "price": 134.9,
+    "price": 139.9,
     "url": "https://www.alternate.nl/Antec/High-Current-Gamer-HCG-850M-850-Watt-voeding/html/product/1073015?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -412,7 +412,7 @@
     "brand": "Antec",
     "ean": "0761345064309",
     "mpn": "0-761345-06430-9",
-    "price": 42.99,
+    "price": 43.99,
     "url": "https://www.alternate.nl/Antec/VP-Power-VP350P-350-Watt-voeding/html/product/881212?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -1143,7 +1143,7 @@
     "brand": "Chieftec",
     "ean": "4710713230835",
     "mpn": "GDP-650C",
-    "price": 84.9,
+    "price": 89.9,
     "url": "https://www.alternate.nl/Chieftec/A-90-GDP-650C-650-Watt-voeding/html/product/1161132?lk=9303",
     "shop": "Alternate",
     "type": "PSU",
@@ -2720,23 +2720,6 @@
     ]
   },
   {
-    "name": "LEPA MAXBRON B450-MB, 450 Watt voeding",
-    "brand": "LEPA",
-    "ean": "4710445320910",
-    "mpn": "B450-MB",
-    "price": 59.9,
-    "url": "https://www.alternate.nl/LEPA/MAXBRON-B450-MB-450-Watt-voeding/html/product/1119833?lk=9303",
-    "shop": "Alternate",
-    "type": "PSU",
-    "pictureUrl": "https://www.alternate.nl/p/230x230/t/LEPA_MAXBRON_B450_MB__450_Watt_voeding@@tn4b10.jpg",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "PSU"
-      }
-    ]
-  },
-  {
     "name": "LEPA MAXBRON B700-MB, 700 Watt voeding",
     "brand": "LEPA",
     "ean": "4710445320941",
@@ -3528,23 +3511,6 @@
     "shop": "Alternate",
     "type": "PSU",
     "pictureUrl": "https://www.alternate.nl/p/230x230/t/Seasonic_X_1050__1050_Watt_voeding@@tnae80.jpg",
-    "connectors": [
-      {
-        "name": "ATX",
-        "type": "PSU"
-      }
-    ]
-  },
-  {
-    "name": "Seasonic X-1250, 1250 Watt voeding",
-    "brand": "Seasonic",
-    "ean": "4711173871668",
-    "mpn": "SS-1250XM2 F3",
-    "price": 239.0,
-    "url": "https://www.alternate.nl/Seasonic/X-1250-1250-Watt-voeding/html/product/962197?lk=9303",
-    "shop": "Alternate",
-    "type": "PSU",
-    "pictureUrl": "https://www.alternate.nl/p/230x230/t/Seasonic_X_1250__1250_Watt_voeding@@tnae81.jpg",
     "connectors": [
       {
         "name": "ATX",
@@ -4509,7 +4475,7 @@
     "brand": "Thermaltake",
     "ean": "4717964401779",
     "mpn": "PS-TRS-0500NPCWEU-2",
-    "price": 49.99,
+    "price": 54.9,
     "url": "https://www.alternate.nl/Thermaltake/TR2-S-500W-500-Watt-voeding/html/product/1234053?lk=9303",
     "shop": "Alternate",
     "type": "PSU",

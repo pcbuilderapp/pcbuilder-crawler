@@ -2,40 +2,42 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
 
 class InformatiqueDiskParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    List disks = [];
     var rows = document.querySelectorAll("ul.novendorlogo");
+
     for (Element listRow in rows) {
+
       var productRows = listRow.querySelectorAll("li");
+
       for (Element productRow in productRows){
+
         Product disk = new Product();
         var querySelector = productRow.querySelector(".product_overlay");
+
         if (querySelector == null ){
           continue;
         }
+
         disk.url = querySelector.attributes["href"];
         var tmpName = productRow.querySelector("#title").text;
+
         if (tmpName != null){
           var indexOf = tmpName.indexOf(" ");
           disk.brand = tmpName.substring(0, indexOf);
           disk.name = tmpName.substring(indexOf ,tmpName.length);
         }
+
         disk.type = "STORAGE";
         disk.price = price(productRow.querySelector("#price").text);
         disk.shop = "Informatique";
-        await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);
-        if (disk.connectors.length > 0 ) {
-          disks.add(disk);
-        }
-      }
 
+        await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);
+      }
     }
-    return disks;
   }
 }
 
@@ -53,10 +55,15 @@ class InformatiqueDiskDetailParser implements PageWorker {
     }
 
     var tables = document.querySelectorAll("table#details");
+
     for (var table in tables) {
+
       var rows = table.querySelectorAll("tr");
+
       for (var row in rows) {
+
         var label = row.querySelector("strong");
+
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
@@ -66,14 +73,15 @@ class InformatiqueDiskDetailParser implements PageWorker {
         }
       }
     }
+
     var querySelector = document.querySelector("#description").querySelector("span");
     var innerHtml = querySelector.innerHtml;
     var lastIndexOf = innerHtml.lastIndexOf(" ");
     var diskConnector = innerHtml.substring(lastIndexOf, innerHtml.length);
+
     disk.connectors.add(new Connector(diskConnector, "STORAGE"));
-    String productJSON = new JsonEncoder.withIndent("  ").convert(disk);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
+
+    await postProduct(disk);
     await sleepRnd();
   }
 }

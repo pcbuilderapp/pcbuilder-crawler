@@ -841,7 +841,7 @@
     "url": "https://www.alternate.nl/Intel(R)/535-Series-120-GB-SSD/html/product/1192154?",
     "shop": "Alternate",
     "type": "STORAGE",
-    "pictureUrl": "https://www.alternate.nl/pix/product/missingProdpic/noPic230x230.png",
+    "pictureUrl": "https://www.alternate.nl/p/230x230/i/Intel__535_Series__120_GB_SSD@@imhmwb18.jpg",
     "connectors": [
       {
         "name": "SATA",
@@ -2435,7 +2435,7 @@
     "brand": "OCZ",
     "ean": "0842024037705",
     "mpn": "TRN150-25SAT3-480G",
-    "price": 134.9,
+    "price": 139.9,
     "url": "https://www.alternate.nl/OCZ/Trion-150-480-GB-SSD/html/product/1251031?",
     "shop": "Alternate",
     "type": "STORAGE",
@@ -4004,23 +4004,6 @@
     "shop": "Alternate",
     "type": "STORAGE",
     "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Archive_HDD_v2__8_TB_Harde_schijf@@akbs0a.jpg",
-    "connectors": [
-      {
-        "name": "SATA",
-        "type": "STORAGE"
-      }
-    ]
-  },
-  {
-    "name": "Seagate Barracuda 7200.14, 1 TB Harde schijf",
-    "brand": "Seagate",
-    "ean": "7636490025914",
-    "mpn": "ST1000DM003",
-    "price": 52.9,
-    "url": "https://www.alternate.nl/Seagate/Barracuda-7200-14-1-TB-Harde-schijf/html/product/963366?lk=16781",
-    "shop": "Alternate",
-    "type": "STORAGE",
-    "pictureUrl": "https://www.alternate.nl/p/230x230/a/Seagate_Barracuda_7200_14__1_TB_Harde_schijf@@aebs32.jpg",
     "connectors": [
       {
         "name": "SATA",

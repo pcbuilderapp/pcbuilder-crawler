@@ -1,15 +1,26 @@
 import 'package:http/http.dart' as http;
+import 'dart:convert';
 import 'dart:math';
 import 'dart:async';
 import 'dart:io';
+import "package:pcbuilder.crawler/model/shop.dart";
+import "package:pcbuilder.crawler/model/product.dart";
+import 'package:pcbuilder.crawler/configuration.dart';
+
+JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 
 //sleep a random amount of time without invoking a lock
 Future sleepRnd() {
   Completer c = new Completer();
-  new Timer(new Duration(milliseconds: (new Random().nextDouble() * 800 + 200).round()),(){
+  new Timer(new Duration(milliseconds: (new Random().nextDouble() * 300 + 200).round()),(){
     c.complete();
   });
   return c.future;
+}
+
+void createShop(String name, String url) {
+  postRequest(backendServerUrl + createShopUrl,
+      jsonEncoder.convert(new Shop(name, url, "")));
 }
 
 //convert price from String to double
@@ -49,19 +60,28 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
+void postProduct(Product product) {
+
+  if (product.connectors.length > 0) {
+    postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
+
+  } else {
+    print("Product " + product.name + " does not have any components and will not be posted to the backend.");
+  }
+}
+
 // post data on a REST service URL and print the response
 void postRequest(String url, String json) {
 
-  var request = new http.Request('POST', Uri.parse(url));
-  request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
-  request.body = json;
+    if (printProducts) {
+      print(json);
+    }
 
-  new http.Client().send(request).then((response)
-      => response.stream.bytesToString().then((value)
-      => print(value.toString()))).catchError((error)
-      => print(error.toString()));
-}
+    var request = new http.Request('POST', Uri.parse(url));
+    request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
+    request.body = json;
 
-String getBackendServerURL() {
-  return "http://localhost:8090";
+    new http.Client().send(request).then((response) =>
+        response.stream.bytesToString().then((value) => print(value.toString())))
+        .catchError((error) => print(error.toString()));
 }

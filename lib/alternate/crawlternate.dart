@@ -1,3 +1,4 @@
+import 'package:pcbuilder.crawler/configuration.dart';
 import 'package:pcbuilder.crawler/crawler.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_motherboard.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_memory.dart';
@@ -7,7 +8,6 @@ import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_videocard.da
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_disk.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_power_supply_unit.dart';
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/model/shop.dart";
 import 'dart:convert';
 import 'dart:io';
 import 'dart:async';
@@ -17,8 +17,9 @@ class Crawlternate {
   static Future crawlAlternate() async {
     try {
 
+      createShop(alternateName, alternateUrl);
+
       String json;
-      postRequest(getBackendServerURL()+"/shop/create", new JsonEncoder.withIndent("  ").convert(new Shop("Alternate", "https://www.alternate.nl", "https://www.alternate.nl/pix/header/logo/slogan/alternate.png")));
 
       // PSU //
       List psu = new List();
