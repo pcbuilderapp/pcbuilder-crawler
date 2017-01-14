@@ -9,7 +9,7 @@ import 'package:pcbuilder.crawler/configuration.dart';
 
 JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 
-//sleep a random amount of time without invoking a lock
+///sleep a random amount of time without invoking a lock///
 Future sleepRnd() {
   Completer c = new Completer();
   new Timer(new Duration(milliseconds: (new Random().nextDouble() * 300 + 200).round()),(){
@@ -18,12 +18,13 @@ Future sleepRnd() {
   return c.future;
 }
 
+///create a new Shop in the backend///
 void createShop(String name, String url) {
   postRequest(backendServerUrl + createShopUrl,
       jsonEncoder.convert(new Shop(name, url, "")));
 }
 
-//convert price from String to double
+///convert price from String to double///
 double price(String price) {
   List<int> temp = [];
   for (int codeUnit in price.codeUnits) {
@@ -38,7 +39,7 @@ double price(String price) {
   return double.parse(new String.fromCharCodes(temp));
 }
 
-//create headers for HTTP calls to look like a browser
+///create headers for HTTP calls to look like a browser///
 Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   Map headers = {};
   headers["Host"] = Uri.parse(url).host;
@@ -60,6 +61,7 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
+///add a Product to the backend///
 void postProduct(Product product) {
 
   if (product.connectors.length > 0) {
@@ -70,7 +72,7 @@ void postProduct(Product product) {
   }
 }
 
-// post data on a REST service URL and print the response
+/// post data on a REST service URL and print the response///
 void postRequest(String url, String json) {
 
     if (printProducts) {

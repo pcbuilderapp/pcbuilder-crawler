@@ -2,15 +2,15 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
 
 class AlternateMotherboardParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    List motherboards = [];
     var rows = document.querySelectorAll("div.listRow");
+
     for (Element listRow in rows) {
+
       Product motherboard = new Product();
       motherboard.name = listRow.querySelector("span.name").text.trim();
       motherboard.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
@@ -18,11 +18,9 @@ class AlternateMotherboardParser implements PageWorker {
       motherboard.type = "MOTHERBOARD";
       motherboard.price = price(listRow.querySelector("span.price").text);
       motherboard.shop = "Alternate";
-      await Crawler.crawl(motherboard.url, new AlternateMotherboardDetailParser(), arguments: motherboard);
 
-      motherboards.add(motherboard);
+      await Crawler.crawl(motherboard.url, new AlternateMotherboardDetailParser(), arguments: motherboard);
     }
-    return motherboards;
   }
 }
 
@@ -39,13 +37,17 @@ class AlternateMotherboardDetailParser implements PageWorker {
     motherboard.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     var techDataTableElements = document.querySelectorAll("div.techData table tr");
+
     for (int i = 0; i < techDataTableElements.length; i++) {
+
       String techDataOptional = "";
       String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
+
       if (techDataTableElements[i].querySelector("td.c2") != null) {
         techDataOptional = techDataTableElements[i].querySelector("td.c2").text.trim();
       }
+
       if (techDataLabel == "Socket") {
         motherboard.connectors.add(new Connector(techData, "CPU"));
       } else if (techDataLabel == "Inbouwsloten") {
@@ -66,9 +68,8 @@ class AlternateMotherboardDetailParser implements PageWorker {
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
       }
     }
-    String productJSON = new JsonEncoder.withIndent("  ").convert(motherboard);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
+
+    await postProduct(motherboard);
     await sleepRnd();
   }
 }

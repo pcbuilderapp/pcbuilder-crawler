@@ -2,14 +2,15 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
 
 class AlternatePowerSupplyUnitParser implements PageWorker {
 
   parse(Document document, arguments) async {
-    List psus = [];
+
     var rows = document.querySelectorAll("div.listRow");
+
     for (Element listRow in rows) {
+
       Product psu = new Product();
       psu.name = listRow.querySelector("span.name").text.trim();
       psu.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
@@ -17,16 +18,16 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
       psu.type = "PSU";
       psu.price = price(listRow.querySelector("span.price").text);
       psu.shop = "Alternate";
-      await Crawler.crawl(psu.url, new AlternatePsuDetailParser(), arguments: psu);
 
-      psus.add(psu);
+      await Crawler.crawl(psu.url, new AlternatePsuDetailParser(), arguments: psu);
     }
-    return psus;
   }
 }
 
 class AlternatePsuDetailParser implements PageWorker {
+
   parse(Document document, arguments) async {
+
     Product psu = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
@@ -36,13 +37,14 @@ class AlternatePsuDetailParser implements PageWorker {
     psu.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String psuForm = "";
-    var techDataTableElements =
-        document.querySelectorAll("div.techData table tr");
+    var techDataTableElements = document.querySelectorAll("div.techData table tr");
     bool saveNext = false;
     bool breakMethod = false;
+
     for (int i = 0; i < techDataTableElements.length; i++) {
-      String techDataLabel =
-          techDataTableElements[i].querySelector("html td").text.trim();
+
+      String techDataLabel = techDataTableElements[i].querySelector("html td").text.trim();
+
       if (saveNext) {
         psuForm = techDataTableElements[i].querySelector("html td").text.trim();
         breakMethod = true;
@@ -56,11 +58,10 @@ class AlternatePsuDetailParser implements PageWorker {
         break;
       }
     }
+
     psu.connectors.add(new Connector(psuForm, "PSU"));
 
-    String productJSON = new JsonEncoder.withIndent("  ").convert(psu);
-    postRequest(getBackendServerURL() + "/product/add", productJSON);
-    print(productJSON);
+    await postProduct(psu);
     await sleepRnd();
   }
 }
