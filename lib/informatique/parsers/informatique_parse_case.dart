@@ -17,7 +17,7 @@ class InformatiqueCaseParser implements PageWorker {
 
       for (Element productRow in productRows){
 
-        Product disk = new Product();
+        Product computerCase = new Product();
 
         var querySelector = productRow.querySelector(".product_overlay");
 
@@ -25,20 +25,12 @@ class InformatiqueCaseParser implements PageWorker {
           continue;
         }
 
-        disk.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
+        computerCase.name = removeTip(productRow.querySelector("#title").text);
+        computerCase.url = querySelector.attributes["href"];
+        computerCase.type = "CASE";
+        computerCase.shop = "Informatique";
 
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          disk.brand = tmpName.substring(0, indexOf);
-          disk.name = tmpName.substring(indexOf ,tmpName.length);
-        }
-
-        disk.type = "CASE";
-        disk.price = price(productRow.querySelector("#price").text);
-        disk.shop = "Informatique";
-
-        await Crawler.crawl(disk.url, new InformatiqueCaseDetailParser(), arguments: disk);
+        await Crawler.crawl(computerCase.url, new InformatiqueCaseDetailParser(), arguments: computerCase);
       }
     }
   }
@@ -50,17 +42,14 @@ class InformatiqueCaseDetailParser implements PageWorker {
   /// Crawl the detail page of the Informatique Case ///
   parse(Document document, arguments) async {
 
-    Product caseUnit = arguments as Product;
+    Product computerCase = arguments as Product;
 
-    caseUnit.price = price(document
-        .querySelector("p.verkoopprijs")
-        .text);
+    computerCase.brand = document.querySelector("span[itemprop='brand']").text;
+    computerCase.price = price(document.querySelector("p.verkoopprijs").text);
 
-    var prodImgA = document.querySelector(
-        "div#product-image a[data-thumbnail]");
-
+    var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
     if (prodImgA != null) {
-      caseUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
+      computerCase.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
     String caseConnector;
@@ -77,24 +66,18 @@ class InformatiqueCaseDetailParser implements PageWorker {
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
-          caseUnit.ean = row
-              .querySelector("td:last-child")
-              .text;
+          computerCase.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
-          caseUnit.mpn = row
-              .querySelector("tr:last-child span")
-              .text;
+          computerCase.mpn = row.querySelector("tr:last-child span").text;
         } else if (label.text == "Formfactor") {
-          caseConnector = row
-              .querySelector("td:last-child")
-              .text;
+          caseConnector = row.querySelector("td:last-child").text;
         }
       }
     }
 
-    caseUnit.connectors.add(new Connector(caseConnector, "CASE"));
+    computerCase.connectors.add(new Connector(caseConnector, "CASE"));
 
-    await postProduct(caseUnit);
+    await postProduct(computerCase);
     await sleepRnd();
   }
 }

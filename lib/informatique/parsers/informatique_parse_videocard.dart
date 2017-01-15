@@ -22,17 +22,9 @@ class InformatiqueVideoCardParser implements PageWorker {
           continue;
         }
 
+        gpu.name = removeTip(productRow.querySelector("#title").text);
         gpu.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          gpu.brand = tmpName.substring(0, indexOf);
-          gpu.name = tmpName.substring(indexOf ,tmpName.length);
-        }
-
         gpu.type = "GPU";
-        gpu.price = price(productRow.querySelector("#price").text);
         gpu.shop = "Informatique";
 
         await Crawler.crawl(gpu.url, new InformatiqueVideoCardDetailParser(), arguments: gpu);
@@ -44,16 +36,15 @@ class InformatiqueVideoCardParser implements PageWorker {
 class InformatiqueVideoCardDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
-    Product gpuUnit = arguments as Product;
+    Product gpu = arguments as Product;
 
-    gpuUnit.price = price(document
-        .querySelector("p.verkoopprijs")
-        .text);
+    gpu.brand = document.querySelector("span[itemprop='brand']").text;
+    gpu.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector(
         "div#product-image a[data-thumbnail]");
     if (prodImgA != null) {
-      gpuUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
+      gpu.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
     String gpuConnector;
@@ -71,24 +62,18 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
-          gpuUnit.ean = row
-              .querySelector("td:last-child")
-              .text;
+          gpu.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
-          gpuUnit.mpn = row
-              .querySelector("tr:last-child span")
-              .text;
+          gpu.mpn = row.querySelector("tr:last-child span").text;
         } else if (label.text == "Geheugentype") {
-          gpuConnector = row
-              .querySelector("td:last-child")
-              .text;
+          gpuConnector = row.querySelector("td:last-child").text;
         }
       }
     }
 
-    gpuUnit.connectors.add(new Connector(gpuConnector, "GPU"));
+    gpu.connectors.add(new Connector(gpuConnector, "GPU"));
 
-    await postProduct(gpuUnit);
+    await postProduct(gpu);
     await sleepRnd();
   }
 }

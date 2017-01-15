@@ -22,26 +22,11 @@ class InformatiqueMemoryParser implements PageWorker {
           continue;
         }
 
+        memory.name = removeTip(productRow.querySelector("#title").text);
         memory.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          memory.brand = tmpName.substring(0, indexOf);
-          memory.name = tmpName.substring(indexOf ,tmpName.length);
-          if (memory.name.contains("(tip)")){
-            memory.name = memory.name.replaceAll("(tip)", "");
-          }
-        }
-
         memory.type = "MEMORY";
-        Element priceSelector = productRow.querySelector("#price");
-
-        if (priceSelector != null){
-          memory.price = price(priceSelector.text);
-        }
-
         memory.shop = "Informatique";
+
         Element memoryConnector = document.querySelector("#hdr");
 
         if (memoryConnector != null){
@@ -62,6 +47,7 @@ class InformatiqueMemoryDetailParser implements PageWorker {
 
     Product memory = arguments as Product;
 
+    memory.brand = document.querySelector("span[itemprop='brand']").text;
     memory.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");

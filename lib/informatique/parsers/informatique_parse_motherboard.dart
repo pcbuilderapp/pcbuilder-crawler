@@ -21,17 +21,9 @@ class InformatiqueMotherboardParser implements PageWorker {
           continue;
         }
 
+        motherboard.name = removeTip(productRow.querySelector("#title").text);
         motherboard.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          motherboard.brand = tmpName.substring(0, indexOf);
-          motherboard.name = tmpName.substring(indexOf ,tmpName.length);
-        }
-
         motherboard.type = "MOTHERBOARD";
-        motherboard.price = price(productRow.querySelector("#price").text);
         motherboard.shop = "Informatique";
 
         await Crawler.crawl(motherboard.url, new InformatiqueMotherboardDetailParser(), arguments: motherboard);
@@ -46,9 +38,8 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
 
     Product motherboard = arguments as Product;
 
-    motherboard.price = price(document
-        .querySelector("p.verkoopprijs")
-        .text);
+    motherboard.brand = document.querySelector("span[itemprop='brand']").text;
+    motherboard.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector(
         "div#product-image a[data-thumbnail]");

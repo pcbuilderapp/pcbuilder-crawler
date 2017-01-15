@@ -16,21 +16,14 @@ class InformatiqueDiskParser implements PageWorker {
       for (Element productRow in productRows){
 
         Product disk = new Product();
-        var querySelector = productRow.querySelector(".product_overlay");
 
+        var querySelector = productRow.querySelector(".product_overlay");
         if (querySelector == null ){
           continue;
         }
 
+        disk.name = removeTip(productRow.querySelector("#title").text);
         disk.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          disk.brand = tmpName.substring(0, indexOf);
-          disk.name = tmpName;
-        }
-
         disk.type = "STORAGE";
         disk.shop = "Informatique";
 
@@ -46,6 +39,7 @@ class InformatiqueDiskDetailParser implements PageWorker {
 
     Product disk = arguments as Product;
 
+    disk.brand = document.querySelector("span[itemprop='brand']").text;
     disk.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");

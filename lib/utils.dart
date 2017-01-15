@@ -24,6 +24,10 @@ void createShop(String name, String url) {
       jsonEncoder.convert(new Shop(name, url, "")));
 }
 
+String removeTip(String productName) {
+    return productName.replaceAll("(tip)", "");
+}
+
 ///convert price from String to double///
 double price(String price) {
   List<int> temp = [];

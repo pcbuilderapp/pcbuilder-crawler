@@ -23,17 +23,9 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
           continue;
         }
 
+        psu.name = removeTip(productRow.querySelector("#title").text);
         psu.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          psu.brand = tmpName.substring(0, indexOf);
-          psu.name = tmpName.substring(indexOf ,tmpName.length);
-        }
-
         psu.type = "PSU";
-        psu.price = price(productRow.querySelector("#price").text);
         psu.shop = "Informatique";
 
         await Crawler.crawl(psu.url, new InformatiquePowerSupplyUnitDetailParser(), arguments: psu);
@@ -47,9 +39,8 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
   parse(Document document, arguments) async {
     Product psuUnit = arguments as Product;
 
-    psuUnit.price = price(document
-        .querySelector("p.verkoopprijs")
-        .text);
+    psuUnit.brand = document.querySelector("span[itemprop='brand']").text;
+    psuUnit.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
 

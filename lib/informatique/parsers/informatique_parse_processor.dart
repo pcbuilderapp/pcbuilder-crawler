@@ -12,7 +12,7 @@ class InformatiqueProcessorParser implements PageWorker{
     for (Element listRow in rows) {
 
       Product processor = new Product();
-      processor.name = listRow.querySelector("a").text.trim();
+      processor.name = removeTip(listRow.querySelector("a").text.trim());
       processor.url = listRow.querySelector("a").attributes["href"];
       processor.type = "CPU";
       processor.shop = "Informatique";
@@ -29,7 +29,6 @@ class InformatiqueProcessorDetailParser implements PageWorker {
     Product processor = arguments as Product;
 
     processor.brand = document.querySelector("span[itemprop='brand']").text;
-
     processor.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
