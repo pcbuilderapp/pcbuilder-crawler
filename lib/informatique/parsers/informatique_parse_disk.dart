@@ -28,11 +28,10 @@ class InformatiqueDiskParser implements PageWorker {
         if (tmpName != null){
           var indexOf = tmpName.indexOf(" ");
           disk.brand = tmpName.substring(0, indexOf);
-          disk.name = tmpName.substring(indexOf ,tmpName.length);
+          disk.name = tmpName;
         }
 
         disk.type = "STORAGE";
-        disk.price = price(productRow.querySelector("#price").text);
         disk.shop = "Informatique";
 
         await Crawler.crawl(disk.url, new InformatiqueDiskDetailParser(), arguments: disk);
@@ -77,7 +76,7 @@ class InformatiqueDiskDetailParser implements PageWorker {
     var querySelector = document.querySelector("#description").querySelector("span");
     var innerHtml = querySelector.innerHtml;
     var lastIndexOf = innerHtml.lastIndexOf(" ");
-    var diskConnector = innerHtml.substring(lastIndexOf, innerHtml.length);
+    var diskConnector = innerHtml.substring(lastIndexOf, innerHtml.length).trim();
 
     disk.connectors.add(new Connector(diskConnector, "STORAGE"));
 
