@@ -51,13 +51,11 @@ class AlternateMotherboardDetailParser implements PageWorker {
       if (techDataLabel == "Socket") {
         motherboard.connectors.add(new Connector(techData, "CPU"));
       } else if (techDataLabel == "Inbouwsloten") {
-        String gpuConnectorData = "";
-        for (String element in techData.split(" ")) {
-          if(element.substring(element.length - 1) != "x") {
-            gpuConnectorData += " " + element;
-          }
+        if(techData.endsWith("x16")){
+          motherboard.connectors.add(new Connector(techData, "GPU"));
         }
-        motherboard.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
+      } else if(techData.endsWith("x1") || techData.endsWith("x2")){
+        motherboard.connectors.add(new Connector(techData, "STORAGE"));
       } else if (techDataLabel == "FormFactor") {
         motherboard.connectors.add(new Connector(techData, "CASE"));
       } else if (techDataOptional == "Ondersteunde standaarden") {
@@ -65,6 +63,8 @@ class AlternateMotherboardDetailParser implements PageWorker {
       } else if (techDataOptional == "SATA") {
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
       } else if (techDataOptional == "M.2") {
+        motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+      } else if (techDataOptional == "mSATA") {
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
       }
     }

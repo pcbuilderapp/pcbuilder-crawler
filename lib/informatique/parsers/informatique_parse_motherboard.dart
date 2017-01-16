@@ -80,6 +80,26 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
               .querySelector("td:last-child")
               .text;
           motherboard.connectors.add(new Connector(motherboardConnector, "MEMORY"));
+        } else if (label.text == "SATA 3 aansluitingen") {
+          motherboardConnector = row
+              .querySelector("td:last-child")
+              .text;
+          motherboard.connectors.add(new Connector("SATA", "STORAGE"));
+        } else if (label.text == "M.2 sloten") {
+          motherboardConnector = row
+              .querySelector("td:last-child")
+              .text;
+          motherboard.connectors.add(new Connector("M.2", "STORAGE"));
+        } else if (label.text == "Fysieke PCI-E x1 sloten") {
+          motherboardConnector = row
+              .querySelector("td:last-child")
+              .text;
+          motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
+        } else if (label.text == "mSATA aansluitingen") {
+          motherboardConnector = row
+              .querySelector("td:last-child")
+              .text;
+          motherboard.connectors.add(new Connector("mSATA", "STORAGE"));
         }
       }
     }
