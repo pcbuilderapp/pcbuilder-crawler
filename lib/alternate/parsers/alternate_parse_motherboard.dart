@@ -56,8 +56,10 @@ class AlternateMotherboardDetailParser implements PageWorker {
         }
       } else if(techData.endsWith("x1") || techData.endsWith("x2")){
         motherboard.connectors.add(new Connector(techData, "STORAGE"));
-      } else if (techDataLabel == "FormFactor") {
-        motherboard.connectors.add(new Connector(techData, "CASE"));
+      } else if (techDataLabel == "Formfactor" || techDataLabel == "FormFactor") {
+        if(techData != null){
+          motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
+        }
       } else if (techDataOptional == "Ondersteunde standaarden") {
         techData.split(",").forEach((element) => motherboard.connectors.add(new Connector(element.trim(), "MEMORY")));
       } else if (techDataOptional == "SATA") {

@@ -48,7 +48,6 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
       motherboard.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
-    String motherboardConnector;
 
     var tables = document.querySelectorAll("table#details");
 
@@ -59,7 +58,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
       for (var row in rows) {
 
         var label = row.querySelector("strong");
-
+        var motherboardConnector;
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
@@ -71,20 +70,26 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
               .querySelector("tr:last-child span")
               .text;
         } else if (label.text == "Form factor") {
-          motherboardConnector = row
-              .querySelector("td:last-child")
-              .text;
-          motherboard.connectors.add(new Connector(motherboardConnector, "CASE"));
+          if(row
+              .querySelector("td:last-child") != null){
+            motherboard.connectors.add(new Connector(row
+                .querySelector("td:last-child")
+                .text.trim(), "CASE"));
+          }
         } else if (label.text == "Type geheugen") {
-          motherboardConnector = row
-              .querySelector("td:last-child")
-              .text;
-          motherboard.connectors.add(new Connector(motherboardConnector, "MEMORY"));
+          if(row
+              .querySelector("td:last-child") != null){
+            motherboard.connectors.add(new Connector(row
+                .querySelector("td:last-child")
+                .text.trim(), "MEMORY"));
+          }
         } else if (label.text == "SATA 3 aansluitingen") {
-          motherboardConnector = row
-              .querySelector("td:last-child")
-              .text;
-          motherboard.connectors.add(new Connector("SATA", "STORAGE"));
+          if(row
+              .querySelector("td:last-child") != null){
+            motherboard.connectors.add(new Connector(row
+                .querySelector("td:last-child")
+                .text.trim(), "STORAGE"));
+          }
         } else if (label.text == "M.2 sloten") {
           motherboardConnector = row
               .querySelector("td:last-child")

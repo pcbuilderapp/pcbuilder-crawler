@@ -52,7 +52,7 @@ class InformatiqueCaseDetailParser implements PageWorker {
       computerCase.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
-    String caseConnector;
+    String caseConnector = null;
     var tables = document.querySelectorAll("table#details");
 
     for (var table in tables) {
@@ -69,13 +69,17 @@ class InformatiqueCaseDetailParser implements PageWorker {
           computerCase.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
           computerCase.mpn = row.querySelector("tr:last-child span").text;
-        } else if (label.text == "Formfactor") {
-          caseConnector = row.querySelector("td:last-child").text;
+        } else if (label.text == "Formfactor" || label.text == "FormFactor") {
+          if(row.querySelector("td:last-child") != null){
+            caseConnector = row.querySelector("td:last-child").text;
+          }
         }
       }
     }
+if(caseConnector != null){
+  computerCase.connectors.add(new Connector(caseConnector.trim(), "CASE"));
+}
 
-    computerCase.connectors.add(new Connector(caseConnector, "CASE"));
 
     await postProduct(computerCase);
     await sleepRnd();

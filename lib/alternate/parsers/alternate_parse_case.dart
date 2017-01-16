@@ -48,11 +48,12 @@ class AlternateCaseDetailParser implements PageWorker {
 
       if (techDataLabel == "Formfactor") {
 
-        caseForm = techData.trim();
-        List<String> caseFormList = caseForm.split(",");
+        List<String> caseFormList = techData.split(",");
 
         for (int i = 0; i < caseFormList.length; i++){
-          pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASE"));
+          if(caseFormList[i] != null){
+            pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASE"));
+          }
         }
 
         break;
