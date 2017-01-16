@@ -6,3 +6,4 @@ environment:
 dependencies:
   html: any
   http: any
+  yaml: any
