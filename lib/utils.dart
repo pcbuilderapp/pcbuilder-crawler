@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:async';
 import 'dart:io';
+import 'package:pcbuilder.crawler/model/connector.dart';
 import "package:pcbuilder.crawler/model/shop.dart";
 import "package:pcbuilder.crawler/model/product.dart";
 import 'package:pcbuilder.crawler/configuration.dart';
@@ -24,6 +25,7 @@ void createShop(String name, String url) {
       jsonEncoder.convert(new Shop(name, url, "")));
 }
 
+///delete (tip) in the productdetail
 String removeTip(String productName) {
     return productName.replaceAll("(tip)", "");
 }
@@ -69,10 +71,29 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
 void postProduct(Product product) {
 
   if (product.connectors.length > 0) {
+    if (isConnectorValid(product))
     postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
 
   } else {
     print("Product " + product.name + " does not have any components and will not be posted to the backend.");
+  }
+}
+
+bool isConnectorValid(Product product){
+  switch (product.type) {
+    case 'STORAGE':
+      //checkIfExistInWhiteList(product);
+      for (Connector connector in product.connectors) {
+        for (String allowedDisk in whiteListDisks) {
+        if(connector.name.contains(allowedDisk)){
+          connector.name = allowedDisk;
+          return true;
+        }
+        }
+      }
+      return false;
+    default:
+      return true;
   }
 }
 
