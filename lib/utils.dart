@@ -1,18 +1,36 @@
 import 'package:http/http.dart' as http;
+import 'dart:convert';
 import 'dart:math';
 import 'dart:async';
 import 'dart:io';
+import 'package:pcbuilder.crawler/model/connector.dart';
+import "package:pcbuilder.crawler/model/shop.dart";
+import "package:pcbuilder.crawler/model/product.dart";
+import 'package:pcbuilder.crawler/configuration.dart';
 
-//sleep a random amount of time without invoking a lock
+JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
+
+///sleep a random amount of time without invoking a lock///
 Future sleepRnd() {
   Completer c = new Completer();
-  new Timer(new Duration(milliseconds: (new Random().nextDouble() * 800 + 200).round()),(){
+  new Timer(new Duration(milliseconds: (new Random().nextDouble() * 300 + 200).round()),(){
     c.complete();
   });
   return c.future;
 }
 
-//convert price from String to double
+///create a new Shop in the backend///
+void createShop(String name, String url) {
+  postRequest(backendServerUrl + createShopUrl,
+      jsonEncoder.convert(new Shop(name, url, "")));
+}
+
+///delete (tip) in the productdetail
+String removeTip(String productName) {
+    return productName.replaceAll("(tip)", "");
+}
+
+///convert price from String to double///
 double price(String price) {
   List<int> temp = [];
   for (int codeUnit in price.codeUnits) {
@@ -27,7 +45,7 @@ double price(String price) {
   return double.parse(new String.fromCharCodes(temp));
 }
 
-//create headers for HTTP calls to look like a browser
+///create headers for HTTP calls to look like a browser///
 Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   Map headers = {};
   headers["Host"] = Uri.parse(url).host;
@@ -49,19 +67,48 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
-// post data on a REST service URL and print the response
-void postRequest(String url, String json) {
+///add a Product to the backend///
+void postProduct(Product product) {
 
-  var request = new http.Request('POST', Uri.parse(url));
-  request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
-  request.body = json;
+  if (product.connectors.length > 0) {
+    if (isConnectorValid(product))
+    postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
 
-  new http.Client().send(request).then((response)
-      => response.stream.bytesToString().then((value)
-      => print(value.toString()))).catchError((error)
-      => print(error.toString()));
+  } else {
+    print("Product " + product.name + " does not have any components and will not be posted to the backend.");
+  }
 }
 
-String getBackendServerURL() {
-  return "http://localhost:8090";
+bool isConnectorValid(Product product){
+  switch (product.type) {
+    case 'STORAGE':
+      //checkIfExistInWhiteList(product);
+      for (Connector connector in product.connectors) {
+        for (String allowedDisk in whiteListDisks) {
+        if(connector.name.contains(allowedDisk)){
+          connector.name = allowedDisk;
+          return true;
+        }
+        }
+      }
+      return false;
+    default:
+      return true;
+  }
+}
+
+/// post data on a REST service URL and print the response///
+void postRequest(String url, String json) {
+
+    if (printProducts) {
+      print(json);
+    }
+
+    var request = new http.Request('POST', Uri.parse(url));
+    request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
+    request.body = json;
+
+    new http.Client().send(request).then((response) =>
+        response.stream.bytesToString().then((value) => print(value.toString())))
+        .catchError((error) => print(error.toString()));
 }

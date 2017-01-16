@@ -2,87 +2,78 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
 
 class InformatiqueVideoCardParser implements PageWorker {
 
   parse(Document document, arguments) async {
 
-    List videoCards = [];
     var rows = document.querySelectorAll("ul.novendorlogo");
+
     for (Element listRow in rows) {
+
       var productRows = listRow.querySelectorAll("li");
+
       for (Element productRow in productRows){
+
         Product gpu = new Product();
+
         var querySelector = productRow.querySelector(".product_overlay");
         if (querySelector == null ){
           continue;
         }
-        gpu.url = querySelector.attributes["href"];
-        var tmpName = productRow.querySelector("#title").text;
-        if (tmpName != null){
-          var indexOf = tmpName.indexOf(" ");
-          gpu.brand = tmpName.substring(0, indexOf);
-          gpu.name = tmpName.substring(indexOf ,tmpName.length);
-        }
-        gpu.type = "GPU";
-        gpu.price = price(productRow.querySelector("#price").text);
-        gpu.shop = "Informatique";
-        await Crawler.crawl(gpu.url, new InformatiqueVideoCardDetailParser(), arguments: gpu);
-        if (gpu.connectors.length > 0 ) {
-          videoCards.add(gpu);
-        }
-      }
 
+        gpu.name = removeTip(productRow.querySelector("#title").text);
+        gpu.url = querySelector.attributes["href"];
+        gpu.type = "GPU";
+        gpu.shop = "Informatique";
+
+        await Crawler.crawl(gpu.url, new InformatiqueVideoCardDetailParser(), arguments: gpu);
+      }
     }
-    return videoCards;
   }
 }
-
 
 class InformatiqueVideoCardDetailParser implements PageWorker {
 
   parse(Document document, arguments) async {
-    Product gpuUnit = arguments as Product;
+    Product gpu = arguments as Product;
 
-    gpuUnit.price = price(document
-        .querySelector("p.verkoopprijs")
-        .text);
+    gpu.brand = document.querySelector("span[itemprop='brand']").text;
+    gpu.price = price(document.querySelector("p.verkoopprijs").text);
 
     var prodImgA = document.querySelector(
         "div#product-image a[data-thumbnail]");
     if (prodImgA != null) {
-      gpuUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
+      gpu.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
+
     String gpuConnector;
+
     var tables = document.querySelectorAll("table#details");
+
     for (var table in tables) {
+
       var rows = table.querySelectorAll("tr");
+
       for (var row in rows) {
+
         var label = row.querySelector("strong");
+
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
-          gpuUnit.ean = row
-              .querySelector("td:last-child")
-              .text;
+          gpu.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
-          gpuUnit.mpn = row
-              .querySelector("tr:last-child span")
-              .text;
+          gpu.mpn = row.querySelector("tr:last-child span").text;
         } else if (label.text == "Geheugentype") {
-          gpuConnector = row
-              .querySelector("td:last-child")
-              .text;
+          gpuConnector = row.querySelector("td:last-child").text;
         }
       }
     }
 
+    gpu.connectors.add(new Connector(gpuConnector, "GPU"));
 
-    gpuUnit.connectors.add(new Connector(gpuConnector, "GPU"));
-    String productJSON = new JsonEncoder.withIndent("  ").convert(gpuUnit);
-    postRequest(getBackendServerURL() + "/product/add", productJSON);
-    print(productJSON);
+    await postProduct(gpu);
     await sleepRnd();
   }
 }
