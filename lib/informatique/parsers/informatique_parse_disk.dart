@@ -44,9 +44,14 @@ class InformatiqueDiskDetailParser implements PageWorker {
     }
 
     var tables = document.querySelectorAll("table#details");
+    bool isM2 = false;
+    bool isPCIe = false;
+    bool isMSata = false;
 
     for (var table in tables) {
       var rows = table.querySelectorAll("tr");
+
+
 
       for (var row in rows) {
         var label = row.querySelector("strong");
@@ -57,18 +62,41 @@ class InformatiqueDiskDetailParser implements PageWorker {
           disk.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
           disk.mpn = row.querySelector("tr:last-child span").text;
+        } else if (label.text == "M.2 (SATA)") {
+          if(row.querySelector("tr:last-child span").text == "Ja"){
+            isM2 = true;
+          }
+        } else if (label.text == "M.2 (PCIe)") {
+          if(row.querySelector("tr:last-child span").text == "Ja"){
+            isM2 = true;
+          }
+        }else if (label.text == "PCIe") {
+          if(row.querySelector("tr:last-child span").text == "Ja"){
+            isPCIe = true;
+          }
+        }else if (label.text == "mSATA") {
+          if(row.querySelector("tr:last-child span").text == "Ja"){
+            isMSata = true;
+          }
+        }else if (label.text == "SATA") {
+           disk.connectors.add(new Connector(row.querySelector("tr:last-child span").text, "STORAGE"));
         }
 
-        if(disk.ean != null && disk.mpn != null){
-          break;
+        if(disk.ean != null && disk.mpn != null && (isMSata || isPCIe || isM2)){          break;
         }
       }
+
+    }
+    if(isM2){
+      disk.connectors.add(new Connector("M.2", "STORAGE"));
+    } else if(isPCIe){
+      disk.connectors.add(new Connector("PCIe", "STORAGE"));
+    } else if(isMSata){
+      disk.connectors.add(new Connector("mSATA", "STORAGE"));
+    } else {
+      disk.connectors.add(new Connector("SATA", "STORAGE"));
     }
 
-    var querySelector =
-        document.querySelector("#description").querySelector("span");
-    var innerHtml = querySelector.innerHtml;
-    disk.connectors.add(new Connector(innerHtml, "STORAGE"));
 
     await postProduct(disk);
     await sleepRnd();
