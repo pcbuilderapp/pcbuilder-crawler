@@ -75,6 +75,9 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
             motherboard.connectors.add(new Connector(row
                 .querySelector("td:last-child")
                 .text.trim(), "CASE"));
+            motherboard.connectors.add(new Connector(row
+                .querySelector("td:last-child")
+                .text.trim(), "PSU"));
           }
         } else if (label.text == "Type geheugen") {
           if(row

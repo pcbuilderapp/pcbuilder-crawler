@@ -36,18 +36,22 @@ class AlternatePsuDetailParser implements PageWorker {
     var picUrl = document.querySelector("span.picture").querySelector("img[src]");
     psu.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
-    String psuForm = "";
+    String psuForm = null;
     var techDataTableElements = document.querySelectorAll("div.techData table tr");
     bool saveNext = false;
     bool breakMethod = false;
 
     for (int i = 0; i < techDataTableElements.length; i++) {
-
-      String techDataLabel = techDataTableElements[i].querySelector("html td").text.trim();
+      String techDataLabel = "";
+      if(techDataTableElements[i].querySelector("html td") != null){
+        techDataLabel = techDataTableElements[i].querySelector("html td").text.trim();
+      }
 
       if (saveNext) {
-        psuForm = techDataTableElements[i].querySelector("html td").text.trim();
-        breakMethod = true;
+        if(techDataTableElements[i].querySelector("html td") != null){
+          psuForm = techDataTableElements[i].querySelector("html td").text.trim();
+          breakMethod = true;
+        }
       }
 
       if (techDataLabel == "Bouwvorm") {
@@ -58,8 +62,9 @@ class AlternatePsuDetailParser implements PageWorker {
         break;
       }
     }
-
-    psu.connectors.add(new Connector(psuForm, "PSU"));
+    if(psuForm != null){
+      psu.connectors.add(new Connector(psuForm, "PSU"));
+    }
 
     await postProduct(psu);
     await sleepRnd();

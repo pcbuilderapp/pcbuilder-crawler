@@ -48,7 +48,7 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
       psuUnit.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
-    String psuConnector;
+    String psuConnector = null;
     var tables = document.querySelectorAll("table#details");
 
     for (var table in tables) {
@@ -70,14 +70,18 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
               .querySelector("tr:last-child span")
               .text;
         } else if (label.text == "Standaard") {
-          psuConnector = row
-              .querySelector("td:last-child")
-              .text;
+          if(row
+              .querySelector("td:last-child") != null){
+            psuConnector = row
+                .querySelector("td:last-child")
+                .text;
+          }
         }
       }
     }
-
-    psuUnit.connectors.add(new Connector(psuConnector, "CASE"));
+    if(psuConnector != null){
+      psuUnit.connectors.add(new Connector(psuConnector.trim(), "PSU"));
+    }
 
     await postProduct(psuUnit);
     await sleepRnd();
