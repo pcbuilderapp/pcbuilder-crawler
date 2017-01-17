@@ -63,23 +63,23 @@ class InformatiqueDiskDetailParser implements PageWorker {
         } else if (label.text == "Fabrikantcode") {
           disk.mpn = row.querySelector("tr:last-child span").text;
         } else if (label.text == "M.2 (SATA)") {
-          if(row.querySelector("tr:last-child span") != null && row.querySelector("tr:last-child span").text == "Ja"){
+          if(row.querySelector("td:last-child") != null && row.querySelector("td:last-child").text == "Ja"){
             isM2 = true;
           }
         } else if (label.text == "M.2 (PCIe)") {
-          if(row.querySelector("tr:last-child span") != null && row.querySelector("tr:last-child span").text == "Ja"){
+          if(row.querySelector("td:last-child") != null && row.querySelector("td:last-child").text == "Ja"){
             isM2 = true;
           }
         }else if (label.text == "PCIe") {
-          if(row.querySelector("tr:last-child span") != null && row.querySelector("tr:last-child span").text == "Ja"){
+          if(row.querySelector("td:last-child") != null && row.querySelector("td:last-child").text == "Ja"){
             isPCIe = true;
           }
         }else if (label.text == "mSATA") {
-          if(row.querySelector("tr:last-child span") != null && row.querySelector("tr:last-child span").text == "Ja"){
+          if(row.querySelector("td:last-child") != null && row.querySelector("td:last-child").text == "Ja"){
             isMSata = true;
           }
-        }else if (row.querySelector("tr:last-child span") != null && label.text == "SATA") {
-           disk.connectors.add(new Connector(row.querySelector("tr:last-child span").text, "STORAGE"));
+        }else if (row.querySelector("td:last-child") != null && label.text == "SATA") {
+           disk.connectors.add(new Connector(row.querySelector("td:last-child").text, "STORAGE"));
         }
 
         if(disk.ean != null && disk.mpn != null && (isMSata || isPCIe || isM2)){
