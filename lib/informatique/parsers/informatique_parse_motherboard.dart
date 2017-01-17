@@ -79,6 +79,13 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
                 .querySelector("td:last-child")
                 .text.trim(), "PSU"));
           }
+        } else if (label.text == "Chipset") {
+          if(row
+              .querySelector("td:last-child") != null){
+            motherboard.connectors.add(new Connector(row
+                .querySelector("td:last-child")
+                .text.trim(), "CPU"));
+          }
         } else if (label.text == "Type geheugen") {
           if(row
               .querySelector("td:last-child") != null){
@@ -89,9 +96,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
         } else if (label.text == "SATA 3 aansluitingen") {
           if(row
               .querySelector("td:last-child") != null){
-            motherboard.connectors.add(new Connector(row
-                .querySelector("td:last-child")
-                .text.trim(), "STORAGE"));
+            motherboard.connectors.add(new Connector("SATA", "STORAGE"));
           }
         } else if (label.text == "M.2 sloten") {
           motherboardConnector = row

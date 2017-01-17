@@ -45,7 +45,7 @@ class InformatiqueProcessorDetailParser implements PageWorker {
       for (var row in rows) {
 
         var label = row.querySelector("strong");
-
+        String socket = null;
         if (label == null) {
           continue;
         } else if (label.text == "EAN code") {
@@ -53,13 +53,16 @@ class InformatiqueProcessorDetailParser implements PageWorker {
         } else if (label.text == "Fabrikantcode") {
           processor.mpn = row.querySelector("tr:last-child span").text;
         } else if (label.text == "Socket") {
-          String socket = row.querySelector("td:last-child").text.trim();
-
-          if (processor.brand == "Intel") {
-            socket = socket.substring(1);
+          if(row.querySelector("td:last-child") != null){
+            socket = row.querySelector("td:last-child").text.trim();
+            if (processor.brand == "Intel") {
+              socket = socket.substring(1);
+            }
           }
 
-          processor.connectors.add(new Connector(socket, "CPU"));
+          if(socket != null){
+            processor.connectors.add(new Connector(socket, "CPU"));
+          }
         }
       }
     }

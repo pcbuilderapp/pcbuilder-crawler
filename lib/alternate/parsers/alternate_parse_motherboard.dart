@@ -41,8 +41,14 @@ class AlternateMotherboardDetailParser implements PageWorker {
     for (int i = 0; i < techDataTableElements.length; i++) {
 
       String techDataOptional = "";
-      String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
-      String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
+      String techDataLabel = "";
+      if(techDataTableElements[i].querySelector("td.c1") != null){
+        techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
+      }
+      String techData = "";
+      if(techDataTableElements[i].querySelector("td.c4") != null){
+        techData = techDataTableElements[i].querySelector("td.c4").text.trim();
+      }
 
       if (techDataTableElements[i].querySelector("td.c2") != null) {
         techDataOptional = techDataTableElements[i].querySelector("td.c2").text.trim();

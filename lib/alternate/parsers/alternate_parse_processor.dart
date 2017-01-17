@@ -47,7 +47,9 @@ class AlternateProcessorDetailParser implements PageWorker {
       String techData = productShort[1];
 
       if (techDataLabel == "Socket") {
-        cpuSocket = techData;
+        if(techData != null){
+          cpuSocket = techData.trim();
+        }
       }
 
     }
