@@ -84,7 +84,7 @@ void validateConnectors(Product product){
       //checkIfExistInWhiteList(product);
       bool saveConnector = false;
         for (String allowedDisk in whiteListDisks) {
-          if(connector.name.contains(allowedDisk)){
+          if(connector.name == allowedDisk){
             connector.name = allowedDisk;
             saveConnector = true;
           }
