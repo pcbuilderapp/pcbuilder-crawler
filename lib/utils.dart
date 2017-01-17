@@ -91,9 +91,17 @@ void validateConnectors(Product product){
         break;
       case 'GPU':
       //checkIfExistInWhiteList(product);
-        for (String allowedDisk in whiteListGpu) {
-          if(connector.name.contains(allowedDisk)){
-            connector.name = allowedDisk;
+        for (String allowedGpu in whiteListGpu) {
+          if(connector.name.contains(allowedGpu)){
+            connector.name = allowedGpu;
+          }
+        }
+        break;
+      case 'MEMORY':
+      //checkIfExistInWhiteList(product);
+        for (String allowedMemory in whiteListMemory) {
+          if(connector.name.contains(allowedMemory)){
+            connector.name = allowedMemory;
           }
         }
         break;

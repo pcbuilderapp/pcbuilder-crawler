@@ -29,8 +29,7 @@ final List informatiquePowerSupplyUnitUrls = [
 
 final List informatiqueMemoryUrls = [
   "http://www.informatique.nl/?m=usl&g=522&view=6&&sort=pop&pl=277",
-  "http://www.informatique.nl/?m=usl&g=194&view=6&&sort=pop&pl=21",
-  "http://www.informatique.nl/opslag_en_geheugen/geheugenmodules/ddr_modules/c019-h037-g077/"
+  "http://www.informatique.nl/?m=usl&g=194&view=6&&sort=pop&pl=21"
 ];
 
 final List informatiqueMotherboardUrls = [
@@ -79,9 +78,7 @@ final List alternatePowerSupplyUnitUrls = [
 final List alternateMemoryUrls = [
   "https://www.alternate.nl/Geheugen/DDR4?size=500",
   "https://www.alternate.nl/Geheugen/DDR3?size=500",
-  "https://www.alternate.nl/Geheugen/DDR2?size=500",
-  "https://www.alternate.nl/Geheugen/DDR?size=500",
-  "https://www.alternate.nl/Geheugen/SDRAM?size=500"
+  "https://www.alternate.nl/Geheugen/DDR2?size=500"
 ];
 
 final List alternateMotherboardUrls = [
@@ -103,3 +100,7 @@ final List whiteListDisks = ["SATA", "M.2", "mSATA", "PCIe" ];
 
 //White list for gpu type connectors
 final List whiteListGpu = ["PCIe"];
+
+//White list for gpu type connectors
+final List whiteListMemory = ["DDR4", "DDR3", "DDR2"];
+

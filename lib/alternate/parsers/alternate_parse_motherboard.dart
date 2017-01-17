@@ -61,7 +61,9 @@ class AlternateMotherboardDetailParser implements PageWorker {
           motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
         }
       } else if (techDataOptional == "Ondersteunde standaarden") {
-        techData.split(",").forEach((element) => motherboard.connectors.add(new Connector(element.trim(), "MEMORY")));
+        if(techData != null){
+          motherboard.connectors.add(new Connector(techData.trim(), "MEMORY"));
+        }
       } else if (techDataOptional == "SATA") {
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
       } else if (techDataOptional == "M.2") {
