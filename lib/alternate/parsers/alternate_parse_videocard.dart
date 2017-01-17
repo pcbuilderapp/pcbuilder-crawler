@@ -45,16 +45,8 @@ class AlternateVideoCardDetailParser implements PageWorker {
       gpu.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
 
       if (techDataLabel == "Aansluiting") {
-
-        for (String element in techData.split(" ")) {
-
-          if(element.trim().substring(element.length - 1) != ")") {
-            gpuConnectorData += " " + element;
-          }
-        }
-
-        if (gpuConnectorData.trim() != "") {
-          gpu.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
+        if (techData != "") {
+          gpu.connectors.add(new Connector(techData, "GPU"));
         }
       }
     }

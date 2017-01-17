@@ -47,7 +47,7 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
       gpu.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
-    String gpuConnector;
+    String gpuConnector = null;
 
     var tables = document.querySelectorAll("table#details");
 
@@ -65,13 +65,17 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
           gpu.ean = row.querySelector("td:last-child").text;
         } else if (label.text == "Fabrikantcode") {
           gpu.mpn = row.querySelector("tr:last-child span").text;
-        } else if (label.text == "Geheugentype") {
-          gpuConnector = row.querySelector("td:last-child").text;
+        } else if (label.text == "Bus type") {
+          if(row.querySelector("td:last-child") != null){
+            gpuConnector = row.querySelector("td:last-child").text.trim();
+          }
         }
       }
     }
 
-    gpu.connectors.add(new Connector(gpuConnector, "GPU"));
+    if (gpuConnector != null){
+      gpu.connectors.add(new Connector(gpuConnector, "GPU"));
+    }
 
     await postProduct(gpu);
     await sleepRnd();

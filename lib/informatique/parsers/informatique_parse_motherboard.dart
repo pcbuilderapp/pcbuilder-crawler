@@ -86,6 +86,11 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
                 .querySelector("td:last-child")
                 .text.trim(), "CPU"));
           }
+        } else if (label.text == "Fysieke PCI-E x16 sloten") {
+          if(row
+              .querySelector("td:last-child") != null){
+            motherboard.connectors.add(new Connector("PCIe", "GPU"));
+          }
         } else if (label.text == "Type geheugen") {
           if(row
               .querySelector("td:last-child") != null){
