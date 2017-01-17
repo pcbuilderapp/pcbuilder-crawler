@@ -19,7 +19,7 @@ class Informacrawl {
 
       createShop(informatiqueName, informatiqueUrl);
 
-      //await Crawler.crawlComponent(informatiqueProcessorUrls, new InformatiqueProcessorParser());
+      await Crawler.crawlComponent(informatiqueProcessorUrls, new InformatiqueProcessorParser());
       await Crawler.crawlComponent(informatiqueDiskUrls, new InformatiqueDiskParser());
       await Crawler.crawlComponent(informatiquePowerSupplyUnitUrls, new InformatiquePowerSupplyUnitParser());
       await Crawler.crawlComponent(informatiqueMemoryUrls, new InformatiqueMemoryParser());
