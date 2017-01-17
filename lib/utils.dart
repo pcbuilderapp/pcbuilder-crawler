@@ -69,9 +69,8 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
 
 ///add a Product to the backend///
 void postProduct(Product product) {
-
+  validateConnectors(product);
   if (product.connectors.length > 0) {
-    validateConnectors(product);
     postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
   } else {
     print("Product " + product.name + " does not have any components and will not be posted to the backend.");
@@ -83,26 +82,41 @@ void validateConnectors(Product product){
     switch (connector.type) {
       case 'STORAGE':
       //checkIfExistInWhiteList(product);
+      bool saveConnector = false;
         for (String allowedDisk in whiteListDisks) {
           if(connector.name.contains(allowedDisk)){
             connector.name = allowedDisk;
+            saveConnector = true;
           }
+        }
+        if (!saveConnector){
+          product.connectors.remove(connector);
         }
         break;
       case 'GPU':
       //checkIfExistInWhiteList(product);
+        bool saveConnector = false;
         for (String allowedGpu in whiteListGpu) {
           if(connector.name.contains(allowedGpu)){
             connector.name = allowedGpu;
+            saveConnector = true;
           }
+        }
+        if (!saveConnector){
+          product.connectors.remove(connector);
         }
         break;
       case 'MEMORY':
       //checkIfExistInWhiteList(product);
+        bool saveConnector = false;
         for (String allowedMemory in whiteListMemory) {
           if(connector.name.contains(allowedMemory)){
             connector.name = allowedMemory;
+            saveConnector = true;
           }
+        }
+        if (!saveConnector){
+          product.connectors.remove(connector);
         }
         break;
       default:
