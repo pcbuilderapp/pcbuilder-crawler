@@ -96,7 +96,7 @@ final List alternateCaseUrls = [
 ];
 
 //White list for disk type connectors
-final List whiteListDisks = ["SATA", "M.2", "mSATA", "PCIe" ];
+final List whiteListDisks = ["M.2", "mSATA", "SATA", "PCIe" ];
 
 //White list for gpu type connectors
 final List whiteListGpu = ["PCIe"];

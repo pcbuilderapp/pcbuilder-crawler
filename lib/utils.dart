@@ -70,27 +70,83 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
 ///add a Product to the backend///
 void postProduct(Product product) {
   validateConnectors(product);
-  if (product.connectors.length > 0) {
+  if (checkConnectors(product)) {
     postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
   } else {
-    print("Product " + product.name + " does not have any components and will not be posted to the backend.");
+    print("Product " + product.name + " has invalid amount of components and will not be posted to the backend.");
+  }
+}
+
+bool checkConnectors(Product product) {
+  if(product == null || product.connectors == null){
+      return false;
+  }
+
+    switch (product.type) {
+      case 'CPU':
+      case 'GPU':
+      case 'STORAGE':
+      case 'CASE':
+      case 'PSU':
+      case 'MEMORY':
+      if(product.connectors.length > 0) {
+        return true;
+      }
+      return false;
+      case 'MOTHERBOARD':
+        bool hasCPU = false;
+        bool hasGPU = false;
+        bool hasSTORAGE = false;
+        bool hasCASE = false;
+        bool hasPSU = false;
+        bool hasMEMORY = false;
+
+        for (Connector connector in product.connectors) {
+          if(connector.type == 'CPU'){
+            hasCPU = true;
+          }
+          if(connector.type == 'GPU'){
+            hasGPU = true;
+          }
+          if(connector.type == 'STORAGE'){
+            hasSTORAGE = true;
+          }
+          if(connector.type == 'CASE'){
+            hasCASE = true;
+          }
+          if(connector.type == 'PSU'){
+            hasPSU = true;
+          }
+          if(connector.type == 'MEMORY'){
+            hasMEMORY = true;
+          }
+        }
+        if(hasCPU && hasGPU && hasSTORAGE && hasCASE && hasPSU && hasMEMORY){
+          return true;
+        }
+        return false;
+      default:
+        break;
+
   }
 }
 
 void validateConnectors(Product product){
+  List<Connector> rejectedList = new List();
   for (Connector connector in product.connectors) {
     switch (connector.type) {
       case 'STORAGE':
       //checkIfExistInWhiteList(product);
       bool saveConnector = false;
         for (String allowedDisk in whiteListDisks) {
-          if(connector.name == allowedDisk){
+          if(connector.name.contains(allowedDisk)){
             connector.name = allowedDisk;
             saveConnector = true;
+            break;
           }
         }
         if (!saveConnector){
-          product.connectors.remove(connector);
+          rejectedList.add(connector);
         }
         break;
       case 'GPU':
@@ -100,10 +156,11 @@ void validateConnectors(Product product){
           if(connector.name.contains(allowedGpu)){
             connector.name = allowedGpu;
             saveConnector = true;
+            break;
           }
         }
         if (!saveConnector){
-          product.connectors.remove(connector);
+          rejectedList.add(connector);
         }
         break;
       case 'MEMORY':
@@ -113,16 +170,18 @@ void validateConnectors(Product product){
           if(connector.name.contains(allowedMemory)){
             connector.name = allowedMemory;
             saveConnector = true;
+            break;
           }
         }
         if (!saveConnector){
-          product.connectors.remove(connector);
+          rejectedList.add(connector);
         }
         break;
       default:
         break;
     }
   }
+  rejectedList.forEach((connector) => product.connectors.remove(connector));
 }
 
 /// post data on a REST service URL and print the response///

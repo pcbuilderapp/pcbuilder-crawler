@@ -61,7 +61,9 @@ class AlternateMotherboardDetailParser implements PageWorker {
           motherboard.connectors.add(new Connector(techData, "GPU"));
         }
       } else if(techData.endsWith("x1") || techData.endsWith("x2")){
-        motherboard.connectors.add(new Connector(techData, "STORAGE"));
+        if(techData.contains("PCIe")){
+          motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
+        }
       } else if (techDataLabel == "Formfactor" || techDataLabel == "FormFactor") {
         if(techData != null){
           motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
