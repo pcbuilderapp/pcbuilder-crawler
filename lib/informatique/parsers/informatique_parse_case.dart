@@ -31,7 +31,7 @@ class InformatiqueCaseParser implements PageWorker {
         computerCase.type = "CASE";
         computerCase.shop = "Informatique";
 
-        await crawl(computerCase.url, new InformatiqueCaseDetailParser(), arguments: computerCase);
+        await Crawler.crawl(computerCase.url, new InformatiqueCaseDetailParser(), arguments: computerCase);
       }
     }
   }
