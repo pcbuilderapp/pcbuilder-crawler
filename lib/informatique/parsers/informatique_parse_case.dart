@@ -2,6 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
+import 'package:pcbuilder.crawler/pageworker.dart';
 
 /// Pageworker implementation for the Informatique Case ///
 class InformatiqueCaseParser implements PageWorker {
@@ -30,7 +31,7 @@ class InformatiqueCaseParser implements PageWorker {
         computerCase.type = "CASE";
         computerCase.shop = "Informatique";
 
-        await Crawler.crawl(computerCase.url, new InformatiqueCaseDetailParser(), arguments: computerCase);
+        await crawl(computerCase.url, new InformatiqueCaseDetailParser(), arguments: computerCase);
       }
     }
   }

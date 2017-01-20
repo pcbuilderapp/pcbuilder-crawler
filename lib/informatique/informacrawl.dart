@@ -9,13 +9,16 @@ import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_videoc
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_disk.dart';
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_power_supply_unit.dart';
 
-///Informatique crawling functionality///
+///Informatique crawling functionality
 class Informacrawl {
 
-  ///Crawl all components from the webshop Informatique///
+  ///Crawl all components from the webshop Informatique
   static crawlInformatique() async {
 
     try {
+
+      Stopwatch watch = new Stopwatch();
+      watch.start();
 
       createShop(informatiqueName, informatiqueUrl);
 
@@ -26,6 +29,10 @@ class Informacrawl {
       await Crawler.crawlComponent(informatiqueMotherboardUrls, new InformatiqueMotherboardParser());
       await Crawler.crawlComponent(informatiqueVideocardUrls, new InformatiqueVideoCardParser());
       await Crawler.crawlComponent(informatiqueCaseUrls, new InformatiqueCaseParser());
+
+      watch.stop();
+
+      print("Informatique crawler took " + watch.elapsed.inSeconds.toString() + "seconds.");
 
     } catch (e) {
       print(e);

@@ -5,13 +5,16 @@ import 'dart:io';
 import 'dart:async';
 
 main(List<String> args) async {
+
   File cfgFile = new File("config.yaml");
+
   try {
     String yamlSrc = await cfgFile.readAsString();
     config.init(yamlSrc);
   } catch (e) {
     print(e);
   }
+
   Informacrawl.crawlInformatique();
   Crawlternate.crawlAlternate();
 }

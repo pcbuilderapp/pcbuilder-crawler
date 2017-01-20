@@ -11,12 +11,15 @@ import "package:pcbuilder.crawler/utils.dart";
 import 'dart:async';
 
 ///Alternate crawling functionality///
-class Crawlternate {
+class Crawlternate extends Crawler {
 
   ///Crawl all components from the webshop Alternate///
-  static Future crawlAlternate() async {
+  static crawlAlternate() async {
 
     try {
+
+      Stopwatch watch = new Stopwatch();
+      watch.start();
 
       createShop(alternateName, alternateUrl);
 
@@ -28,8 +31,13 @@ class Crawlternate {
       await Crawler.crawlComponent(alternateVideocardUrls, new AlternateVideoCardParser());
       await Crawler.crawlComponent(alternateCaseUrls, new AlternateCaseParser());
 
+      watch.stop();
+
+      print("Alternate crawler took " + watch.elapsed.inSeconds.toString() + "seconds.");
+
     } catch (e) {
       print(e);
     }
+
   }
 }

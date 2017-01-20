@@ -2,6 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
+import 'package:pcbuilder.crawler/pageworker.dart';
 
 class AlternatePowerSupplyUnitParser implements PageWorker {
 

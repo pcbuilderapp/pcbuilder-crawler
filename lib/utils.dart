@@ -67,66 +67,62 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
-///add a Product to the backend///
-void postProduct(Product product) {
-  validateConnectors(product);
-  if (checkConnectors(product)) {
-    postRequest(backendServerUrl + addProductUrl, jsonEncoder.convert(product));
-  } else {
-    print("Product " + product.name + " has invalid amount of components and will not be posted to the backend.");
-  }
-}
-
 bool checkConnectors(Product product) {
+
   if(product == null || product.connectors == null){
       return false;
   }
 
-    switch (product.type) {
-      case 'CPU':
-      case 'GPU':
-      case 'STORAGE':
-      case 'CASE':
-      case 'PSU':
-      case 'MEMORY':
-      if(product.connectors.length > 0) {
+  switch (product.type) {
+
+    case 'CPU':
+    case 'GPU':
+    case 'STORAGE':
+    case 'CASE':
+    case 'PSU':
+    case 'MEMORY':
+    if(product.connectors.length > 0) {
+      return true;
+    }
+
+    return false;
+
+    case 'MOTHERBOARD':
+      bool hasCPU = false;
+      bool hasGPU = false;
+      bool hasSTORAGE = false;
+      bool hasCASE = false;
+      bool hasPSU = false;
+      bool hasMEMORY = false;
+
+      for (Connector connector in product.connectors) {
+        if(connector.type == 'CPU'){
+          hasCPU = true;
+        }
+        if(connector.type == 'GPU'){
+          hasGPU = true;
+        }
+        if(connector.type == 'STORAGE'){
+          hasSTORAGE = true;
+        }
+        if(connector.type == 'CASE'){
+          hasCASE = true;
+        }
+        if(connector.type == 'PSU'){
+          hasPSU = true;
+        }
+        if(connector.type == 'MEMORY'){
+          hasMEMORY = true;
+        }
+      }
+
+      if(hasCPU && hasGPU && hasSTORAGE && hasCASE && hasPSU && hasMEMORY){
         return true;
       }
       return false;
-      case 'MOTHERBOARD':
-        bool hasCPU = false;
-        bool hasGPU = false;
-        bool hasSTORAGE = false;
-        bool hasCASE = false;
-        bool hasPSU = false;
-        bool hasMEMORY = false;
 
-        for (Connector connector in product.connectors) {
-          if(connector.type == 'CPU'){
-            hasCPU = true;
-          }
-          if(connector.type == 'GPU'){
-            hasGPU = true;
-          }
-          if(connector.type == 'STORAGE'){
-            hasSTORAGE = true;
-          }
-          if(connector.type == 'CASE'){
-            hasCASE = true;
-          }
-          if(connector.type == 'PSU'){
-            hasPSU = true;
-          }
-          if(connector.type == 'MEMORY'){
-            hasMEMORY = true;
-          }
-        }
-        if(hasCPU && hasGPU && hasSTORAGE && hasCASE && hasPSU && hasMEMORY){
-          return true;
-        }
-        return false;
-      default:
-        break;
+    default:
+      break;
 
   }
 }
@@ -184,7 +180,21 @@ void validateConnectors(Product product){
   rejectedList.forEach((connector) => product.connectors.remove(connector));
 }
 
-/// post data on a REST service URL and print the response///
+///add a Product to the backend
+void postProduct(Product product) {
+
+  validateConnectors(product);
+  String json = jsonEncoder.convert(product);
+
+  if (product.connectors.length > 0) {
+    postRequest(backendServerUrl + addProductUrl, json);
+
+  } else {
+    print("Product " + product.name + " does not have any components and will not be posted to the backend.\n" + json);
+  }
+}
+
+///post data on a REST service URL and print the response
 void postRequest(String url, String json) {
 
     if (printProducts) {
