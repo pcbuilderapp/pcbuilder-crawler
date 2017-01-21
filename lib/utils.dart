@@ -13,7 +13,9 @@ JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 ///sleep a random amount of time without invoking a lock///
 Future sleepRnd() {
   Completer c = new Completer();
-  new Timer(new Duration(milliseconds: (new Random().nextDouble() * 300 + 200).round()),(){
+  new Timer(
+      new Duration(
+          milliseconds: (new Random().nextDouble() * 300 + 200).round()), () {
     c.complete();
   });
   return c.future;
@@ -27,7 +29,7 @@ void createShop(String name, String url) {
 
 ///delete (tip) in the productdetail
 String removeTip(String productName) {
-    return productName.replaceAll("(tip)", "");
+  return productName.replaceAll("(tip)", "");
 }
 
 ///convert price from String to double///
@@ -46,16 +48,19 @@ double price(String price) {
 }
 
 ///create headers for HTTP calls to look like a browser///
-Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
+Map getHTTPHeaders(String url, {String referrer, Map<String, String> cookies}) {
   Map headers = {};
   headers["Host"] = Uri.parse(url).host;
   headers["Cache-Control"] = "max-age=0";
   headers["Upgrade-Insecure-Requests"] = "1";
-  headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";
-  headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
+  headers["User-Agent"] =
+      "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";
+  headers["Accept"] =
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
   if (referrer != null) headers["Referer"] = referrer;
   headers["Accept-Encoding"] = "gzip, deflate, sdch, br";
-  headers["Accept-Language"] = "nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4,de-DE;q=0.2";
+  headers["Accept-Language"] =
+      "nl-NL,nl;q=0.8,en-US;q=0.6,en;q=0.4,de-DE;q=0.2";
   if (cookies != null) {
     String cookiesstr = "";
     for (String key in cookies.keys) {
@@ -67,25 +72,23 @@ Map getHTTPHeaders(String url, {String referrer, Map<String,String> cookies}) {
   return headers;
 }
 
+///check if product has valid amount of connectors///
 bool checkConnectors(Product product) {
-
-  if(product == null || product.connectors == null){
-      return false;
+  if (product == null || product.connectors == null) {
+    return false;
   }
-
   switch (product.type) {
-
     case 'CPU':
     case 'GPU':
     case 'STORAGE':
     case 'CASE':
     case 'PSU':
     case 'MEMORY':
-    if(product.connectors.length > 0) {
-      return true;
-    }
+      if (product.connectors.length > 0) {
+        return true;
+      }
 
-    return false;
+      return false;
 
     case 'MOTHERBOARD':
       bool hasCPU = false;
@@ -96,80 +99,80 @@ bool checkConnectors(Product product) {
       bool hasMEMORY = false;
 
       for (Connector connector in product.connectors) {
-        if(connector.type == 'CPU'){
+        if (connector.type == 'CPU') {
           hasCPU = true;
         }
-        if(connector.type == 'GPU'){
+        if (connector.type == 'GPU') {
           hasGPU = true;
         }
-        if(connector.type == 'STORAGE'){
+        if (connector.type == 'STORAGE') {
           hasSTORAGE = true;
         }
-        if(connector.type == 'CASE'){
+        if (connector.type == 'CASE') {
           hasCASE = true;
         }
-        if(connector.type == 'PSU'){
+        if (connector.type == 'PSU') {
           hasPSU = true;
         }
-        if(connector.type == 'MEMORY'){
+        if (connector.type == 'MEMORY') {
           hasMEMORY = true;
         }
       }
 
-      if(hasCPU && hasGPU && hasSTORAGE && hasCASE && hasPSU && hasMEMORY){
+      if (hasCPU && hasGPU && hasSTORAGE && hasCASE && hasPSU && hasMEMORY) {
         return true;
       }
       return false;
 
     default:
       break;
-
   }
 }
 
-void validateConnectors(Product product){
+///Check if for every connector if the name is in the white list///
+void validateConnectors(Product product) {
   List<Connector> rejectedList = new List();
   for (Connector connector in product.connectors) {
     switch (connector.type) {
       case 'STORAGE':
-      //checkIfExistInWhiteList(product);
-      bool saveConnector = false;
+        //checkIfExistInWhiteList(product);
+        bool saveConnector = false;
         for (String allowedDisk in whiteListDisks) {
-          if(connector.name.contains(allowedDisk)){
+          if (connector.name.contains(allowedDisk)) {
             connector.name = allowedDisk;
             saveConnector = true;
             break;
           }
         }
-        if (!saveConnector){
+        if (!saveConnector) {
           rejectedList.add(connector);
         }
         break;
       case 'GPU':
-      //checkIfExistInWhiteList(product);
+        //checkIfExistInWhiteList(product);
         bool saveConnector = false;
         for (String allowedGpu in whiteListGpu) {
-          if(connector.name.contains(allowedGpu)){
+          if (connector.name.contains(allowedGpu)) {
             connector.name = allowedGpu;
             saveConnector = true;
             break;
           }
         }
-        if (!saveConnector){
+        if (!saveConnector) {
           rejectedList.add(connector);
         }
         break;
       case 'MEMORY':
-      //checkIfExistInWhiteList(product);
+        //checkIfExistInWhiteList(product);
         bool saveConnector = false;
         for (String allowedMemory in whiteListMemory) {
-          if(connector.name.contains(allowedMemory)){
+          if (connector.name.contains(allowedMemory)) {
             connector.name = allowedMemory;
             saveConnector = true;
             break;
           }
         }
-        if (!saveConnector){
+        if (!saveConnector) {
           rejectedList.add(connector);
         }
         break;
@@ -182,30 +185,33 @@ void validateConnectors(Product product){
 
 ///add a Product to the backend
 void postProduct(Product product) {
-
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
 
-  if (product.connectors.length > 0) {
+  if (checkConnectors(product)) {
     postRequest(backendServerUrl + addProductUrl, json);
-
   } else {
-    print("Product " + product.name + " does not have any components and will not be posted to the backend.\n" + json);
+    print("Product " +
+        product.name +
+        " does not have any components and will not be posted to the backend.\n" +
+        json);
   }
 }
 
 ///post data on a REST service URL and print the response
 void postRequest(String url, String json) {
+  if (printProducts) {
+    print(json);
+  }
 
-    if (printProducts) {
-      print(json);
-    }
+  var request = new http.Request('POST', Uri.parse(url));
+  request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
+  request.body = json;
 
-    var request = new http.Request('POST', Uri.parse(url));
-    request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
-    request.body = json;
-
-    new http.Client().send(request).then((response) =>
-        response.stream.bytesToString().then((value) => print(value.toString())))
-        .catchError((error) => print(error.toString()));
+  new http.Client()
+      .send(request)
+      .then((response) => response.stream
+          .bytesToString()
+          .then((value) => print(value.toString())))
+      .catchError((error) => print(error.toString()));
 }

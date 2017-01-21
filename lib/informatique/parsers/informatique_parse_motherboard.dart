@@ -70,7 +70,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
           motherboard.mpn = row
               .querySelector("tr:last-child span")
               .text;
-        } else if (label.text == "Form factor") {
+        } else if (label.text == "Form factor" || label.text == "Form Factor") {
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector(row
@@ -92,7 +92,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector("PCIe", "GPU"));
           }
-        } else if (label.text == "Type geheugen") {
+        } else if (label.text == "Type geheugen" || label.text == "Geheugen type") {
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector(row
