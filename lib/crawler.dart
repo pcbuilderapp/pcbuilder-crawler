@@ -9,7 +9,6 @@ import 'package:http/http.dart' as Http;
 
 ///Crawler supplies methods to crawl internet webpages
 class Crawler {
-
   ///Crawl a list of pages containing the same component type
   static crawlComponent(List<String> urls, PageWorker pageWorker) async {
     for (String url in urls) {

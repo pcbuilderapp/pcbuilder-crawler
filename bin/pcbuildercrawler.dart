@@ -4,9 +4,7 @@ import 'package:pcbuilder.crawler/config.dart';
 import 'dart:io';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
-
 main(List<String> args) async {
-
   File cfgFile = new File("config.yaml");
 
   try {
@@ -18,13 +16,12 @@ main(List<String> args) async {
 
   Crawlternate crawlternate = new Crawlternate();
   Metrics altermetrics = new Metrics();
-  await crawlternate.crawl(altermetrics);
+  crawlternate.crawl(altermetrics);
 
-/*  Informacrawl informacrawl = new Informacrawl();
+  Informacrawl informacrawl = new Informacrawl();
   Metrics informetrics = new Metrics();
-  await informacrawl.crawl(informetrics);*/
+  await informacrawl.crawl(informetrics);
 
   altermetrics.printMetrics();
-/*  informetrics.printMetrics();*/
-
+  informetrics.printMetrics();
 }

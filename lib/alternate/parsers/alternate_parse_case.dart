@@ -6,67 +6,68 @@ import 'package:pcbuilder.crawler/interface/pageworker.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateCaseParser implements PageWorker {
-
   Metrics metrics;
   AlternateCaseParser(Metrics metrics) {
     this.metrics = metrics;
   }
 
   parse(Document document, arguments) async {
-
-    metrics.caseParserTime.start();
-
     var rows = document.querySelectorAll("div.listRow");
 
     for (Element listRow in rows) {
+      metrics.caseParserTime.start();
 
-      Product pcCase = new Product();
-      pcCase.name = listRow.querySelector("span.name").text.trim();
-      pcCase.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      pcCase.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      pcCase.type = "CASE";
-      pcCase.price = price(listRow.querySelector("span.price").text);
-      pcCase.shop = "Alternate";
+      Product computerCase = new Product();
+      computerCase.name = listRow.querySelector("span.name").text.trim();
+      computerCase.brand =
+          listRow.querySelectorAll("span.name span")[0].text.trim();
+      computerCase.url = "https://www.alternate.nl" +
+          listRow.querySelector(".productLink").attributes["href"];
+      computerCase.type = "CASE";
+      computerCase.price = price(listRow.querySelector("span.price").text);
+      computerCase.shop = "Alternate";
 
-      await Crawler.crawl(pcCase.url, new AlternateCaseDetailParser(metrics), arguments: pcCase);
+      await Crawler.crawl(
+          computerCase.url, new AlternateCaseDetailParser(metrics),
+          arguments: computerCase);
     }
   }
 }
 
 class AlternateCaseDetailParser implements PageWorker {
-
   Metrics metrics;
   AlternateCaseDetailParser(Metrics metrics) {
     this.metrics = metrics;
   }
 
   parse(Document document, arguments) async {
-
-    Product pcCase = arguments as Product;
+    Product computerCase = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    pcCase.ean = dataFlix.attributes["data-flix-ean"];
-    pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
-    var picUrl = document.querySelector("span.picture").querySelector("img[src]");
-    pcCase.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
+    computerCase.ean = dataFlix.attributes["data-flix-ean"];
+    computerCase.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl =
+        document.querySelector("span.picture").querySelector("img[src]");
+    computerCase.pictureUrl =
+        "https://www.alternate.nl" + picUrl.attributes["src"];
 
     String caseForm = "";
-    var techDataTableElements = document.querySelectorAll("div.productShort ul li");
+    var techDataTableElements =
+        document.querySelectorAll("div.productShort ul li");
 
     for (int i = 0; i < techDataTableElements.length; i++) {
-
       List<String> productShort = techDataTableElements[i].text.split(":");
 
       String techDataLabel = productShort[0];
       String techData = productShort[1];
 
       if (techDataLabel == "Formfactor") {
-
         List<String> caseFormList = techData.split(",");
 
-        for (int i = 0; i < caseFormList.length; i++){
-          if(caseFormList[i] != null){
-            pcCase.connectors.add(new Connector(caseFormList[i].trim(), "CASE"));
+        for (int i = 0; i < caseFormList.length; i++) {
+          if (caseFormList[i] != null) {
+            computerCase.connectors
+                .add(new Connector(caseFormList[i].trim(), "CASE"));
           }
         }
 
@@ -77,7 +78,8 @@ class AlternateCaseDetailParser implements PageWorker {
     metrics.caseParserTime.stop();
 
     metrics.caseBackendTime.start();
-    await postProduct(pcCase);
+    await postProduct(computerCase);
     metrics.caseBackendTime.stop();
+    metrics.caseCount++;
   }
 }

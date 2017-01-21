@@ -84,12 +84,11 @@ bool checkConnectors(Product product) {
     case 'CASE':
     case 'PSU':
     case 'MEMORY':
+      if (product.connectors.length > 0) {
+        return true;
+      }
 
-    if (product.connectors.length > 0) {
-      return true;
-    }
-
-    return false;
+      return false;
 
     case 'MOTHERBOARD':
       bool hasCPU = false;
@@ -132,13 +131,10 @@ bool checkConnectors(Product product) {
 
 ///Check if for every connector if the name is in the white list///
 void validateConnectors(Product product) {
-
   List<Connector> rejectedList = new List();
 
   for (Connector connector in product.connectors) {
-
     switch (connector.type) {
-
       case 'STORAGE':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
@@ -194,7 +190,6 @@ void validateConnectors(Product product) {
 
 ///add a Product to the backend
 postProduct(Product product) async {
-
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
 
@@ -210,8 +205,7 @@ postProduct(Product product) async {
 }
 
 ///post data on a REST service URL and print the response
-void postRequest(String url, String json) {
-
+postRequest(String url, String json) async {
   if (printProducts) {
     print(json);
   }
@@ -220,10 +214,10 @@ void postRequest(String url, String json) {
   request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
   request.body = json;
 
-  new http.Client()
-      .send(request)
-      .then((response) => response.stream
-          .bytesToString()
-          .then((value) => print(value.toString())))
+  var response = await new http.Client().send(request);
+
+  response.stream
+      .bytesToString()
+      .then((value) => print(value.toString()))
       .catchError((error) => print(error.toString()));
 }
