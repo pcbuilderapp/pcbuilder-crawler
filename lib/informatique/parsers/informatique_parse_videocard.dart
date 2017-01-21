@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class InformatiqueVideoCardParser implements PageWorker {
 
@@ -42,8 +42,7 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
     gpu.brand = document.querySelector("span[itemprop='brand']").text;
     gpu.price = price(document.querySelector("p.verkoopprijs").text);
 
-    var prodImgA = document.querySelector(
-        "div#product-image a[data-thumbnail]");
+    var prodImgA = document.querySelector("div#product-image a[data-thumbnail]");
     if (prodImgA != null) {
       gpu.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
@@ -61,12 +60,19 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
         var label = row.querySelector("strong");
 
         if (label == null) {
+
           continue;
+
         } else if (label.text == "EAN code") {
+
           gpu.ean = row.querySelector("td:last-child").text;
+
         } else if (label.text == "Fabrikantcode") {
+
           gpu.mpn = row.querySelector("tr:last-child span").text;
+
         } else if (label.text == "Bus type") {
+
           if(row.querySelector("td:last-child") != null){
             gpuConnector = row.querySelector("td:last-child").text.trim();
           }
@@ -79,6 +85,5 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
     }
 
     await postProduct(gpu);
-    await sleepRnd();
   }
 }

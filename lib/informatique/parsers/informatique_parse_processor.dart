@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class InformatiqueProcessorParser implements PageWorker{
 
@@ -47,15 +47,25 @@ class InformatiqueProcessorDetailParser implements PageWorker {
 
         var label = row.querySelector("strong");
         String socket = null;
+
         if (label == null) {
+
           continue;
+
         } else if (label.text == "EAN code") {
+
           processor.ean = row.querySelector("td:last-child").text;
+
         } else if (label.text == "Fabrikantcode") {
+
           processor.mpn = row.querySelector("tr:last-child span").text;
+
         } else if (label.text == "Socket") {
+
           if(row.querySelector("td:last-child") != null){
+
             socket = row.querySelector("td:last-child").text.trim();
+
             if (processor.brand == "Intel") {
               socket = socket.substring(1);
             }
@@ -69,6 +79,5 @@ class InformatiqueProcessorDetailParser implements PageWorker {
     }
 
     await postProduct(processor);
-    await sleepRnd();
   }
 }

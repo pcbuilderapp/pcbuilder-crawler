@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class InformatiquePowerSupplyUnitParser implements PageWorker {
 
@@ -61,18 +61,23 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
         var label = row.querySelector("strong");
 
         if (label == null) {
+
           continue;
+
         } else if (label.text == "EAN code") {
+
           psuUnit.ean = row
               .querySelector("td:last-child")
               .text;
+
         } else if (label.text == "Fabrikantcode") {
+
           psuUnit.mpn = row
               .querySelector("tr:last-child span")
               .text;
         } else if (label.text == "Standaard") {
-          if(row
-              .querySelector("td:last-child") != null){
+
+          if(row.querySelector("td:last-child") != null) {
             psuConnector = row
                 .querySelector("td:last-child")
                 .text;
@@ -80,11 +85,11 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
         }
       }
     }
+
     if(psuConnector != null){
       psuUnit.connectors.add(new Connector(psuConnector.trim(), "PSU"));
     }
 
     await postProduct(psuUnit);
-    await sleepRnd();
   }
 }

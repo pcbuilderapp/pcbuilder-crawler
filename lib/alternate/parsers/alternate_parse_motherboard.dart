@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class AlternateMotherboardParser implements PageWorker {
 
@@ -46,6 +46,7 @@ class AlternateMotherboardDetailParser implements PageWorker {
       if(techDataTableElements[i].querySelector("td.c1") != null){
         techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
       }
+
       String techData = "";
       if(techDataTableElements[i].querySelector("td.c4") != null){
         techData = techDataTableElements[i].querySelector("td.c4").text.trim();
@@ -56,34 +57,48 @@ class AlternateMotherboardDetailParser implements PageWorker {
       }
 
       if (techDataLabel == "Socket") {
+
         motherboard.connectors.add(new Connector(techData, "CPU"));
+
       } else if (techDataLabel == "Inbouwsloten") {
+
         if(techData.endsWith("x16")){
           motherboard.connectors.add(new Connector(techData, "GPU"));
         }
-      } else if(techData.endsWith("x1") || techData.endsWith("x2")){
+
+      } else if(techData.endsWith("x1") || techData.endsWith("x2")) {
+
         if(techData.contains("PCIe")){
           motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
         }
+
       } else if (techDataLabel == "Formfactor" || techDataLabel == "FormFactor") {
+
         if(techData != null){
           motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
           motherboard.connectors.add(new Connector(techData.trim(), "PSU"));
         }
+
       } else if (techDataOptional == "Ondersteunde standaarden") {
+
         if(techData != null){
           motherboard.connectors.add(new Connector(techData.trim(), "MEMORY"));
         }
+
       } else if (techDataOptional == "SATA") {
+
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+
       } else if (techDataOptional == "M.2") {
+
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+
       } else if (techDataOptional == "mSATA") {
+
         motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
       }
     }
 
     await postProduct(motherboard);
-    await sleepRnd();
   }
 }

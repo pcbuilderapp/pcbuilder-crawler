@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class AlternateProcessorParser implements PageWorker {
 
@@ -58,6 +58,5 @@ class AlternateProcessorDetailParser implements PageWorker {
     processor.connectors.add(new Connector(cpuSocket, "CPU"));
 
     await postProduct(processor);
-    await sleepRnd();
   }
 }

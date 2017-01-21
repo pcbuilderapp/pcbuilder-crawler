@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class InformatiqueMotherboardParser implements PageWorker {
 
@@ -49,7 +49,6 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
       motherboard.pictureUrl = prodImgA.attributes["data-thumbnail"];
     }
 
-
     var tables = document.querySelectorAll("table#details");
 
     for (var table in tables) {
@@ -60,19 +59,26 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
 
         var label = row.querySelector("strong");
         var motherboardConnector;
+
         if (label == null) {
+
           continue;
+
         } else if (label.text == "EAN code") {
+
           motherboard.ean = row
               .querySelector("td:last-child")
               .text;
+
         } else if (label.text == "Fabrikantcode") {
+
           motherboard.mpn = row
               .querySelector("tr:last-child span")
               .text;
+
         } else if (label.text == "Form factor" || label.text == "Form Factor") {
-          if(row
-              .querySelector("td:last-child") != null){
+
+          if(row.querySelector("td:last-child") != null) {
             motherboard.connectors.add(new Connector(row
                 .querySelector("td:last-child")
                 .text.trim(), "CASE"));
@@ -80,41 +86,55 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
                 .querySelector("td:last-child")
                 .text.trim(), "PSU"));
           }
+
         } else if (label.text == "Chipset") {
+
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector(row
                 .querySelector("td:last-child")
                 .text.trim(), "CPU"));
           }
+
         } else if (label.text == "Fysieke PCI-E x16 sloten") {
+
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector("PCIe", "GPU"));
           }
+
         } else if (label.text == "Type geheugen" || label.text == "Geheugen type") {
+
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector(row
                 .querySelector("td:last-child")
                 .text.trim(), "MEMORY"));
           }
+
         } else if (label.text == "SATA 3 aansluitingen") {
+
           if(row
               .querySelector("td:last-child") != null){
             motherboard.connectors.add(new Connector("SATA", "STORAGE"));
           }
+
         } else if (label.text == "M.2 sloten") {
+
           motherboardConnector = row
               .querySelector("td:last-child")
               .text;
           motherboard.connectors.add(new Connector("M.2", "STORAGE"));
+
         } else if (label.text == "Fysieke PCI-E x1 sloten") {
+
           motherboardConnector = row
               .querySelector("td:last-child")
               .text;
           motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
+
         } else if (label.text == "mSATA aansluitingen") {
+
           motherboardConnector = row
               .querySelector("td:last-child")
               .text;
@@ -124,6 +144,5 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
     }
 
     await postProduct(motherboard);
-    await sleepRnd();
   }
 }

@@ -2,11 +2,19 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
+import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateCaseParser implements PageWorker {
 
+  Metrics metrics;
+  AlternateCaseParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
+
   parse(Document document, arguments) async {
+
+    metrics.caseParserTime.start();
 
     var rows = document.querySelectorAll("div.listRow");
 
@@ -20,12 +28,17 @@ class AlternateCaseParser implements PageWorker {
       pcCase.price = price(listRow.querySelector("span.price").text);
       pcCase.shop = "Alternate";
 
-      await Crawler.crawl(pcCase.url, new AlternateCaseDetailParser(), arguments: pcCase);
+      await Crawler.crawl(pcCase.url, new AlternateCaseDetailParser(metrics), arguments: pcCase);
     }
   }
 }
 
 class AlternateCaseDetailParser implements PageWorker {
+
+  Metrics metrics;
+  AlternateCaseDetailParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
 
   parse(Document document, arguments) async {
 
@@ -61,7 +74,10 @@ class AlternateCaseDetailParser implements PageWorker {
       }
     }
 
+    metrics.caseParserTime.stop();
+
+    metrics.caseBackendTime.start();
     await postProduct(pcCase);
-    await sleepRnd();
+    metrics.caseBackendTime.stop();
   }
 }

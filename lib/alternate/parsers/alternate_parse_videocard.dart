@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class AlternateVideoCardParser implements PageWorker {
 
@@ -53,6 +53,5 @@ class AlternateVideoCardDetailParser implements PageWorker {
     }
 
     await postProduct(gpu);
-    await sleepRnd();
   }
 }

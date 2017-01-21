@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 class AlternatePowerSupplyUnitParser implements PageWorker {
 
@@ -63,11 +63,11 @@ class AlternatePsuDetailParser implements PageWorker {
         break;
       }
     }
+
     if(psuForm != null){
       psu.connectors.add(new Connector(psuForm, "PSU"));
     }
 
     await postProduct(psu);
-    await sleepRnd();
   }
 }

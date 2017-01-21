@@ -1,5 +1,5 @@
 import 'package:pcbuilder.crawler/utils.dart';
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 import 'dart:async';
 import 'package:html/dom.dart';

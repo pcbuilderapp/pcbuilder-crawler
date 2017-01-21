@@ -1,6 +1,8 @@
 import 'package:pcbuilder.crawler/configuration.dart';
 import 'package:pcbuilder.crawler/crawler.dart';
 import "package:pcbuilder.crawler/utils.dart";
+import "package:pcbuilder.crawler/model/metrics.dart";
+import 'package:pcbuilder.crawler/interface/shopcrawler.dart';
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_motherboard.dart';
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_memory.dart';
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_case.dart';
@@ -10,15 +12,14 @@ import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_disk.d
 import 'package:pcbuilder.crawler/informatique/parsers/informatique_parse_power_supply_unit.dart';
 
 ///Informatique crawling functionality
-class Informacrawl {
+class Informacrawl implements ShopCrawler {
 
   ///Crawl all components from the webshop Informatique
-  static crawlInformatique() async {
+  crawl(Metrics metrics) async {
 
     try {
-
-      Stopwatch watch = new Stopwatch();
-      watch.start();
+      metrics.shop = informatiqueName;
+      metrics.totalTime.start();
 
       createShop(informatiqueName, informatiqueUrl);
 
@@ -30,9 +31,9 @@ class Informacrawl {
       await Crawler.crawlComponent(informatiqueVideocardUrls, new InformatiqueVideoCardParser());
       await Crawler.crawlComponent(informatiqueCaseUrls, new InformatiqueCaseParser());
 
-      watch.stop();
+      metrics.totalTime.stop();
 
-      print("Informatique crawler took " + watch.elapsed.inSeconds.toString() + "seconds.");
+      print("Informatique crawler took " + metrics.totalTime.elapsed.inSeconds.toString() + " seconds.");
 
     } catch (e) {
       print(e);

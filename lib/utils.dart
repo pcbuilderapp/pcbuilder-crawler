@@ -84,11 +84,12 @@ bool checkConnectors(Product product) {
     case 'CASE':
     case 'PSU':
     case 'MEMORY':
-      if (product.connectors.length > 0) {
-        return true;
-      }
 
-      return false;
+    if (product.connectors.length > 0) {
+      return true;
+    }
+
+    return false;
 
     case 'MOTHERBOARD':
       bool hasCPU = false;
@@ -125,15 +126,19 @@ bool checkConnectors(Product product) {
       return false;
 
     default:
-      break;
+      return false;
   }
 }
 
 ///Check if for every connector if the name is in the white list///
 void validateConnectors(Product product) {
+
   List<Connector> rejectedList = new List();
+
   for (Connector connector in product.connectors) {
+
     switch (connector.type) {
+
       case 'STORAGE':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
@@ -144,10 +149,12 @@ void validateConnectors(Product product) {
             break;
           }
         }
+
         if (!saveConnector) {
           rejectedList.add(connector);
         }
         break;
+
       case 'GPU':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
@@ -162,6 +169,7 @@ void validateConnectors(Product product) {
           rejectedList.add(connector);
         }
         break;
+
       case 'MEMORY':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
@@ -176,6 +184,7 @@ void validateConnectors(Product product) {
           rejectedList.add(connector);
         }
         break;
+
       default:
         break;
     }
@@ -184,22 +193,25 @@ void validateConnectors(Product product) {
 }
 
 ///add a Product to the backend
-void postProduct(Product product) {
+postProduct(Product product) async {
+
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
 
   if (checkConnectors(product)) {
-    postRequest(backendServerUrl + addProductUrl, json);
+    await postRequest(backendServerUrl + addProductUrl, json);
   } else {
     print("Product " +
         product.name +
         " does not have any components and will not be posted to the backend.\n" +
         json);
   }
+  //await sleepRnd();
 }
 
 ///post data on a REST service URL and print the response
 void postRequest(String url, String json) {
+
   if (printProducts) {
     print(json);
   }

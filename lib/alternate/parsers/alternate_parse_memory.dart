@@ -2,11 +2,19 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
+import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateMemoryParser implements PageWorker {
 
+  Metrics metrics;
+  AlternateMemoryParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
+
   parse(Document document, arguments) async {
+
+    metrics.memoryParserTime.start();
 
     var rows = document.querySelectorAll("div.listRow");
 
@@ -20,12 +28,17 @@ class AlternateMemoryParser implements PageWorker {
       memory.price = price(listRow.querySelector("span.price").text);
       memory.shop = "Alternate";
 
-      await Crawler.crawl(memory.url, new AlternateMemoryDetailParser(), arguments: memory);
+      await Crawler.crawl(memory.url, new AlternateMemoryDetailParser(metrics), arguments: memory);
     }
   }
 }
 
 class AlternateMemoryDetailParser implements PageWorker {
+
+  Metrics metrics;
+  AlternateMemoryDetailParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
 
   parse(Document document, arguments) async {
 
@@ -53,8 +66,10 @@ class AlternateMemoryDetailParser implements PageWorker {
 
     memory.connectors.add(new Connector(memType, "MEMORY"));
 
-    await postProduct(memory);
-    await sleepRnd();
+    metrics.memoryParserTime.stop();
 
+    metrics.memoryBackendTime.start();
+    await postProduct(memory);
+    metrics.memoryBackendTime.stop();
   }
 }

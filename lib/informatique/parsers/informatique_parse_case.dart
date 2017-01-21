@@ -2,7 +2,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/crawler.dart";
-import 'package:pcbuilder.crawler/pageworker.dart';
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
 
 /// Pageworker implementation for the Informatique Case ///
 class InformatiqueCaseParser implements PageWorker {
@@ -65,24 +65,30 @@ class InformatiqueCaseDetailParser implements PageWorker {
         var label = row.querySelector("strong");
 
         if (label == null) {
+
           continue;
+
         } else if (label.text == "EAN code") {
+
           computerCase.ean = row.querySelector("td:last-child").text;
+
         } else if (label.text == "Fabrikantcode") {
+
           computerCase.mpn = row.querySelector("tr:last-child span").text;
+
         } else if (label.text == "Formfactor" || label.text == "FormFactor") {
+
           if(row.querySelector("td:last-child") != null){
             caseConnector = row.querySelector("td:last-child").text;
           }
         }
       }
     }
-if(caseConnector != null){
-  computerCase.connectors.add(new Connector(caseConnector.trim(), "CASE"));
-}
 
+    if(caseConnector != null){
+      computerCase.connectors.add(new Connector(caseConnector.trim(), "CASE"));
+    }
 
     await postProduct(computerCase);
-    await sleepRnd();
   }
 }
