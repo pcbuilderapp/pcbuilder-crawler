@@ -45,8 +45,8 @@ class Metrics {
                 videoCardCount)
             .toString() +
         " time " +
-        totalTime.elapsed.inSeconds.toString() +
-        " seconds.");
+        totalTime.elapsed.inMinutes.toString() +
+        " minutes.");
 
     print(">>> case --- amount: " +
         caseCount.toString() +
