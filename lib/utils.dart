@@ -196,10 +196,10 @@ postProduct(Product product) async {
   if (checkConnectors(product)) {
     await postRequest(backendServerUrl + addProductUrl, json);
   } else {
-    print("Product " +
+/*    print("Product " +
         product.name +
         " does not have any components and will not be posted to the backend.\n" +
-        json);
+        json);*/
   }
   //await sleepRnd();
 }
@@ -214,10 +214,15 @@ postRequest(String url, String json) async {
   request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
   request.body = json;
 
-  var response = await new http.Client().send(request);
-
-  response.stream
-      .bytesToString()
-      .then((value) => print(value.toString()))
-      .catchError((error) => print(error.toString()));
+  if (waitForBackend) {
+    var response = await new http.Client().send(request);
+    response.stream
+        .bytesToString()
+        .then((value) => print(value.toString()))
+        .catchError((error) => print(error.toString()));
+  } else {
+    new http.Client()
+        .send(request)
+        .catchError((error) => print(error.toString()));
+  }
 }

@@ -1,4 +1,5 @@
 final bool printProducts = false;
+final bool waitForBackend = false;
 
 final String backendServerUrl = "http://localhost:8090";
 final String addProductUrl = "/product/add";
