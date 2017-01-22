@@ -12,23 +12,15 @@ class InformatiqueStorageParser implements PageWorker {
   }
 
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
-
-      for (Element productRow in productRows) {
         metrics.storageParserTime.start();
 
         Product storage = new Product();
 
-        var querySelector = productRow.querySelector(".product_overlay");
-        if (querySelector == null) {
-          continue;
-        }
-
-        storage.name = removeTip(productRow.querySelector("#title").text);
-        storage.url = querySelector.attributes["href"];
+        storage.name = removeTip(listRow.querySelector("a").text.trim());
+        storage.url = listRow.querySelector("a").attributes["href"];
         storage.type = "STORAGE";
         storage.shop = "Informatique";
 
@@ -36,7 +28,6 @@ class InformatiqueStorageParser implements PageWorker {
             storage.url, new InformatiqueStorageDetailParser(metrics),
             arguments: storage);
       }
-    }
   }
 }
 

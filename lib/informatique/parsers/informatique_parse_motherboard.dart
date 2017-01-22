@@ -11,29 +11,26 @@ class InformatiqueMotherboardParser implements PageWorker {
     this.metrics = metrics;
   }
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
+      metrics.motherboardParserTime.start();
 
-      for (Element productRow in productRows) {
-        metrics.motherboardParserTime.start();
-        Product motherboard = new Product();
-        var querySelector = productRow.querySelector(".product_overlay");
+      Product motherboard = new Product();
 
-        if (querySelector == null) {
-          continue;
-        }
+      motherboard.name = removeTip(listRow
+          .querySelector("a")
+          .text
+          .trim());
+      motherboard.url = listRow
+          .querySelector("a")
+          .attributes["href"];
+      motherboard.type = "MOTHERBOARD";
+      motherboard.shop = "Informatique";
 
-        motherboard.name = removeTip(productRow.querySelector("#title").text);
-        motherboard.url = querySelector.attributes["href"];
-        motherboard.type = "MOTHERBOARD";
-        motherboard.shop = "Informatique";
-
-        await Crawler.crawl(
-            motherboard.url, new InformatiqueMotherboardDetailParser(metrics),
-            arguments: motherboard);
-      }
+      await Crawler.crawl(
+          motherboard.url, new InformatiqueMotherboardDetailParser(metrics),
+          arguments: motherboard);
     }
   }
 }
@@ -63,7 +60,6 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
 
       for (var row in rows) {
         var label = row.querySelector("strong");
-        var motherboardConnector;
 
         if (label == null) {
           continue;
@@ -98,13 +94,10 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
             motherboard.connectors.add(new Connector("SATA", "STORAGE"));
           }
         } else if (label.text == "M.2 sloten") {
-          motherboardConnector = row.querySelector("td:last-child").text;
           motherboard.connectors.add(new Connector("M.2", "STORAGE"));
         } else if (label.text == "Fysieke PCI-E x1 sloten") {
-          motherboardConnector = row.querySelector("td:last-child").text;
           motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
         } else if (label.text == "mSATA aansluitingen") {
-          motherboardConnector = row.querySelector("td:last-child").text;
           motherboard.connectors.add(new Connector("mSATA", "STORAGE"));
         }
       }

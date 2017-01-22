@@ -12,38 +12,30 @@ class InformatiqueMemoryParser implements PageWorker {
   }
 
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
+      metrics.memoryParserTime.start();
 
-      for (Element productRow in productRows) {
-        metrics.memoryParserTime.start();
-        Product memory = new Product();
-        var querySelector = productRow.querySelector(".product_overlay");
+      Product memory = new Product();
 
-        if (querySelector == null) {
-          continue;
-        }
+      memory.name = removeTip(listRow.querySelector("a").text.trim());
+      memory.url = listRow.querySelector("a").attributes["href"];
+      memory.type = "MEMORY";
+      memory.shop = "Informatique";
 
-        memory.name = removeTip(productRow.querySelector("#title").text);
-        memory.url = querySelector.attributes["href"];
-        memory.type = "MEMORY";
-        memory.shop = "Informatique";
+      Element memoryConnector = document.querySelector("#hdr");
 
-        Element memoryConnector = document.querySelector("#hdr");
-
-        if (memoryConnector != null) {
-          String memoryString = memoryConnector.text;
-          memoryString = memoryString.replaceAll(" modules", "");
-          memory.connectors.add(new Connector(memoryString, "MEMORY"));
-        }
-
-        await Crawler.crawl(
-            memory.url, new InformatiqueMemoryDetailParser(metrics),
-            arguments: memory);
+      if (memoryConnector != null) {
+        String memoryString = memoryConnector.text;
+        memoryString = memoryString.replaceAll(" modules", "");
+        memory.connectors.add(new Connector(memoryString, "MEMORY"));
       }
-    }
+
+      await Crawler.crawl(
+          memory.url, new InformatiqueMemoryDetailParser(metrics),
+          arguments: memory);
+      }
   }
 }
 

@@ -14,31 +14,21 @@ class InformatiqueCaseParser implements PageWorker {
 
   /// Crawl the detail page of the Informatique Case
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
+      metrics.storageParserTime.start();
 
-      for (Element productRow in productRows) {
-        metrics.caseParserTime.start();
+      Product computerCase = new Product();
 
-        Product computerCase = new Product();
+      computerCase.name = removeTip(listRow.querySelector("a").text.trim());
+      computerCase.url = listRow.querySelector("a").attributes["href"];
+      computerCase.type = "CASE";
+      computerCase.shop = "Informatique";
 
-        var querySelector = productRow.querySelector(".product_overlay");
-
-        if (querySelector == null) {
-          continue;
-        }
-
-        computerCase.name = removeTip(productRow.querySelector("#title").text);
-        computerCase.url = querySelector.attributes["href"];
-        computerCase.type = "CASE";
-        computerCase.shop = "Informatique";
-
-        await Crawler.crawl(
-            computerCase.url, new InformatiqueCaseDetailParser(metrics),
-            arguments: computerCase);
-      }
+      await Crawler.crawl(
+          computerCase.url, new InformatiqueCaseDetailParser(metrics),
+          arguments: computerCase);
     }
   }
 }
@@ -89,6 +79,43 @@ class InformatiqueCaseDetailParser implements PageWorker {
     if (caseConnector != null) {
       computerCase.connectors.add(new Connector(caseConnector.trim(), "CASE"));
     }
+
+    /* TODO future development, add all conector for case
+     if (caseConnector != null) {
+      if(caseConnector == "XL-ATX"){
+        computerCase.connectors.add(new Connector("ATX", "CASE"));
+        computerCase.connectors.add(new Connector("mATX", "CASE"));
+        computerCase.connectors.add(new Connector("mITX", "CASE"));
+        computerCase.connectors.add(new Connector("XL-ATX", "CASE"));
+        computerCase.connectors.add(new Connector("E-ATX", "CASE"));
+      } else if(caseConnector == "E-ATX"){
+        computerCase.connectors.add(new Connector("ATX", "CASE"));
+        computerCase.connectors.add(new Connector("mATX", "CASE"));
+        computerCase.connectors.add(new Connector("mITX", "CASE"));
+        computerCase.connectors.add(new Connector("E-ATX", "CASE"));
+      } else if(caseConnector == "ATX"){
+        computerCase.connectors.add(new Connector("ATX", "CASE"));
+        computerCase.connectors.add(new Connector("mATX", "CASE"));
+        computerCase.connectors.add(new Connector("mITX", "CASE"));
+      } else if(caseConnector == "mATX"){
+        computerCase.connectors.add(new Connector("mATX", "CASE"));
+        computerCase.connectors.add(new Connector("mITX", "CASE"));
+      }else {
+        computerCase.connectors.add(new Connector(caseConnector.trim(), "CASE"));
+      }
+
+
+      computerCase.connectors.add(new Connector("ATX", "CASE"));
+      computerCase.connectors.add(new Connector("µATX", "CASE"));
+      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
+      computerCase.connectors.add(new Connector("E-ATX", "CASE"));
+      computerCase.connectors.add(new Connector("XL-ATX", "CASE"));
+      computerCase.connectors.add(new Connector("SSI-EEB", "CASE"));
+      computerCase.connectors.add(new Connector("SSI-CEB", "CASE"));
+      computerCase.connectors.add(new Connector("DTX", "CASE"));
+      computerCase.connectors.add(new Connector("HPTX", "CASE"));
+
+    }*/
 
     metrics.caseParserTime.stop();
 

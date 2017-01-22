@@ -13,29 +13,21 @@ class InformatiqueVideoCardParser implements PageWorker {
   }
 
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
+      metrics.videoCardParserTime.start();
 
-      for (Element productRow in productRows) {
-        metrics.videoCardParserTime.start();
-        Product videoCard = new Product();
+      Product videoCard = new Product();
 
-        var querySelector = productRow.querySelector(".product_overlay");
-        if (querySelector == null) {
-          continue;
-        }
+      videoCard.name = removeTip(listRow.querySelector("a").text.trim());
+      videoCard.url = listRow.querySelector("a").attributes["href"];
+      videoCard.type = "GPU";
+      videoCard.shop = "Informatique";
 
-        videoCard.name = removeTip(productRow.querySelector("#title").text);
-        videoCard.url = querySelector.attributes["href"];
-        videoCard.type = "GPU";
-        videoCard.shop = "Informatique";
-
-        await Crawler.crawl(
-            videoCard.url, new InformatiqueVideoCardDetailParser(metrics),
-            arguments: videoCard);
-      }
+      await Crawler.crawl(
+          videoCard.url, new InformatiqueVideoCardDetailParser(metrics),
+          arguments: videoCard);
     }
   }
 }

@@ -11,31 +11,21 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
     this.metrics = metrics;
   }
   parse(Document document, arguments) async {
-    var rows = document.querySelectorAll("ul.novendorlogo");
+    var rows = document.querySelectorAll("div#title");
 
     for (Element listRow in rows) {
-      var productRows = listRow.querySelectorAll("li");
+      metrics.powerSupplyUnitParserTime.start();
 
-      for (Element productRow in productRows) {
-        metrics.powerSupplyUnitParserTime.start();
-        Product powerSupplyUnit = new Product();
+      Product powerSupplyUnit = new Product();
 
-        var querySelector = productRow.querySelector(".product_overlay");
+      powerSupplyUnit.name = removeTip(listRow.querySelector("a").text.trim());
+      powerSupplyUnit.url = listRow.querySelector("a").attributes["href"];
+      powerSupplyUnit.type = "PSU";
+      powerSupplyUnit.shop = "Informatique";
 
-        if (querySelector == null) {
-          continue;
-        }
-
-        powerSupplyUnit.name =
-            removeTip(productRow.querySelector("#title").text);
-        powerSupplyUnit.url = querySelector.attributes["href"];
-        powerSupplyUnit.type = "PSU";
-        powerSupplyUnit.shop = "Informatique";
-
-        await Crawler.crawl(powerSupplyUnit.url,
-            new InformatiquePowerSupplyUnitDetailParser(metrics),
-            arguments: powerSupplyUnit);
-      }
+      await Crawler.crawl(powerSupplyUnit.url,
+          new InformatiquePowerSupplyUnitDetailParser(metrics),
+          arguments: powerSupplyUnit);
     }
   }
 }
