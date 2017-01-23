@@ -1,7 +1,7 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
+import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
@@ -28,7 +28,7 @@ class AlternateProcessorParser implements PageWorker {
       processor.price = price(listRow.querySelector("span.price").text);
       processor.shop = "Alternate";
 
-      await Crawler.crawl(
+      await UrlCrawler.crawlUrl(
           processor.url, new AlternateProcessorDetailParser(metrics),
           arguments: processor);
     }

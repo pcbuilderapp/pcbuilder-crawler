@@ -6,7 +6,10 @@ import 'dart:io';
 import 'package:pcbuilder.crawler/model/connector.dart';
 import "package:pcbuilder.crawler/model/shop.dart";
 import "package:pcbuilder.crawler/model/product.dart";
+import "package:pcbuilder.crawler/model/crawler.dart";
 import 'package:pcbuilder.crawler/configuration.dart';
+import 'package:pcbuilder.crawler/config.dart';
+import 'serializer.dart';
 
 JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 
@@ -225,4 +228,27 @@ postRequest(String url, String json) async {
         .send(request)
         .catchError((error) => print(error.toString()));
   }
+}
+
+Future<bool> isCrawlerActivated(String name) async {
+
+  var response;
+  String url = (config["backend-server"] ?? "/backend/") + "crawler/findbyname?name=" + name;
+
+  try {
+    var request = await new http.Request ("GET", Uri.parse(url));
+    request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
+
+    response = await new http.Client().send(request);
+
+  } catch (e) {
+    print(e);
+    return false;
+  }
+
+  String rep = await response.stream.bytesToString();
+
+  Crawler crawler = fromJson(rep, new Crawler());
+
+  return crawler.activated;
 }

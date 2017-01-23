@@ -1,7 +1,7 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
+import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
@@ -25,7 +25,7 @@ class InformatiqueVideoCardParser implements PageWorker {
       videoCard.type = "GPU";
       videoCard.shop = "Informatique";
 
-      await Crawler.crawl(
+      await UrlCrawler.crawlUrl(
           videoCard.url, new InformatiqueVideoCardDetailParser(metrics),
           arguments: videoCard);
     }

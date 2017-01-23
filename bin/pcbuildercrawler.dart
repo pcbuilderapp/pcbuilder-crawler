@@ -2,7 +2,6 @@ import 'package:pcbuilder.crawler/alternate/crawlternate.dart';
 import 'package:pcbuilder.crawler/informatique/informacrawl.dart';
 import 'package:pcbuilder.crawler/config.dart';
 import 'dart:io';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 main(List<String> args) async {
   File cfgFile = new File("config.yaml");
@@ -15,13 +14,9 @@ main(List<String> args) async {
   }
 
   Crawlternate crawlternate = new Crawlternate();
-  Metrics altermetrics = new Metrics();
-  crawlternate.crawl(altermetrics);
+  crawlternate.crawlShop();
 
   Informacrawl informacrawl = new Informacrawl();
-  Metrics informetrics = new Metrics();
-  await informacrawl.crawl(informetrics);
+  informacrawl.crawlShop();
 
-  altermetrics.printMetrics();
-  informetrics.printMetrics();
 }

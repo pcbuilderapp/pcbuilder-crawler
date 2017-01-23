@@ -1,7 +1,7 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
+import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
@@ -26,7 +26,7 @@ class AlternateMemoryParser implements PageWorker {
       memory.price = price(listRow.querySelector("span.price").text);
       memory.shop = "Alternate";
 
-      await Crawler.crawl(memory.url, new AlternateMemoryDetailParser(metrics),
+      await UrlCrawler.crawlUrl(memory.url, new AlternateMemoryDetailParser(metrics),
           arguments: memory);
     }
   }

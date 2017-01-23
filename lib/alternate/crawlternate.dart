@@ -1,5 +1,5 @@
 import 'package:pcbuilder.crawler/configuration.dart';
-import 'package:pcbuilder.crawler/crawler.dart';
+import 'package:pcbuilder.crawler/urlcrawler.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 import 'package:pcbuilder.crawler/interface/shopcrawler.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_motherboard.dart';
@@ -10,34 +10,47 @@ import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_videocard.da
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_storage.dart';
 import 'package:pcbuilder.crawler/alternate/parsers/alternate_parse_power_supply_unit.dart';
 import "package:pcbuilder.crawler/utils.dart";
-import 'dart:async';
 
 ///Alternate crawling functionality///
 class Crawlternate implements ShopCrawler {
   ///Crawl all components from the webshop Alternate///
-  crawl(Metrics metrics) async {
+  crawlShop() async {
+
     try {
+
+      bool activated = await isCrawlerActivated(alternateName);
+
+      if (!activated) {
+        print("Crawler " + alternateName + " won't run because it has been deactivated.");
+        return;
+      } else {
+        print("Crawler " + alternateName + " launching...");
+      }
+
+      Metrics metrics = new Metrics();
       metrics.shop = alternateName;
       metrics.totalTime.start();
 
       createShop(alternateName, alternateUrl);
 
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateProcessorUrls, new AlternateProcessorParser(metrics));
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateDiskUrls, new AlternateStorageParser(metrics));
-      await Crawler.crawlComponent(alternatePowerSupplyUnitUrls,
+      await UrlCrawler.crawlComponent(alternatePowerSupplyUnitUrls,
           new AlternatePowerSupplyUnitParser(metrics));
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateMemoryUrls, new AlternateMemoryParser(metrics));
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateMotherboardUrls, new AlternateMotherboardParser(metrics));
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateVideocardUrls, new AlternateVideoCardParser(metrics));
-      await Crawler.crawlComponent(
+      await UrlCrawler.crawlComponent(
           alternateCaseUrls, new AlternateCaseParser(metrics));
 
       metrics.totalTime.stop();
+      metrics.printMetrics();
+
     } catch (e) {
       print(e);
     }

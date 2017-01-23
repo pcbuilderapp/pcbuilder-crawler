@@ -1,7 +1,7 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
+import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
 import "package:pcbuilder.crawler/model/metrics.dart";
 
@@ -23,7 +23,7 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
       powerSupplyUnit.type = "PSU";
       powerSupplyUnit.shop = "Informatique";
 
-      await Crawler.crawl(powerSupplyUnit.url,
+      await UrlCrawler.crawlUrl(powerSupplyUnit.url,
           new InformatiquePowerSupplyUnitDetailParser(metrics),
           arguments: powerSupplyUnit);
     }
