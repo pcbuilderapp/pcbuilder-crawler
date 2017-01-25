@@ -1,5 +1,4 @@
 import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
@@ -51,7 +50,6 @@ class AlternateCaseDetailParser implements PageWorker {
     computerCase.pictureUrl =
         "https://www.alternate.nl" + picUrl.attributes["src"];
 
-    String caseForm = "";
     var techDataTableElements =
         document.querySelectorAll("div.productShort ul li");
 
@@ -66,8 +64,7 @@ class AlternateCaseDetailParser implements PageWorker {
 
         for (int i = 0; i < caseFormList.length; i++) {
           if (caseFormList[i] != null) {
-            computerCase.connectors
-                .add(new Connector(caseFormList[i].trim(), "CASE"));
+            extendCaseType(caseFormList[i].trim(), computerCase);
           }
         }
 
