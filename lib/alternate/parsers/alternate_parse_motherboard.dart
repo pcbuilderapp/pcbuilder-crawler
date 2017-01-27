@@ -87,7 +87,7 @@ class AlternateMotherboardDetailParser implements PageWorker {
           techDataLabel == "FormFactor") {
         if (techData != null) {
           motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
-          motherboard.connectors.add(new Connector(techData.trim(), "PSU"));
+          motherboard.connectors.add(new Connector("ATX", "PSU"));
         }
       } else if (techDataOptional == "Ondersteunde standaarden") {
         if (techData != null) {

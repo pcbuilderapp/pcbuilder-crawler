@@ -71,8 +71,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
           if (row.querySelector("td:last-child") != null) {
             motherboard.connectors.add(new Connector(
                 row.querySelector("td:last-child").text.trim(), "CASE"));
-            motherboard.connectors.add(new Connector(
-                row.querySelector("td:last-child").text.trim(), "PSU"));
+            motherboard.connectors.add(new Connector("ATX", "PSU"));
           }
         } else if (label.text == "Chipset") {
           if (row.querySelector("td:last-child") != null) {
