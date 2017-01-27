@@ -1,7 +1,7 @@
 import 'package:pcbuilder.crawler/alternate/crawlternate.dart';
 import 'package:pcbuilder.crawler/informatique/informacrawl.dart';
-import 'package:pcbuilder.crawler/config.dart';
 import 'dart:io';
+import 'dart:async';
 
 main(List<String> args) async {
   File cfgFile = new File("config.yaml");
@@ -12,11 +12,15 @@ main(List<String> args) async {
   } catch (e) {
     print(e);
   }
-
+  
   Crawlternate crawlternate = new Crawlternate();
-  crawlternate.crawlShop();
-
   Informacrawl informacrawl = new Informacrawl();
-  informacrawl.crawlShop();
-
+  
+  new Timer.periodic(new Duration(minutes: 1),(Timer timer){
+    DateTime currentTime = new DateTime.now();
+    if (currentTime.hour == 4) {
+      crawlternate.crawlShop();
+      informacrawl.crawlShop();
+    }
+  });
 }
