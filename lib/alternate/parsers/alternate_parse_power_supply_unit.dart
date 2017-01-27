@@ -1,49 +1,77 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
+import "package:pcbuilder.crawler/urlcrawler.dart";
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
+import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternatePowerSupplyUnitParser implements PageWorker {
+  Metrics metrics;
+
+  AlternatePowerSupplyUnitParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
 
   parse(Document document, arguments) async {
-    List psus = [];
     var rows = document.querySelectorAll("div.listRow");
-    for (Element listRow in rows) {
-      Product psu = new Product();
-      psu.name = listRow.querySelector("span.name").text.trim();
-      psu.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      psu.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      psu.type = "PSU";
-      psu.price = price(listRow.querySelector("span.price").text);
-      psu.shop = "Alternate";
-      await Crawler.crawl(psu.url, new AlternatePsuDetailParser(), arguments: psu);
 
-      psus.add(psu);
+    for (Element listRow in rows) {
+      metrics.powerSupplyUnitParserTime.start();
+
+      Product powerSupplyUnit = new Product();
+      powerSupplyUnit.name = listRow.querySelector("span.name").text.trim();
+      powerSupplyUnit.brand =
+          listRow.querySelectorAll("span.name span")[0].text.trim();
+      powerSupplyUnit.url = "https://www.alternate.nl" +
+          listRow.querySelector(".productLink").attributes["href"];
+      powerSupplyUnit.type = "PSU";
+      powerSupplyUnit.price = price(listRow.querySelector("span.price").text);
+      powerSupplyUnit.shop = "Alternate";
+
+      await UrlCrawler.crawlUrl(powerSupplyUnit.url,
+          new AlternatePowerSupplyUnitDetailParser(metrics),
+          arguments: powerSupplyUnit);
     }
-    return psus;
   }
 }
 
-class AlternatePsuDetailParser implements PageWorker {
+class AlternatePowerSupplyUnitDetailParser implements PageWorker {
+  Metrics metrics;
+
+  AlternatePowerSupplyUnitDetailParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
+
   parse(Document document, arguments) async {
-    Product psu = arguments as Product;
+    Product powerSupplyUnit = arguments as Product;
 
     var dataFlix = document.querySelector("script[data-flix-mpn]");
-    psu.ean = dataFlix.attributes["data-flix-ean"];
-    psu.mpn = dataFlix.attributes["data-flix-mpn"];
+    powerSupplyUnit.ean = dataFlix.attributes["data-flix-ean"];
+    powerSupplyUnit.mpn = dataFlix.attributes["data-flix-mpn"];
+    var picUrl =
+        document.querySelector("span.picture").querySelector("img[src]");
+    powerSupplyUnit.pictureUrl =
+        "https://www.alternate.nl" + picUrl.attributes["src"];
 
-    String psuForm = "";
+    String psuForm = null;
     var techDataTableElements =
         document.querySelectorAll("div.techData table tr");
     bool saveNext = false;
     bool breakMethod = false;
+
     for (int i = 0; i < techDataTableElements.length; i++) {
-      String techDataLabel =
-          techDataTableElements[i].querySelector("html td").text.trim();
+      String techDataLabel = "";
+      if (techDataTableElements[i].querySelector("html td") != null) {
+        techDataLabel =
+            techDataTableElements[i].querySelector("html td").text.trim();
+      }
+
       if (saveNext) {
-        psuForm = techDataTableElements[i].querySelector("html td").text.trim();
-        breakMethod = true;
+        if (techDataTableElements[i].querySelector("html td") != null) {
+          psuForm =
+              techDataTableElements[i].querySelector("html td").text.trim();
+          breakMethod = true;
+        }
       }
 
       if (techDataLabel == "Bouwvorm") {
@@ -54,11 +82,16 @@ class AlternatePsuDetailParser implements PageWorker {
         break;
       }
     }
-    psu.connectors.add(new Connector(psuForm, "PSU"));
 
-    String productJSON = new JsonEncoder.withIndent("  ").convert(psu);
-    postRequest(getBackendServerURL() + "/product/add", productJSON);
-    print(productJSON);
-    await sleepRnd();
+    if (psuForm != null) {
+      powerSupplyUnit.connectors.add(new Connector(psuForm, "PSU"));
+    }
+
+    metrics.powerSupplyUnitParserTime.stop();
+
+    metrics.powerSupplyUnitBackendTime.start();
+    await postProduct(powerSupplyUnit);
+    metrics.powerSupplyUnitBackendTime.stop();
+    metrics.powerSupplyUnitCount++;
   }
 }

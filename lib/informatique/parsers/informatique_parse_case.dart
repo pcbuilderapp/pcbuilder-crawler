@@ -1,60 +1,88 @@
 import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
+import "package:pcbuilder.crawler/urlcrawler.dart";
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
+import "package:pcbuilder.crawler/model/metrics.dart";
 
+/// Pageworker implementation for the Informatique Case
 class InformatiqueCaseParser implements PageWorker {
+  Metrics metrics;
+  InformatiqueCaseParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
 
+  /// Crawl the detail page of the Informatique Case
   parse(Document document, arguments) async {
+    var rows = document.querySelectorAll("div#title");
 
-    List caseUnits = [];
-    var rows = document.querySelectorAll("div.listRow");
     for (Element listRow in rows) {
-      Product pcCase = new Product();
-      pcCase.name = listRow.querySelector("span.name").text.trim();
-      pcCase.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      pcCase.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      pcCase.type = "CASE";
-      pcCase.price = price(listRow.querySelector("span.price").text);
-      pcCase.shop = "Alternate";
-      await Crawler.crawl(pcCase.url, new InformatiqueCaseDetailParser(), arguments: pcCase);
+      metrics.caseParserTime.start();
 
-      caseUnits.add(pcCase);
+      Product computerCase = new Product();
+
+      computerCase.name = removeTip(listRow.querySelector("a").text.trim());
+      computerCase.url = listRow.querySelector("a").attributes["href"];
+      computerCase.type = "CASE";
+      computerCase.shop = "Informatique";
+
+      await UrlCrawler.crawlUrl(
+          computerCase.url, new InformatiqueCaseDetailParser(metrics),
+          arguments: computerCase);
     }
-    return caseUnits;
   }
 }
 
+/// Pageworker implementation for the Informatique Case details
 class InformatiqueCaseDetailParser implements PageWorker {
-
-  parse(Document document, arguments) async {
-
-    Product pcCase = arguments as Product;
-
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    pcCase.ean = dataFlix.attributes["data-flix-ean"];
-    pcCase.mpn = dataFlix.attributes["data-flix-mpn"];
-
-    String caseForm = "";
-    var techDataTableElements = document.querySelectorAll("div.productShort ul li");
-    for (int i = 0; i < techDataTableElements.length; i++) {
-
-      List<String> productShort = techDataTableElements[i].text.split(":");
-
-      String techDataLabel = productShort[0];
-      String techData = productShort[1];
-
-      if (techDataLabel == "Formfactor") {
-        caseForm = techData;
-      }
-
-    }
-    pcCase.connectors.add(new Connector(caseForm, "CASE"));
-
-    String productJSON = new JsonEncoder.withIndent("  ").convert(pcCase);
-    postRequest(getBackendServerURL()+"/product/add", productJSON);
-    print(productJSON);
-    await sleepRnd();
+  Metrics metrics;
+  InformatiqueCaseDetailParser(Metrics metrics) {
+    this.metrics = metrics;
   }
+
+  /// Crawl the detail page of the Informatique Case
+  parse(Document document, arguments) async {
+    Product computerCase = arguments as Product;
+
+    computerCase.brand = document.querySelector("span[itemprop='brand']").text;
+    computerCase.price = price(document.querySelector("p.verkoopprijs").text);
+
+    var prodImgA =
+        document.querySelector("div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      computerCase.pictureUrl = prodImgA.attributes["data-thumbnail"];
+    }
+
+    String caseConnector = null;
+    var tables = document.querySelectorAll("table#details");
+
+    for (var table in tables) {
+      var rows = table.querySelectorAll("tr");
+
+      for (var row in rows) {
+        var label = row.querySelector("strong");
+
+        if (label == null) {
+          continue;
+        } else if (label.text == "EAN code") {
+          computerCase.ean = row.querySelector("td:last-child").text;
+        } else if (label.text == "Fabrikantcode") {
+          computerCase.mpn = row.querySelector("tr:last-child span").text;
+        } else if (label.text == "Formfactor" || label.text == "FormFactor") {
+          if (row.querySelector("td:last-child") != null) {
+            caseConnector = row.querySelector("td:last-child").text;
+          }
+        }
+      }
+    }
+
+    extendCaseType(caseConnector, computerCase);
+
+    metrics.caseParserTime.stop();
+
+    metrics.caseBackendTime.start();
+    await postProduct(computerCase);
+    metrics.caseBackendTime.stop();
+    metrics.caseCount++;
+  }
+
 }

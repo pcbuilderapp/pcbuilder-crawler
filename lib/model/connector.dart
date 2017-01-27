@@ -1,4 +1,5 @@
 class Connector {
+
   String name;
   String type;
 
@@ -6,6 +7,6 @@ class Connector {
 
   Map toJson() => {
     "name": name,
-    "type" : type
+    "type": type
   };
 }

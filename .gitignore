@@ -30,3 +30,6 @@ pubspec.lock
 .idea/
 .idea/*
 workspace.xml
+
+# Config files
+config.yaml

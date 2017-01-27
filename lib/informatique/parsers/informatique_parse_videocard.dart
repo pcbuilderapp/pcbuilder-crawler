@@ -1,65 +1,87 @@
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/crawler.dart";
-import 'dart:convert';
+import "package:pcbuilder.crawler/urlcrawler.dart";
+import 'package:pcbuilder.crawler/interface/pageworker.dart';
+import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueVideoCardParser implements PageWorker {
+  Metrics metrics;
+
+  InformatiqueVideoCardParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
 
   parse(Document document, arguments) async {
+    var rows = document.querySelectorAll("div#title");
 
-    List gpus = [];
-    var rows = document.querySelectorAll("div.listRow");
     for (Element listRow in rows) {
-      Product gpu = new Product();
-      gpu.name = listRow.querySelector("span.name").text.trim();
-      gpu.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      gpu.url = "https://www.alternate.nl" + listRow.querySelector(".productLink").attributes["href"];
-      gpu.type = "GPU";
-      gpu.price = price(listRow.querySelector("span.price").text);
-      gpu.shop = "Alternate";
-      await Crawler.crawl(gpu.url, new InformatiqueVideoCardDetailParser(), arguments: gpu);
-      if (gpu.connectors.length > 0) {
-        gpus.add(gpu);
-      }
+      metrics.videoCardParserTime.start();
+
+      Product videoCard = new Product();
+
+      videoCard.name = removeTip(listRow.querySelector("a").text.trim());
+      videoCard.url = listRow.querySelector("a").attributes["href"];
+      videoCard.type = "GPU";
+      videoCard.shop = "Informatique";
+
+      await UrlCrawler.crawlUrl(
+          videoCard.url, new InformatiqueVideoCardDetailParser(metrics),
+          arguments: videoCard);
     }
-    return gpus;
   }
 }
 
 class InformatiqueVideoCardDetailParser implements PageWorker {
-
+  Metrics metrics;
+  InformatiqueVideoCardDetailParser(Metrics metrics) {
+    this.metrics = metrics;
+  }
   parse(Document document, arguments) async {
+    Product videoCard = arguments as Product;
 
-    Product gpu = arguments as Product;
+    videoCard.brand = document.querySelector("span[itemprop='brand']").text;
+    videoCard.price = price(document.querySelector("p.verkoopprijs").text);
 
-    var dataFlix = document.querySelector("script[data-flix-mpn]");
-    gpu.ean = dataFlix.attributes["data-flix-ean"];
-    gpu.mpn = dataFlix.attributes["data-flix-mpn"];
+    var prodImgA =
+        document.querySelector("div#product-image a[data-thumbnail]");
+    if (prodImgA != null) {
+      videoCard.pictureUrl = prodImgA.attributes["data-thumbnail"];
+    }
 
-    var techDataTableElements = document.querySelectorAll("div.techData table tr");
-    for (int i = 0; i < techDataTableElements.length; i++) {
-      String gpuConnectorData = "";
-      String techDataLabel = techDataTableElements[i].querySelector("td.c1").text.trim();
-      String techData = techDataTableElements[i].querySelector("td.c4").text.trim();
+    String gpuConnector = null;
 
-      if (techDataLabel == "Aansluiting") {
-        for (String element in techData.split(" ")) {
-          if(element.trim().substring(element.length - 1) != ")") {
-            gpuConnectorData += " " + element;
+    var tables = document.querySelectorAll("table#details");
+
+    for (var table in tables) {
+      var rows = table.querySelectorAll("tr");
+
+      for (var row in rows) {
+        var label = row.querySelector("strong");
+
+        if (label == null) {
+          continue;
+        } else if (label.text == "EAN code") {
+          videoCard.ean = row.querySelector("td:last-child").text;
+        } else if (label.text == "Fabrikantcode") {
+          videoCard.mpn = row.querySelector("tr:last-child span").text;
+        } else if (label.text == "Bus type") {
+          if (row.querySelector("td:last-child") != null) {
+            gpuConnector = row.querySelector("td:last-child").text.trim();
           }
-        }
-        if (gpuConnectorData.trim() != "") {
-          gpu.connectors.add(new Connector(gpuConnectorData.trim(), "GPU"));
         }
       }
     }
 
-    if (gpu.connectors.length > 0) {
-      String productJSON = new JsonEncoder.withIndent("  ").convert(gpu);
-      postRequest(getBackendServerURL() + "/product/add", productJSON);
-      print(productJSON);
-      await sleepRnd();
+    if (gpuConnector != null) {
+      videoCard.connectors.add(new Connector(gpuConnector, "GPU"));
     }
+
+    metrics.videoCardParserTime.stop();
+
+    metrics.videoCardBackendTime.start();
+    await postProduct(videoCard);
+    metrics.videoCardBackendTime.stop();
+    metrics.videoCardCount++;
   }
 }
