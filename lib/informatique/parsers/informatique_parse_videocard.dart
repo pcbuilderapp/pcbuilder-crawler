@@ -42,6 +42,7 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
 
     videoCard.brand = document.querySelector("span[itemprop='brand']").text;
     videoCard.price = price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, videoCard);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

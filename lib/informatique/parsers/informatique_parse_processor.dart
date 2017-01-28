@@ -38,6 +38,7 @@ class InformatiqueProcessorDetailParser implements PageWorker {
 
     processor.brand = document.querySelector("span[itemprop='brand']").text;
     processor.price = price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, processor);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

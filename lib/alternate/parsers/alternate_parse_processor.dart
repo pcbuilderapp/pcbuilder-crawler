@@ -26,6 +26,7 @@ class AlternateProcessorParser implements PageWorker {
           listRow.querySelector(".productLink").attributes["href"];
       processor.type = "CPU";
       processor.price = price(listRow.querySelector("span.price").text);
+      setProductDiscountAlternate(listRow, processor);
       processor.shop = "Alternate";
 
       await UrlCrawler.crawlUrl(

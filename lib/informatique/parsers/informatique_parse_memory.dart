@@ -49,6 +49,7 @@ class InformatiqueMemoryDetailParser implements PageWorker {
 
     memory.brand = document.querySelector("span[itemprop='brand']").text;
     memory.price = price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, memory);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

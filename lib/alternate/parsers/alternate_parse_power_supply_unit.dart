@@ -26,6 +26,7 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
           listRow.querySelector(".productLink").attributes["href"];
       powerSupplyUnit.type = "PSU";
       powerSupplyUnit.price = price(listRow.querySelector("span.price").text);
+      setProductDiscountAlternate(listRow, powerSupplyUnit);
       powerSupplyUnit.shop = "Alternate";
 
       await UrlCrawler.crawlUrl(powerSupplyUnit.url,

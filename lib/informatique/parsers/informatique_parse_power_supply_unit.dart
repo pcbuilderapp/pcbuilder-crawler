@@ -42,6 +42,7 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
         document.querySelector("span[itemprop='brand']").text;
     powerSupplyUnit.price =
         price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, powerSupplyUnit);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

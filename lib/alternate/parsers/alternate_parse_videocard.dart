@@ -26,6 +26,7 @@ class AlternateVideoCardParser implements PageWorker {
           listRow.querySelector(".productLink").attributes["href"];
       videoCard.type = "GPU";
       videoCard.price = price(listRow.querySelector("span.price").text);
+      setProductDiscountAlternate(listRow, videoCard);
       videoCard.shop = "Alternate";
 
       await UrlCrawler.crawlUrl(

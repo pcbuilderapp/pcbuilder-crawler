@@ -45,6 +45,7 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
 
     motherboard.brand = document.querySelector("span[itemprop='brand']").text;
     motherboard.price = price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, motherboard);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

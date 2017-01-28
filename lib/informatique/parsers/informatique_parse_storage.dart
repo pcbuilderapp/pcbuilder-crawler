@@ -42,6 +42,7 @@ class InformatiqueStorageDetailParser implements PageWorker {
 
     storage.brand = document.querySelector("span[itemprop='brand']").text;
     storage.price = price(document.querySelector("p.verkoopprijs").text);
+    setProductDiscountInformatique(document, storage);
 
     var prodImgA =
         document.querySelector("div#product-image a[data-thumbnail]");

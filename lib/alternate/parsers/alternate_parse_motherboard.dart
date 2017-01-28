@@ -26,6 +26,7 @@ class AlternateMotherboardParser implements PageWorker {
           listRow.querySelector(".productLink").attributes["href"];
       motherboard.type = "MOTHERBOARD";
       motherboard.price = price(listRow.querySelector("span.price").text);
+      setProductDiscountAlternate(listRow, motherboard);
       motherboard.shop = "Alternate";
 
       await UrlCrawler.crawlUrl(

@@ -9,6 +9,7 @@ import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/crawler.dart";
 import 'package:pcbuilder.crawler/configuration.dart';
 import 'package:pcbuilder.crawler/config.dart';
+import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'serializer.dart';
 
 JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
@@ -261,6 +262,21 @@ void extendCaseType(String caseConnector, Product computerCase) {
       computerCase.connectors
           .add(new Connector(caseConnector.trim(), "CASE"));
     }
+  }
+}
+
+///Checks if listrow contains discount indication and sets anyProduct.discounted to true for Alternate
+void setProductDiscountAlternate(Element listRow, Product anyProduct) {
+  if(listRow.querySelector("div.strikedPrice") != null){
+    anyProduct.discounted = true;
+  }
+}
+
+
+///Checks if listrow contains discount indication and sets anyProduct.discounted to true for Informatique
+void setProductDiscountInformatique(Document document, Product anyProduct) {
+  if(document.querySelector("p.price_old") != null){
+    anyProduct.discounted = true;
   }
 }
 

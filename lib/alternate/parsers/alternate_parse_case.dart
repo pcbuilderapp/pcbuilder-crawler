@@ -24,6 +24,8 @@ class AlternateCaseParser implements PageWorker {
           listRow.querySelector(".productLink").attributes["href"];
       computerCase.type = "CASE";
       computerCase.price = price(listRow.querySelector("span.price").text);
+      setProductDiscountAlternate(listRow, computerCase);
+
       computerCase.shop = "Alternate";
 
       await UrlCrawler.crawlUrl(
