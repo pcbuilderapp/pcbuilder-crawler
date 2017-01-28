@@ -13,7 +13,7 @@ import 'serializer.dart';
 
 JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 
-///sleep a random amount of time without invoking a lock///
+///sleep a random amount of time without invoking a lock
 Future sleepRnd() {
   Completer c = new Completer();
   new Timer(
@@ -24,7 +24,7 @@ Future sleepRnd() {
   return c.future;
 }
 
-///create a new Shop in the backend///
+///create a new Shop in the backend
 void createShop(String name, String url) {
   postRequest(backendServerUrl + createShopUrl,
       jsonEncoder.convert(new Shop(name, url, "")));
@@ -35,7 +35,7 @@ String removeTip(String productName) {
   return productName.replaceAll("(tip)", "");
 }
 
-///convert price from String to double///
+///convert price from String to double
 double price(String price) {
   List<int> temp = [];
   for (int codeUnit in price.codeUnits) {
@@ -50,7 +50,7 @@ double price(String price) {
   return double.parse(new String.fromCharCodes(temp));
 }
 
-///create headers for HTTP calls to look like a browser///
+///create headers for HTTP calls to look like a browser
 Map getHTTPHeaders(String url, {String referrer, Map<String, String> cookies}) {
   Map headers = {};
   headers["Host"] = Uri.parse(url).host;
@@ -75,7 +75,7 @@ Map getHTTPHeaders(String url, {String referrer, Map<String, String> cookies}) {
   return headers;
 }
 
-///check if product has valid amount of connectors///
+///check if product has valid amount of connectors
 bool checkConnectors(Product product) {
   if (product == null || product.connectors == null) {
     return false;
@@ -132,7 +132,7 @@ bool checkConnectors(Product product) {
   }
 }
 
-///Check if for every connector if the name is in the white list///
+///Check if for every connector if the name is in the white list
 void validateConnectors(Product product) {
   List<Connector> rejectedList = new List();
 
@@ -191,7 +191,7 @@ void validateConnectors(Product product) {
   rejectedList.forEach((connector) => product.connectors.remove(connector));
 }
 
-/// Extend case types with extra connectors///
+/// Extend case types with extra connectors
 void extendCaseType(String caseConnector, Product computerCase) {
   if (caseConnector != null) {
     if (caseConnector == "HPTX") {
@@ -264,7 +264,6 @@ void extendCaseType(String caseConnector, Product computerCase) {
   }
 }
 
-
 ///add a Product to the backend
 postProduct(Product product) async {
   validateConnectors(product);
@@ -278,7 +277,7 @@ postProduct(Product product) async {
         " does not have any components and will not be posted to the backend.\n" +
         json);*/
   }
-  //await sleepRnd();
+  /*await sleepRnd();*/
 }
 
 ///post data on a REST service URL and print the response
@@ -304,6 +303,7 @@ postRequest(String url, String json) async {
   }
 }
 
+/// Checks on the backend if a Crawler is activated
 Future<bool> isCrawlerActivated(String name) async {
 
   var response;
