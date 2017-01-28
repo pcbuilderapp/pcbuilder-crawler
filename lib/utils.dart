@@ -272,7 +272,6 @@ void setProductDiscountAlternate(Element listRow, Product anyProduct) {
   }
 }
 
-
 ///Checks if listrow contains discount indication and sets anyProduct.discounted to true for Informatique
 void setProductDiscountInformatique(Document document, Product anyProduct) {
   if(document.querySelector("p.price_old") != null){
@@ -282,8 +281,13 @@ void setProductDiscountInformatique(Document document, Product anyProduct) {
 
 ///add a Product to the backend
 postProduct(Product product) async {
+
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
+
+  if(product.discounted ) {
+    print(json);
+  }
 
   if (checkConnectors(product)) {
     await postRequest(backendServerUrl + addProductUrl, json);
