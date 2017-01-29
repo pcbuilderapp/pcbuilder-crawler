@@ -285,7 +285,7 @@ postProduct(Product product) async {
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
 
-  if(product.discounted ) {
+  if(product.discounted != null && product.discounted ) {
     print(json);
   }
 
