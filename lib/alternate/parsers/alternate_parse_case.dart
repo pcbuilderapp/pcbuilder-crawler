@@ -1,8 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateCaseParser implements PageWorker {
   Metrics metrics;
@@ -22,7 +19,7 @@ class AlternateCaseParser implements PageWorker {
           listRow.querySelectorAll("span.name span")[0].text.trim();
       computerCase.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      computerCase.type = "CASE";
+      computerCase.type = config["computerCaseType"];
       computerCase.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, computerCase);
 

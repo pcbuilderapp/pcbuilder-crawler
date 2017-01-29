@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiquePowerSupplyUnitParser implements PageWorker {
   Metrics metrics;
@@ -20,7 +16,7 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
 
       powerSupplyUnit.name = removeTip(listRow.querySelector("a").text.trim());
       powerSupplyUnit.url = listRow.querySelector("a").attributes["href"];
-      powerSupplyUnit.type = "PSU";
+      powerSupplyUnit.type = config["powerSupplyUnitType"];
       powerSupplyUnit.shop = "Informatique";
 
       await UrlCrawler.crawlUrl(powerSupplyUnit.url,
@@ -75,7 +71,7 @@ class InformatiquePowerSupplyUnitDetailParser implements PageWorker {
     }
 
     if (psuConnector != null) {
-      powerSupplyUnit.connectors.add(new Connector(psuConnector.trim(), "PSU"));
+      powerSupplyUnit.connectors.add(new Connector(psuConnector.trim(), config["powerSupplyUnitType"]));
     }
 
     metrics.powerSupplyUnitParserTime.stop();

@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueStorageParser implements PageWorker {
   Metrics metrics;
@@ -21,7 +17,7 @@ class InformatiqueStorageParser implements PageWorker {
 
         storage.name = removeTip(listRow.querySelector("a").text.trim());
         storage.url = listRow.querySelector("a").attributes["href"];
-        storage.type = "STORAGE";
+        storage.type = config["storageType"];
         storage.shop = "Informatique";
 
         await UrlCrawler.crawlUrl(
@@ -92,7 +88,7 @@ class InformatiqueStorageDetailParser implements PageWorker {
         } else if (row.querySelector("td:last-child") != null &&
             label.text == "SATA") {
           storage.connectors.add(new Connector(
-              row.querySelector("td:last-child").text, "STORAGE"));
+              row.querySelector("td:last-child").text, config["storageType"]));
         }
 
         if (storage.ean != null &&
@@ -104,13 +100,13 @@ class InformatiqueStorageDetailParser implements PageWorker {
     }
 
     if (isM2) {
-      storage.connectors.add(new Connector("M.2", "STORAGE"));
+      storage.connectors.add(new Connector("M.2", config["storageType"]));
     } else if (isPCIe) {
-      storage.connectors.add(new Connector("PCIe", "STORAGE"));
+      storage.connectors.add(new Connector("PCIe", config["storageType"]));
     } else if (isMSata) {
-      storage.connectors.add(new Connector("mSATA", "STORAGE"));
+      storage.connectors.add(new Connector("mSATA", config["storageType"]));
     } else {
-      storage.connectors.add(new Connector("SATA", "STORAGE"));
+      storage.connectors.add(new Connector("SATA", config["storageType"]));
     }
 
     metrics.storageParserTime.stop();

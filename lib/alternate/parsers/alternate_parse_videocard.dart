@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateVideoCardParser implements PageWorker {
   Metrics metrics;
@@ -24,7 +20,7 @@ class AlternateVideoCardParser implements PageWorker {
           listRow.querySelectorAll("span.name span")[0].text.trim();
       videoCard.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      videoCard.type = "GPU";
+      videoCard.type = config["graphicsCardType"];
       videoCard.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, videoCard);
       videoCard.shop = "Alternate";
@@ -65,7 +61,7 @@ class AlternateVideoCardDetailParser implements PageWorker {
 
       if (techDataLabel == "Aansluiting") {
         if (techData != "") {
-          videoCard.connectors.add(new Connector(techData, "GPU"));
+          videoCard.connectors.add(new Connector(techData, config["graphicsCardType"]));
         }
       }
     }

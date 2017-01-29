@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueVideoCardParser implements PageWorker {
   Metrics metrics;
@@ -22,7 +18,7 @@ class InformatiqueVideoCardParser implements PageWorker {
 
       videoCard.name = removeTip(listRow.querySelector("a").text.trim());
       videoCard.url = listRow.querySelector("a").attributes["href"];
-      videoCard.type = "GPU";
+      videoCard.type = config["graphicsCardType"];
       videoCard.shop = "Informatique";
 
       await UrlCrawler.crawlUrl(
@@ -75,7 +71,7 @@ class InformatiqueVideoCardDetailParser implements PageWorker {
     }
 
     if (gpuConnector != null) {
-      videoCard.connectors.add(new Connector(gpuConnector, "GPU"));
+      videoCard.connectors.add(new Connector(gpuConnector, config["graphicsCardType"]));
     }
 
     metrics.videoCardParserTime.stop();

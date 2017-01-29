@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueProcessorParser implements PageWorker {
   Metrics metrics;
@@ -18,7 +14,7 @@ class InformatiqueProcessorParser implements PageWorker {
       Product processor = new Product();
       processor.name = removeTip(listRow.querySelector("a").text.trim());
       processor.url = listRow.querySelector("a").attributes["href"];
-      processor.type = "CPU";
+      processor.type = config["processorType"];
       processor.shop = "Informatique";
 
       await UrlCrawler.crawlUrl(
@@ -71,7 +67,7 @@ class InformatiqueProcessorDetailParser implements PageWorker {
           }
 
           if (socket != null) {
-            processor.connectors.add(new Connector(socket, "CPU"));
+            processor.connectors.add(new Connector(socket, config["processorType"]));
           }
         }
       }

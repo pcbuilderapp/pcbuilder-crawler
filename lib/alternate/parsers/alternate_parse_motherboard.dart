@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateMotherboardParser implements PageWorker {
   Metrics metrics;
@@ -24,7 +20,7 @@ class AlternateMotherboardParser implements PageWorker {
           listRow.querySelectorAll("span.name span")[0].text.trim();
       motherboard.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      motherboard.type = "MOTHERBOARD";
+      motherboard.type = config["motherboardType"];
       motherboard.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, motherboard);
       motherboard.shop = "Alternate";
@@ -75,31 +71,31 @@ class AlternateMotherboardDetailParser implements PageWorker {
       }
 
       if (techDataLabel == "Socket") {
-        motherboard.connectors.add(new Connector(techData, "CPU"));
+        motherboard.connectors.add(new Connector(techData, config["processorType"]));
       } else if (techDataLabel == "Inbouwsloten") {
         if (techData.endsWith("x16")) {
-          motherboard.connectors.add(new Connector(techData, "GPU"));
+          motherboard.connectors.add(new Connector(techData, config["graphicsCardType"]));
         }
       } else if (techData.endsWith("x1") || techData.endsWith("x2")) {
         if (techData.contains("PCIe")) {
-          motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
+          motherboard.connectors.add(new Connector("PCIe", config["storageType"]));
         }
       } else if (techDataLabel == "Formfactor" ||
           techDataLabel == "FormFactor") {
         if (techData != null) {
-          motherboard.connectors.add(new Connector(techData.trim(), "CASE"));
-          motherboard.connectors.add(new Connector("ATX", "PSU"));
+          motherboard.connectors.add(new Connector(techData.trim(), config["computerCaseType"]));
+          motherboard.connectors.add(new Connector("ATX", config["powerSupplyUnitType"]));
         }
       } else if (techDataOptional == "Ondersteunde standaarden") {
         if (techData != null) {
-          motherboard.connectors.add(new Connector(techData.trim(), "MEMORY"));
+          motherboard.connectors.add(new Connector(techData.trim(), config["memoryType"]));
         }
       } else if (techDataOptional == "SATA") {
-        motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+        motherboard.connectors.add(new Connector(techDataOptional, config["storageType"]));
       } else if (techDataOptional == "M.2") {
-        motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+        motherboard.connectors.add(new Connector(techDataOptional, config["storageType"]));
       } else if (techDataOptional == "mSATA") {
-        motherboard.connectors.add(new Connector(techDataOptional, "STORAGE"));
+        motherboard.connectors.add(new Connector(techDataOptional, config["storageType"]));
       }
     }
 

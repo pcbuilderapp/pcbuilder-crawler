@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternatePowerSupplyUnitParser implements PageWorker {
   Metrics metrics;
@@ -24,7 +20,7 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
           listRow.querySelectorAll("span.name span")[0].text.trim();
       powerSupplyUnit.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      powerSupplyUnit.type = "PSU";
+      powerSupplyUnit.type = config["powerSupplyUnitType"];
       powerSupplyUnit.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, powerSupplyUnit);
       powerSupplyUnit.shop = "Alternate";
@@ -85,7 +81,7 @@ class AlternatePowerSupplyUnitDetailParser implements PageWorker {
     }
 
     if (psuForm != null) {
-      powerSupplyUnit.connectors.add(new Connector(psuForm, "PSU"));
+      powerSupplyUnit.connectors.add(new Connector(psuForm, config["powerSupplyUnitType"]));
     }
 
     metrics.powerSupplyUnitParserTime.stop();

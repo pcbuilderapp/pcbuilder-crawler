@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateProcessorParser implements PageWorker {
   Metrics metrics;
@@ -24,7 +20,7 @@ class AlternateProcessorParser implements PageWorker {
           listRow.querySelectorAll("span.name span")[0].text.trim();
       processor.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      processor.type = "CPU";
+      processor.type = config["processorType"];
       processor.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, processor);
       processor.shop = "Alternate";
@@ -71,7 +67,7 @@ class AlternateProcessorDetailParser implements PageWorker {
       }
     }
 
-    processor.connectors.add(new Connector(cpuSocket, "CPU"));
+    processor.connectors.add(new Connector(cpuSocket, config["processorType"]));
 
     metrics.processorParserTime.stop();
 

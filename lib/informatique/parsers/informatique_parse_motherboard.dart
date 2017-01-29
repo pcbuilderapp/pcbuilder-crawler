@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueMotherboardParser implements PageWorker {
   Metrics metrics;
@@ -25,7 +21,7 @@ class InformatiqueMotherboardParser implements PageWorker {
       motherboard.url = listRow
           .querySelector("a")
           .attributes["href"];
-      motherboard.type = "MOTHERBOARD";
+      motherboard.type = config["motherboardType"];
       motherboard.shop = "Informatique";
 
       await UrlCrawler.crawlUrl(
@@ -71,34 +67,34 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
         } else if (label.text == "Form factor" || label.text == "Form Factor") {
           if (row.querySelector("td:last-child") != null) {
             motherboard.connectors.add(new Connector(
-                row.querySelector("td:last-child").text.trim(), "CASE"));
-            motherboard.connectors.add(new Connector("ATX", "PSU"));
+                row.querySelector("td:last-child").text.trim(), config["computerCaseType"]));
+            motherboard.connectors.add(new Connector("ATX", config["powerSupplyUnitType"]));
           }
         } else if (label.text == "Chipset") {
           if (row.querySelector("td:last-child") != null) {
             motherboard.connectors.add(new Connector(
-                row.querySelector("td:last-child").text.trim(), "CPU"));
+                row.querySelector("td:last-child").text.trim(), config["processorType"]));
           }
         } else if (label.text == "Fysieke PCI-E x16 sloten") {
           if (row.querySelector("td:last-child") != null) {
-            motherboard.connectors.add(new Connector("PCIe", "GPU"));
+            motherboard.connectors.add(new Connector("PCIe", config["graphicsCardType"]));
           }
         } else if (label.text == "Type geheugen" ||
             label.text == "Geheugen type") {
           if (row.querySelector("td:last-child") != null) {
             motherboard.connectors.add(new Connector(
-                row.querySelector("td:last-child").text.trim(), "MEMORY"));
+                row.querySelector("td:last-child").text.trim(), config["memoryType"]));
           }
         } else if (label.text == "SATA 3 aansluitingen") {
           if (row.querySelector("td:last-child") != null) {
-            motherboard.connectors.add(new Connector("SATA", "STORAGE"));
+            motherboard.connectors.add(new Connector("SATA", config["storageType"]));
           }
         } else if (label.text == "M.2 sloten") {
-          motherboard.connectors.add(new Connector("M.2", "STORAGE"));
+          motherboard.connectors.add(new Connector("M.2", config["storageType"]));
         } else if (label.text == "Fysieke PCI-E x1 sloten") {
-          motherboard.connectors.add(new Connector("PCIe", "STORAGE"));
+          motherboard.connectors.add(new Connector("PCIe", config["storageType"]));
         } else if (label.text == "mSATA aansluitingen") {
-          motherboard.connectors.add(new Connector("mSATA", "STORAGE"));
+          motherboard.connectors.add(new Connector("mSATA", config["storageType"]));
         }
       }
     }

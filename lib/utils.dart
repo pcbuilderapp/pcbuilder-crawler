@@ -1,15 +1,19 @@
-import 'package:http/http.dart' as http;
-import 'dart:convert';
-import 'dart:math';
-import 'dart:async';
-import 'dart:io';
-import 'package:pcbuilder.crawler/model/connector.dart';
+import "package:http/http.dart" as http;
+import "dart:convert";
+import "dart:math";
+import "dart:async";
+import "dart:io";
+import "package:pcbuilder.crawler/model/connector.dart";
+export "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/model/shop.dart";
 import "package:pcbuilder.crawler/model/product.dart";
+export "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/crawler.dart";
-import 'package:pcbuilder.crawler/config.dart';
+import "package:pcbuilder.crawler/config.dart";
+export "package:pcbuilder.crawler/config.dart";
 import "package:pcbuilder.crawler/urlcrawler.dart";
-import 'serializer.dart';
+export "package:pcbuilder.crawler/urlcrawler.dart";
+import "serializer.dart";
 
 JsonEncoder jsonEncoder = new JsonEncoder.withIndent("  ");
 
@@ -195,71 +199,71 @@ void validateConnectors(Product product) {
 void extendCaseType(String caseConnector, Product computerCase) {
   if (caseConnector != null) {
     if (caseConnector == "HPTX") {
-      computerCase.connectors.add(new Connector("HPTX", "CASE"));
-      computerCase.connectors.add(new Connector("XL-ATX", "CASE"));
-      computerCase.connectors.add(new Connector("SSI-EEB", "CASE"));
-      computerCase.connectors.add(new Connector("E-ATX", "CASE"));
-      computerCase.connectors.add(new Connector("SSI-CEB", "CASE"));
-      computerCase.connectors.add(new Connector("ATX", "CASE"));
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("HPTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("XL-ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("SSI-EEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("E-ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("SSI-CEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "XL-ATX") {
-      computerCase.connectors.add(new Connector("XL-ATX", "CASE"));
-      computerCase.connectors.add(new Connector("SSI-EEB", "CASE"));
-      computerCase.connectors.add(new Connector("E-ATX", "CASE"));
-      computerCase.connectors.add(new Connector("SSI-CEB", "CASE"));
-      computerCase.connectors.add(new Connector("ATX", "CASE"));
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("XL-ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("SSI-EEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("E-ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("SSI-CEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "E-ATX" || caseConnector == "SSI-EEB") {
-      computerCase.connectors.add(new Connector("SSI-EEB", "CASE"));
-      computerCase.connectors.add(new Connector("E-ATX", "CASE"));
-      computerCase.connectors.add(new Connector("SSI-CEB", "CASE"));
-      computerCase.connectors.add(new Connector("ATX", "CASE"));
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("SSI-EEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("E-ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("SSI-CEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "SSI-CEB") {
-      computerCase.connectors.add(new Connector("SSI-CEB", "CASE"));
-      computerCase.connectors.add(new Connector("ATX", "CASE"));
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("SSI-CEB", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "ATX") {
-      computerCase.connectors.add(new Connector("ATX", "CASE"));
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("ATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "µATX") {
-      computerCase.connectors.add(new Connector("µATX", "CASE"));
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("µATX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "DTX") {
-      computerCase.connectors.add(new Connector("DTX", "CASE"));
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("DTX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else if (caseConnector == "mITX" || caseConnector == "Mini-ITX") {
-      computerCase.connectors.add(new Connector("mITX", "CASE"));
-      computerCase.connectors.add(new Connector("Mini-ITX", "CASE"));
-      computerCase.connectors.add(new Connector("mATX", "CASE"));
+      computerCase.connectors.add(new Connector("mITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("Mini-ITX", config["computerCaseType"]));
+      computerCase.connectors.add(new Connector("mATX", config["computerCaseType"]));
     } else {
       computerCase.connectors
-          .add(new Connector(caseConnector.trim(), "CASE"));
+          .add(new Connector(caseConnector.trim(), config["computerCaseType"]));
     }
   }
 }

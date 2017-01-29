@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateStorageParser implements PageWorker {
   Metrics metrics;
@@ -22,7 +18,7 @@ class AlternateStorageParser implements PageWorker {
       storage.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
       storage.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      storage.type = "STORAGE";
+      storage.type = config["storageType"];
       storage.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, storage);
       storage.shop = "Alternate";
@@ -60,7 +56,7 @@ class AlternateStorageDetailParser implements PageWorker {
           techDataTableElements[i].querySelector("td.c4").text.trim();
 
       if (techDataLabel == "Interface") {
-        storage.connectors.add(new Connector(techData, "STORAGE"));
+        storage.connectors.add(new Connector(techData, config["storageType"]));
       }
     }
 

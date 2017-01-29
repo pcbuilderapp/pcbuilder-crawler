@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class AlternateMemoryParser implements PageWorker {
   Metrics metrics;
@@ -22,7 +18,7 @@ class AlternateMemoryParser implements PageWorker {
       memory.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
       memory.url = "https://www.alternate.nl" +
           listRow.querySelector(".productLink").attributes["href"];
-      memory.type = "MEMORY";
+      memory.type = config["memoryType"];
       memory.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, memory);
       memory.shop = "Alternate";
@@ -65,7 +61,7 @@ class AlternateMemoryDetailParser implements PageWorker {
       }
     }
 
-    memory.connectors.add(new Connector(memType, "MEMORY"));
+    memory.connectors.add(new Connector(memType, config["memoryType"]));
 
     metrics.memoryParserTime.stop();
 

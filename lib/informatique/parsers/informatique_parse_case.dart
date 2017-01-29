@@ -1,8 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 /// Pageworker implementation for the Informatique Case
 class InformatiqueCaseParser implements PageWorker {
@@ -22,8 +19,8 @@ class InformatiqueCaseParser implements PageWorker {
 
       computerCase.name = removeTip(listRow.querySelector("a").text.trim());
       computerCase.url = listRow.querySelector("a").attributes["href"];
-      computerCase.type = "CASE";
-      computerCase.shop = "Informatique";
+      computerCase.type = config["computerCaseType"];
+      computerCase.shop = config["informatiqueName"];
 
       await UrlCrawler.crawlUrl(
           computerCase.url, new InformatiqueCaseDetailParser(metrics),

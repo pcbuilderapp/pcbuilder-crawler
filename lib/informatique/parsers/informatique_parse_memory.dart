@@ -1,9 +1,5 @@
-import "package:pcbuilder.crawler/model/product.dart";
-import "package:pcbuilder.crawler/model/connector.dart";
 import "package:pcbuilder.crawler/utils.dart";
-import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'package:pcbuilder.crawler/interface/pageworker.dart';
-import "package:pcbuilder.crawler/model/metrics.dart";
 
 class InformatiqueMemoryParser implements PageWorker {
   Metrics metrics;
@@ -21,7 +17,7 @@ class InformatiqueMemoryParser implements PageWorker {
 
       memory.name = removeTip(listRow.querySelector("a").text.trim());
       memory.url = listRow.querySelector("a").attributes["href"];
-      memory.type = "MEMORY";
+      memory.type = config["memoryType"];
       memory.shop = "Informatique";
 
       Element memoryConnector = document.querySelector("#hdr");
@@ -29,7 +25,7 @@ class InformatiqueMemoryParser implements PageWorker {
       if (memoryConnector != null) {
         String memoryString = memoryConnector.text;
         memoryString = memoryString.replaceAll(" modules", "");
-        memory.connectors.add(new Connector(memoryString, "MEMORY"));
+        memory.connectors.add(new Connector(memoryString, config["memoryType"]));
       }
 
       await UrlCrawler.crawlUrl(
