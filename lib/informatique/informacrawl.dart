@@ -17,14 +17,7 @@ class Informacrawl implements ShopCrawler {
   crawlShop() async {
     try {
 
-      bool activated = await isCrawlerActivated(config["informatiqueName"]);
-
-      if (!activated) {
-        print("Crawler " + config["informatiqueName"] + " won't run because it has been deactivated.");
-        return;
-      } else {
-        print("Crawler " + config["informatiqueName"] + " launching...");
-      }
+      if (! await isCrawlerActivated(config["informatiqueName"])) return;
 
       Metrics metrics = new Metrics();
       metrics.shop = config["informatiqueName"];

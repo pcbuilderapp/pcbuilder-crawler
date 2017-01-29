@@ -339,5 +339,11 @@ Future<bool> isCrawlerActivated(String name) async {
 
   Crawler crawler = fromJson(rep, new Crawler());
 
+  if (!crawler.activated) {
+    print(config["crawlerNotLaunching"].toString().replaceFirst(new RegExp("NAME"), name));
+  } else {
+    print(config["crawlerLaunching"].toString().replaceFirst(new RegExp("NAME"), name));
+  }
+
   return crawler.activated;
 }

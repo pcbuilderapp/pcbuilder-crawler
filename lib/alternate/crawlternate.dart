@@ -18,14 +18,7 @@ class Crawlternate implements ShopCrawler {
 
     try {
 
-      bool activated = await isCrawlerActivated(config["alternateName"]);
-
-      if (!activated) {
-        print("Crawler " + config["alternateName"] + " won't run because it has been deactivated.");
-        return;
-      } else {
-        print("Crawler " + config["alternateName"] + " launching...");
-      }
+      if (! await isCrawlerActivated(config["alternateName"])) return;
 
       Metrics metrics = new Metrics();
       metrics.shop = config["alternateName"];
