@@ -16,7 +16,7 @@ class AlternateMemoryParser implements PageWorker {
       Product memory = new Product();
       memory.name = listRow.querySelector("span.name").text.trim();
       memory.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      memory.url = "https://www.alternate.nl" +
+      memory.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       memory.type = config["memoryType"];
       memory.price = price(listRow.querySelector("span.price").text);
@@ -43,7 +43,7 @@ class AlternateMemoryDetailParser implements PageWorker {
     memory.mpn = dataFlix.attributes["data-flix-mpn"];
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
-    memory.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
+    memory.pictureUrl = config["alternateUrl"] + picUrl.attributes["src"];
 
     String memType = "";
 

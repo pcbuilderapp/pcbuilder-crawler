@@ -18,7 +18,7 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
       powerSupplyUnit.name = listRow.querySelector("span.name").text.trim();
       powerSupplyUnit.brand =
           listRow.querySelectorAll("span.name span")[0].text.trim();
-      powerSupplyUnit.url = "https://www.alternate.nl" +
+      powerSupplyUnit.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       powerSupplyUnit.type = config["powerSupplyUnitType"];
       powerSupplyUnit.price = price(listRow.querySelector("span.price").text);
@@ -48,7 +48,7 @@ class AlternatePowerSupplyUnitDetailParser implements PageWorker {
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
     powerSupplyUnit.pictureUrl =
-        "https://www.alternate.nl" + picUrl.attributes["src"];
+        config["alternateUrl"] + picUrl.attributes["src"];
 
     String psuForm = null;
     var techDataTableElements =

@@ -18,7 +18,7 @@ class AlternateMotherboardParser implements PageWorker {
       motherboard.name = listRow.querySelector("span.name").text.trim();
       motherboard.brand =
           listRow.querySelectorAll("span.name span")[0].text.trim();
-      motherboard.url = "https://www.alternate.nl" +
+      motherboard.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       motherboard.type = config["motherboardType"];
       motherboard.price = price(listRow.querySelector("span.price").text);
@@ -47,7 +47,7 @@ class AlternateMotherboardDetailParser implements PageWorker {
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
     motherboard.pictureUrl =
-        "https://www.alternate.nl" + picUrl.attributes["src"];
+        config["alternateUrl"] + picUrl.attributes["src"];
 
     var techDataTableElements =
         document.querySelectorAll("div.techData table tr");

@@ -17,7 +17,7 @@ class AlternateCaseParser implements PageWorker {
       computerCase.name = listRow.querySelector("span.name").text.trim();
       computerCase.brand =
           listRow.querySelectorAll("span.name span")[0].text.trim();
-      computerCase.url = "https://www.alternate.nl" +
+      computerCase.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       computerCase.type = config["computerCaseType"];
       computerCase.price = price(listRow.querySelector("span.price").text);
@@ -47,7 +47,7 @@ class AlternateCaseDetailParser implements PageWorker {
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
     computerCase.pictureUrl =
-        "https://www.alternate.nl" + picUrl.attributes["src"];
+        config["alternateUrl"] + picUrl.attributes["src"];
 
     var techDataTableElements =
         document.querySelectorAll("div.productShort ul li");
