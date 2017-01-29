@@ -188,6 +188,21 @@ void validateConnectors(Product product) {
         }
         break;
 
+      case 'CPU':
+      //checkIfExistInWhiteList(product);
+        bool saveConnector = false;
+        for (String allowedCPU in config["whiteListCPU"]) {
+          if (connector.name.contains(allowedCPU)) {
+            connector.name = allowedCPU;
+            saveConnector = true;
+            break;
+          }
+        }
+        if (!saveConnector) {
+          rejectedList.add(connector);
+        }
+        break;
+
       default:
         break;
     }

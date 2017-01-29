@@ -13,6 +13,8 @@ class InformatiqueMotherboardParser implements PageWorker {
       metrics.motherboardParserTime.start();
 
       Product motherboard = new Product();
+      var title = document.querySelector("title");
+      motherboard.connectors.add(new Connector(title.text, config["processorType"]));
 
       motherboard.name = removeTip(listRow
           .querySelector("a")
@@ -69,11 +71,6 @@ class InformatiqueMotherboardDetailParser implements PageWorker {
             motherboard.connectors.add(new Connector(
                 row.querySelector("td:last-child").text.trim(), config["computerCaseType"]));
             motherboard.connectors.add(new Connector("ATX", config["powerSupplyUnitType"]));
-          }
-        } else if (label.text == "Chipset") {
-          if (row.querySelector("td:last-child") != null) {
-            motherboard.connectors.add(new Connector(
-                row.querySelector("td:last-child").text.trim(), config["processorType"]));
           }
         } else if (label.text == "Fysieke PCI-E x16 sloten") {
           if (row.querySelector("td:last-child") != null) {

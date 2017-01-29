@@ -10,6 +10,7 @@ crawlerInfoUrl: /crawler/findbyname?name=
 whiteListDisks: [M.2, mSATA, SATA, PCIe]
 whiteListGpu: [PCIe]
 whiteListMemory: [DDR4, DDR3, DDR2]
+whiteListCPU: ["1150", "1151", "2011-3", "2011", "AM1", "AM3+", "FM2+", "FM2", "On-board"]
 
 crawlerNotLaunching: Crawler NAME won't run because it has been deactivated.
 crawlerLaunching: Crawler NAME launching...
