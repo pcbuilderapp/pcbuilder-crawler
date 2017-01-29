@@ -18,7 +18,7 @@ class AlternateVideoCardParser implements PageWorker {
       videoCard.name = listRow.querySelector("span.name").text.trim();
       videoCard.brand =
           listRow.querySelectorAll("span.name span")[0].text.trim();
-      videoCard.url = "https://www.alternate.nl" +
+      videoCard.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       videoCard.type = config["graphicsCardType"];
       videoCard.price = price(listRow.querySelector("span.price").text);
@@ -57,7 +57,7 @@ class AlternateVideoCardDetailParser implements PageWorker {
       var picUrl =
           document.querySelector("span.picture").querySelector("img[src]");
       videoCard.pictureUrl =
-          "https://www.alternate.nl" + picUrl.attributes["src"];
+          config["alternateUrl"] + picUrl.attributes["src"];
 
       if (techDataLabel == "Aansluiting") {
         if (techData != "") {

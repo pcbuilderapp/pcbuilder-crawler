@@ -16,7 +16,7 @@ class AlternateStorageParser implements PageWorker {
       Product storage = new Product();
       storage.name = listRow.querySelector("span.name").text.trim();
       storage.brand = listRow.querySelectorAll("span.name span")[0].text.trim();
-      storage.url = "https://www.alternate.nl" +
+      storage.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       storage.type = config["storageType"];
       storage.price = price(listRow.querySelector("span.price").text);
@@ -44,7 +44,7 @@ class AlternateStorageDetailParser implements PageWorker {
     storage.mpn = dataFlix.attributes["data-flix-mpn"];
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
-    storage.pictureUrl = "https://www.alternate.nl" + picUrl.attributes["src"];
+    storage.pictureUrl = config["alternateUrl"] + picUrl.attributes["src"];
 
     var techDataTableElements =
         document.querySelectorAll("div.techData table tr");

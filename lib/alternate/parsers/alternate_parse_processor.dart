@@ -18,7 +18,7 @@ class AlternateProcessorParser implements PageWorker {
       processor.name = listRow.querySelector("span.name").text.trim();
       processor.brand =
           listRow.querySelectorAll("span.name span")[0].text.trim();
-      processor.url = "https://www.alternate.nl" +
+      processor.url = config["alternateUrl"] +
           listRow.querySelector(".productLink").attributes["href"];
       processor.type = config["processorType"];
       processor.price = price(listRow.querySelector("span.price").text);
@@ -48,7 +48,7 @@ class AlternateProcessorDetailParser implements PageWorker {
     var picUrl =
         document.querySelector("span.picture").querySelector("img[src]");
     processor.pictureUrl =
-        "https://www.alternate.nl" + picUrl.attributes["src"];
+        config["alternateUrl"] + picUrl.attributes["src"];
 
     String cpuSocket = "";
     var techDataTableElements =
