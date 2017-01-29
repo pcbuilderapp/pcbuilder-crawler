@@ -272,6 +272,8 @@ void extendCaseType(String caseConnector, Product computerCase) {
 void setProductDiscountAlternate(Element listRow, Product anyProduct) {
   if(listRow.querySelector("div.strikedPrice") != null){
     anyProduct.discounted = true;
+  } else {
+    anyProduct.discounted = false;
   }
 }
 
@@ -279,6 +281,8 @@ void setProductDiscountAlternate(Element listRow, Product anyProduct) {
 void setProductDiscountInformatique(Document document, Product anyProduct) {
   if(document.querySelector("p.price_old") != null){
     anyProduct.discounted = true;
+  } else {
+    anyProduct.discounted = false;
   }
 }
 
