@@ -7,7 +7,6 @@ import 'package:pcbuilder.crawler/model/connector.dart';
 import "package:pcbuilder.crawler/model/shop.dart";
 import "package:pcbuilder.crawler/model/product.dart";
 import "package:pcbuilder.crawler/model/crawler.dart";
-import 'package:pcbuilder.crawler/configuration.dart';
 import 'package:pcbuilder.crawler/config.dart';
 import "package:pcbuilder.crawler/urlcrawler.dart";
 import 'serializer.dart';
@@ -27,7 +26,7 @@ Future sleepRnd() {
 
 ///create a new Shop in the backend
 void createShop(String name, String url) {
-  postRequest(backendServerUrl + createShopUrl,
+  postRequest((config["backendServerUrl"] ?? "/backend/") + config["createShopUrl"],
       jsonEncoder.convert(new Shop(name, url, "")));
 }
 
@@ -142,7 +141,7 @@ void validateConnectors(Product product) {
       case 'STORAGE':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
-        for (String allowedDisk in whiteListDisks) {
+        for (String allowedDisk in config["whiteListDisks"]) {
           if (connector.name.contains(allowedDisk)) {
             connector.name = allowedDisk;
             saveConnector = true;
@@ -158,7 +157,7 @@ void validateConnectors(Product product) {
       case 'GPU':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
-        for (String allowedGpu in whiteListGpu) {
+        for (String allowedGpu in config["whiteListGpu"]) {
           if (connector.name.contains(allowedGpu)) {
             connector.name = allowedGpu;
             saveConnector = true;
@@ -173,7 +172,7 @@ void validateConnectors(Product product) {
       case 'MEMORY':
         //checkIfExistInWhiteList(product);
         bool saveConnector = false;
-        for (String allowedMemory in whiteListMemory) {
+        for (String allowedMemory in config["whiteListMemory"]) {
           if (connector.name.contains(allowedMemory)) {
             connector.name = allowedMemory;
             saveConnector = true;
@@ -286,7 +285,7 @@ postProduct(Product product) async {
   String json = jsonEncoder.convert(product);
 
   if (checkConnectors(product)) {
-    await postRequest(backendServerUrl + addProductUrl, json);
+    await postRequest((config["backendServerUrl"] ?? "/backend/") + config["addProductUrl"], json);
   } else {
 /*    print("Product " +
         product.name +
@@ -298,7 +297,7 @@ postProduct(Product product) async {
 
 ///post data on a REST service URL and print the response
 postRequest(String url, String json) async {
-  if (printProducts) {
+  if (config["printProducts"]) {
     print(json);
   }
 
@@ -306,7 +305,7 @@ postRequest(String url, String json) async {
   request.headers[HttpHeaders.CONTENT_TYPE] = 'application/json; charset=utf-8';
   request.body = json;
 
-  if (waitForBackend) {
+  if (config["waitForBackend"]) {
     var response = await new http.Client().send(request);
     response.stream
         .bytesToString()
@@ -323,7 +322,7 @@ postRequest(String url, String json) async {
 Future<bool> isCrawlerActivated(String name) async {
 
   var response;
-  String url = (config["backend-server"] ?? "/backend/") + "crawler/findbyname?name=" + name;
+  String url = (config["backendServerUrl"] ?? "/backend/") + config["crawlerInfoUrl"] + name;
 
   try {
     var request = await new http.Request ("GET", Uri.parse(url));

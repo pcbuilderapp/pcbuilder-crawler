@@ -1,4 +1,4 @@
-import 'package:pcbuilder.crawler/configuration.dart';
+import 'package:pcbuilder.crawler/config.dart';
 import 'package:pcbuilder.crawler/urlcrawler.dart';
 import "package:pcbuilder.crawler/utils.dart";
 import "package:pcbuilder.crawler/model/metrics.dart";
@@ -17,35 +17,35 @@ class Informacrawl implements ShopCrawler {
   crawlShop() async {
     try {
 
-      bool activated = await isCrawlerActivated(informatiqueName);
+      bool activated = await isCrawlerActivated(config["informatiqueName"]);
 
       if (!activated) {
-        print("Crawler " + informatiqueName + " won't run because it has been deactivated.");
+        print("Crawler " + config["informatiqueName"] + " won't run because it has been deactivated.");
         return;
       } else {
-        print("Crawler " + informatiqueName + " launching...");
+        print("Crawler " + config["informatiqueName"] + " launching...");
       }
 
       Metrics metrics = new Metrics();
-      metrics.shop = informatiqueName;
+      metrics.shop = config["informatiqueName"];
       metrics.totalTime.start();
 
-      createShop(informatiqueName, informatiqueUrl);
+      createShop(config["informatiqueName"], config["informatiqueUrl"]);
 
       await UrlCrawler.crawlComponent(
-          informatiqueProcessorUrls, new InformatiqueProcessorParser(metrics));
+          config["informatiqueProcessorUrls"], new InformatiqueProcessorParser(metrics));
       await UrlCrawler.crawlComponent(
-          informatiqueDiskUrls, new InformatiqueStorageParser(metrics));
-      await UrlCrawler.crawlComponent(informatiquePowerSupplyUnitUrls,
-          new InformatiquePowerSupplyUnitParser(metrics));
+          config["informatiqueStorageUrls"], new InformatiqueStorageParser(metrics));
       await UrlCrawler.crawlComponent(
-          informatiqueMemoryUrls, new InformatiqueMemoryParser(metrics));
-      await UrlCrawler.crawlComponent(informatiqueMotherboardUrls,
-          new InformatiqueMotherboardParser(metrics));
+          config["informatiquePowerSupplyUnitUrls"], new InformatiquePowerSupplyUnitParser(metrics));
       await UrlCrawler.crawlComponent(
-          informatiqueVideocardUrls, new InformatiqueVideoCardParser(metrics));
+          config["informatiqueMemoryUrls"], new InformatiqueMemoryParser(metrics));
       await UrlCrawler.crawlComponent(
-          informatiqueCaseUrls, new InformatiqueCaseParser(metrics));
+          config["informatiqueMotherboardUrls"], new InformatiqueMotherboardParser(metrics));
+      await UrlCrawler.crawlComponent(
+          config["informatiqueVideocardUrls"], new InformatiqueVideoCardParser(metrics));
+      await UrlCrawler.crawlComponent(
+          config["informatiqueCaseUrls"], new InformatiqueCaseParser(metrics));
 
       metrics.totalTime.stop();
       metrics.printMetrics();
