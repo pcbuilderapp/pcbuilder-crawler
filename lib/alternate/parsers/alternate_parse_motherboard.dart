@@ -71,7 +71,12 @@ class AlternateMotherboardDetailParser implements PageWorker {
       }
 
       if (techDataLabel == "Socket") {
-        motherboard.connectors.add(new Connector(techData, config["processorType"]));
+        if(techData == "Geïntegreerd"){
+          motherboard.connectors.add(new Connector("On-board", config["processorType"]));
+        } else {
+          motherboard.connectors.add(new Connector(techData, config["processorType"]));
+        }
+
       } else if (techDataLabel == "Inbouwsloten") {
         if (techData.endsWith("x16")) {
           motherboard.connectors.add(new Connector(techData, config["graphicsCardType"]));
