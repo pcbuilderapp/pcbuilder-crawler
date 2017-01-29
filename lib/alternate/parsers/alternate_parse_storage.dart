@@ -21,7 +21,7 @@ class AlternateStorageParser implements PageWorker {
       storage.type = config["storageType"];
       storage.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, storage);
-      storage.shop = "Alternate";
+      storage.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(
           storage.url, new AlternateStorageDetailParser(metrics),

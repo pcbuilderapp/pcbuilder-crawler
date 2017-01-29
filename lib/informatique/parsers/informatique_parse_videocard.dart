@@ -19,7 +19,7 @@ class InformatiqueVideoCardParser implements PageWorker {
       videoCard.name = removeTip(listRow.querySelector("a").text.trim());
       videoCard.url = listRow.querySelector("a").attributes["href"];
       videoCard.type = config["graphicsCardType"];
-      videoCard.shop = "Informatique";
+      videoCard.shop = config["informatiqueName"];
 
       await UrlCrawler.crawlUrl(
           videoCard.url, new InformatiqueVideoCardDetailParser(metrics),

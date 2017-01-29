@@ -23,7 +23,7 @@ class AlternateMotherboardParser implements PageWorker {
       motherboard.type = config["motherboardType"];
       motherboard.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, motherboard);
-      motherboard.shop = "Alternate";
+      motherboard.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(
           motherboard.url, new AlternateMotherboardDetailParser(metrics),

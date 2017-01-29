@@ -18,7 +18,7 @@ class InformatiqueStorageParser implements PageWorker {
         storage.name = removeTip(listRow.querySelector("a").text.trim());
         storage.url = listRow.querySelector("a").attributes["href"];
         storage.type = config["storageType"];
-        storage.shop = "Informatique";
+        storage.shop = config["informatiqueName"];
 
         await UrlCrawler.crawlUrl(
             storage.url, new InformatiqueStorageDetailParser(metrics),

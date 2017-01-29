@@ -18,7 +18,7 @@ class InformatiqueMemoryParser implements PageWorker {
       memory.name = removeTip(listRow.querySelector("a").text.trim());
       memory.url = listRow.querySelector("a").attributes["href"];
       memory.type = config["memoryType"];
-      memory.shop = "Informatique";
+      memory.shop = config["informatiqueName"];
 
       Element memoryConnector = document.querySelector("#hdr");
 

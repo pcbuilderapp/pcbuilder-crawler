@@ -15,7 +15,7 @@ class InformatiqueProcessorParser implements PageWorker {
       processor.name = removeTip(listRow.querySelector("a").text.trim());
       processor.url = listRow.querySelector("a").attributes["href"];
       processor.type = config["processorType"];
-      processor.shop = "Informatique";
+      processor.shop = config["informatiqueName"];
 
       await UrlCrawler.crawlUrl(
           processor.url, new InformatiqueProcessorDetailParser(metrics),

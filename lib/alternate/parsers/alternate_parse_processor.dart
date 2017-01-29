@@ -23,7 +23,7 @@ class AlternateProcessorParser implements PageWorker {
       processor.type = config["processorType"];
       processor.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, processor);
-      processor.shop = "Alternate";
+      processor.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(
           processor.url, new AlternateProcessorDetailParser(metrics),

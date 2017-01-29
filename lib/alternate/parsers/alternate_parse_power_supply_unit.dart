@@ -23,7 +23,7 @@ class AlternatePowerSupplyUnitParser implements PageWorker {
       powerSupplyUnit.type = config["powerSupplyUnitType"];
       powerSupplyUnit.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, powerSupplyUnit);
-      powerSupplyUnit.shop = "Alternate";
+      powerSupplyUnit.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(powerSupplyUnit.url,
           new AlternatePowerSupplyUnitDetailParser(metrics),

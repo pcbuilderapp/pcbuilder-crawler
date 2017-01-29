@@ -23,7 +23,7 @@ class AlternateVideoCardParser implements PageWorker {
       videoCard.type = config["graphicsCardType"];
       videoCard.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, videoCard);
-      videoCard.shop = "Alternate";
+      videoCard.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(
           videoCard.url, new AlternateVideoCardDetailParser(metrics),

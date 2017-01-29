@@ -23,7 +23,7 @@ class AlternateCaseParser implements PageWorker {
       computerCase.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, computerCase);
 
-      computerCase.shop = "Alternate";
+      computerCase.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(
           computerCase.url, new AlternateCaseDetailParser(metrics),

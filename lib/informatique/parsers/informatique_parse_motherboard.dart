@@ -22,7 +22,7 @@ class InformatiqueMotherboardParser implements PageWorker {
           .querySelector("a")
           .attributes["href"];
       motherboard.type = config["motherboardType"];
-      motherboard.shop = "Informatique";
+      motherboard.shop = config["informatiqueName"];
 
       await UrlCrawler.crawlUrl(
           motherboard.url, new InformatiqueMotherboardDetailParser(metrics),

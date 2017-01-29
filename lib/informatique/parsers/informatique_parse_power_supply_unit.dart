@@ -17,7 +17,7 @@ class InformatiquePowerSupplyUnitParser implements PageWorker {
       powerSupplyUnit.name = removeTip(listRow.querySelector("a").text.trim());
       powerSupplyUnit.url = listRow.querySelector("a").attributes["href"];
       powerSupplyUnit.type = config["powerSupplyUnitType"];
-      powerSupplyUnit.shop = "Informatique";
+      powerSupplyUnit.shop = config["informatiqueName"];
 
       await UrlCrawler.crawlUrl(powerSupplyUnit.url,
           new InformatiquePowerSupplyUnitDetailParser(metrics),

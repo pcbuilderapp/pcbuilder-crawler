@@ -21,7 +21,7 @@ class AlternateMemoryParser implements PageWorker {
       memory.type = config["memoryType"];
       memory.price = price(listRow.querySelector("span.price").text);
       setProductDiscountAlternate(listRow, memory);
-      memory.shop = "Alternate";
+      memory.shop = config["alternateName"];
 
       await UrlCrawler.crawlUrl(memory.url, new AlternateMemoryDetailParser(metrics),
           arguments: memory);
