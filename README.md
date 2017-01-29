@@ -8,7 +8,7 @@ run the crawler:
 
 dart bin/crawler.dart
 
-make sure you have a config.yaml file containing:
+make sure you have a ```config.yaml``` file in your project root containing:
 ```yaml
 backendServerUrl: http://localhost:8090/
 
