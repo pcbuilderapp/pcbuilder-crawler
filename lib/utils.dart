@@ -285,10 +285,6 @@ postProduct(Product product) async {
   validateConnectors(product);
   String json = jsonEncoder.convert(product);
 
-  if(product.discounted != null && product.discounted ) {
-    print(json);
-  }
-
   if (checkConnectors(product)) {
     await postRequest(backendServerUrl + addProductUrl, json);
   } else {
