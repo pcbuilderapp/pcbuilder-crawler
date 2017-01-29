@@ -16,10 +16,10 @@ crawlerNotLaunching: Crawler NAME won't run because it has been deactivated.
 crawlerLaunching: Crawler NAME launching...
 
 informatiqueName: Informatique
-informatiqueUrl: www.informatique.nl
+informatiqueUrl: https://www.informatique.nl
 
 alternateName: Alternate
-alternateUrl: www.alternate.nl
+alternateUrl: https://www.alternate.nl
 
 memoryType: MEMORY
 processorType: CPU
